@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mores",
-  "description": "JavaScript Mores Style - ESLint Shareable Config",
+  "description": "Mores ESLint Shareable Config",
   "version": "1.0.0",
   "main": "./index.js",
   "author": {
