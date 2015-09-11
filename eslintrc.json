@@ -39,7 +39,7 @@
         "no-unreachable": 1,
         "use-isnan": 2,
         "valid-jsdoc": [
-            2,
+            1,
             {
                 "requireParamDescription": false,
                 "requireReturnDescription": false
