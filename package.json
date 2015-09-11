@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-mores",
-  "description": "Mores ESLint Shareable Config",
+  "name": "eslint-config-canonical",
+  "description": "Canonical ESLint Shareable Config",
   "version": "1.0.1",
   "main": "./index.js",
   "author": {
@@ -11,11 +11,11 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gajus/eslint-config-mores"
+    "url": "https://github.com/gajus/eslint-config-canonical"
   },
   "keywords": [
     "eslint",
-    "mores"
+    "canonical"
   ],
   "scripts": {
     "test": "babel-node ./node_modules/.bin/mocha"
