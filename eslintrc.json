@@ -207,7 +207,7 @@
             "expression"
         ],
         "id-length": [
-            2,
+            1,
             {
                 "min": 2,
                 "max": 30,
