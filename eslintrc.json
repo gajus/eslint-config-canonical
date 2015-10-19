@@ -145,7 +145,7 @@
             2,
             {
                 "builtinGlobals": false,
-                "hoist": "functions"
+                "hoist": "all"
             }
         ],
         "no-undef-init": 2,
@@ -227,6 +227,10 @@
             2,
             4
         ],
+        "jsx-quotes": [
+            1,
+            "prefer-single"
+        ],
         "key-spacing": [
             2,
             {
@@ -305,7 +309,7 @@
         ],
         "quotes": [
             2,
-            "backtick"
+            "single"
         ],
         "semi-spacing": [
             2,
@@ -375,13 +379,13 @@
         "no-var": 2,
         "object-shorthand": [
             2,
-            "always"
+            "never"
         ],
         "prefer-arrow-callback": 2,
         "prefer-const": 0,
         "prefer-spread": 2,
         "prefer-reflect": 2,
-        "prefer-template": 2,
+        "prefer-template": 0,
         "require-yield": 2
     }
 }
