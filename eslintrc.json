@@ -35,6 +35,7 @@
         "no-negated-in-lhs": 2,
         "no-obj-calls": 2,
         "no-regex-spaces": 2,
+        "no-restricted-syntax": [2, "TemplateLiteral"],
         "no-sparse-arrays": 2,
         "no-unreachable": 1,
         "use-isnan": 2,
