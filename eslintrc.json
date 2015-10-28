@@ -380,7 +380,7 @@
         "no-var": 2,
         "object-shorthand": [
             2,
-            "never"
+            "always"
         ],
         "prefer-arrow-callback": 2,
         "prefer-const": 0,
