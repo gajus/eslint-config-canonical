@@ -1,7 +1,7 @@
 {
-    "plugins": {
+    "plugins": [
         "babel"
-    },
+    ],
     "ecmaFeatures": {
         "modules": true,
         "jsx": true
