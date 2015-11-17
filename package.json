@@ -21,6 +21,6 @@
     "test": ""
   },
   "devDependencies": {
-    "eslint": "^1.7.1"
+    "eslint": "^1.9.0"
   }
 }

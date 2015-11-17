@@ -35,8 +35,8 @@
         "no-negated-in-lhs": 2,
         "no-obj-calls": 2,
         "no-regex-spaces": 2,
-        "no-restricted-syntax": [2, "TemplateLiteral"],
         "no-sparse-arrays": 2,
+        "no-unexpected-multiline": 2,
         "no-unreachable": 1,
         "use-isnan": 2,
         "valid-jsdoc": [
@@ -47,7 +47,6 @@
             }
         ],
         "valid-typeof": 2,
-        "no-unexpected-multiline": 2,
         "accessor-pairs": 2,
         "block-scoped-var": 2,
         "complexity": [
@@ -57,18 +56,20 @@
         "consistent-return": 2,
         "curly": 2,
         "default-case": 0,
-        "dot-notation": 2,
         "dot-location": [
             2,
             "property"
         ],
+        "dot-notation": 2,
         "eqeqeq": 2,
         "guard-for-in": 2,
         "no-alert": 2,
         "no-caller": 2,
+        "no-case-declarations": 2,
         "no-div-regex": 2,
         "no-else-return": 0,
         "no-empty-label": 2,
+        "no-empty-pattern": 2,
         "no-eq-null": 2,
         "no-eval": 2,
         "no-extend-native": 2,
@@ -82,6 +83,7 @@
         "no-labels": 2,
         "no-lone-blocks": 2,
         "no-loop-func": 2,
+        "no-magic-numbers": 2,
         "no-multi-spaces": 2,
         "no-multi-str": 2,
         "no-native-reassign": 2,
@@ -111,6 +113,7 @@
         "no-throw-literal": 2,
         "no-unused-expressions": 2,
         "no-useless-call": 2,
+        "no-useless-concat": 2,
         "no-void": 2,
         "no-warning-comments": [
             1,
@@ -155,11 +158,13 @@
         "no-unused-vars": 2,
         "no-use-before-define": 2,
         "callback-return": 2,
+        "global-require": 2,
         "handle-callback-err": 2,
         "no-mixed-requires": 0,
         "no-new-require": 2,
         "no-path-concat": 2,
         "no-process-exit": 2,
+        "no-restricted-modules": 0,
         "no-sync": 0,
         "array-bracket-spacing": [
             2,
@@ -239,16 +244,16 @@
                 "afterColon": true
             }
         ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
         "lines-around-comment": [
             2,
             {
                 "beforeBlockComment": false,
                 "beforeLineComment": false
             }
-        ],
-        "linebreak-style": [
-            2,
-            "unix"
         ],
         "max-nested-callbacks": [
             1,
@@ -277,8 +282,13 @@
                 "max": 2
             }
         ],
+        "no-negated-condition": 2,
         "no-nested-ternary": 2,
         "no-new-object": 2,
+        "no-restricted-syntax": [
+            2,
+            "TemplateLiteral"
+        ],
         "no-spaced-func": 2,
         "no-ternary": 0,
         "no-trailing-spaces": 2,
@@ -312,6 +322,7 @@
             2,
             "single"
         ],
+        "require-jsdoc": 0,
         "semi-spacing": [
             2,
             {
@@ -336,6 +347,10 @@
             2,
             "always"
         ],
+        "space-before-keywords": [
+            2,
+            "always"
+        ],
         "space-in-parens": [
             2,
             "never"
@@ -354,6 +369,10 @@
             "always"
         ],
         "wrap-regex": 0,
+        "arrow-body-style": [
+            2,
+            "as-needed"
+        ],
         "arrow-parens": [
             2,
             "always"
@@ -373,6 +392,7 @@
                 "after": false
             }
         ],
+        "no-arrow-condition": 2,
         "no-class-assign": 2,
         "no-const-assign": 2,
         "no-dupe-class-members": 2,
@@ -384,8 +404,8 @@
         ],
         "prefer-arrow-callback": 2,
         "prefer-const": 0,
-        "prefer-spread": 2,
         "prefer-reflect": 2,
+        "prefer-spread": 2,
         "prefer-template": 0,
         "require-yield": 2
     }
