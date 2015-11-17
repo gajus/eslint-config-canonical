@@ -1,4 +1,7 @@
 {
+    "plugins": {
+        "babel"
+    },
     "ecmaFeatures": {
         "modules": true,
         "jsx": true
@@ -260,7 +263,7 @@
             3
         ],
         "new-cap": [
-            2,
+            0,
             {
                 "newIsCap": true,
                 "capIsNew": false
@@ -295,7 +298,7 @@
         "no-underscore-dangle": 2,
         "no-unneeded-ternary": 2,
         "object-curly-spacing": [
-            2,
+            0,
             "never"
         ],
         "one-var": [
@@ -374,7 +377,7 @@
             "as-needed"
         ],
         "arrow-parens": [
-            2,
+            0,
             "always"
         ],
         "arrow-spacing": [
@@ -386,7 +389,7 @@
         ],
         "constructor-super": 2,
         "generator-star-spacing": [
-            2,
+            0,
             {
                 "before": true,
                 "after": false
@@ -399,7 +402,7 @@
         "no-this-before-super": 2,
         "no-var": 2,
         "object-shorthand": [
-            2,
+            0,
             "always"
         ],
         "prefer-arrow-callback": 2,
@@ -407,6 +410,12 @@
         "prefer-reflect": 2,
         "prefer-spread": 2,
         "prefer-template": 0,
-        "require-yield": 2
+        "require-yield": 2,
+
+        "babel/generator-star-spacing": 1,
+        "babel/new-cap": 1,
+        "babel/object-curly-spacing": 1,
+        "babel/object-shorthand": 1,
+        "babel/arrow-parens": 1
     }
 }

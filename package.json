@@ -22,5 +22,8 @@
   },
   "devDependencies": {
     "eslint": "^1.9.0"
+  },
+  "dependencies": {
+    "eslint-plugin-babel": "^2.1.1"
   }
 }
