@@ -374,7 +374,7 @@
         "wrap-regex": 0,
         "arrow-body-style": [
             2,
-            "as-needed"
+            "always"
         ],
         "arrow-parens": [
             0,
