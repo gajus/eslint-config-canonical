@@ -415,7 +415,7 @@
         "babel/generator-star-spacing": 1,
         "babel/new-cap": 0,
         "babel/object-curly-spacing": 1,
-        "babel/object-shorthand": 1,
+        "babel/object-shorthand": 0,
         "babel/arrow-parens": 1
     }
 }
