@@ -421,6 +421,7 @@
             1,
             "always"
         ],
-        "babel/arrow-parens": 1
+        "babel/arrow-parens": 1,
+        "babel/no-await-in-loop": 1
     }
 }
