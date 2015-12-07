@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "babel"
+        "babel",
+        "import"
     ],
     "ecmaFeatures": {
         "modules": true,
@@ -414,6 +415,21 @@
         "prefer-template": 0,
         "require-yield": 2,
 
+        "import/no-unresolved": 0,
+        "import/named": 2,
+        "import/default": 2,
+        "import/namespace": 2,
+        "import/no-require": 2,
+        "import/no-named-as-default": 2,
+        "import/export": 2,
+        "import/no-duplicates": 2,
+        "import/imports-first": [
+            2,
+            {
+                "absolute-first": true
+            }
+        ],
+
         "babel/generator-star-spacing": 1,
         "babel/new-cap": 0,
         "babel/object-curly-spacing": 1,
@@ -423,5 +439,12 @@
         ],
         "babel/arrow-parens": 1,
         "babel/no-await-in-loop": 1
+    },
+    "settings": {
+        "import/ignore": [
+            "node_modules",
+            "css",
+            "\\.scss$"
+        ]
     }
 }
