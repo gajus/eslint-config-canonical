@@ -443,7 +443,7 @@
         "sorting/sort-object-props": [
             1,
             {
-                "ignoreCase": true,
+                "ignoreCase": false,
                 "ignoreMethods": false
             }
         ]
