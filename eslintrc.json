@@ -1,7 +1,8 @@
 {
     "plugins": [
         "babel",
-        "import"
+        "import",
+        "sorting"
     ],
     "ecmaFeatures": {
         "modules": true,
@@ -438,7 +439,14 @@
             "always"
         ],
         "babel/arrow-parens": 1,
-        "babel/no-await-in-loop": 1
+        "babel/no-await-in-loop": 1,
+        "sorting/sort-object-props": [
+            1,
+            {
+                "ignoreCase": true,
+                "ignoreMethods": false
+            }
+        ]
     },
     "settings": {
         "import/ignore": [

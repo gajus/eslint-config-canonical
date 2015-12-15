@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "eslint-plugin-babel": "^3.0.0",
-    "eslint-plugin-import": "^0.11.0"
+    "eslint-plugin-import": "^0.11.0",
+    "eslint-plugin-sorting": "0.0.1"
   }
 }
