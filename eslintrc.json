@@ -184,18 +184,18 @@
             1,
             "prefer-single"
         ],
-        "keyword-spacing": [
-            2,
-            {
-                "before": true,
-                "after": true
-            }
-        ],
         "key-spacing": [
             2,
             {
                 "afterColon": true,
                 "beforeColon": false
+            }
+        ],
+        "keyword-spacing": [
+            2,
+            {
+                "after": true,
+                "before": true
             }
         ],
         "linebreak-style": [
@@ -231,8 +231,8 @@
         "no-case-declarations": 2,
         "no-catch-shadow": 2,
         "no-class-assign": 2,
-        "no-confusing-arrow": 2,
         "no-cond-assign": 2,
+        "no-confusing-arrow": 2,
         "no-console": 1,
         "no-const-assign": 2,
         "no-constant-condition": 1,
