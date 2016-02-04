@@ -1,18 +1,36 @@
 {
     "ecmaFeatures": {
         "arrowFunctions": true,
+        "binaryLiterals": true,
         "blockBindings": true,
         "classes": true,
         "defaultParams": true,
         "destructuring": true,
-        "jsx": true,
-        "modules": true
+        "forOf": true,
+        "generators": true,
+        "modules": true,
+        "objectLiteralComputedProperties": true,
+        "objectLiteralDuplicateProperties": true,
+        "objectLiteralShorthandMethods": true,
+        "objectLiteralShorthandProperties": true,
+        "octalLiterals": true,
+        "regexUFlag": true,
+        "regexYFlag": true,
+        "restParams": true,
+        "spread": true,
+        "superInFunctions": true,
+        "templateStrings": true,
+        "unicodeCodePointEscapes": true
     },
     "env": {
         "browser": true,
         "es6": true,
         "mocha": true,
         "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
     },
     "plugins": [
         "babel",
@@ -166,6 +184,13 @@
             1,
             "prefer-single"
         ],
+        "keyword-spacing": [
+            2,
+            {
+                "before": true,
+                "after": true
+            }
+        ],
         "key-spacing": [
             2,
             {
@@ -202,11 +227,11 @@
         ],
         "no-alert": 2,
         "no-array-constructor": 2,
-        "no-arrow-condition": 2,
         "no-caller": 2,
         "no-case-declarations": 2,
         "no-catch-shadow": 2,
         "no-class-assign": 2,
+        "no-confusing-arrow": 2,
         "no-cond-assign": 2,
         "no-console": 1,
         "no-const-assign": 2,
@@ -397,10 +422,6 @@
                 "ignoreMethods": false
             }
         ],
-        "space-after-keywords": [
-            2,
-            "always"
-        ],
         "space-before-blocks": [
             2,
             "always"
@@ -409,16 +430,11 @@
             2,
             "always"
         ],
-        "space-before-keywords": [
-            2,
-            "always"
-        ],
         "space-in-parens": [
             2,
             "never"
         ],
         "space-infix-ops": 2,
-        "space-return-throw-case": 2,
         "space-unary-ops": [
             2,
             {
