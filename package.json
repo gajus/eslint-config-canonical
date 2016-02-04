@@ -1,34 +1,35 @@
 {
-  "author": {
-    "email": "gajus@gajus.com",
-    "name": "Gajus Kuizinas",
-    "url": "http://gajus.com"
-  },
-  "dependencies": {
-    "eslint-plugin-babel": "^3.1.0",
-    "eslint-plugin-import": "^0.12.1",
-    "eslint-plugin-sorting": "^0.0.1"
-  },
-  "description": "Canonical ESLint Shareable Config",
-  "devDependencies": {
-    "eslint": "^2.0.0-rc.0",
-    "jsonlint": "^1.6.2"
-  },
-  "keywords": [
-    "eslint",
-    "canonical"
-  ],
-  "license": "BSD-3-Clause",
-  "main": "./index.js",
-  "name": "eslint-config-canonical",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gajus/eslint-config-canonical"
-  },
-  "scripts": {
-    "format": "jsonlint --sort-keys --in-place --indent '    ' ./eslintrc.json; jsonlint --sort-keys --in-place --indent '    ' ./package.json",
-    "preversion": "npm run format",
-    "test": ""
-  },
-  "version": "1.4.6"
+    "author": {
+        "email": "gajus@gajus.com",
+        "name": "Gajus Kuizinas",
+        "url": "http://gajus.com"
+    },
+    "dependencies": {
+        "eslint-plugin-babel": "^3.1.0",
+        "eslint-plugin-import": "^0.12.1",
+        "eslint-plugin-objects": "^1.1.1",
+        "eslint-plugin-sorting": "^0.0.1"
+    },
+    "description": "Canonical ESLint Shareable Config",
+    "devDependencies": {
+        "eslint": "^2.0.0-rc.0",
+        "jsonlint": "^1.6.2"
+    },
+    "keywords": [
+        "eslint",
+        "canonical"
+    ],
+    "license": "BSD-3-Clause",
+    "main": "./index.js",
+    "name": "eslint-config-canonical",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gajus/eslint-config-canonical"
+    },
+    "scripts": {
+        "format": "jsonlint --sort-keys --in-place --indent '    ' ./eslintrc.json; jsonlint --sort-keys --in-place --indent '    ' ./package.json",
+        "preversion": "npm run format",
+        "test": ""
+    },
+    "version": "1.4.6"
 }

@@ -35,7 +35,8 @@
     "plugins": [
         "babel",
         "import",
-        "sorting"
+        "sorting",
+        "objects"
     ],
     "rules": {
         "accessor-pairs": 2,
@@ -371,6 +372,10 @@
             0,
             "always"
         ],
+        "objects/no-object-properties-first-line": 2,
+        "objects/no-object-properties-last-line": 2,
+        "objects/no-object-properties-one-line": 2,
+        "objects/no-object-property-split": 2,
         "one-var": [
             2,
             "always"
