@@ -44,6 +44,7 @@
             2,
             "never"
         ],
+        "array-callback-return": 2,
         "arrow-body-style": [
             2,
             "always"
@@ -169,9 +170,10 @@
         ],
         "import/named": 2,
         "import/namespace": 2,
+        "import/no-amd": 2,
+        "import/no-commonjs": 2,
         "import/no-duplicates": 2,
         "import/no-named-as-default": 2,
-        "import/no-require": 2,
         "import/no-unresolved": 0,
         "indent": [
             2,
@@ -262,6 +264,7 @@
         "no-floating-decimal": 2,
         "no-func-assign": 2,
         "no-implicit-coercion": 2,
+        "no-implicit-globals": 0,
         "no-implied-eval": 2,
         "no-inline-comments": 2,
         "no-inner-declarations": 2,
@@ -269,7 +272,6 @@
         "no-invalid-this": 0,
         "no-irregular-whitespace": 2,
         "no-iterator": 2,
-        "no-label": 2,
         "no-label-var": 2,
         "no-labels": 2,
         "no-lone-blocks": 2,
@@ -294,6 +296,7 @@
         "no-new-func": 2,
         "no-new-object": 2,
         "no-new-require": 2,
+        "no-new-symbol": 2,
         "no-new-wrappers": 2,
         "no-obj-calls": 2,
         "no-octal": 2,
@@ -322,6 +325,7 @@
         ],
         "no-return-assign": 2,
         "no-script-url": 2,
+        "no-self-assign": 2,
         "no-self-compare": 2,
         "no-sequences": 2,
         "no-shadow": [
@@ -344,6 +348,7 @@
         "no-undefined": 2,
         "no-underscore-dangle": 2,
         "no-unexpected-multiline": 2,
+        "no-unmodified-loop-condition": 2,
         "no-unneeded-ternary": 2,
         "no-unreachable": 1,
         "no-unused-expressions": 2,
@@ -351,6 +356,7 @@
         "no-use-before-define": 2,
         "no-useless-call": 2,
         "no-useless-concat": 2,
+        "no-useless-constructor": 2,
         "no-var": 2,
         "no-void": 2,
         "no-warning-comments": [
@@ -363,6 +369,7 @@
                 ]
             }
         ],
+        "no-whitespace-before-property": 2,
         "no-with": 2,
         "object-curly-spacing": [
             0,
@@ -380,6 +387,7 @@
             2,
             "always"
         ],
+        "one-var-declaration-per-line": 2,
         "operator-assignment": [
             2,
             "always"
@@ -395,6 +403,7 @@
         "prefer-arrow-callback": 2,
         "prefer-const": 0,
         "prefer-reflect": 2,
+        "prefer-rest-params": 2,
         "prefer-spread": 2,
         "prefer-template": 0,
         "quote-props": [
