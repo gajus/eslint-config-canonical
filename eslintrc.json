@@ -179,10 +179,7 @@
             2,
             4
         ],
-        "init-declarations": [
-            2,
-            "never"
-        ],
+        "init-declarations": 0,
         "jsx-quotes": [
             1,
             "prefer-single"
