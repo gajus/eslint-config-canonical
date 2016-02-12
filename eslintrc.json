@@ -389,10 +389,7 @@
         "objects/no-object-properties-last-line": 2,
         "objects/no-object-properties-one-line": 2,
         "objects/no-object-property-split": 2,
-        "one-var": [
-            2,
-            "always"
-        ],
+        "one-var": 0,
         "one-var-declaration-per-line": 2,
         "operator-assignment": [
             2,
@@ -407,7 +404,7 @@
             "never"
         ],
         "prefer-arrow-callback": 2,
-        "prefer-const": 0,
+        "prefer-const": 2,
         "prefer-reflect": 2,
         "prefer-rest-params": 2,
         "prefer-spread": 2,
