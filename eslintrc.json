@@ -225,12 +225,6 @@
             2,
             "always"
         ],
-        "newline-per-chained-call": [
-            2,
-            {
-                "ignoreChainWithDepth": 2
-            }
-        ],
         "no-alert": 2,
         "no-array-constructor": 2,
         "no-caller": 2,
