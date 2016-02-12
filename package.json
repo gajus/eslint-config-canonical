@@ -31,5 +31,5 @@
     "preversion": "npm run format",
     "test": ""
   },
-  "version": "1.4.11"
+  "version": "1.4.12"
 }
