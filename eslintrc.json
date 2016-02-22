@@ -37,7 +37,8 @@
         "babel",
         "import",
         "sorting",
-        "objects"
+        "objects",
+        "flowtype"
     ],
     "rules": {
         "accessor-pairs": 2,
@@ -127,6 +128,16 @@
         "dot-notation": 2,
         "eol-last": 2,
         "eqeqeq": 2,
+        "flowtype/require-parameter-type": 1,
+        "flowtype/require-return-type": 1,
+        "flowtype/space-after-type-colon": [
+            1,
+            "always"
+        ],
+        "flowtype/space-before-type-colon": [
+            1,
+            "never"
+        ],
         "func-names": 0,
         "func-style": [
             2,
