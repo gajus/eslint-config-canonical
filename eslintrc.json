@@ -129,8 +129,8 @@
         "dot-notation": 2,
         "eol-last": 2,
         "eqeqeq": 2,
-        "flowtype/require-parameter-type": 1,
-        "flowtype/require-return-type": 1,
+        "flowtype/require-parameter-type": 0,
+        "flowtype/require-return-type": 0,
         "flowtype/space-after-type-colon": [
             1,
             "always"
