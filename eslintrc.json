@@ -245,6 +245,7 @@
             2,
             "always"
         ],
+        "newline-before-return": 2,
         "no-alert": 2,
         "no-array-constructor": 2,
         "no-caller": 2,
@@ -335,6 +336,7 @@
             }
         ],
         "no-regex-spaces": 2,
+        "no-restricted-globals": 0,
         "no-restricted-modules": 0,
         "no-restricted-syntax": [
             2,
