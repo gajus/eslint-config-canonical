@@ -6,8 +6,8 @@
     },
     "dependencies": {
         "eslint-plugin-babel": "^3.1.0",
-        "eslint-plugin-flowtype": "^2.1.2",
-        "eslint-plugin-import": "^1.0.4",
+        "eslint-plugin-flowtype": "^2.2.0",
+        "eslint-plugin-import": "^1.2.0",
         "eslint-plugin-mocha": "^2.0.0",
         "eslint-plugin-no-use-extend-native": "^0.3.4",
         "eslint-plugin-objects": "^1.1.1",

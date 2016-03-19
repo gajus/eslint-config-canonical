@@ -139,6 +139,10 @@
             1,
             "never"
         ],
+        "flowtype/type-id-match": [
+            2,
+            "^([A-Z][a-z0-9]+)+Type$"
+        ],
         "func-names": 0,
         "func-style": [
             2,
