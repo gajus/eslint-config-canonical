@@ -169,8 +169,8 @@
             2,
             "(^[A-Za-z]+(?:[A-Z][a-z]*)*\\d*$)|(^[A-Z]+(_[A-Z]+)*(_\\d$)*$)|(^(_|\\$)$)",
             {
-                "properties": true,
-                "onlyDeclarations": true
+                "onlyDeclarations": true,
+                "properties": true
             }
         ],
         "import/default": 2,
