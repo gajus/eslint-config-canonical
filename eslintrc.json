@@ -85,12 +85,7 @@
             }
         ],
         "callback-return": 2,
-        "camelcase": [
-            2,
-            {
-                "properties": "always"
-            }
-        ],
+        "camelcase": 0,
         "comma-dangle": [
             2,
             "never"
@@ -171,10 +166,11 @@
             }
         ],
         "id-match": [
-            1,
+            2,
             "(^[A-Za-z]+(?:[A-Z][a-z]*)*\\d*$)|(^[A-Z]+(_[A-Z]+)*(_\\d$)*$)|(^(_|\\$)$)",
             {
-                "properties": true
+                "properties": true,
+                "onlyDeclarations": true
             }
         ],
         "import/default": 2,
