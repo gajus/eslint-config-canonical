@@ -202,7 +202,7 @@
         "import/no-duplicates": 0,
         "import/no-named-as-default": 2,
         "import/no-named-as-default-member": 2,
-        "import/no-namespace": 0,
+        "import/no-namespace": 2,
         "import/no-nodejs-modules": 0,
         "import/no-unresolved": 0,
         "import/order": [
