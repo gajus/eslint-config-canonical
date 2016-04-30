@@ -12,7 +12,6 @@
         "eslint-plugin-lodash": "^1.8.2",
         "eslint-plugin-mocha": "^2.2.0",
         "eslint-plugin-no-use-extend-native": "^0.3.4",
-        "eslint-plugin-objects": "^1.1.1",
         "eslint-plugin-react": "^5.0.1",
         "eslint-plugin-sorting": "^0.1.0"
     },
