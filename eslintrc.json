@@ -319,7 +319,7 @@
             1,
             3
         ],
-        "lodash/prefer-startswith": 1,
+        "lodash/prefer-startswith": 0,
         "lodash/prefer-thru": 1,
         "lodash/prefer-times": 1,
         "lodash/prefer-wrapper-method": 1,
