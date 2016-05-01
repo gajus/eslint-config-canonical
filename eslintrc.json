@@ -179,7 +179,7 @@
         "import/default": 2,
         "import/export": 2,
         "import/extensions": [
-            2,
+            0,
             "never"
         ],
         "import/imports-first": [
@@ -190,7 +190,7 @@
         ],
         "import/named": 2,
         "import/namespace": 2,
-        "import/newline-after-import": 2,
+        "import/newline-after-import": 0,
         "import/no-amd": 2,
         "import/no-commonjs": 2,
         "import/no-duplicates": 0,
