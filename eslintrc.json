@@ -177,14 +177,14 @@
             }
         ],
         "import/default": 2,
-        "import/eslint-plugin-import": [
+        "import/no-extraneous-dependencies": [
             2,
             {
                 "devDependencies": true
             }
         ],
         "import/export": 2,
-        "import/extension": [
+        "import/extensions": [
             2,
             "never"
         ],
