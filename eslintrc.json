@@ -177,12 +177,6 @@
             }
         ],
         "import/default": 2,
-        "import/no-extraneous-dependencies": [
-            2,
-            {
-                "devDependencies": true
-            }
-        ],
         "import/export": 2,
         "import/extensions": [
             2,
@@ -200,6 +194,12 @@
         "import/no-amd": 2,
         "import/no-commonjs": 2,
         "import/no-duplicates": 0,
+        "import/no-extraneous-dependencies": [
+            2,
+            {
+                "devDependencies": true
+            }
+        ],
         "import/no-named-as-default": 2,
         "import/no-named-as-default-member": 2,
         "import/no-namespace": 2,
