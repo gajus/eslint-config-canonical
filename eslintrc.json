@@ -43,6 +43,7 @@
         "mocha",
         "jsdoc",
         "lodash",
+        "promise",
         "react"
     ],
     "rules": {
@@ -535,6 +536,9 @@
         "prefer-rest-params": 2,
         "prefer-spread": 2,
         "prefer-template": 0,
+        "promise/always-return": 2,
+        "promise/catch-or-return": 2,
+        "promise/param-names": 2,
         "quote-props": [
             2,
             "as-needed"
