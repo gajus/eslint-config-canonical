@@ -89,6 +89,12 @@
                 "allowSingleLine": true
             }
         ],
+        "object-property-newline": [
+            2,
+            {
+                "allowMultiplePropertiesPerLine": false
+            }
+        ],
         "callback-return": 2,
         "camelcase": 0,
         "comma-dangle": [
