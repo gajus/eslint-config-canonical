@@ -14,7 +14,7 @@
     "eslint-plugin-mocha": "^2.2.0",
     "eslint-plugin-no-use-extend-native": "^0.3.4",
     "eslint-plugin-promise": "^1.1.0",
-    "eslint-plugin-react": "^5.0.1",
+    "eslint-plugin-react": "^5.1.1",
     "eslint-plugin-sorting": "^0.1.0"
   },
   "description": "Canonical ESLint Shareable Config",
