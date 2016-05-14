@@ -198,16 +198,18 @@
         ],
         "import/named": 2,
         "import/namespace": 2,
-        "import/newline-after-import": 0,
+        "import/newline-after-import": 2,
         "import/no-amd": 2,
         "import/no-commonjs": 2,
         "import/no-duplicates": 0,
         "import/no-extraneous-dependencies": [
             2,
             {
-                "devDependencies": true
+                "devDependencies": true,
+                "optionalDependencies": true
             }
         ],
+        "import/no-mutable-exports": 2,
         "import/no-named-as-default": 2,
         "import/no-named-as-default-member": 2,
         "import/no-namespace": 2,
@@ -223,9 +225,11 @@
                     "parent",
                     "sibling",
                     "index"
-                ]
+                ],
+                "newlines-between": "never"
             }
         ],
+        "import/prefer-default-export": 2,
         "indent": [
             2,
             4
