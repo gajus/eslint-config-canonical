@@ -357,12 +357,7 @@
             "always"
         ],
         "newline-before-return": 2,
-        "newline-per-chained-call": [
-            1,
-            {
-                "ignoreChainWithDepth": 2
-            }
-        ],
+        "newline-per-chained-call": 0,
         "no-alert": 2,
         "no-array-constructor": 2,
         "no-caller": 2,
