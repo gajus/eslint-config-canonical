@@ -278,6 +278,10 @@
                 "beforeLineComment": false
             }
         ],
+        "lodash/consistent-compose": [
+            1,
+            "flow"
+        ],
         "lodash/callback-binding": 1,
         "lodash/chain-style": [
             1,
@@ -493,6 +497,18 @@
         "no-useless-concat": 2,
         "no-useless-constructor": 2,
         "no-useless-escape": 2,
+        "unicode-bom": [
+            2,
+            "never"
+        ],
+        "no-useless-rename": [
+            2,
+            {
+                "ignoreDestructuring": false,
+                "ignoreExport": false,
+                "ignoreImport": false
+            }
+        ],
         "no-var": 2,
         "no-void": 2,
         "no-warning-comments": [
@@ -543,6 +559,7 @@
         "prefer-template": 0,
         "promise/always-return": 2,
         "promise/catch-or-return": 2,
+        "promise/no-native": 1,
         "promise/param-names": 2,
         "quote-props": [
             2,
