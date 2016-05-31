@@ -278,10 +278,6 @@
                 "beforeLineComment": false
             }
         ],
-        "lodash/consistent-compose": [
-            1,
-            "flow"
-        ],
         "lodash/callback-binding": 1,
         "lodash/chain-style": [
             1,
@@ -289,6 +285,10 @@
         ],
         "lodash/collection-method-value": 1,
         "lodash/collection-return": 1,
+        "lodash/consistent-compose": [
+            1,
+            "flow"
+        ],
         "lodash/identity-shorthand": [
             1,
             "always"
@@ -497,10 +497,6 @@
         "no-useless-concat": 2,
         "no-useless-constructor": 2,
         "no-useless-escape": 2,
-        "unicode-bom": [
-            2,
-            "never"
-        ],
         "no-useless-rename": [
             2,
             {
@@ -698,6 +694,10 @@
             "always"
         ],
         "strict": [
+            2,
+            "never"
+        ],
+        "unicode-bom": [
             2,
             "never"
         ],
