@@ -347,7 +347,6 @@
             }
         ],
         "mocha/no-exclusive-tests": 2,
-        "mocha/no-skipped-tests": 2,
         "new-cap": [
             0,
             {
