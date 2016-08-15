@@ -49,7 +49,7 @@
     "rules": {
         "accessor-pairs": 2,
         "array-bracket-spacing": [
-            2,
+            0,
             "never"
         ],
         "array-callback-return": 2,
@@ -68,13 +68,31 @@
                 "before": true
             }
         ],
-        "babel/arrow-parens": 1,
+        "babel/array-bracket-spacing": [
+            0,
+            "never"
+        ],
+        "babel/arrow-parens": [
+            2,
+            "always"
+        ],
+        "babel/flow-object-type": [
+            2,
+            "comma"
+        ],
+        "babel/func-params-comma-dangle": [
+            2,
+            "never"
+        ],
         "babel/generator-star-spacing": 1,
         "babel/new-cap": 0,
-        "babel/no-await-in-loop": 1,
-        "babel/object-curly-spacing": 1,
+        "babel/no-await-in-loop": 2,
+        "babel/object-curly-spacing": [
+            2,
+            "never"
+        ],
         "babel/object-shorthand": [
-            1,
+            2,
             "always"
         ],
         "block-scoped-var": 2,
@@ -143,6 +161,10 @@
             2,
             "^Type([A-Z][a-z0-9]+)+$"
         ],
+        "func-call-spacing": [
+            2,
+            "never"
+        ],
         "func-names": 0,
         "func-style": [
             2,
@@ -195,6 +217,7 @@
         "import/newline-after-import": 2,
         "import/no-amd": 2,
         "import/no-commonjs": 2,
+        "import/no-deprecated": 1,
         "import/no-duplicates": 0,
         "import/no-extraneous-dependencies": [
             2,
@@ -208,7 +231,8 @@
         "import/no-named-as-default-member": 2,
         "import/no-namespace": 2,
         "import/no-nodejs-modules": 0,
-        "import/no-unresolved": 0,
+        "import/no-restricted-paths": 0,
+        "import/no-unresolved": 2,
         "import/order": [
             2,
             {
@@ -347,6 +371,7 @@
             }
         ],
         "mocha/no-exclusive-tests": 2,
+        "multiline-ternary": 0,
         "new-cap": [
             0,
             {
@@ -397,6 +422,7 @@
         "no-fallthrough": 2,
         "no-floating-decimal": 2,
         "no-func-assign": 2,
+        "no-global-assign": 2,
         "no-implicit-coercion": 2,
         "no-implicit-globals": 0,
         "no-implied-eval": 2,
@@ -474,6 +500,8 @@
         "no-spaced-func": 2,
         "no-sparse-arrays": 2,
         "no-sync": 0,
+        "no-tabs": 2,
+        "no-template-curly-in-string": 2,
         "no-ternary": 0,
         "no-this-before-super": 2,
         "no-throw-literal": 2,
@@ -487,6 +515,7 @@
         "no-unneeded-ternary": 2,
         "no-unreachable": 1,
         "no-unsafe-finally": 2,
+        "no-unsafe-negation": 2,
         "no-unused-expressions": 2,
         "no-unused-vars": 2,
         "no-use-before-define": 2,
@@ -565,8 +594,8 @@
             "single"
         ],
         "radix": 2,
-        "react/no-find-dom-node": 2,
         "react/display-name": 0,
+        "react/forbid-component-props": 2,
         "react/forbid-prop-types": 0,
         "react/jsx-boolean-value": [
             2,
@@ -618,6 +647,7 @@
                 "ignoreRefs": true
             }
         ],
+        "react/jsx-no-comment-textnodes": 2,
         "react/jsx-no-duplicate-props": 2,
         "react/jsx-no-literals": 0,
         "react/jsx-no-target-blank": 2,
@@ -630,12 +660,14 @@
         ],
         "react/jsx-uses-react": 1,
         "react/jsx-uses-vars": 1,
+        "react/jsx-wrap-multilines": 0,
         "react/no-danger": 2,
+        "react/no-danger-with-children": 2,
         "react/no-deprecated": 2,
-        "react/jsx-no-comment-textnodes": 2,
         "react/no-did-mount-set-state": 2,
         "react/no-did-update-set-state": 2,
         "react/no-direct-mutation-state": 2,
+        "react/no-find-dom-node": 2,
         "react/no-is-mounted": 2,
         "react/no-multi-comp": 2,
         "react/no-set-state": 2,
@@ -649,9 +681,6 @@
         "react/self-closing-comp": 2,
         "react/sort-comp": 2,
         "react/sort-prop-types": 2,
-        "react/no-danger-with-children": 2,
-        "react/jsx-wrap-multilines": 0,
-        "react/forbid-component-props": 2,
         "require-jsdoc": 0,
         "require-yield": 2,
         "semi": [
@@ -665,14 +694,15 @@
                 "before": false
             }
         ],
-        "sort-vars": 2,
-        "sorting/sort-object-props": [
-            1,
+        "sort-keys": [
+            2,
+            "asc",
             {
-                "ignoreCase": false,
-                "ignoreMethods": false
+                "caseSensitive": true,
+                "natural": true
             }
         ],
+        "sort-vars": 2,
         "space-before-blocks": [
             2,
             "always"
