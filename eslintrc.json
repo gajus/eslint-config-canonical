@@ -38,7 +38,6 @@
         "no-use-extend-native",
         "babel",
         "import",
-        "sorting",
         "flowtype",
         "mocha",
         "jsdoc",
