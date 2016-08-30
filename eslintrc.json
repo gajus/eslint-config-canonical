@@ -747,6 +747,11 @@
         "yoda": 0
     },
     "settings": {
+        "settings": {
+            "import/extensions": [
+                ".js"
+            ]
+        },
         "import/ignore": [
             "node_modules",
             "css",
