@@ -7,18 +7,18 @@
   "dependencies": {
     "babel-eslint": "^6.1.2",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-flowtype": "^2.2.7",
-    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-flowtype": "^2.11.4",
+    "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsdoc": "^2.3.1",
-    "eslint-plugin-lodash": "^1.10.1",
-    "eslint-plugin-mocha": "^4.3.0",
+    "eslint-plugin-lodash": "^1.10.2",
+    "eslint-plugin-mocha": "^4.5.1",
     "eslint-plugin-no-use-extend-native": "^0.3.8",
     "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-react": "^6.1.0"
+    "eslint-plugin-react": "^6.2.0"
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
-    "eslint": "^3.3.0",
+    "eslint": "^3.4.0",
     "jsonlint": "^1.6.2"
   },
   "keywords": [
