@@ -780,14 +780,10 @@
   },
   "settings": {
     "import/ignore": [
-      "node_modules",
-      "css",
-      "\\.scss$"
+      "node_modules"
     ],
-    "settings": {
-      "import/extensions": [
-        ".js"
-      ]
-    }
+    "import/extensions": [
+      ".js"
+    ]
   }
 }
