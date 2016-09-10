@@ -396,7 +396,7 @@
       }
     ],
     "mocha/no-exclusive-tests": 2,
-    "mocha/no-hooks-for-single-case": 2,
+    "mocha/no-hooks-for-single-case": 1,
     "mocha/no-identical-title": 2,
     "mocha/no-return-and-callback": 2,
     "mocha/no-top-level-hooks": 2,
