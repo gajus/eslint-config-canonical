@@ -779,11 +779,11 @@
     "yoda": 0
   },
   "settings": {
-    "import/ignore": [
-      "node_modules"
-    ],
     "import/extensions": [
       ".js"
+    ],
+    "import/ignore": [
+      "node_modules"
     ]
   }
 }
