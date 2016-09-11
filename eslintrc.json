@@ -729,7 +729,7 @@
       2,
       "asc",
       {
-        "caseSensitive": true,
+        "caseSensitive": false,
         "natural": true
       }
     ],
