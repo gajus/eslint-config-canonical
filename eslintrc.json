@@ -272,7 +272,7 @@
         "newlines-between": "never"
       }
     ],
-    "import/prefer-default-export": 2,
+    "import/prefer-default-export": 1,
     "indent": [
       2,
       2
