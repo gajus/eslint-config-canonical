@@ -29,6 +29,9 @@
   "license": "BSD-3-Clause",
   "main": "./index.js",
   "name": "eslint-config-canonical",
+  "peerDependencies": {
+    "eslint": "^3.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gajus/eslint-config-canonical"
