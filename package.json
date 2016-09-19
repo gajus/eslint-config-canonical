@@ -18,7 +18,7 @@
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
-    "eslint": "^3.4.0",
+    "eslint": "^3.5.0",
     "jsonlint": "^1.6.2"
   },
   "keywords": [
