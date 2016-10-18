@@ -376,7 +376,7 @@
       3
     ],
     "lodash/prefer-includes": 1,
-    "lodash/prefer-invoke-map": 1,
+    "lodash/prefer-invoke-map": 0,
     "lodash/prefer-is-nil": 1,
     "lodash/prefer-lodash-chain": 1,
     "lodash/prefer-lodash-method": 0,
