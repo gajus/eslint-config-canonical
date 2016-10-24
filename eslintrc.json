@@ -355,6 +355,10 @@
       1,
       "explicit"
     ],
+    "lodash/chaining": [
+      1,
+      "always"
+    ],
     "lodash/collection-method-value": 1,
     "lodash/collection-return": 1,
     "lodash/consistent-compose": [
@@ -374,9 +378,7 @@
     "lodash/no-commit": 1,
     "lodash/no-double-unwrap": 1,
     "lodash/no-extra-args": 1,
-    "lodash/no-single-chain": 1,
     "lodash/path-style": 0,
-    "lodash/prefer-chain": 1,
     "lodash/prefer-compact": 1,
     "lodash/prefer-constant": 0,
     "lodash/prefer-filter": [
