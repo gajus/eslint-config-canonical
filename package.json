@@ -13,7 +13,7 @@
     "eslint-plugin-lodash": "^2.1.6",
     "eslint-plugin-mocha": "^4.5.1",
     "eslint-plugin-no-use-extend-native": "^0.3.8",
-    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-promise": "^3.3.0",
     "eslint-plugin-react": "^6.4.1"
   },
   "description": "Canonical ESLint Shareable Config",

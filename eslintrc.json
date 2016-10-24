@@ -641,7 +641,10 @@
     "promise/always-return": 2,
     "promise/catch-or-return": 2,
     "promise/no-native": 1,
+    "promise/no-return-wrap": 2,
     "promise/param-names": 2,
+    "promise/prefer-await-to-callbacks": 1,
+    "promise/prefer-await-to-then": 1,
     "quote-props": [
       2,
       "as-needed"
