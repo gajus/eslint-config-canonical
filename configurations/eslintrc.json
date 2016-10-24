@@ -355,7 +355,12 @@
       2,
       "always"
     ],
-    "max-len": 1,
+    "max-len": [
+      1,
+      {
+        "code": 160
+      }
+    ],
     "max-nested-callbacks": [
       1,
       3
