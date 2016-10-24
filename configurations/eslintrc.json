@@ -341,8 +341,14 @@
     "lines-around-comment": [
       2,
       {
-        "beforeBlockComment": false,
-        "beforeLineComment": false
+        "allowArrayEnd": true,
+        "allowArrayStart": true,
+        "allowBlockEnd": true,
+        "allowBlockStart": true,
+        "allowObjectEnd": true,
+        "allowObjectStart": true,
+        "beforeBlockComment": true,
+        "beforeLineComment": true
       }
     ],
     "lines-around-directive": [
