@@ -229,22 +229,30 @@
     "import/default": 2,
     "import/export": 2,
     "import/extensions": [
-      0,
+      2,
       "never"
     ],
-    "import/imports-first": [
+    "import/first": [
       2,
       {
         "absolute-first": true
       }
     ],
+    "import/max-dependencies": [
+      1,
+      {
+        "max": 10
+      }
+    ],
     "import/named": 2,
     "import/namespace": 2,
     "import/newline-after-import": 2,
+    "import/no-absolute-path": 2,
     "import/no-amd": 2,
     "import/no-commonjs": 2,
     "import/no-deprecated": 1,
     "import/no-duplicates": 0,
+    "import/no-dynamic-require": 2,
     "import/no-extraneous-dependencies": [
       2,
       {
@@ -252,13 +260,16 @@
         "optionalDependencies": true
       }
     ],
+    "import/no-internal-modules": 2,
     "import/no-mutable-exports": 2,
     "import/no-named-as-default": 2,
     "import/no-named-as-default-member": 2,
     "import/no-namespace": 2,
     "import/no-nodejs-modules": 0,
     "import/no-restricted-paths": 0,
+    "import/no-unassigned-import": 2,
     "import/no-unresolved": 2,
+    "import/no-webpack-loader-syntax": 2,
     "import/order": [
       2,
       {
@@ -274,6 +285,7 @@
       }
     ],
     "import/prefer-default-export": 1,
+    "import/unambiguous": 1,
     "indent": [
       2,
       2
@@ -797,9 +809,6 @@
   "settings": {
     "import/extensions": [
       ".js"
-    ],
-    "import/ignore": [
-      "node_modules"
     ]
   }
 }
