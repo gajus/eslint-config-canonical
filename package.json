@@ -37,7 +37,7 @@
     "url": "https://github.com/gajus/eslint-config-canonical"
   },
   "scripts": {
-    "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json",
+    "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json && jsonlint --sort-keys --in-place --indent '  ' ./lodash.json && echo '' >> ./lodash.json",
     "precommit": "npm run format",
     "test": ""
   },

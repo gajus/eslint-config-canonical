@@ -1,0 +1,67 @@
+{
+  "plugins": [
+    "lodash"
+  ],
+  "rules": {
+    "lodash/callback-binding": 1,
+    "lodash/chain-style": [
+      1,
+      "explicit"
+    ],
+    "lodash/chaining": [
+      1,
+      "always"
+    ],
+    "lodash/collection-method-value": 1,
+    "lodash/collection-return": 1,
+    "lodash/consistent-compose": [
+      1,
+      "flow"
+    ],
+    "lodash/identity-shorthand": [
+      1,
+      "always"
+    ],
+    "lodash/matches-prop-shorthand": 1,
+    "lodash/matches-shorthand": [
+      1,
+      "always",
+      3
+    ],
+    "lodash/no-commit": 1,
+    "lodash/no-double-unwrap": 1,
+    "lodash/no-extra-args": 1,
+    "lodash/path-style": 0,
+    "lodash/prefer-compact": 1,
+    "lodash/prefer-constant": 0,
+    "lodash/prefer-filter": [
+      1,
+      3
+    ],
+    "lodash/prefer-get": [
+      1,
+      3
+    ],
+    "lodash/prefer-includes": 1,
+    "lodash/prefer-invoke-map": 0,
+    "lodash/prefer-is-nil": 1,
+    "lodash/prefer-lodash-chain": 1,
+    "lodash/prefer-lodash-method": 0,
+    "lodash/prefer-lodash-typecheck": 1,
+    "lodash/prefer-map": 1,
+    "lodash/prefer-matches": 1,
+    "lodash/prefer-noop": 0,
+    "lodash/prefer-over-quantifier": 1,
+    "lodash/prefer-reject": [
+      1,
+      3
+    ],
+    "lodash/prefer-startswith": 0,
+    "lodash/prefer-thru": 1,
+    "lodash/prefer-times": 1,
+    "lodash/prefer-wrapper-method": 1,
+    "lodash/preferred-alias": 1,
+    "lodash/prop-shorthand": 1,
+    "lodash/unwrap": 1
+  }
+}
