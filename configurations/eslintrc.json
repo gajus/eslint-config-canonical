@@ -259,7 +259,7 @@
         "optionalDependencies": true
       }
     ],
-    "import/no-internal-modules": 2,
+    "import/no-internal-modules": 0,
     "import/no-mutable-exports": 2,
     "import/no-named-as-default": 2,
     "import/no-named-as-default-member": 2,
