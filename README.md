@@ -11,8 +11,8 @@ The goal of the Canonical style guide is to reduce noise in code version control
 
 This package includes the following configurations:
 
-* `canonical`
-* `canonical/lodash` – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
+* [`canonical`](./configurations/eslintrc.json) – The Canonical code style guide.
+* [`canonical/lodash`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
 
 Example:
 
