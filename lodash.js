@@ -1,1 +1,1 @@
-module.exports = require('./lodash.json');
+module.exports = require('./configurations/lodash.json');
