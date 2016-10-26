@@ -432,7 +432,9 @@
     "no-multiple-empty-lines": [
       2,
       {
-        "max": 2
+        "max": 2,
+        "maxBOF": 0,
+        "maxEOF": 1
       }
     ],
     "no-native-reassign": 2,
