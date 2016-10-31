@@ -153,7 +153,7 @@
       "never"
     ],
     "flowtype/space-before-type-colon": [
-      1,
+      2,
       "never"
     ],
     "flowtype/type-id-match": [
