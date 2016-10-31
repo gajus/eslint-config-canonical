@@ -13,6 +13,7 @@ This package includes the following configurations:
 
 * [`canonical`](./configurations/eslintrc.json) – The Canonical code style guide.
 * [`canonical/lodash`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
+* [`canonical/flowtype`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [Flowtype](https://flowtype.org/).
 
 Example:
 
@@ -20,7 +21,8 @@ Example:
 {
   "extends": [
     "canonical",
-    "canonical/lodash"
+    "canonical/lodash",
+    "canonical/flowtype"
   ]
 }
 ```
