@@ -48,7 +48,7 @@
     ],
     "flowtype/type-id-match": [
       2,
-      "^Type([A-Z][a-z0-9]+)+$"
+      "^([A-Z][a-z0-9]+)+Type$"
     ],
     "flowtype/union-intersection-spacing": [
       2,
