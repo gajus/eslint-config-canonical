@@ -367,6 +367,12 @@
         "max": 1
       }
     ],
+    "mocha/max-top-level-suites": [
+      2,
+      {
+        "limit": 1
+      }
+    ],
     "mocha/no-exclusive-tests": 2,
     "mocha/no-hooks-for-single-case": 1,
     "mocha/no-identical-title": 2,
