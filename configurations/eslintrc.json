@@ -133,6 +133,10 @@
       "boolean"
     ],
     "flowtype/define-flow-type": 1,
+    "flowtype/delimiter-dangle": [
+      2,
+      "never"
+    ],
     "flowtype/generic-spacing": [
       2,
       "never"
