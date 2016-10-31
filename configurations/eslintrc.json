@@ -164,8 +164,8 @@
       2,
       "always"
     ],
-    "flowtype/use-flow-type": 2,
     "flowtype/valid-syntax": 2,
+    "flowtype/use-flow-type": 1,
     "func-call-spacing": [
       2,
       "never"
