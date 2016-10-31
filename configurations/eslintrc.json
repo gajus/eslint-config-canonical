@@ -141,6 +141,10 @@
       2,
       "never"
     ],
+    "flowtype/object-type-delimiter": [
+      2,
+      "comma"
+    ],
     "flowtype/require-parameter-type": 2,
     "flowtype/require-return-type": [
       2,
