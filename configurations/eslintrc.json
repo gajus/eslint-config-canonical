@@ -141,6 +141,7 @@
       2,
       "never"
     ],
+    "flowtype/no-weak-types": 2,
     "flowtype/object-type-delimiter": [
       2,
       "comma"
