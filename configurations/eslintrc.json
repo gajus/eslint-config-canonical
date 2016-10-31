@@ -132,7 +132,7 @@
       2,
       "boolean"
     ],
-    "flowtype/define-flow-type": 2,
+    "flowtype/define-flow-type": 1,
     "flowtype/generic-spacing": [
       2,
       "never"
