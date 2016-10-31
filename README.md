@@ -26,3 +26,7 @@ Example:
   ]
 }
 ```
+
+## Versioning Policy
+
+All breaking changes will bump the major version as per the semver convention. Therefore, every new rule addition will increase the major version.
