@@ -580,7 +580,7 @@
     ],
     "react/jsx-first-prop-new-line": [
       2,
-      "multiline"
+      "multiline-multiprop"
     ],
     "react/jsx-handler-names": [
       2,
