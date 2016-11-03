@@ -198,8 +198,9 @@
     "import/no-extraneous-dependencies": [
       2,
       {
-        "devDependencies": true,
-        "optionalDependencies": true
+        "devDependencies": false,
+        "optionalDependencies": false,
+        "peerDependencies": false
       }
     ],
     "import/no-internal-modules": 0,
