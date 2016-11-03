@@ -55,5 +55,10 @@
       "always"
     ],
     "flowtype/use-flow-type": 1
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
   }
 }
