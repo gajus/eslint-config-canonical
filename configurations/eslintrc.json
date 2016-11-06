@@ -198,7 +198,9 @@
     "import/no-extraneous-dependencies": [
       2,
       {
-        "devDependencies": true,
+        "devDependencies": [
+          "./test/**/*.js"
+        ],
         "optionalDependencies": true,
         "peerDependencies": true
       }
