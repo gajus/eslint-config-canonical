@@ -8,7 +8,7 @@
     "babel-eslint": "^7.1.0",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-flowtype": "^2.25.0",
-    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsdoc": "^2.3.1",
     "eslint-plugin-lodash": "^2.1.7",
     "eslint-plugin-mocha": "^4.7.0",
