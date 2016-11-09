@@ -547,7 +547,7 @@
     "prefer-template": 0,
     "promise/always-return": 2,
     "promise/catch-or-return": 2,
-    "promise/no-native": 1,
+    "promise/no-native": 0,
     "promise/no-return-wrap": 2,
     "promise/param-names": 2,
     "promise/prefer-await-to-callbacks": 1,
