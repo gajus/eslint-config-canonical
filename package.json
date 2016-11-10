@@ -10,7 +10,7 @@
     "eslint-plugin-flowtype": "^2.25.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsdoc": "^2.3.1",
-    "eslint-plugin-lodash": "^2.1.8",
+    "eslint-plugin-lodash": "^2.2.0",
     "eslint-plugin-mocha": "^4.7.0",
     "eslint-plugin-no-use-extend-native": "^0.3.12",
     "eslint-plugin-promise": "^3.3.1",
@@ -22,7 +22,7 @@
     "eslint-plugin-ava": "^4.0.0",
     "husky": "^0.11.9",
     "jsonlint": "^1.6.2",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.1"
   },
   "keywords": [
     "eslint",
