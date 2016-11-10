@@ -172,7 +172,10 @@
     "import/export": 2,
     "import/extensions": [
       2,
-      "never"
+      "never",
+      {
+        "json": "always"
+      }
     ],
     "import/first": [
       2,
