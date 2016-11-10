@@ -5,7 +5,7 @@
   "rules": {
     "ava/assertion-arguments": 2,
     "ava/max-asserts": [
-      2,
+      1,
       5
     ],
     "ava/no-async-fn-without-await": 2,
