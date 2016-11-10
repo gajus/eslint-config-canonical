@@ -8,7 +8,6 @@
   "env": {
     "browser": true,
     "es6": true,
-    "mocha": true,
     "node": true
   },
   "parser": "babel-eslint",
@@ -20,7 +19,6 @@
     "no-use-extend-native",
     "babel",
     "import",
-    "mocha",
     "jsdoc",
     "promise",
     "react"
@@ -321,18 +319,6 @@
         "max": 1
       }
     ],
-    "mocha/max-top-level-suites": [
-      2,
-      {
-        "limit": 1
-      }
-    ],
-    "mocha/no-exclusive-tests": 2,
-    "mocha/no-hooks-for-single-case": 1,
-    "mocha/no-identical-title": 2,
-    "mocha/no-nested-tests": 2,
-    "mocha/no-return-and-callback": 2,
-    "mocha/no-top-level-hooks": 2,
     "multiline-ternary": 0,
     "new-cap": [
       0,
