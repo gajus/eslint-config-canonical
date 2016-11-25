@@ -512,7 +512,10 @@
       0,
       "always"
     ],
-    "one-var": 0,
+    "one-var": [
+      2,
+      "never"
+    ],
     "one-var-declaration-per-line": 2,
     "operator-assignment": [
       2,
