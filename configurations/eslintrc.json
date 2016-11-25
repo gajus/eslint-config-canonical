@@ -21,7 +21,8 @@
     "import",
     "jsdoc",
     "promise",
-    "react"
+    "react",
+    "filenames"
   ],
   "rules": {
     "accessor-pairs": 2,
@@ -125,6 +126,13 @@
     "dot-notation": 2,
     "eol-last": 2,
     "eqeqeq": 2,
+    "filenames/match-exported": 2,
+    "filenames/match-regex": [
+      2,
+      "^([a-z]+)([A-Z][a-z]+)*$",
+      false
+    ],
+    "filenames/no-index": 0,
     "func-call-spacing": [
       2,
       "never"

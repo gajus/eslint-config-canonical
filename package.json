@@ -20,6 +20,8 @@
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
     "eslint": "^3.10.0",
+    "eslint-plugin-filenames": "^1.1.0",
+    "eslint-plugin-unicorn": "^1.0.0",
     "husky": "^0.11.9",
     "jsonlint": "^1.6.2",
     "semantic-release": "^6.3.1"
