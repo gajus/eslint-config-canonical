@@ -27,7 +27,7 @@
   "rules": {
     "accessor-pairs": 2,
     "array-bracket-spacing": [
-      0,
+      2,
       "never"
     ],
     "array-callback-return": 2,
@@ -36,7 +36,7 @@
       "always"
     ],
     "arrow-parens": [
-      0,
+      2,
       "always"
     ],
     "arrow-spacing": [
@@ -46,32 +46,12 @@
         "before": true
       }
     ],
-    "babel/array-bracket-spacing": [
-      0,
-      "never"
-    ],
-    "babel/arrow-parens": [
-      2,
-      "always"
-    ],
-    "babel/flow-object-type": [
-      2,
-      "comma"
-    ],
-    "babel/func-params-comma-dangle": [
-      2,
-      "never"
-    ],
-    "babel/generator-star-spacing": 1,
     "babel/new-cap": 0,
     "babel/no-await-in-loop": 2,
+    "babel/no-invalid-this": 2,
     "babel/object-curly-spacing": [
       2,
       "never"
-    ],
-    "babel/object-shorthand": [
-      2,
-      "always"
     ],
     "block-scoped-var": 2,
     "block-spacing": [
@@ -144,7 +124,7 @@
       "expression"
     ],
     "generator-star-spacing": [
-      0,
+      2,
       {
         "after": false,
         "before": true
@@ -517,7 +497,7 @@
       }
     ],
     "object-shorthand": [
-      0,
+      2,
       "always"
     ],
     "one-var": [
