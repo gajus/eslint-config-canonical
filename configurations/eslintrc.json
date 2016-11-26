@@ -110,7 +110,7 @@
     "filenames/match-exported": 2,
     "filenames/match-regex": [
       2,
-      "^([a-z]+)([A-Z][a-z]+)*$",
+      "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*$",
       false
     ],
     "filenames/no-index": 0,
