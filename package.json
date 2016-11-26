@@ -19,7 +19,7 @@
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
-    "eslint": "^3.10.0",
+    "eslint": "^3.11.0",
     "eslint-plugin-filenames": "^1.1.0",
     "eslint-plugin-unicorn": "^1.0.0",
     "husky": "^0.11.9",
@@ -34,7 +34,7 @@
   "main": "./index.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
-    "eslint": "^3.10.0"
+    "eslint": "^3.11.0"
   },
   "repository": {
     "type": "git",
