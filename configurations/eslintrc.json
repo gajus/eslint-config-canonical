@@ -224,13 +224,7 @@
       2,
       2
     ],
-    "init-declarations": [
-      2,
-      "never",
-      {
-        "ignoreForLoopInit": false
-      }
-    ],
+    "init-declarations": 0,
     "jsdoc/check-param-names": 1,
     "jsdoc/check-tag-names": 1,
     "jsdoc/check-types": 1,
