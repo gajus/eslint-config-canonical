@@ -603,9 +603,18 @@
       2,
       "always"
     ],
+    "react/jsx-tag-spacing": [
+      2,
+      {
+        "afterOpening": "never",
+        "beforeSelfClosing": "always",
+        "closingSlash": "never"
+      }
+    ],
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
     "react/jsx-wrap-multilines": 0,
+    "react/no-array-index-key": 2,
     "react/no-children-prop": 2,
     "react/no-danger": 2,
     "react/no-danger-with-children": 2,
@@ -625,6 +634,7 @@
     "react/prefer-stateless-function": 2,
     "react/prop-types": 2,
     "react/react-in-jsx-scope": 2,
+    "react/require-default-props": 2,
     "react/require-render-return": 2,
     "react/self-closing-comp": 2,
     "react/sort-comp": 2,
