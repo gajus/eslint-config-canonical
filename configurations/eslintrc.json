@@ -47,7 +47,6 @@
       }
     ],
     "babel/new-cap": 0,
-    "babel/no-await-in-loop": 2,
     "babel/no-invalid-this": 2,
     "babel/object-curly-spacing": [
       2,
@@ -317,6 +316,7 @@
     "newline-per-chained-call": 0,
     "no-alert": 2,
     "no-array-constructor": 2,
+    "no-await-in-loop": 2,
     "no-caller": 2,
     "no-case-declarations": 2,
     "no-catch-shadow": 2,
