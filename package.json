@@ -15,7 +15,7 @@
     "eslint-plugin-lodash": "^2.2.0",
     "eslint-plugin-mocha": "^4.7.0",
     "eslint-plugin-no-use-extend-native": "^0.3.12",
-    "eslint-plugin-promise": "^3.3.2",
+    "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-react": "^6.6.0",
     "eslint-plugin-unicorn": "^1.0.0"
   },
