@@ -5,26 +5,26 @@
     "url": "http://gajus.com"
   },
   "dependencies": {
-    "babel-eslint": "^7.1.0",
-    "eslint-plugin-ava": "^4.0.0",
+    "babel-eslint": "^7.1.1",
+    "eslint-plugin-ava": "^4.0.1",
     "eslint-plugin-babel": "^4.0.0",
     "eslint-plugin-filenames": "^1.1.0",
-    "eslint-plugin-flowtype": "^2.29.1",
+    "eslint-plugin-flowtype": "^2.29.2",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsdoc": "^2.3.1",
-    "eslint-plugin-lodash": "^2.2.0",
-    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-jsdoc": "^2.4.0",
+    "eslint-plugin-lodash": "^2.2.5",
+    "eslint-plugin-mocha": "^4.8.0",
     "eslint-plugin-no-use-extend-native": "^0.3.12",
     "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-react": "^6.9.0",
     "eslint-plugin-unicorn": "^1.0.0"
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
-    "eslint": "^3.12.2",
-    "husky": "^0.11.9",
+    "eslint": "^3.13.1",
+    "husky": "^0.12.0",
     "jsonlint": "^1.6.2",
-    "semantic-release": "^6.3.1"
+    "semantic-release": "^6.3.5"
   },
   "keywords": [
     "eslint",
@@ -34,7 +34,7 @@
   "main": "./index.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^3.13.1"
   },
   "repository": {
     "type": "git",
