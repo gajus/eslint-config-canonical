@@ -16,6 +16,7 @@ This package includes the following configurations:
 * [`canonical/flowtype`](./configurations/flowtype.json) – To be used in addition to "canonical" configuration by projects that use [Flowtype](https://flowtype.org/).
 * [`canonical/lodash`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
 * [`canonical/mocha`](./configurations/mocha.json) – To be used in addition to "canonical" configuration by projects that use [Mocha](https://mochajs.org/).
+* [`canonical/react`](./configurations/react.json) – To be used in addition to "canonical" configuration by projects that use [React](https://facebook.github.io/react/).
 
 Example:
 
@@ -26,7 +27,8 @@ Example:
     "canonical/ava",
     "canonical/flowtype",
     "canonical/lodash",
-    "canonical/mocha"
+    "canonical/mocha",
+    "canonical/react"
   ]
 }
 ```
