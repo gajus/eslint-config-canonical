@@ -8,6 +8,8 @@
   "rules": {
     "react/display-name": 0,
     "react/forbid-component-props": 2,
+    "react/forbid-elements": 0,
+    "react/forbid-foreign-prop-types": 0,
     "react/forbid-prop-types": 0,
     "react/jsx-boolean-value": [
       2,
@@ -48,7 +50,8 @@
     "react/jsx-max-props-per-line": [
       2,
       {
-        "maximum": 3
+        "maximum": 3,
+        "when": "multiline"
       }
     ],
     "react/jsx-no-bind": [
@@ -106,6 +109,7 @@
     "react/self-closing-comp": 2,
     "react/sort-comp": 2,
     "react/sort-prop-types": 2,
-    "react/style-prop-object": 2
+    "react/style-prop-object": 2,
+    "react/void-dom-elements-no-children": 2
   }
 }

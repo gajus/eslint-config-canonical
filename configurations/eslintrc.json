@@ -21,7 +21,8 @@
     "import",
     "jsdoc",
     "promise",
-    "filenames"
+    "filenames",
+    "unicorn"
   ],
   "rules": {
     "accessor-pairs": 2,
@@ -320,6 +321,7 @@
     "no-case-declarations": 2,
     "no-catch-shadow": 2,
     "no-class-assign": 2,
+    "no-compare-neg-zero": 2,
     "no-cond-assign": 2,
     "no-confusing-arrow": 2,
     "no-console": 2,
@@ -480,6 +482,10 @@
     ],
     "no-whitespace-before-property": 2,
     "no-with": 2,
+    "nonblock-statement-body-position": [
+      2,
+      "below"
+    ],
     "object-curly-spacing": [
       0,
       "never"
@@ -515,6 +521,7 @@
     "prefer-const": 2,
     "prefer-destructuring": 0,
     "prefer-numeric-literals": 2,
+    "prefer-promise-reject-errors": 2,
     "prefer-reflect": 0,
     "prefer-rest-params": 2,
     "prefer-spread": 2,
@@ -591,10 +598,33 @@
       "never"
     ],
     "symbol-description": 2,
+    "template-tag-spacing": [
+      2,
+      "never"
+    ],
     "unicode-bom": [
       2,
       "never"
     ],
+    "unicorn/catch-error-name": [
+      "error",
+      {
+        "name": "error"
+      }
+    ],
+    "unicorn/custom-error-definition": 0,
+    "unicorn/escape-case": 2,
+    "unicorn/eslint-disable": 2,
+    "unicorn/explicit-length-check": 2,
+    "unicorn/filename-case": 0,
+    "unicorn/no-array-instanceof": 2,
+    "unicorn/no-hex-escape": 2,
+    "unicorn/no-new-buffer": 2,
+    "unicorn/no-process-exit": 0,
+    "unicorn/number-literal-case": 2,
+    "unicorn/prefer-starts-ends-with": 2,
+    "unicorn/prefer-type-error": 2,
+    "unicorn/throw-new-error": 2,
     "use-isnan": 2,
     "valid-jsdoc": 0,
     "valid-typeof": 2,

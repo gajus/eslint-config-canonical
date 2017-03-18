@@ -22,6 +22,7 @@
       1,
       "always"
     ],
+    "lodash/import-scope": 0,
     "lodash/matches-prop-shorthand": 1,
     "lodash/matches-shorthand": [
       1,
