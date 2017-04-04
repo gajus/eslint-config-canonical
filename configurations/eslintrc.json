@@ -613,10 +613,10 @@
       }
     ],
     "unicorn/custom-error-definition": 0,
-    "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/escape-case": 2,
-    "unicorn/explicit-length-check": 2,
+    "unicorn/explicit-length-check": 0,
     "unicorn/filename-case": 0,
+    "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/no-array-instanceof": 2,
     "unicorn/no-hex-escape": 2,
     "unicorn/no-new-buffer": 2,
