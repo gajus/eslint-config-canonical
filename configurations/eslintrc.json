@@ -25,17 +25,7 @@
     "unicorn"
   ],
   "rules": {
-    "semi-style": [
-      2,
-      "last"
-    ],
-    "switch-colon-spacing": [
-      2,
-      {
-        "after": true,
-        "before": false
-      }
-    ],
+    "accessor-pairs": 2,
     "array-bracket-newline": [
       2,
       {
@@ -43,6 +33,11 @@
         "multiline": true
       }
     ],
+    "array-bracket-spacing": [
+      2,
+      "never"
+    ],
+    "array-callback-return": 2,
     "array-element-newline": [
       2,
       {
@@ -50,16 +45,6 @@
         "multiline": true
       }
     ],
-    "for-direction": 2,
-    "import/no-anonymous-default-export": 0,
-    "no-buffer-constructor": 2,
-    "padding-line-between-statements": 0,
-    "accessor-pairs": 2,
-    "array-bracket-spacing": [
-      2,
-      "never"
-    ],
-    "array-callback-return": 2,
     "arrow-body-style": [
       2,
       "always"
@@ -142,6 +127,7 @@
       false
     ],
     "filenames/no-index": 0,
+    "for-direction": 2,
     "func-call-spacing": [
       2,
       "never"
@@ -209,6 +195,7 @@
     "import/newline-after-import": 2,
     "import/no-absolute-path": 2,
     "import/no-amd": 2,
+    "import/no-anonymous-default-export": 0,
     "import/no-commonjs": 2,
     "import/no-deprecated": 1,
     "import/no-duplicates": 0,
@@ -346,6 +333,7 @@
     "no-alert": 2,
     "no-array-constructor": 2,
     "no-await-in-loop": 0,
+    "no-buffer-constructor": 2,
     "no-caller": 2,
     "no-case-declarations": 2,
     "no-catch-shadow": 2,
@@ -546,6 +534,7 @@
       2,
       "never"
     ],
+    "padding-line-between-statements": 0,
     "prefer-arrow-callback": 2,
     "prefer-const": 2,
     "prefer-destructuring": 0,
@@ -589,6 +578,10 @@
         "before": false
       }
     ],
+    "semi-style": [
+      2,
+      "last"
+    ],
     "sort-keys": [
       2,
       "asc",
@@ -625,6 +618,13 @@
     "strict": [
       2,
       "never"
+    ],
+    "switch-colon-spacing": [
+      2,
+      {
+        "after": true,
+        "before": false
+      }
     ],
     "symbol-description": 2,
     "template-tag-spacing": [
