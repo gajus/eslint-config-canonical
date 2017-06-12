@@ -25,6 +25,35 @@
     "unicorn"
   ],
   "rules": {
+    "semi-style": [
+      2,
+      "last"
+    ],
+    "switch-colon-spacing": [
+      2,
+      {
+        "after": true,
+        "before": false
+      }
+    ],
+    "array-bracket-newline": [
+      2,
+      {
+        "minItems": 2,
+        "multiline": true
+      }
+    ],
+    "array-element-newline": [
+      2,
+      {
+        "minItems": 2,
+        "multiline": true
+      }
+    ],
+    "for-direction": 2,
+    "import/no-anonymous-default-export": 0,
+    "no-buffer-constructor": 2,
+    "padding-line-between-statements": 0,
     "accessor-pairs": 2,
     "array-bracket-spacing": [
       2,
