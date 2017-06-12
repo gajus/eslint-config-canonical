@@ -10,7 +10,7 @@
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^2.30.4",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-jsdoc": "^3.0.2",
     "eslint-plugin-lodash": "^2.4.0",
     "eslint-plugin-mocha": "^4.9.0",
