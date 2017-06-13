@@ -26,25 +26,13 @@
   ],
   "rules": {
     "accessor-pairs": 2,
-    "array-bracket-newline": [
-      2,
-      {
-        "minItems": 2,
-        "multiline": true
-      }
-    ],
+    "array-bracket-newline": 0,
     "array-bracket-spacing": [
       2,
       "never"
     ],
     "array-callback-return": 2,
-    "array-element-newline": [
-      2,
-      {
-        "minItems": 2,
-        "multiline": true
-      }
-    ],
+    "array-element-newline": 0,
     "arrow-body-style": [
       2,
       "always"
