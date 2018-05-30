@@ -46,5 +46,5 @@
     "precommit": "npm run format",
     "test": ""
   },
-  "version": "5.1.0"
+  "version": "1.0.0"
 }
