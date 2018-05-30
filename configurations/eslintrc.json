@@ -660,7 +660,7 @@
     "unicorn/new-for-builtins": 2,
     "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/no-array-instanceof": 2,
-    "unicorn/no-fn-reference-in-iterator": 2,
+    "unicorn/no-fn-reference-in-iterator": 0,
     "unicorn/no-hex-escape": 2,
     "unicorn/no-new-buffer": 2,
     "unicorn/no-process-exit": 0,
