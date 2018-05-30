@@ -39,7 +39,7 @@
       "always"
     ],
     "flowtype/sort-keys": [
-      2,
+      0,
       "asc",
       {
         "caseSensitive": true,
