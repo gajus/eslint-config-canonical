@@ -252,7 +252,7 @@
       1,
       "always"
     ],
-    "jsdoc/require-description-complete-sentence": 1,
+    "jsdoc/require-description-complete-sentence": 0,
     "jsdoc/require-hyphen-before-description": 0,
     "jsdoc/require-param": 0,
     "jsdoc/require-param-description": 0,
