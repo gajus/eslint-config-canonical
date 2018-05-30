@@ -16,20 +16,35 @@
       2,
       "never"
     ],
+    "flowtype/newline-after-flow-annotation": 2,
+    "flowtype/no-existential-type": 0,
+    "flowtype/no-flow-fix-me-comments": 1,
+    "flowtype/no-mutable-array": 2,
     "flowtype/no-primitive-constructor-types": 2,
     "flowtype/no-types-missing-file-annotation": 2,
+    "flowtype/no-unused-expressions": 0,
     "flowtype/no-weak-types": 2,
     "flowtype/object-type-delimiter": [
       2,
       "comma"
     ],
+    "flowtype/require-exact-type": 1,
     "flowtype/require-parameter-type": 0,
     "flowtype/require-return-type": 0,
+    "flowtype/require-types-at-top": 2,
     "flowtype/require-valid-file-annotation": 2,
     "flowtype/require-variable-type": 0,
     "flowtype/semi": [
       2,
       "always"
+    ],
+    "flowtype/sort-keys": [
+      2,
+      "asc",
+      {
+        "caseSensitive": true,
+        "natural": true
+      }
     ],
     "flowtype/space-after-type-colon": [
       2,
@@ -46,6 +61,10 @@
     "flowtype/type-id-match": [
       2,
       "^([A-Z][a-z0-9]+)+Type$"
+    ],
+    "flowtype/type-import-style": [
+      2,
+      "declaration"
     ],
     "flowtype/union-intersection-spacing": [
       2,

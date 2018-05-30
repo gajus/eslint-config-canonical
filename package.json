@@ -5,27 +5,27 @@
     "url": "http://gajus.com"
   },
   "dependencies": {
-    "babel-eslint": "^8.1.2",
+    "babel-eslint": "^8.2.3",
     "eslint-plugin-ava": "^4.2.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-filenames": "^1.2.0",
-    "eslint-plugin-flowtype": "^2.34.0",
-    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-flowtype": "^2.48.0",
+    "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-jsdoc": "^3.1.0",
-    "eslint-plugin-lodash": "^2.4.2",
+    "eslint-plugin-jsdoc": "^3.7.1",
+    "eslint-plugin-lodash": "^2.7.0",
     "eslint-plugin-mocha": "^4.10.0",
     "eslint-plugin-no-use-extend-native": "^0.3.12",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.0.1",
-    "eslint-plugin-unicorn": "^2.1.1"
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-unicorn": "^4.0.3"
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
-    "eslint": "^4.0.0",
-    "husky": "^0.13.4",
-    "jsonlint": "^1.6.2",
-    "semantic-release": "^6.3.6"
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "jsonlint": "^1.6.3",
+    "semantic-release": "^15.5.0"
   },
   "keywords": [
     "eslint",
@@ -35,7 +35,7 @@
   "main": "./index.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
-    "eslint": "^4.0.0"
+    "eslint": "^4.19.1"
   },
   "repository": {
     "type": "git",
@@ -44,7 +44,6 @@
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/eslintrc.json && echo '' >> ./configurations/eslintrc.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/lodash.json && echo '' >> ./configurations/lodash.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/flowtype.json && echo '' >> ./configurations/flowtype.json",
     "precommit": "npm run format",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": ""
   },
   "version": "5.1.0"

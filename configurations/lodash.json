@@ -39,10 +39,12 @@
       1,
       3
     ],
+    "lodash/prefer-find": 2,
     "lodash/prefer-get": [
       1,
       3
     ],
+    "lodash/prefer-immutable-method": 2,
     "lodash/prefer-includes": 1,
     "lodash/prefer-invoke-map": 0,
     "lodash/prefer-is-nil": 1,

@@ -126,6 +126,10 @@
       2,
       "expression"
     ],
+    "function-paren-newline": [
+      2,
+      "multiline"
+    ],
     "generator-star-spacing": [
       2,
       {
@@ -157,8 +161,13 @@
         "properties": true
       }
     ],
+    "implicit-arrow-linebreak": [
+      2,
+      "beside"
+    ],
     "import/default": 2,
     "import/export": 2,
+    "import/exports-last": 2,
     "import/extensions": [
       2,
       "never",
@@ -172,6 +181,7 @@
         "absolute-first": true
       }
     ],
+    "import/group-exports": 0,
     "import/max-dependencies": [
       1,
       {
@@ -185,6 +195,8 @@
     "import/no-amd": 2,
     "import/no-anonymous-default-export": 0,
     "import/no-commonjs": 2,
+    "import/no-cycle": 2,
+    "import/no-default-export": 0,
     "import/no-deprecated": 1,
     "import/no-duplicates": 0,
     "import/no-dynamic-require": 2,
@@ -204,8 +216,10 @@
     "import/no-namespace": 2,
     "import/no-nodejs-modules": 0,
     "import/no-restricted-paths": 0,
+    "import/no-self-import": 2,
     "import/no-unassigned-import": 2,
     "import/no-unresolved": 2,
+    "import/no-useless-path-segments": 2,
     "import/no-webpack-loader-syntax": 2,
     "import/order": [
       2,
@@ -239,6 +253,7 @@
     "jsdoc/require-hyphen-before-description": 0,
     "jsdoc/require-param": 0,
     "jsdoc/require-param-description": 0,
+    "jsdoc/require-param-name": 2,
     "jsdoc/require-param-type": 0,
     "jsdoc/require-returns-description": 0,
     "jsdoc/require-returns-type": 0,
@@ -287,6 +302,10 @@
       2,
       "always"
     ],
+    "lines-between-class-members": [
+      2,
+      "always"
+    ],
     "max-len": [
       1,
       {
@@ -302,6 +321,10 @@
       {
         "max": 1
       }
+    ],
+    "multiline-comment-style": [
+      2,
+      "starred-block"
     ],
     "multiline-ternary": 0,
     "new-cap": [
@@ -538,11 +561,14 @@
     "promise/no-callback-in-promise": 0,
     "promise/no-native": 0,
     "promise/no-nesting": 0,
+    "promise/no-new-statics": 2,
     "promise/no-promise-in-callback": 0,
+    "promise/no-return-in-finally": 2,
     "promise/no-return-wrap": 2,
     "promise/param-names": 2,
     "promise/prefer-await-to-callbacks": 1,
     "promise/prefer-await-to-then": 1,
+    "promise/valid-params": 2,
     "quote-props": [
       2,
       "as-needed"
@@ -630,17 +656,23 @@
       }
     ],
     "unicorn/custom-error-definition": 0,
-    "unicorn/escape-case": 2,
+    "unicorn/error-message": 2,
     "unicorn/explicit-length-check": 0,
     "unicorn/filename-case": 0,
+    "unicorn/import-index": 2,
+    "unicorn/new-for-builtins": 2,
     "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/no-array-instanceof": 2,
+    "unicorn/no-fn-reference-in-iterator": 2,
     "unicorn/no-hex-escape": 2,
     "unicorn/no-new-buffer": 2,
     "unicorn/no-process-exit": 0,
     "unicorn/number-literal-case": 2,
+    "unicorn/prefer-add-event-listener": 0,
+    "unicorn/prefer-spread": 0,
     "unicorn/prefer-starts-ends-with": 2,
     "unicorn/prefer-type-error": 2,
+    "unicorn/regex-shorthand": 2,
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,
     "valid-jsdoc": 0,
