@@ -322,10 +322,7 @@
         "max": 1
       }
     ],
-    "multiline-comment-style": [
-      2,
-      "starred-block"
-    ],
+    "multiline-comment-style": 0,
     "multiline-ternary": 0,
     "new-cap": [
       0,
