@@ -24,6 +24,7 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "husky": "^0.14.3",
+    "jest": "^23.1.0",
     "jsonlint": "^1.6.3",
     "semantic-release": "^15.5.0"
   },
@@ -44,7 +45,8 @@
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/eslintrc.json && echo '' >> ./configurations/eslintrc.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/lodash.json && echo '' >> ./configurations/lodash.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/flowtype.json && echo '' >> ./configurations/flowtype.json",
     "precommit": "npm run format",
-    "test": ""
+    "prepush": "npm run test",
+    "test": "jest"
   },
   "version": "1.0.0"
 }
