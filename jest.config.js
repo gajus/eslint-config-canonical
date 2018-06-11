@@ -19,13 +19,14 @@ module.exports = {
     global: {
       lines: 100,
       branches: 100,
+      functions: 100,
       statements: 100
     }
   },
   setupTestFrameworkScriptFile: './jest/setup.js',
   transform: {
-    "^.+\\.js$": "./jest/preprocessor"
+    "/node_modules/import-modules/index\\.js$": "./jest/preprocessor"
   },
-  transformIgnorePatterns: [],
+  transformIgnorePatterns: ['/node_modules/(?!import-modules)'],
   verbose: true
 };
