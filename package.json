@@ -1,4 +1,5 @@
 {
+  "ava": {},
   "author": {
     "email": "gajus@gajus.com",
     "name": "Gajus Kuizinas",
@@ -22,9 +23,9 @@
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
+    "ava": "^0.25.0",
     "eslint": "^4.19.1",
     "husky": "^0.14.3",
-    "jest": "^23.1.0",
     "jsonlint": "^1.6.3",
     "semantic-release": "^15.5.0"
   },
@@ -33,7 +34,7 @@
     "canonical"
   ],
   "license": "BSD-3-Clause",
-  "main": "./index.js",
+  "main": "./eslintrc.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
     "eslint": "^4.19.1"
@@ -44,9 +45,8 @@
   },
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/eslintrc.json && echo '' >> ./configurations/eslintrc.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/lodash.json && echo '' >> ./configurations/lodash.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/flowtype.json && echo '' >> ./configurations/flowtype.json",
-    "precommit": "npm run format",
-    "prepush": "npm run test",
-    "test": "jest"
+    "precommit": "npm run format && npm run test",
+    "test": "ava --verbose --serial"
   },
   "version": "1.0.0"
 }
