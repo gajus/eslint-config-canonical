@@ -116,7 +116,7 @@
     ],
     "react/prop-types": 2,
     "react/react-in-jsx-scope": 2,
-    "react/jsx-closing-tag-location": 2,
+    "react/jsx-closing-tag-location": 0,
     "react/no-redundant-should-component-update": 2,
     "react/require-default-props": 2,
     "react/require-render-return": 2,
