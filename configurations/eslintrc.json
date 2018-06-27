@@ -128,7 +128,7 @@
     ],
     "function-paren-newline": [
       2,
-      "multiline"
+      "consistent"
     ],
     "generator-star-spacing": [
       2,
