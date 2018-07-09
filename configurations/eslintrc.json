@@ -218,6 +218,7 @@
     "import/no-named-default": 2,
     "import/no-namespace": 2,
     "import/no-nodejs-modules": 0,
+    "import/no-relative-parent-imports": 0,
     "import/no-restricted-paths": 0,
     "import/no-self-import": 2,
     "import/no-unassigned-import": 2,
