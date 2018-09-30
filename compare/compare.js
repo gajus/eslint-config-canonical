@@ -60,7 +60,7 @@ const getRuleConfiguration = (ruleset, ruleName) => {
     return 'error 🚨';
   }
 
-  return JSON.stringify(ruleName);
+  return JSON.stringify(ruleset[ruleName]);
 };
 
 const engines = [
