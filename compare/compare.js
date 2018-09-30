@@ -47,20 +47,34 @@ const getRuleLink = (ruleName, engines) => {
   return '`' + ruleName + '`';
 };
 
-const getRuleConfiguration = (ruleset, ruleName) => {
-  if (ruleset[ruleName] === undefined) {
+const describeRuleValue = (ruleValue) => {
+  if (ruleValue === undefined) {
     return 'N/A 👻';
   }
 
-  if (ruleset[ruleName] === 1) {
+  if (ruleValue === 0 || ruleValue === 'off') {
+    return 'off';
+  }
+
+  if (ruleValue === 1 || ruleValue === 'warn') {
     return 'warn ⚠️';
   }
 
-  if (ruleset[ruleName] === 2) {
+  if (ruleValue === 2 || ruleValue === 'error') {
     return 'error 🚨';
   }
 
-  return JSON.stringify(ruleset[ruleName]);
+  return false;
+};
+
+const getRuleConfiguration = (ruleset, ruleName) => {
+  const ruleValueDescription = describeRuleValue(ruleset[ruleName]);
+
+  if (ruleValueDescription) {
+    return ruleValueDescription;
+  }
+
+  return describeRuleValue(ruleset[ruleName][0]);
 };
 
 const engines = [
