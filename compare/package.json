@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-canonical": "^13.0.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1"
+  },
+  "scripts": {
+    "compare": "node compare.js"
+  }
+}
