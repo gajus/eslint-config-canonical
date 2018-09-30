@@ -41,7 +41,7 @@ All breaking changes will bump the major version as per the semver convention. T
 
 ## Table of comparison
 
-This how Canonical ruleset compares to other popular configurations.
+This is how Canonical ruleset compares to other popular configurations.
 
 <!-- This comparison is created using `./compare` script. -->
 
