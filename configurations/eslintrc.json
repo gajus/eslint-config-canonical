@@ -54,6 +54,7 @@
       2,
       "never"
     ],
+    "babel/valid-typeof": 2,
     "block-scoped-var": 2,
     "block-spacing": [
       2,
@@ -672,6 +673,7 @@
     "unicorn/no-process-exit": 0,
     "unicorn/number-literal-case": 2,
     "unicorn/prefer-add-event-listener": 0,
+    "unicorn/prefer-exponentiation-operator": 2,
     "unicorn/prefer-spread": 0,
     "unicorn/prefer-starts-ends-with": 2,
     "unicorn/prefer-type-error": 2,
@@ -679,7 +681,6 @@
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,
     "valid-jsdoc": 0,
-    "valid-typeof": 2,
     "vars-on-top": 2,
     "wrap-iife": [
       2,
