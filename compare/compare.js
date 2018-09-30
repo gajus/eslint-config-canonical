@@ -27,10 +27,24 @@ const airbnbEngine = getEngineForConfiguration({
   ]
 });
 
+const googleEngine = getEngineForConfiguration({
+  extends: [
+    'google'
+  ]
+});
+
+const standardEngine = getEngineForConfiguration({
+  extends: [
+    'standard'
+  ]
+});
+
 const ruleNames = [
   ...new Set([
     ...Object.keys(canonicalEngine.config.baseConfig.rules),
-    ...Object.keys(airbnbEngine.config.baseConfig.rules)
+    ...Object.keys(airbnbEngine.config.baseConfig.rules),
+    ...Object.keys(googleEngine.config.baseConfig.rules),
+    ...Object.keys(standardEngine.config.baseConfig.rules)
   ])
 ]
   .sort();
@@ -79,9 +93,11 @@ const getRuleConfiguration = (ruleset, ruleName) => {
 
 const engines = [
   canonicalEngine,
-  airbnbEngine
+  airbnbEngine,
+  googleEngine,
+  standardEngine
 ];
 
 for (const ruleName of ruleNames) {
-  console.log('|' + getRuleLink(ruleName, engines) + '|' + getRuleConfiguration(canonicalEngine.config.baseConfig.rules, ruleName) + '|' + getRuleConfiguration(airbnbEngine.config.baseConfig.rules, ruleName) + '|');
+  console.log('|' + getRuleLink(ruleName, engines) + '|' + getRuleConfiguration(canonicalEngine.config.baseConfig.rules, ruleName) + '|' + getRuleConfiguration(airbnbEngine.config.baseConfig.rules, ruleName) + '|' + getRuleConfiguration(googleEngine.config.baseConfig.rules, ruleName) + '|' + getRuleConfiguration(standardEngine.config.baseConfig.rules, ruleName) + '|');
 }
