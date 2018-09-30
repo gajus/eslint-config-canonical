@@ -55,35 +55,35 @@ This how Canonical ruleset compares to other popular configurations.
 |[`arrow-body-style`](https://eslint.org/docs/rules/arrow-body-style)|"arrow-body-style"|"arrow-body-style"|
 |[`arrow-parens`](https://eslint.org/docs/rules/arrow-parens)|"arrow-parens"|"arrow-parens"|
 |[`arrow-spacing`](https://eslint.org/docs/rules/arrow-spacing)|"arrow-spacing"|"arrow-spacing"|
-|[`ava/assertion-arguments`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/assertion-arguments.md)|error 🚨|N/A|
-|[`ava/max-asserts`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/max-asserts.md)|"ava/max-asserts"|N/A|
-|[`ava/no-async-fn-without-await`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-async-fn-without-await.md)|error 🚨|N/A|
-|[`ava/no-cb-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-cb-test.md)|error 🚨|N/A|
-|[`ava/no-duplicate-modifiers`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-duplicate-modifiers.md)|error 🚨|N/A|
-|[`ava/no-identical-title`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-identical-title.md)|error 🚨|N/A|
-|[`ava/no-ignored-test-files`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-ignored-test-files.md)|error 🚨|N/A|
-|[`ava/no-import-test-files`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-import-test-files.md)|error 🚨|N/A|
-|[`ava/no-invalid-end`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-invalid-end.md)|error 🚨|N/A|
-|[`ava/no-nested-tests`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-nested-tests.md)|error 🚨|N/A|
-|[`ava/no-only-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-only-test.md)|error 🚨|N/A|
-|[`ava/no-skip-assert`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-skip-assert.md)|error 🚨|N/A|
-|[`ava/no-skip-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-skip-test.md)|error 🚨|N/A|
-|[`ava/no-statement-after-end`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-statement-after-end.md)|error 🚨|N/A|
-|[`ava/no-todo-implementation`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-todo-implementation.md)|error 🚨|N/A|
-|[`ava/no-todo-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-todo-test.md)|warn ⚠️|N/A|
-|[`ava/no-unknown-modifiers`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-unknown-modifiers.md)|error 🚨|N/A|
-|[`ava/prefer-async-await`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/prefer-async-await.md)|error 🚨|N/A|
-|[`ava/prefer-power-assert`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/prefer-power-assert.md)|error 🚨|N/A|
-|[`ava/test-ended`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/test-ended.md)|error 🚨|N/A|
-|[`ava/test-title`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/test-title.md)|"ava/test-title"|N/A|
-|[`ava/use-t`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-t.md)|error 🚨|N/A|
-|[`ava/use-t-well`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-t-well.md)|error 🚨|N/A|
-|[`ava/use-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-test.md)|error 🚨|N/A|
-|[`ava/use-true-false`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-true-false.md)|error 🚨|N/A|
-|[`babel/new-cap`](https://eslint.org/docs/rules/new-cap)|"babel/new-cap"|N/A|
-|[`babel/no-invalid-this`](https://eslint.org/docs/rules/no-invalid-this)|error 🚨|N/A|
-|[`babel/object-curly-spacing`](https://eslint.org/docs/rules/object-curly-spacing)|"babel/object-curly-spacing"|N/A|
-|[`babel/valid-typeof`](https://eslint.org/docs/rules/valid-typeof)|error 🚨|N/A|
+|[`ava/assertion-arguments`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/assertion-arguments.md)|error 🚨|N/A 👻|
+|[`ava/max-asserts`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/max-asserts.md)|"ava/max-asserts"|N/A 👻|
+|[`ava/no-async-fn-without-await`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-async-fn-without-await.md)|error 🚨|N/A 👻|
+|[`ava/no-cb-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-cb-test.md)|error 🚨|N/A 👻|
+|[`ava/no-duplicate-modifiers`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-duplicate-modifiers.md)|error 🚨|N/A 👻|
+|[`ava/no-identical-title`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-identical-title.md)|error 🚨|N/A 👻|
+|[`ava/no-ignored-test-files`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-ignored-test-files.md)|error 🚨|N/A 👻|
+|[`ava/no-import-test-files`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-import-test-files.md)|error 🚨|N/A 👻|
+|[`ava/no-invalid-end`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-invalid-end.md)|error 🚨|N/A 👻|
+|[`ava/no-nested-tests`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-nested-tests.md)|error 🚨|N/A 👻|
+|[`ava/no-only-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-only-test.md)|error 🚨|N/A 👻|
+|[`ava/no-skip-assert`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-skip-assert.md)|error 🚨|N/A 👻|
+|[`ava/no-skip-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-skip-test.md)|error 🚨|N/A 👻|
+|[`ava/no-statement-after-end`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-statement-after-end.md)|error 🚨|N/A 👻|
+|[`ava/no-todo-implementation`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-todo-implementation.md)|error 🚨|N/A 👻|
+|[`ava/no-todo-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-todo-test.md)|warn ⚠️|N/A 👻|
+|[`ava/no-unknown-modifiers`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/no-unknown-modifiers.md)|error 🚨|N/A 👻|
+|[`ava/prefer-async-await`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/prefer-async-await.md)|error 🚨|N/A 👻|
+|[`ava/prefer-power-assert`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/prefer-power-assert.md)|error 🚨|N/A 👻|
+|[`ava/test-ended`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/test-ended.md)|error 🚨|N/A 👻|
+|[`ava/test-title`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/test-title.md)|"ava/test-title"|N/A 👻|
+|[`ava/use-t`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-t.md)|error 🚨|N/A 👻|
+|[`ava/use-t-well`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-t-well.md)|error 🚨|N/A 👻|
+|[`ava/use-test`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-test.md)|error 🚨|N/A 👻|
+|[`ava/use-true-false`](https://github.com/avajs/eslint-plugin-ava/blob/v5.1.1/docs/rules/use-true-false.md)|error 🚨|N/A 👻|
+|[`babel/new-cap`](https://eslint.org/docs/rules/new-cap)|"babel/new-cap"|N/A 👻|
+|[`babel/no-invalid-this`](https://eslint.org/docs/rules/no-invalid-this)|error 🚨|N/A 👻|
+|[`babel/object-curly-spacing`](https://eslint.org/docs/rules/object-curly-spacing)|"babel/object-curly-spacing"|N/A 👻|
+|[`babel/valid-typeof`](https://eslint.org/docs/rules/valid-typeof)|error 🚨|N/A 👻|
 |[`block-scoped-var`](https://eslint.org/docs/rules/block-scoped-var)|error 🚨|"block-scoped-var"|
 |[`block-spacing`](https://eslint.org/docs/rules/block-spacing)|"block-spacing"|"block-spacing"|
 |[`brace-style`](https://eslint.org/docs/rules/brace-style)|"brace-style"|"brace-style"|
@@ -105,37 +105,37 @@ This how Canonical ruleset compares to other popular configurations.
 |[`dot-notation`](https://eslint.org/docs/rules/dot-notation)|error 🚨|"dot-notation"|
 |[`eol-last`](https://eslint.org/docs/rules/eol-last)|error 🚨|"eol-last"|
 |[`eqeqeq`](https://eslint.org/docs/rules/eqeqeq)|error 🚨|"eqeqeq"|
-|`filenames/match-exported`|error 🚨|N/A|
-|`filenames/match-regex`|"filenames/match-regex"|N/A|
-|`filenames/no-index`|"filenames/no-index"|N/A|
-|`flowtype/boolean-style`|"flowtype/boolean-style"|N/A|
-|`flowtype/define-flow-type`|warn ⚠️|N/A|
-|`flowtype/delimiter-dangle`|"flowtype/delimiter-dangle"|N/A|
-|`flowtype/generic-spacing`|"flowtype/generic-spacing"|N/A|
-|`flowtype/newline-after-flow-annotation`|error 🚨|N/A|
-|`flowtype/no-existential-type`|"flowtype/no-existential-type"|N/A|
-|`flowtype/no-flow-fix-me-comments`|warn ⚠️|N/A|
-|`flowtype/no-mutable-array`|error 🚨|N/A|
-|`flowtype/no-primitive-constructor-types`|error 🚨|N/A|
-|`flowtype/no-types-missing-file-annotation`|error 🚨|N/A|
-|[`flowtype/no-unused-expressions`](https://eslint.org/docs/rules/no-unused-expressions)|"flowtype/no-unused-expressions"|N/A|
-|`flowtype/no-weak-types`|error 🚨|N/A|
-|`flowtype/object-type-delimiter`|"flowtype/object-type-delimiter"|N/A|
-|`flowtype/require-exact-type`|warn ⚠️|N/A|
-|`flowtype/require-parameter-type`|"flowtype/require-parameter-type"|N/A|
-|`flowtype/require-return-type`|"flowtype/require-return-type"|N/A|
-|`flowtype/require-types-at-top`|error 🚨|N/A|
-|`flowtype/require-valid-file-annotation`|error 🚨|N/A|
-|`flowtype/require-variable-type`|"flowtype/require-variable-type"|N/A|
-|`flowtype/semi`|"flowtype/semi"|N/A|
-|`flowtype/sort-keys`|"flowtype/sort-keys"|N/A|
-|`flowtype/space-after-type-colon`|"flowtype/space-after-type-colon"|N/A|
-|`flowtype/space-before-generic-bracket`|"flowtype/space-before-generic-bracket"|N/A|
-|`flowtype/space-before-type-colon`|"flowtype/space-before-type-colon"|N/A|
-|`flowtype/type-id-match`|"flowtype/type-id-match"|N/A|
-|`flowtype/type-import-style`|"flowtype/type-import-style"|N/A|
-|`flowtype/union-intersection-spacing`|"flowtype/union-intersection-spacing"|N/A|
-|`flowtype/use-flow-type`|warn ⚠️|N/A|
+|`filenames/match-exported`|error 🚨|N/A 👻|
+|`filenames/match-regex`|"filenames/match-regex"|N/A 👻|
+|`filenames/no-index`|"filenames/no-index"|N/A 👻|
+|`flowtype/boolean-style`|"flowtype/boolean-style"|N/A 👻|
+|`flowtype/define-flow-type`|warn ⚠️|N/A 👻|
+|`flowtype/delimiter-dangle`|"flowtype/delimiter-dangle"|N/A 👻|
+|`flowtype/generic-spacing`|"flowtype/generic-spacing"|N/A 👻|
+|`flowtype/newline-after-flow-annotation`|error 🚨|N/A 👻|
+|`flowtype/no-existential-type`|"flowtype/no-existential-type"|N/A 👻|
+|`flowtype/no-flow-fix-me-comments`|warn ⚠️|N/A 👻|
+|`flowtype/no-mutable-array`|error 🚨|N/A 👻|
+|`flowtype/no-primitive-constructor-types`|error 🚨|N/A 👻|
+|`flowtype/no-types-missing-file-annotation`|error 🚨|N/A 👻|
+|[`flowtype/no-unused-expressions`](https://eslint.org/docs/rules/no-unused-expressions)|"flowtype/no-unused-expressions"|N/A 👻|
+|`flowtype/no-weak-types`|error 🚨|N/A 👻|
+|`flowtype/object-type-delimiter`|"flowtype/object-type-delimiter"|N/A 👻|
+|`flowtype/require-exact-type`|warn ⚠️|N/A 👻|
+|`flowtype/require-parameter-type`|"flowtype/require-parameter-type"|N/A 👻|
+|`flowtype/require-return-type`|"flowtype/require-return-type"|N/A 👻|
+|`flowtype/require-types-at-top`|error 🚨|N/A 👻|
+|`flowtype/require-valid-file-annotation`|error 🚨|N/A 👻|
+|`flowtype/require-variable-type`|"flowtype/require-variable-type"|N/A 👻|
+|`flowtype/semi`|"flowtype/semi"|N/A 👻|
+|`flowtype/sort-keys`|"flowtype/sort-keys"|N/A 👻|
+|`flowtype/space-after-type-colon`|"flowtype/space-after-type-colon"|N/A 👻|
+|`flowtype/space-before-generic-bracket`|"flowtype/space-before-generic-bracket"|N/A 👻|
+|`flowtype/space-before-type-colon`|"flowtype/space-before-type-colon"|N/A 👻|
+|`flowtype/type-id-match`|"flowtype/type-id-match"|N/A 👻|
+|`flowtype/type-import-style`|"flowtype/type-import-style"|N/A 👻|
+|`flowtype/union-intersection-spacing`|"flowtype/union-intersection-spacing"|N/A 👻|
+|`flowtype/use-flow-type`|warn ⚠️|N/A 👻|
 |[`for-direction`](https://eslint.org/docs/rules/for-direction)|error 🚨|"for-direction"|
 |[`func-call-spacing`](https://eslint.org/docs/rules/func-call-spacing)|"func-call-spacing"|"func-call-spacing"|
 |[`func-name-matching`](https://eslint.org/docs/rules/func-name-matching)|error 🚨|"func-name-matching"|
@@ -143,22 +143,22 @@ This how Canonical ruleset compares to other popular configurations.
 |[`func-style`](https://eslint.org/docs/rules/func-style)|"func-style"|"func-style"|
 |[`function-paren-newline`](https://eslint.org/docs/rules/function-paren-newline)|"function-paren-newline"|"function-paren-newline"|
 |[`generator-star-spacing`](https://eslint.org/docs/rules/generator-star-spacing)|"generator-star-spacing"|"generator-star-spacing"|
-|[`getter-return`](https://eslint.org/docs/rules/getter-return)|N/A|"getter-return"|
+|[`getter-return`](https://eslint.org/docs/rules/getter-return)|N/A 👻|"getter-return"|
 |[`global-require`](https://eslint.org/docs/rules/global-require)|error 🚨|"global-require"|
 |[`guard-for-in`](https://eslint.org/docs/rules/guard-for-in)|error 🚨|"guard-for-in"|
 |[`handle-callback-err`](https://eslint.org/docs/rules/handle-callback-err)|error 🚨|"handle-callback-err"|
-|[`id-blacklist`](https://eslint.org/docs/rules/id-blacklist)|N/A|"id-blacklist"|
+|[`id-blacklist`](https://eslint.org/docs/rules/id-blacklist)|N/A 👻|"id-blacklist"|
 |[`id-length`](https://eslint.org/docs/rules/id-length)|"id-length"|"id-length"|
 |[`id-match`](https://eslint.org/docs/rules/id-match)|"id-match"|"id-match"|
 |[`implicit-arrow-linebreak`](https://eslint.org/docs/rules/implicit-arrow-linebreak)|"implicit-arrow-linebreak"|"implicit-arrow-linebreak"|
 |[`import/default`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/default.md)|error 🚨|"import/default"|
-|[`import/dynamic-import-chunkname`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/dynamic-import-chunkname.md)|N/A|"import/dynamic-import-chunkname"|
+|[`import/dynamic-import-chunkname`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/dynamic-import-chunkname.md)|N/A 👻|"import/dynamic-import-chunkname"|
 |[`import/export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/export.md)|error 🚨|"import/export"|
 |[`import/exports-last`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/exports-last.md)|error 🚨|"import/exports-last"|
 |[`import/extensions`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/extensions.md)|"import/extensions"|"import/extensions"|
 |[`import/first`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/first.md)|"import/first"|"import/first"|
 |[`import/group-exports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/group-exports.md)|"import/group-exports"|"import/group-exports"|
-|[`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md)|N/A|"import/imports-first"|
+|[`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md)|N/A 👻|"import/imports-first"|
 |[`import/max-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/max-dependencies.md)|"import/max-dependencies"|"import/max-dependencies"|
 |[`import/named`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/named.md)|error 🚨|"import/named"|
 |[`import/namespace`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/namespace.md)|error 🚨|"import/namespace"|
@@ -192,56 +192,56 @@ This how Canonical ruleset compares to other popular configurations.
 |[`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/v2.14.0/docs/rules/unambiguous.md)|warn ⚠️|"import/unambiguous"|
 |[`indent`](https://eslint.org/docs/rules/indent)|"indent"|"indent"|
 |[`init-declarations`](https://eslint.org/docs/rules/init-declarations)|"init-declarations"|"init-declarations"|
-|[`jest/no-disabled-tests`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/no-disabled-tests.md)|"jest/no-disabled-tests"|N/A|
-|[`jest/no-focused-tests`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/no-focused-tests.md)|"jest/no-focused-tests"|N/A|
-|[`jest/no-identical-title`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/no-identical-title.md)|"jest/no-identical-title"|N/A|
-|[`jest/valid-expect`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/valid-expect.md)|"jest/valid-expect"|N/A|
-|`jsdoc/check-param-names`|warn ⚠️|N/A|
-|`jsdoc/check-tag-names`|warn ⚠️|N/A|
-|`jsdoc/check-types`|warn ⚠️|N/A|
-|`jsdoc/newline-after-description`|"jsdoc/newline-after-description"|N/A|
-|`jsdoc/require-description-complete-sentence`|"jsdoc/require-description-complete-sentence"|N/A|
-|`jsdoc/require-hyphen-before-param-description`|"jsdoc/require-hyphen-before-param-description"|N/A|
-|`jsdoc/require-param`|"jsdoc/require-param"|N/A|
-|`jsdoc/require-param-description`|"jsdoc/require-param-description"|N/A|
-|`jsdoc/require-param-name`|error 🚨|N/A|
-|`jsdoc/require-param-type`|"jsdoc/require-param-type"|N/A|
-|`jsdoc/require-returns-description`|"jsdoc/require-returns-description"|N/A|
-|`jsdoc/require-returns-type`|"jsdoc/require-returns-type"|N/A|
-|[`jsx-a11y/accessible-emoji`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/accessible-emoji.md)|N/A|"jsx-a11y/accessible-emoji"|
-|[`jsx-a11y/alt-text`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/alt-text.md)|N/A|"jsx-a11y/alt-text"|
-|[`jsx-a11y/anchor-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/anchor-has-content.md)|N/A|"jsx-a11y/anchor-has-content"|
-|[`jsx-a11y/anchor-is-valid`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/anchor-is-valid.md)|N/A|"jsx-a11y/anchor-is-valid"|
-|[`jsx-a11y/aria-activedescendant-has-tabindex`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-activedescendant-has-tabindex.md)|N/A|"jsx-a11y/aria-activedescendant-has-tabindex"|
-|[`jsx-a11y/aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-props.md)|N/A|"jsx-a11y/aria-props"|
-|[`jsx-a11y/aria-proptypes`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-proptypes.md)|N/A|"jsx-a11y/aria-proptypes"|
-|[`jsx-a11y/aria-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-role.md)|N/A|"jsx-a11y/aria-role"|
-|[`jsx-a11y/aria-unsupported-elements`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-unsupported-elements.md)|N/A|"jsx-a11y/aria-unsupported-elements"|
-|[`jsx-a11y/click-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/click-events-have-key-events.md)|N/A|"jsx-a11y/click-events-have-key-events"|
-|[`jsx-a11y/heading-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/heading-has-content.md)|N/A|"jsx-a11y/heading-has-content"|
-|[`jsx-a11y/html-has-lang`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/html-has-lang.md)|N/A|"jsx-a11y/html-has-lang"|
-|[`jsx-a11y/iframe-has-title`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/iframe-has-title.md)|N/A|"jsx-a11y/iframe-has-title"|
-|[`jsx-a11y/img-redundant-alt`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/img-redundant-alt.md)|N/A|"jsx-a11y/img-redundant-alt"|
-|[`jsx-a11y/interactive-supports-focus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/interactive-supports-focus.md)|N/A|"jsx-a11y/interactive-supports-focus"|
-|`jsx-a11y/label-has-associated-control`|N/A|"jsx-a11y/label-has-associated-control"|
-|[`jsx-a11y/label-has-for`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/label-has-for.md)|N/A|"jsx-a11y/label-has-for"|
-|[`jsx-a11y/lang`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/lang.md)|N/A|"jsx-a11y/lang"|
-|[`jsx-a11y/media-has-caption`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/media-has-caption.md)|N/A|"jsx-a11y/media-has-caption"|
-|[`jsx-a11y/mouse-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/mouse-events-have-key-events.md)|N/A|"jsx-a11y/mouse-events-have-key-events"|
-|[`jsx-a11y/no-access-key`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-access-key.md)|N/A|"jsx-a11y/no-access-key"|
-|[`jsx-a11y/no-autofocus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-autofocus.md)|N/A|"jsx-a11y/no-autofocus"|
-|[`jsx-a11y/no-distracting-elements`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-distracting-elements.md)|N/A|"jsx-a11y/no-distracting-elements"|
-|[`jsx-a11y/no-interactive-element-to-noninteractive-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-interactive-element-to-noninteractive-role.md)|N/A|"jsx-a11y/no-interactive-element-to-noninteractive-role"|
-|[`jsx-a11y/no-noninteractive-element-interactions`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-element-interactions.md)|N/A|"jsx-a11y/no-noninteractive-element-interactions"|
-|[`jsx-a11y/no-noninteractive-element-to-interactive-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-element-to-interactive-role.md)|N/A|"jsx-a11y/no-noninteractive-element-to-interactive-role"|
-|[`jsx-a11y/no-noninteractive-tabindex`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-tabindex.md)|N/A|"jsx-a11y/no-noninteractive-tabindex"|
-|[`jsx-a11y/no-onchange`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-onchange.md)|N/A|"jsx-a11y/no-onchange"|
-|[`jsx-a11y/no-redundant-roles`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-redundant-roles.md)|N/A|"jsx-a11y/no-redundant-roles"|
-|[`jsx-a11y/no-static-element-interactions`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-static-element-interactions.md)|N/A|"jsx-a11y/no-static-element-interactions"|
-|[`jsx-a11y/role-has-required-aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/role-has-required-aria-props.md)|N/A|"jsx-a11y/role-has-required-aria-props"|
-|[`jsx-a11y/role-supports-aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/role-supports-aria-props.md)|N/A|"jsx-a11y/role-supports-aria-props"|
-|[`jsx-a11y/scope`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/scope.md)|N/A|"jsx-a11y/scope"|
-|[`jsx-a11y/tabindex-no-positive`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/tabindex-no-positive.md)|N/A|"jsx-a11y/tabindex-no-positive"|
+|[`jest/no-disabled-tests`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/no-disabled-tests.md)|"jest/no-disabled-tests"|N/A 👻|
+|[`jest/no-focused-tests`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/no-focused-tests.md)|"jest/no-focused-tests"|N/A 👻|
+|[`jest/no-identical-title`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/no-identical-title.md)|"jest/no-identical-title"|N/A 👻|
+|[`jest/valid-expect`](https://github.com/jest-community/eslint-plugin-jest/blob/v21.23.0/docs/rules/valid-expect.md)|"jest/valid-expect"|N/A 👻|
+|`jsdoc/check-param-names`|warn ⚠️|N/A 👻|
+|`jsdoc/check-tag-names`|warn ⚠️|N/A 👻|
+|`jsdoc/check-types`|warn ⚠️|N/A 👻|
+|`jsdoc/newline-after-description`|"jsdoc/newline-after-description"|N/A 👻|
+|`jsdoc/require-description-complete-sentence`|"jsdoc/require-description-complete-sentence"|N/A 👻|
+|`jsdoc/require-hyphen-before-param-description`|"jsdoc/require-hyphen-before-param-description"|N/A 👻|
+|`jsdoc/require-param`|"jsdoc/require-param"|N/A 👻|
+|`jsdoc/require-param-description`|"jsdoc/require-param-description"|N/A 👻|
+|`jsdoc/require-param-name`|error 🚨|N/A 👻|
+|`jsdoc/require-param-type`|"jsdoc/require-param-type"|N/A 👻|
+|`jsdoc/require-returns-description`|"jsdoc/require-returns-description"|N/A 👻|
+|`jsdoc/require-returns-type`|"jsdoc/require-returns-type"|N/A 👻|
+|[`jsx-a11y/accessible-emoji`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/accessible-emoji.md)|N/A 👻|"jsx-a11y/accessible-emoji"|
+|[`jsx-a11y/alt-text`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/alt-text.md)|N/A 👻|"jsx-a11y/alt-text"|
+|[`jsx-a11y/anchor-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/anchor-has-content.md)|N/A 👻|"jsx-a11y/anchor-has-content"|
+|[`jsx-a11y/anchor-is-valid`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/anchor-is-valid.md)|N/A 👻|"jsx-a11y/anchor-is-valid"|
+|[`jsx-a11y/aria-activedescendant-has-tabindex`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-activedescendant-has-tabindex.md)|N/A 👻|"jsx-a11y/aria-activedescendant-has-tabindex"|
+|[`jsx-a11y/aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-props.md)|N/A 👻|"jsx-a11y/aria-props"|
+|[`jsx-a11y/aria-proptypes`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-proptypes.md)|N/A 👻|"jsx-a11y/aria-proptypes"|
+|[`jsx-a11y/aria-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-role.md)|N/A 👻|"jsx-a11y/aria-role"|
+|[`jsx-a11y/aria-unsupported-elements`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-unsupported-elements.md)|N/A 👻|"jsx-a11y/aria-unsupported-elements"|
+|[`jsx-a11y/click-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/click-events-have-key-events.md)|N/A 👻|"jsx-a11y/click-events-have-key-events"|
+|[`jsx-a11y/heading-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/heading-has-content.md)|N/A 👻|"jsx-a11y/heading-has-content"|
+|[`jsx-a11y/html-has-lang`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/html-has-lang.md)|N/A 👻|"jsx-a11y/html-has-lang"|
+|[`jsx-a11y/iframe-has-title`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/iframe-has-title.md)|N/A 👻|"jsx-a11y/iframe-has-title"|
+|[`jsx-a11y/img-redundant-alt`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/img-redundant-alt.md)|N/A 👻|"jsx-a11y/img-redundant-alt"|
+|[`jsx-a11y/interactive-supports-focus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/interactive-supports-focus.md)|N/A 👻|"jsx-a11y/interactive-supports-focus"|
+|`jsx-a11y/label-has-associated-control`|N/A 👻|"jsx-a11y/label-has-associated-control"|
+|[`jsx-a11y/label-has-for`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/label-has-for.md)|N/A 👻|"jsx-a11y/label-has-for"|
+|[`jsx-a11y/lang`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/lang.md)|N/A 👻|"jsx-a11y/lang"|
+|[`jsx-a11y/media-has-caption`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/media-has-caption.md)|N/A 👻|"jsx-a11y/media-has-caption"|
+|[`jsx-a11y/mouse-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/mouse-events-have-key-events.md)|N/A 👻|"jsx-a11y/mouse-events-have-key-events"|
+|[`jsx-a11y/no-access-key`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-access-key.md)|N/A 👻|"jsx-a11y/no-access-key"|
+|[`jsx-a11y/no-autofocus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-autofocus.md)|N/A 👻|"jsx-a11y/no-autofocus"|
+|[`jsx-a11y/no-distracting-elements`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-distracting-elements.md)|N/A 👻|"jsx-a11y/no-distracting-elements"|
+|[`jsx-a11y/no-interactive-element-to-noninteractive-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-interactive-element-to-noninteractive-role.md)|N/A 👻|"jsx-a11y/no-interactive-element-to-noninteractive-role"|
+|[`jsx-a11y/no-noninteractive-element-interactions`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-element-interactions.md)|N/A 👻|"jsx-a11y/no-noninteractive-element-interactions"|
+|[`jsx-a11y/no-noninteractive-element-to-interactive-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-element-to-interactive-role.md)|N/A 👻|"jsx-a11y/no-noninteractive-element-to-interactive-role"|
+|[`jsx-a11y/no-noninteractive-tabindex`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-tabindex.md)|N/A 👻|"jsx-a11y/no-noninteractive-tabindex"|
+|[`jsx-a11y/no-onchange`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-onchange.md)|N/A 👻|"jsx-a11y/no-onchange"|
+|[`jsx-a11y/no-redundant-roles`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-redundant-roles.md)|N/A 👻|"jsx-a11y/no-redundant-roles"|
+|[`jsx-a11y/no-static-element-interactions`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-static-element-interactions.md)|N/A 👻|"jsx-a11y/no-static-element-interactions"|
+|[`jsx-a11y/role-has-required-aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/role-has-required-aria-props.md)|N/A 👻|"jsx-a11y/role-has-required-aria-props"|
+|[`jsx-a11y/role-supports-aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/role-supports-aria-props.md)|N/A 👻|"jsx-a11y/role-supports-aria-props"|
+|[`jsx-a11y/scope`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/scope.md)|N/A 👻|"jsx-a11y/scope"|
+|[`jsx-a11y/tabindex-no-positive`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/tabindex-no-positive.md)|N/A 👻|"jsx-a11y/tabindex-no-positive"|
 |[`jsx-quotes`](https://eslint.org/docs/rules/jsx-quotes)|"jsx-quotes"|"jsx-quotes"|
 |[`key-spacing`](https://eslint.org/docs/rules/key-spacing)|"key-spacing"|"key-spacing"|
 |[`keyword-spacing`](https://eslint.org/docs/rules/keyword-spacing)|"keyword-spacing"|"keyword-spacing"|
@@ -250,61 +250,61 @@ This how Canonical ruleset compares to other popular configurations.
 |[`lines-around-comment`](https://eslint.org/docs/rules/lines-around-comment)|"lines-around-comment"|"lines-around-comment"|
 |[`lines-around-directive`](https://eslint.org/docs/rules/lines-around-directive)|"lines-around-directive"|"lines-around-directive"|
 |[`lines-between-class-members`](https://eslint.org/docs/rules/lines-between-class-members)|"lines-between-class-members"|"lines-between-class-members"|
-|[`lodash/callback-binding`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/callback-binding.md)|warn ⚠️|N/A|
-|[`lodash/chain-style`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/chain-style.md)|"lodash/chain-style"|N/A|
-|[`lodash/chaining`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/chaining.md)|"lodash/chaining"|N/A|
-|[`lodash/collection-method-value`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/collection-method-value.md)|warn ⚠️|N/A|
-|[`lodash/collection-return`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/collection-return.md)|warn ⚠️|N/A|
-|[`lodash/consistent-compose`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/consistent-compose.md)|"lodash/consistent-compose"|N/A|
-|[`lodash/identity-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/identity-shorthand.md)|"lodash/identity-shorthand"|N/A|
-|[`lodash/import-scope`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/import-scope.md)|"lodash/import-scope"|N/A|
-|[`lodash/matches-prop-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/matches-prop-shorthand.md)|warn ⚠️|N/A|
-|[`lodash/matches-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/matches-shorthand.md)|"lodash/matches-shorthand"|N/A|
-|[`lodash/no-commit`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/no-commit.md)|warn ⚠️|N/A|
-|[`lodash/no-double-unwrap`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/no-double-unwrap.md)|warn ⚠️|N/A|
-|[`lodash/no-extra-args`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/no-extra-args.md)|warn ⚠️|N/A|
-|[`lodash/path-style`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/path-style.md)|"lodash/path-style"|N/A|
-|[`lodash/prefer-compact`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-compact.md)|warn ⚠️|N/A|
-|[`lodash/prefer-constant`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-constant.md)|"lodash/prefer-constant"|N/A|
-|[`lodash/prefer-filter`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-filter.md)|"lodash/prefer-filter"|N/A|
-|[`lodash/prefer-find`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-find.md)|error 🚨|N/A|
-|[`lodash/prefer-get`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-get.md)|"lodash/prefer-get"|N/A|
-|[`lodash/prefer-immutable-method`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-immutable-method.md)|error 🚨|N/A|
-|[`lodash/prefer-includes`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-includes.md)|warn ⚠️|N/A|
-|[`lodash/prefer-invoke-map`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-invoke-map.md)|"lodash/prefer-invoke-map"|N/A|
-|[`lodash/prefer-is-nil`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-is-nil.md)|warn ⚠️|N/A|
-|[`lodash/prefer-lodash-chain`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-lodash-chain.md)|warn ⚠️|N/A|
-|[`lodash/prefer-lodash-method`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-lodash-method.md)|"lodash/prefer-lodash-method"|N/A|
-|[`lodash/prefer-lodash-typecheck`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-lodash-typecheck.md)|warn ⚠️|N/A|
-|[`lodash/prefer-map`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-map.md)|warn ⚠️|N/A|
-|[`lodash/prefer-matches`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-matches.md)|warn ⚠️|N/A|
-|[`lodash/prefer-noop`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-noop.md)|"lodash/prefer-noop"|N/A|
-|[`lodash/prefer-over-quantifier`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-over-quantifier.md)|warn ⚠️|N/A|
-|[`lodash/prefer-reject`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-reject.md)|"lodash/prefer-reject"|N/A|
-|[`lodash/prefer-startswith`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-startswith.md)|"lodash/prefer-startswith"|N/A|
-|[`lodash/prefer-thru`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-thru.md)|warn ⚠️|N/A|
-|[`lodash/prefer-times`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-times.md)|warn ⚠️|N/A|
-|[`lodash/prefer-wrapper-method`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-wrapper-method.md)|warn ⚠️|N/A|
-|[`lodash/preferred-alias`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/preferred-alias.md)|warn ⚠️|N/A|
-|[`lodash/prop-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prop-shorthand.md)|warn ⚠️|N/A|
-|[`lodash/unwrap`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/unwrap.md)|warn ⚠️|N/A|
-|[`max-classes-per-file`](https://eslint.org/docs/rules/max-classes-per-file)|N/A|"max-classes-per-file"|
-|[`max-depth`](https://eslint.org/docs/rules/max-depth)|N/A|"max-depth"|
+|[`lodash/callback-binding`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/callback-binding.md)|warn ⚠️|N/A 👻|
+|[`lodash/chain-style`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/chain-style.md)|"lodash/chain-style"|N/A 👻|
+|[`lodash/chaining`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/chaining.md)|"lodash/chaining"|N/A 👻|
+|[`lodash/collection-method-value`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/collection-method-value.md)|warn ⚠️|N/A 👻|
+|[`lodash/collection-return`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/collection-return.md)|warn ⚠️|N/A 👻|
+|[`lodash/consistent-compose`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/consistent-compose.md)|"lodash/consistent-compose"|N/A 👻|
+|[`lodash/identity-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/identity-shorthand.md)|"lodash/identity-shorthand"|N/A 👻|
+|[`lodash/import-scope`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/import-scope.md)|"lodash/import-scope"|N/A 👻|
+|[`lodash/matches-prop-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/matches-prop-shorthand.md)|warn ⚠️|N/A 👻|
+|[`lodash/matches-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/matches-shorthand.md)|"lodash/matches-shorthand"|N/A 👻|
+|[`lodash/no-commit`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/no-commit.md)|warn ⚠️|N/A 👻|
+|[`lodash/no-double-unwrap`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/no-double-unwrap.md)|warn ⚠️|N/A 👻|
+|[`lodash/no-extra-args`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/no-extra-args.md)|warn ⚠️|N/A 👻|
+|[`lodash/path-style`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/path-style.md)|"lodash/path-style"|N/A 👻|
+|[`lodash/prefer-compact`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-compact.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-constant`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-constant.md)|"lodash/prefer-constant"|N/A 👻|
+|[`lodash/prefer-filter`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-filter.md)|"lodash/prefer-filter"|N/A 👻|
+|[`lodash/prefer-find`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-find.md)|error 🚨|N/A 👻|
+|[`lodash/prefer-get`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-get.md)|"lodash/prefer-get"|N/A 👻|
+|[`lodash/prefer-immutable-method`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-immutable-method.md)|error 🚨|N/A 👻|
+|[`lodash/prefer-includes`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-includes.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-invoke-map`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-invoke-map.md)|"lodash/prefer-invoke-map"|N/A 👻|
+|[`lodash/prefer-is-nil`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-is-nil.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-lodash-chain`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-lodash-chain.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-lodash-method`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-lodash-method.md)|"lodash/prefer-lodash-method"|N/A 👻|
+|[`lodash/prefer-lodash-typecheck`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-lodash-typecheck.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-map`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-map.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-matches`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-matches.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-noop`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-noop.md)|"lodash/prefer-noop"|N/A 👻|
+|[`lodash/prefer-over-quantifier`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-over-quantifier.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-reject`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-reject.md)|"lodash/prefer-reject"|N/A 👻|
+|[`lodash/prefer-startswith`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-startswith.md)|"lodash/prefer-startswith"|N/A 👻|
+|[`lodash/prefer-thru`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-thru.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-times`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-times.md)|warn ⚠️|N/A 👻|
+|[`lodash/prefer-wrapper-method`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prefer-wrapper-method.md)|warn ⚠️|N/A 👻|
+|[`lodash/preferred-alias`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/preferred-alias.md)|warn ⚠️|N/A 👻|
+|[`lodash/prop-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/prop-shorthand.md)|warn ⚠️|N/A 👻|
+|[`lodash/unwrap`](https://github.com/wix/eslint-plugin-lodash/blob/v3.1.0/docs/rules/unwrap.md)|warn ⚠️|N/A 👻|
+|[`max-classes-per-file`](https://eslint.org/docs/rules/max-classes-per-file)|N/A 👻|"max-classes-per-file"|
+|[`max-depth`](https://eslint.org/docs/rules/max-depth)|N/A 👻|"max-depth"|
 |[`max-len`](https://eslint.org/docs/rules/max-len)|"max-len"|"max-len"|
-|[`max-lines`](https://eslint.org/docs/rules/max-lines)|N/A|"max-lines"|
-|[`max-lines-per-function`](https://eslint.org/docs/rules/max-lines-per-function)|N/A|"max-lines-per-function"|
+|[`max-lines`](https://eslint.org/docs/rules/max-lines)|N/A 👻|"max-lines"|
+|[`max-lines-per-function`](https://eslint.org/docs/rules/max-lines-per-function)|N/A 👻|"max-lines-per-function"|
 |[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|"max-nested-callbacks"|"max-nested-callbacks"|
-|[`max-params`](https://eslint.org/docs/rules/max-params)|N/A|"max-params"|
-|[`max-statements`](https://eslint.org/docs/rules/max-statements)|N/A|"max-statements"|
+|[`max-params`](https://eslint.org/docs/rules/max-params)|N/A 👻|"max-params"|
+|[`max-statements`](https://eslint.org/docs/rules/max-statements)|N/A 👻|"max-statements"|
 |[`max-statements-per-line`](https://eslint.org/docs/rules/max-statements-per-line)|"max-statements-per-line"|"max-statements-per-line"|
-|`mocha/max-top-level-suites`|"mocha/max-top-level-suites"|N/A|
-|`mocha/no-exclusive-tests`|error 🚨|N/A|
-|`mocha/no-hooks-for-single-case`|warn ⚠️|N/A|
-|`mocha/no-identical-title`|error 🚨|N/A|
-|`mocha/no-nested-tests`|error 🚨|N/A|
-|`mocha/no-return-and-callback`|error 🚨|N/A|
-|`mocha/no-setup-in-describe`|error 🚨|N/A|
-|`mocha/no-top-level-hooks`|error 🚨|N/A|
+|`mocha/max-top-level-suites`|"mocha/max-top-level-suites"|N/A 👻|
+|`mocha/no-exclusive-tests`|error 🚨|N/A 👻|
+|`mocha/no-hooks-for-single-case`|warn ⚠️|N/A 👻|
+|`mocha/no-identical-title`|error 🚨|N/A 👻|
+|`mocha/no-nested-tests`|error 🚨|N/A 👻|
+|`mocha/no-return-and-callback`|error 🚨|N/A 👻|
+|`mocha/no-setup-in-describe`|error 🚨|N/A 👻|
+|`mocha/no-top-level-hooks`|error 🚨|N/A 👻|
 |[`multiline-comment-style`](https://eslint.org/docs/rules/multiline-comment-style)|"multiline-comment-style"|"multiline-comment-style"|
 |[`multiline-ternary`](https://eslint.org/docs/rules/multiline-ternary)|"multiline-ternary"|"multiline-ternary"|
 |[`new-cap`](https://eslint.org/docs/rules/new-cap)|"new-cap"|"new-cap"|
@@ -316,7 +316,7 @@ This how Canonical ruleset compares to other popular configurations.
 |[`no-array-constructor`](https://eslint.org/docs/rules/no-array-constructor)|error 🚨|"no-array-constructor"|
 |[`no-async-promise-executor`](https://eslint.org/docs/rules/no-async-promise-executor)|error 🚨|"no-async-promise-executor"|
 |[`no-await-in-loop`](https://eslint.org/docs/rules/no-await-in-loop)|"no-await-in-loop"|"no-await-in-loop"|
-|[`no-bitwise`](https://eslint.org/docs/rules/no-bitwise)|N/A|"no-bitwise"|
+|[`no-bitwise`](https://eslint.org/docs/rules/no-bitwise)|N/A 👻|"no-bitwise"|
 |[`no-buffer-constructor`](https://eslint.org/docs/rules/no-buffer-constructor)|error 🚨|"no-buffer-constructor"|
 |[`no-caller`](https://eslint.org/docs/rules/no-caller)|error 🚨|"no-caller"|
 |[`no-case-declarations`](https://eslint.org/docs/rules/no-case-declarations)|error 🚨|"no-case-declarations"|
@@ -341,7 +341,7 @@ This how Canonical ruleset compares to other popular configurations.
 |[`no-else-return`](https://eslint.org/docs/rules/no-else-return)|"no-else-return"|"no-else-return"|
 |[`no-empty`](https://eslint.org/docs/rules/no-empty)|error 🚨|"no-empty"|
 |[`no-empty-character-class`](https://eslint.org/docs/rules/no-empty-character-class)|error 🚨|"no-empty-character-class"|
-|[`no-empty-function`](https://eslint.org/docs/rules/no-empty-function)|N/A|"no-empty-function"|
+|[`no-empty-function`](https://eslint.org/docs/rules/no-empty-function)|N/A 👻|"no-empty-function"|
 |[`no-empty-pattern`](https://eslint.org/docs/rules/no-empty-pattern)|error 🚨|"no-empty-pattern"|
 |[`no-eq-null`](https://eslint.org/docs/rules/no-eq-null)|error 🚨|"no-eq-null"|
 |[`no-eval`](https://eslint.org/docs/rules/no-eval)|error 🚨|"no-eval"|
@@ -349,7 +349,7 @@ This how Canonical ruleset compares to other popular configurations.
 |[`no-extend-native`](https://eslint.org/docs/rules/no-extend-native)|error 🚨|"no-extend-native"|
 |[`no-extra-bind`](https://eslint.org/docs/rules/no-extra-bind)|error 🚨|"no-extra-bind"|
 |[`no-extra-boolean-cast`](https://eslint.org/docs/rules/no-extra-boolean-cast)|"no-extra-boolean-cast"|"no-extra-boolean-cast"|
-|[`no-extra-label`](https://eslint.org/docs/rules/no-extra-label)|N/A|"no-extra-label"|
+|[`no-extra-label`](https://eslint.org/docs/rules/no-extra-label)|N/A 👻|"no-extra-label"|
 |[`no-extra-parens`](https://eslint.org/docs/rules/no-extra-parens)|error 🚨|"no-extra-parens"|
 |[`no-extra-semi`](https://eslint.org/docs/rules/no-extra-semi)|error 🚨|"no-extra-semi"|
 |[`no-fallthrough`](https://eslint.org/docs/rules/no-fallthrough)|error 🚨|"no-fallthrough"|
@@ -372,10 +372,10 @@ This how Canonical ruleset compares to other popular configurations.
 |[`no-loop-func`](https://eslint.org/docs/rules/no-loop-func)|error 🚨|"no-loop-func"|
 |[`no-magic-numbers`](https://eslint.org/docs/rules/no-magic-numbers)|"no-magic-numbers"|"no-magic-numbers"|
 |[`no-misleading-character-class`](https://eslint.org/docs/rules/no-misleading-character-class)|error 🚨|"no-misleading-character-class"|
-|[`no-mixed-operators`](https://eslint.org/docs/rules/no-mixed-operators)|N/A|"no-mixed-operators"|
+|[`no-mixed-operators`](https://eslint.org/docs/rules/no-mixed-operators)|N/A 👻|"no-mixed-operators"|
 |[`no-mixed-requires`](https://eslint.org/docs/rules/no-mixed-requires)|"no-mixed-requires"|"no-mixed-requires"|
 |[`no-mixed-spaces-and-tabs`](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)|error 🚨|"no-mixed-spaces-and-tabs"|
-|[`no-multi-assign`](https://eslint.org/docs/rules/no-multi-assign)|N/A|"no-multi-assign"|
+|[`no-multi-assign`](https://eslint.org/docs/rules/no-multi-assign)|N/A 👻|"no-multi-assign"|
 |[`no-multi-spaces`](https://eslint.org/docs/rules/no-multi-spaces)|error 🚨|"no-multi-spaces"|
 |[`no-multi-str`](https://eslint.org/docs/rules/no-multi-str)|error 🚨|"no-multi-str"|
 |[`no-multiple-empty-lines`](https://eslint.org/docs/rules/no-multiple-empty-lines)|"no-multiple-empty-lines"|"no-multiple-empty-lines"|
@@ -394,15 +394,15 @@ This how Canonical ruleset compares to other popular configurations.
 |[`no-octal-escape`](https://eslint.org/docs/rules/no-octal-escape)|error 🚨|"no-octal-escape"|
 |[`no-param-reassign`](https://eslint.org/docs/rules/no-param-reassign)|"no-param-reassign"|"no-param-reassign"|
 |[`no-path-concat`](https://eslint.org/docs/rules/no-path-concat)|error 🚨|"no-path-concat"|
-|[`no-plusplus`](https://eslint.org/docs/rules/no-plusplus)|N/A|"no-plusplus"|
+|[`no-plusplus`](https://eslint.org/docs/rules/no-plusplus)|N/A 👻|"no-plusplus"|
 |[`no-process-env`](https://eslint.org/docs/rules/no-process-env)|error 🚨|"no-process-env"|
 |[`no-process-exit`](https://eslint.org/docs/rules/no-process-exit)|error 🚨|"no-process-exit"|
 |[`no-proto`](https://eslint.org/docs/rules/no-proto)|error 🚨|"no-proto"|
-|[`no-prototype-builtins`](https://eslint.org/docs/rules/no-prototype-builtins)|N/A|"no-prototype-builtins"|
+|[`no-prototype-builtins`](https://eslint.org/docs/rules/no-prototype-builtins)|N/A 👻|"no-prototype-builtins"|
 |[`no-redeclare`](https://eslint.org/docs/rules/no-redeclare)|"no-redeclare"|"no-redeclare"|
 |[`no-regex-spaces`](https://eslint.org/docs/rules/no-regex-spaces)|error 🚨|"no-regex-spaces"|
 |[`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-globals)|"no-restricted-globals"|"no-restricted-globals"|
-|[`no-restricted-imports`](https://eslint.org/docs/rules/no-restricted-imports)|N/A|"no-restricted-imports"|
+|[`no-restricted-imports`](https://eslint.org/docs/rules/no-restricted-imports)|N/A 👻|"no-restricted-imports"|
 |[`no-restricted-modules`](https://eslint.org/docs/rules/no-restricted-modules)|"no-restricted-modules"|"no-restricted-modules"|
 |[`no-restricted-properties`](https://eslint.org/docs/rules/no-restricted-properties)|"no-restricted-properties"|"no-restricted-properties"|
 |[`no-restricted-syntax`](https://eslint.org/docs/rules/no-restricted-syntax)|"no-restricted-syntax"|"no-restricted-syntax"|
@@ -434,10 +434,10 @@ This how Canonical ruleset compares to other popular configurations.
 |[`no-unsafe-finally`](https://eslint.org/docs/rules/no-unsafe-finally)|error 🚨|"no-unsafe-finally"|
 |[`no-unsafe-negation`](https://eslint.org/docs/rules/no-unsafe-negation)|error 🚨|"no-unsafe-negation"|
 |[`no-unused-expressions`](https://eslint.org/docs/rules/no-unused-expressions)|error 🚨|"no-unused-expressions"|
-|[`no-unused-labels`](https://eslint.org/docs/rules/no-unused-labels)|N/A|"no-unused-labels"|
+|[`no-unused-labels`](https://eslint.org/docs/rules/no-unused-labels)|N/A 👻|"no-unused-labels"|
 |[`no-unused-vars`](https://eslint.org/docs/rules/no-unused-vars)|error 🚨|"no-unused-vars"|
 |[`no-use-before-define`](https://eslint.org/docs/rules/no-use-before-define)|error 🚨|"no-use-before-define"|
-|`no-use-extend-native/no-use-extend-native`|error 🚨|N/A|
+|`no-use-extend-native/no-use-extend-native`|error 🚨|N/A 👻|
 |[`no-useless-call`](https://eslint.org/docs/rules/no-useless-call)|error 🚨|"no-useless-call"|
 |[`no-useless-computed-key`](https://eslint.org/docs/rules/no-useless-computed-key)|error 🚨|"no-useless-computed-key"|
 |[`no-useless-concat`](https://eslint.org/docs/rules/no-useless-concat)|error 🚨|"no-useless-concat"|
@@ -451,7 +451,7 @@ This how Canonical ruleset compares to other popular configurations.
 |[`no-whitespace-before-property`](https://eslint.org/docs/rules/no-whitespace-before-property)|error 🚨|"no-whitespace-before-property"|
 |[`no-with`](https://eslint.org/docs/rules/no-with)|error 🚨|"no-with"|
 |[`nonblock-statement-body-position`](https://eslint.org/docs/rules/nonblock-statement-body-position)|"nonblock-statement-body-position"|"nonblock-statement-body-position"|
-|[`object-curly-newline`](https://eslint.org/docs/rules/object-curly-newline)|N/A|"object-curly-newline"|
+|[`object-curly-newline`](https://eslint.org/docs/rules/object-curly-newline)|N/A 👻|"object-curly-newline"|
 |[`object-curly-spacing`](https://eslint.org/docs/rules/object-curly-spacing)|"object-curly-spacing"|"object-curly-spacing"|
 |[`object-property-newline`](https://eslint.org/docs/rules/object-property-newline)|"object-property-newline"|"object-property-newline"|
 |[`object-shorthand`](https://eslint.org/docs/rules/object-shorthand)|"object-shorthand"|"object-shorthand"|
@@ -465,26 +465,26 @@ This how Canonical ruleset compares to other popular configurations.
 |[`prefer-const`](https://eslint.org/docs/rules/prefer-const)|error 🚨|"prefer-const"|
 |[`prefer-destructuring`](https://eslint.org/docs/rules/prefer-destructuring)|"prefer-destructuring"|"prefer-destructuring"|
 |[`prefer-numeric-literals`](https://eslint.org/docs/rules/prefer-numeric-literals)|error 🚨|"prefer-numeric-literals"|
-|[`prefer-object-spread`](https://eslint.org/docs/rules/prefer-object-spread)|N/A|"prefer-object-spread"|
+|[`prefer-object-spread`](https://eslint.org/docs/rules/prefer-object-spread)|N/A 👻|"prefer-object-spread"|
 |[`prefer-promise-reject-errors`](https://eslint.org/docs/rules/prefer-promise-reject-errors)|error 🚨|"prefer-promise-reject-errors"|
 |[`prefer-reflect`](https://eslint.org/docs/rules/prefer-reflect)|"prefer-reflect"|"prefer-reflect"|
 |[`prefer-rest-params`](https://eslint.org/docs/rules/prefer-rest-params)|error 🚨|"prefer-rest-params"|
 |[`prefer-spread`](https://eslint.org/docs/rules/prefer-spread)|error 🚨|"prefer-spread"|
 |[`prefer-template`](https://eslint.org/docs/rules/prefer-template)|"prefer-template"|"prefer-template"|
-|[`promise/always-return`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/always-return.md)|error 🚨|N/A|
-|[`promise/avoid-new`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/avoid-new.md)|"promise/avoid-new"|N/A|
-|[`promise/catch-or-return`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/catch-or-return.md)|error 🚨|N/A|
-|[`promise/no-callback-in-promise`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-callback-in-promise.md)|"promise/no-callback-in-promise"|N/A|
-|[`promise/no-native`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-native.md)|"promise/no-native"|N/A|
-|[`promise/no-nesting`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-nesting.md)|"promise/no-nesting"|N/A|
-|[`promise/no-new-statics`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-new-statics.md)|error 🚨|N/A|
-|[`promise/no-promise-in-callback`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-promise-in-callback.md)|"promise/no-promise-in-callback"|N/A|
-|[`promise/no-return-in-finally`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-return-in-finally.md)|error 🚨|N/A|
-|[`promise/no-return-wrap`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-return-wrap.md)|error 🚨|N/A|
-|[`promise/param-names`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/param-names.md)|error 🚨|N/A|
-|[`promise/prefer-await-to-callbacks`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/prefer-await-to-callbacks.md)|warn ⚠️|N/A|
-|[`promise/prefer-await-to-then`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/prefer-await-to-then.md)|warn ⚠️|N/A|
-|[`promise/valid-params`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/valid-params.md)|error 🚨|N/A|
+|[`promise/always-return`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/always-return.md)|error 🚨|N/A 👻|
+|[`promise/avoid-new`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/avoid-new.md)|"promise/avoid-new"|N/A 👻|
+|[`promise/catch-or-return`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/catch-or-return.md)|error 🚨|N/A 👻|
+|[`promise/no-callback-in-promise`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-callback-in-promise.md)|"promise/no-callback-in-promise"|N/A 👻|
+|[`promise/no-native`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-native.md)|"promise/no-native"|N/A 👻|
+|[`promise/no-nesting`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-nesting.md)|"promise/no-nesting"|N/A 👻|
+|[`promise/no-new-statics`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-new-statics.md)|error 🚨|N/A 👻|
+|[`promise/no-promise-in-callback`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-promise-in-callback.md)|"promise/no-promise-in-callback"|N/A 👻|
+|[`promise/no-return-in-finally`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-return-in-finally.md)|error 🚨|N/A 👻|
+|[`promise/no-return-wrap`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-return-wrap.md)|error 🚨|N/A 👻|
+|[`promise/param-names`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/param-names.md)|error 🚨|N/A 👻|
+|[`promise/prefer-await-to-callbacks`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/prefer-await-to-callbacks.md)|warn ⚠️|N/A 👻|
+|[`promise/prefer-await-to-then`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/prefer-await-to-then.md)|warn ⚠️|N/A 👻|
+|[`promise/valid-params`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/valid-params.md)|error 🚨|N/A 👻|
 |[`quote-props`](https://eslint.org/docs/rules/quote-props)|"quote-props"|"quote-props"|
 |[`quotes`](https://eslint.org/docs/rules/quotes)|"quotes"|"quotes"|
 |[`radix`](https://eslint.org/docs/rules/radix)|error 🚨|"radix"|
@@ -505,13 +505,13 @@ This how Canonical ruleset compares to other popular configurations.
 |[`react/jsx-curly-brace-presence`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-curly-brace-presence.md)|"react/jsx-curly-brace-presence"|"react/jsx-curly-brace-presence"|
 |[`react/jsx-curly-spacing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-curly-spacing.md)|"react/jsx-curly-spacing"|"react/jsx-curly-spacing"|
 |[`react/jsx-equals-spacing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-equals-spacing.md)|"react/jsx-equals-spacing"|"react/jsx-equals-spacing"|
-|[`react/jsx-filename-extension`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-filename-extension.md)|N/A|"react/jsx-filename-extension"|
+|[`react/jsx-filename-extension`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-filename-extension.md)|N/A 👻|"react/jsx-filename-extension"|
 |[`react/jsx-first-prop-new-line`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-first-prop-new-line.md)|"react/jsx-first-prop-new-line"|"react/jsx-first-prop-new-line"|
 |[`react/jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-handler-names.md)|"react/jsx-handler-names"|"react/jsx-handler-names"|
 |[`react/jsx-indent`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-indent.md)|"react/jsx-indent"|"react/jsx-indent"|
 |[`react/jsx-indent-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-indent-props.md)|"react/jsx-indent-props"|"react/jsx-indent-props"|
 |[`react/jsx-key`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-key.md)|error 🚨|"react/jsx-key"|
-|[`react/jsx-max-depth`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-max-depth.md)|N/A|"react/jsx-max-depth"|
+|[`react/jsx-max-depth`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-max-depth.md)|N/A 👻|"react/jsx-max-depth"|
 |[`react/jsx-max-props-per-line`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-max-props-per-line.md)|"react/jsx-max-props-per-line"|"react/jsx-max-props-per-line"|
 |[`react/jsx-no-bind`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-bind.md)|"react/jsx-no-bind"|"react/jsx-no-bind"|
 |[`react/jsx-no-comment-textnodes`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-comment-textnodes.md)|error 🚨|"react/jsx-no-comment-textnodes"|
@@ -523,9 +523,9 @@ This how Canonical ruleset compares to other popular configurations.
 |[`react/jsx-pascal-case`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-pascal-case.md)|error 🚨|"react/jsx-pascal-case"|
 |[`react/jsx-props-no-multi-spaces`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-props-no-multi-spaces.md)|error 🚨|"react/jsx-props-no-multi-spaces"|
 |[`react/jsx-sort-default-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-sort-default-props.md)|error 🚨|"react/jsx-sort-default-props"|
-|`react/jsx-sort-prop-types`|N/A|"react/jsx-sort-prop-types"|
+|`react/jsx-sort-prop-types`|N/A 👻|"react/jsx-sort-prop-types"|
 |[`react/jsx-sort-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-sort-props.md)|error 🚨|"react/jsx-sort-props"|
-|[`react/jsx-space-before-closing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-space-before-closing.md)|N/A|"react/jsx-space-before-closing"|
+|[`react/jsx-space-before-closing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-space-before-closing.md)|N/A 👻|"react/jsx-space-before-closing"|
 |[`react/jsx-tag-spacing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-tag-spacing.md)|"react/jsx-tag-spacing"|"react/jsx-tag-spacing"|
 |[`react/jsx-uses-react`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-uses-react.md)|warn ⚠️|"react/jsx-uses-react"|
 |[`react/jsx-uses-vars`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-uses-vars.md)|warn ⚠️|"react/jsx-uses-vars"|
@@ -543,7 +543,7 @@ This how Canonical ruleset compares to other popular configurations.
 |[`react/no-is-mounted`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-is-mounted.md)|error 🚨|"react/no-is-mounted"|
 |[`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-multi-comp.md)|error 🚨|"react/no-multi-comp"|
 |[`react/no-redundant-should-component-update`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-redundant-should-component-update.md)|error 🚨|"react/no-redundant-should-component-update"|
-|[`react/no-render-return-value`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-render-return-value.md)|N/A|"react/no-render-return-value"|
+|[`react/no-render-return-value`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-render-return-value.md)|N/A 👻|"react/no-render-return-value"|
 |[`react/no-set-state`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-set-state.md)|error 🚨|"react/no-set-state"|
 |[`react/no-string-refs`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-string-refs.md)|error 🚨|"react/no-string-refs"|
 |[`react/no-this-in-sfc`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-this-in-sfc.md)|error 🚨|"react/no-this-in-sfc"|
@@ -559,23 +559,23 @@ This how Canonical ruleset compares to other popular configurations.
 |[`react/prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/prop-types.md)|error 🚨|"react/prop-types"|
 |[`react/react-in-jsx-scope`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/react-in-jsx-scope.md)|error 🚨|"react/react-in-jsx-scope"|
 |[`react/require-default-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/require-default-props.md)|error 🚨|"react/require-default-props"|
-|[`react/require-optimization`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/require-optimization.md)|N/A|"react/require-optimization"|
+|[`react/require-optimization`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/require-optimization.md)|N/A 👻|"react/require-optimization"|
 |[`react/require-render-return`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/require-render-return.md)|error 🚨|"react/require-render-return"|
 |[`react/self-closing-comp`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/self-closing-comp.md)|error 🚨|"react/self-closing-comp"|
 |[`react/sort-comp`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/sort-comp.md)|error 🚨|"react/sort-comp"|
 |[`react/sort-prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/sort-prop-types.md)|error 🚨|"react/sort-prop-types"|
 |[`react/style-prop-object`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/style-prop-object.md)|error 🚨|"react/style-prop-object"|
 |[`react/void-dom-elements-no-children`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/void-dom-elements-no-children.md)|error 🚨|"react/void-dom-elements-no-children"|
-|[`require-atomic-updates`](https://eslint.org/docs/rules/require-atomic-updates)|N/A|"require-atomic-updates"|
+|[`require-atomic-updates`](https://eslint.org/docs/rules/require-atomic-updates)|N/A 👻|"require-atomic-updates"|
 |[`require-await`](https://eslint.org/docs/rules/require-await)|warn ⚠️|"require-await"|
 |[`require-jsdoc`](https://eslint.org/docs/rules/require-jsdoc)|"require-jsdoc"|"require-jsdoc"|
-|[`require-unicode-regexp`](https://eslint.org/docs/rules/require-unicode-regexp)|N/A|"require-unicode-regexp"|
+|[`require-unicode-regexp`](https://eslint.org/docs/rules/require-unicode-regexp)|N/A 👻|"require-unicode-regexp"|
 |[`require-yield`](https://eslint.org/docs/rules/require-yield)|error 🚨|"require-yield"|
-|[`rest-spread-spacing`](https://eslint.org/docs/rules/rest-spread-spacing)|N/A|"rest-spread-spacing"|
+|[`rest-spread-spacing`](https://eslint.org/docs/rules/rest-spread-spacing)|N/A 👻|"rest-spread-spacing"|
 |[`semi`](https://eslint.org/docs/rules/semi)|"semi"|"semi"|
 |[`semi-spacing`](https://eslint.org/docs/rules/semi-spacing)|"semi-spacing"|"semi-spacing"|
 |[`semi-style`](https://eslint.org/docs/rules/semi-style)|"semi-style"|"semi-style"|
-|[`sort-imports`](https://eslint.org/docs/rules/sort-imports)|N/A|"sort-imports"|
+|[`sort-imports`](https://eslint.org/docs/rules/sort-imports)|N/A 👻|"sort-imports"|
 |[`sort-keys`](https://eslint.org/docs/rules/sort-keys)|"sort-keys"|"sort-keys"|
 |[`sort-vars`](https://eslint.org/docs/rules/sort-vars)|error 🚨|"sort-vars"|
 |[`space-before-blocks`](https://eslint.org/docs/rules/space-before-blocks)|"space-before-blocks"|"space-before-blocks"|
@@ -587,35 +587,35 @@ This how Canonical ruleset compares to other popular configurations.
 |[`strict`](https://eslint.org/docs/rules/strict)|"strict"|"strict"|
 |[`switch-colon-spacing`](https://eslint.org/docs/rules/switch-colon-spacing)|"switch-colon-spacing"|"switch-colon-spacing"|
 |[`symbol-description`](https://eslint.org/docs/rules/symbol-description)|error 🚨|"symbol-description"|
-|[`template-curly-spacing`](https://eslint.org/docs/rules/template-curly-spacing)|N/A|"template-curly-spacing"|
+|[`template-curly-spacing`](https://eslint.org/docs/rules/template-curly-spacing)|N/A 👻|"template-curly-spacing"|
 |[`template-tag-spacing`](https://eslint.org/docs/rules/template-tag-spacing)|"template-tag-spacing"|"template-tag-spacing"|
 |[`unicode-bom`](https://eslint.org/docs/rules/unicode-bom)|"unicode-bom"|"unicode-bom"|
-|[`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/catch-error-name.md)|"unicorn/catch-error-name"|N/A|
-|[`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/custom-error-definition.md)|"unicorn/custom-error-definition"|N/A|
-|[`unicorn/error-message`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/error-message.md)|error 🚨|N/A|
-|[`unicorn/explicit-length-check`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/explicit-length-check.md)|"unicorn/explicit-length-check"|N/A|
-|[`unicorn/filename-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/filename-case.md)|"unicorn/filename-case"|N/A|
-|[`unicorn/import-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/import-index.md)|error 🚨|N/A|
-|[`unicorn/new-for-builtins`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/new-for-builtins.md)|error 🚨|N/A|
-|[`unicorn/no-abusive-eslint-disable`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-abusive-eslint-disable.md)|error 🚨|N/A|
-|[`unicorn/no-array-instanceof`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-array-instanceof.md)|error 🚨|N/A|
-|[`unicorn/no-fn-reference-in-iterator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-fn-reference-in-iterator.md)|"unicorn/no-fn-reference-in-iterator"|N/A|
-|[`unicorn/no-hex-escape`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-hex-escape.md)|error 🚨|N/A|
-|[`unicorn/no-new-buffer`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-new-buffer.md)|error 🚨|N/A|
-|[`unicorn/no-process-exit`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-process-exit.md)|"unicorn/no-process-exit"|N/A|
-|[`unicorn/number-literal-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/number-literal-case.md)|error 🚨|N/A|
-|[`unicorn/prefer-add-event-listener`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-add-event-listener.md)|"unicorn/prefer-add-event-listener"|N/A|
-|[`unicorn/prefer-exponentiation-operator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-exponentiation-operator.md)|error 🚨|N/A|
-|[`unicorn/prefer-spread`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-spread.md)|"unicorn/prefer-spread"|N/A|
-|[`unicorn/prefer-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-starts-ends-with.md)|error 🚨|N/A|
-|[`unicorn/prefer-type-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-type-error.md)|error 🚨|N/A|
-|[`unicorn/regex-shorthand`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/regex-shorthand.md)|error 🚨|N/A|
-|[`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/throw-new-error.md)|error 🚨|N/A|
+|[`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/catch-error-name.md)|"unicorn/catch-error-name"|N/A 👻|
+|[`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/custom-error-definition.md)|"unicorn/custom-error-definition"|N/A 👻|
+|[`unicorn/error-message`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/error-message.md)|error 🚨|N/A 👻|
+|[`unicorn/explicit-length-check`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/explicit-length-check.md)|"unicorn/explicit-length-check"|N/A 👻|
+|[`unicorn/filename-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/filename-case.md)|"unicorn/filename-case"|N/A 👻|
+|[`unicorn/import-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/import-index.md)|error 🚨|N/A 👻|
+|[`unicorn/new-for-builtins`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/new-for-builtins.md)|error 🚨|N/A 👻|
+|[`unicorn/no-abusive-eslint-disable`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-abusive-eslint-disable.md)|error 🚨|N/A 👻|
+|[`unicorn/no-array-instanceof`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-array-instanceof.md)|error 🚨|N/A 👻|
+|[`unicorn/no-fn-reference-in-iterator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-fn-reference-in-iterator.md)|"unicorn/no-fn-reference-in-iterator"|N/A 👻|
+|[`unicorn/no-hex-escape`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-hex-escape.md)|error 🚨|N/A 👻|
+|[`unicorn/no-new-buffer`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-new-buffer.md)|error 🚨|N/A 👻|
+|[`unicorn/no-process-exit`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/no-process-exit.md)|"unicorn/no-process-exit"|N/A 👻|
+|[`unicorn/number-literal-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/number-literal-case.md)|error 🚨|N/A 👻|
+|[`unicorn/prefer-add-event-listener`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-add-event-listener.md)|"unicorn/prefer-add-event-listener"|N/A 👻|
+|[`unicorn/prefer-exponentiation-operator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-exponentiation-operator.md)|error 🚨|N/A 👻|
+|[`unicorn/prefer-spread`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-spread.md)|"unicorn/prefer-spread"|N/A 👻|
+|[`unicorn/prefer-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-starts-ends-with.md)|error 🚨|N/A 👻|
+|[`unicorn/prefer-type-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/prefer-type-error.md)|error 🚨|N/A 👻|
+|[`unicorn/regex-shorthand`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/regex-shorthand.md)|error 🚨|N/A 👻|
+|[`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v6.0.1/docs/rules/throw-new-error.md)|error 🚨|N/A 👻|
 |[`use-isnan`](https://eslint.org/docs/rules/use-isnan)|error 🚨|"use-isnan"|
 |[`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc)|"valid-jsdoc"|"valid-jsdoc"|
-|[`valid-typeof`](https://eslint.org/docs/rules/valid-typeof)|N/A|"valid-typeof"|
+|[`valid-typeof`](https://eslint.org/docs/rules/valid-typeof)|N/A 👻|"valid-typeof"|
 |[`vars-on-top`](https://eslint.org/docs/rules/vars-on-top)|error 🚨|"vars-on-top"|
 |[`wrap-iife`](https://eslint.org/docs/rules/wrap-iife)|"wrap-iife"|"wrap-iife"|
 |[`wrap-regex`](https://eslint.org/docs/rules/wrap-regex)|"wrap-regex"|"wrap-regex"|
-|[`yield-star-spacing`](https://eslint.org/docs/rules/yield-star-spacing)|N/A|"yield-star-spacing"|
+|[`yield-star-spacing`](https://eslint.org/docs/rules/yield-star-spacing)|N/A 👻|"yield-star-spacing"|
 |[`yoda`](https://eslint.org/docs/rules/yoda)|"yoda"|"yoda"|

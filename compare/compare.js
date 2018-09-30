@@ -49,7 +49,7 @@ const getRuleLink = (ruleName, engines) => {
 
 const getRuleConfiguration = (ruleset, ruleName) => {
   if (ruleset[ruleName] === undefined) {
-    return 'N/A';
+    return 'N/A 👻';
   }
 
   if (ruleset[ruleName] === 1) {
