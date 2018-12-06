@@ -13,6 +13,7 @@
       "always"
     ],
     "lodash/collection-method-value": 1,
+    "lodash/collection-ordering": 2,
     "lodash/collection-return": 1,
     "lodash/consistent-compose": [
       1,

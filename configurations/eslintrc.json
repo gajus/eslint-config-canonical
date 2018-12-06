@@ -254,6 +254,7 @@
       1,
       "always"
     ],
+    "jsdoc/require-description": 0,
     "jsdoc/require-description-complete-sentence": 0,
     "jsdoc/require-hyphen-before-param-description": 0,
     "jsdoc/require-param": 0,

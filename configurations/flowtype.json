@@ -28,6 +28,7 @@
       2,
       "comma"
     ],
+    "flowtype/require-compound-type-alias": 1,
     "flowtype/require-exact-type": 1,
     "flowtype/require-parameter-type": 0,
     "flowtype/require-return-type": 0,
