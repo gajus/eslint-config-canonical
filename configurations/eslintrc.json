@@ -16,6 +16,7 @@
     "sourceType": "module"
   },
   "plugins": [
+    "fp",
     "no-use-extend-native",
     "babel",
     "import",
@@ -117,6 +118,22 @@
     ],
     "filenames/no-index": 0,
     "for-direction": 2,
+    "fp/no-arguments": 2,
+    "fp/no-class": 2,
+    "fp/no-delete": 2,
+    "fp/no-events": 2,
+    "fp/no-get-set": 2,
+    "fp/no-let": 0,
+    "fp/no-loops": 0,
+    "fp/no-mutating-assign": 2,
+    "fp/no-mutating-methods": 0,
+    "fp/no-mutation": 0,
+    "fp/no-nil": 0,
+    "fp/no-proxy": 2,
+    "fp/no-rest-parameters": 0,
+    "fp/no-this": 2,
+    "fp/no-throw": 0,
+    "fp/no-valueof-field": 2,
     "func-call-spacing": [
       2,
       "never"
