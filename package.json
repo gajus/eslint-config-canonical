@@ -1,14 +1,13 @@
 {
-  "ava": {},
   "author": {
     "email": "gajus@gajus.com",
     "name": "Gajus Kuizinas",
     "url": "http://gajus.com"
   },
+  "ava": {
+  },
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-config-google": "^0.11.0",
-    "eslint-config-standard": "^12.0.0",
     "eslint-plugin-ava": "^5.1.1",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-filenames": "^1.3.2",
@@ -32,6 +31,11 @@
     "jsonlint": "^1.6.3",
     "semantic-release": "^15.12.4"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format && npm run test"
+    }
+  },
   "keywords": [
     "eslint",
     "canonical"
@@ -41,11 +45,6 @@
   "name": "eslint-config-canonical",
   "peerDependencies": {
     "eslint": "^5.9.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format && npm run test"
-    }
   },
   "repository": {
     "type": "git",
