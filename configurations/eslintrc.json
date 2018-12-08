@@ -118,7 +118,7 @@
     ],
     "filenames/no-index": 0,
     "for-direction": 2,
-    "fp/fp/no-unused-expression": 0,
+    "fp/no-unused-expression": 0,
     "fp/no-arguments": 2,
     "fp/no-class": 2,
     "fp/no-delete": 2,
