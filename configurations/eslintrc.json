@@ -120,7 +120,7 @@
     "for-direction": 2,
     "fp/no-unused-expression": 0,
     "fp/no-arguments": 2,
-    "fp/no-class": 2,
+    "fp/no-class": 0,
     "fp/no-delete": 2,
     "fp/no-events": 2,
     "fp/no-get-set": 2,
@@ -132,7 +132,7 @@
     "fp/no-nil": 0,
     "fp/no-proxy": 2,
     "fp/no-rest-parameters": 0,
-    "fp/no-this": 2,
+    "fp/no-this": 0,
     "fp/no-throw": 0,
     "fp/no-valueof-field": 2,
     "func-call-spacing": [
