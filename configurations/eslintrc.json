@@ -16,6 +16,7 @@
     "sourceType": "module"
   },
   "plugins": [
+    "sort-keys-fix",
     "fp",
     "no-use-extend-native",
     "babel",
@@ -118,7 +119,6 @@
     ],
     "filenames/no-index": 0,
     "for-direction": 2,
-    "fp/no-unused-expression": 0,
     "fp/no-arguments": 2,
     "fp/no-class": 0,
     "fp/no-delete": 2,
@@ -134,6 +134,7 @@
     "fp/no-rest-parameters": 0,
     "fp/no-this": 0,
     "fp/no-throw": 0,
+    "fp/no-unused-expression": 0,
     "fp/no-valueof-field": 2,
     "func-call-spacing": [
       2,
@@ -619,7 +620,7 @@
       2,
       "last"
     ],
-    "sort-keys": [
+    "sort-keys-fix/sort-keys-fix": [
       2,
       "asc",
       {

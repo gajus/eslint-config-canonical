@@ -4,8 +4,7 @@
     "name": "Gajus Kuizinas",
     "url": "http://gajus.com"
   },
-  "ava": {
-  },
+  "ava": {},
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-plugin-ava": "^5.1.1",
@@ -21,6 +20,7 @@
     "eslint-plugin-no-use-extend-native": "^0.3.12",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-sort-keys-fix": "^1.0.1",
     "eslint-plugin-unicorn": "^6.0.1"
   },
   "description": "Canonical ESLint Shareable Config",
