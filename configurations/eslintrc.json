@@ -88,8 +88,8 @@
       "last"
     ],
     "complexity": [
-      1,
-      10
+      2,
+      20
     ],
     "computed-property-spacing": [
       2,
