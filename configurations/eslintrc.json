@@ -461,10 +461,7 @@
     "no-restricted-globals": 0,
     "no-restricted-modules": 0,
     "no-restricted-properties": 0,
-    "no-restricted-syntax": [
-      2,
-      "TemplateLiteral"
-    ],
+    "no-restricted-syntax": 0,
     "no-return-assign": 2,
     "no-return-await": 2,
     "no-script-url": 2,
