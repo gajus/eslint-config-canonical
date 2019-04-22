@@ -36,6 +36,10 @@
       2,
       "multiline-multiprop"
     ],
+    "react/jsx-fragments": [
+      2,
+      "element"
+    ],
     "react/jsx-handler-names": [
       2,
       {
