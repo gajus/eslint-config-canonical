@@ -703,7 +703,14 @@
     "unicorn/prefer-starts-ends-with": 2,
     "unicorn/prefer-text-content": 2,
     "unicorn/prefer-type-error": 2,
-    "unicorn/prevent-abbreviations": 2,
+    "unicorn/prevent-abbreviations": [
+      2,
+      {
+        "replacements": {
+          "args": false
+        }
+      }
+    ],
     "unicorn/regex-shorthand": 2,
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,
