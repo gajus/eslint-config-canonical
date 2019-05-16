@@ -24,7 +24,7 @@
     "ava/no-todo-test": 1,
     "ava/no-unknown-modifiers": 2,
     "ava/prefer-async-await": 2,
-    "ava/prefer-power-assert": 2,
+    "ava/prefer-power-assert": 0,
     "ava/test-ended": 2,
     "ava/test-title": [
       2,
