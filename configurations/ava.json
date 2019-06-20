@@ -13,7 +13,7 @@
     "ava/no-duplicate-modifiers": 2,
     "ava/no-identical-title": 2,
     "ava/no-ignored-test-files": 2,
-    "ava/no-import-test-files": 2,
+    "ava/no-import-test-files": 0,
     "ava/no-invalid-end": 2,
     "ava/no-nested-tests": 2,
     "ava/no-only-test": 2,
