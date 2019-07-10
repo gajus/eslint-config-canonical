@@ -38,7 +38,7 @@
     ],
     "react/jsx-fragments": [
       2,
-      "element"
+      "syntax"
     ],
     "react/jsx-handler-names": [
       2,
