@@ -375,7 +375,7 @@
     "no-console": 2,
     "no-const-assign": 2,
     "no-constant-condition": 1,
-    "no-continue": 2,
+    "no-continue": 0,
     "no-control-regex": 2,
     "no-debugger": 1,
     "no-delete-var": 2,
