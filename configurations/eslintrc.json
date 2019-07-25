@@ -74,7 +74,7 @@
     "class-methods-use-this": 2,
     "comma-dangle": [
       2,
-      "never"
+      "always-multiline"
     ],
     "comma-spacing": [
       2,
