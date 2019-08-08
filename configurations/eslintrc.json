@@ -220,7 +220,7 @@
     "import/no-cycle": 2,
     "import/no-default-export": 0,
     "import/no-deprecated": 1,
-    "import/no-duplicates": 0,
+    "import/no-duplicates": 1,
     "import/no-dynamic-require": 2,
     "import/no-extraneous-dependencies": [
       2,
@@ -384,7 +384,7 @@
     "no-dupe-class-members": 2,
     "no-dupe-keys": 2,
     "no-duplicate-case": 2,
-    "no-duplicate-imports": 2,
+    "no-duplicate-imports": 0,
     "no-else-return": 0,
     "no-empty": 2,
     "no-empty-character-class": 2,
