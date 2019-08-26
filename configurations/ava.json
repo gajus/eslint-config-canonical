@@ -4,6 +4,7 @@
   ],
   "rules": {
     "ava/assertion-arguments": 2,
+    "ava/hooks-order": 2,
     "ava/max-asserts": [
       1,
       5
@@ -14,6 +15,8 @@
     "ava/no-identical-title": 2,
     "ava/no-ignored-test-files": 2,
     "ava/no-import-test-files": 0,
+    "ava/no-incorrect-deep-equal": 2,
+    "ava/no-inline-assertions": 2,
     "ava/no-invalid-end": 2,
     "ava/no-nested-tests": 2,
     "ava/no-only-test": 2,
