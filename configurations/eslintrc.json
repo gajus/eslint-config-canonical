@@ -710,7 +710,9 @@
       {
         "replacements": {
           "args": false,
-          "props": false
+          "props": false,
+          "ref": false,
+          "rel": false
         }
       }
     ],
