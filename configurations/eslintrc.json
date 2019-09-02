@@ -709,7 +709,8 @@
       2,
       {
         "replacements": {
-          "args": false
+          "args": false,
+          "props": false
         }
       }
     ],
