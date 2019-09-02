@@ -1,8 +1,11 @@
 {
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ],
   "rules": {
+    "react-hooks/exhaustive-deps": 1,
+    "react-hooks/rules-of-hooks": 2,
     "react/boolean-prop-naming": 0,
     "react/button-has-type": 2,
     "react/default-props-match-prop-types": 2,
