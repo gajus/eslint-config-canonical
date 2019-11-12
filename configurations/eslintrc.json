@@ -675,8 +675,19 @@
         "name": "error"
       }
     ],
+    "unicorn/consistent-function-scoping": 1,
     "unicorn/custom-error-definition": 0,
     "unicorn/error-message": 2,
+    "unicorn/expiring-todo-comments": [
+      2,
+      {
+        "allowWarningComments": true,
+        "ignoreDatesOnPullRequests": true,
+        "terms": [
+          "todo"
+        ]
+      }
+    ],
     "unicorn/explicit-length-check": 0,
     "unicorn/filename-case": 0,
     "unicorn/import-index": 2,
@@ -687,6 +698,7 @@
     "unicorn/no-fn-reference-in-iterator": 0,
     "unicorn/no-for-loop": 2,
     "unicorn/no-hex-escape": 2,
+    "unicorn/no-nested-ternary": 0,
     "unicorn/no-new-buffer": 2,
     "unicorn/no-process-exit": 0,
     "unicorn/no-unreadable-array-destructuring": 0,
@@ -694,6 +706,7 @@
     "unicorn/no-zero-fractions": 2,
     "unicorn/number-literal-case": 2,
     "unicorn/prefer-add-event-listener": 0,
+    "unicorn/prefer-dataset": 2,
     "unicorn/prefer-event-key": 2,
     "unicorn/prefer-exponentiation-operator": 2,
     "unicorn/prefer-flat-map": 2,
@@ -701,8 +714,10 @@
     "unicorn/prefer-node-append": 2,
     "unicorn/prefer-node-remove": 2,
     "unicorn/prefer-query-selector": 2,
+    "unicorn/prefer-reflect-apply": 2,
     "unicorn/prefer-spread": 0,
     "unicorn/prefer-starts-ends-with": 2,
+    "unicorn/prefer-string-slice": 2,
     "unicorn/prefer-text-content": 2,
     "unicorn/prefer-type-error": 2,
     "unicorn/prevent-abbreviations": [
