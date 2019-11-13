@@ -16,6 +16,7 @@
     "sourceType": "module"
   },
   "plugins": [
+    "sort-keys-fix",
     "fp",
     "no-use-extend-native",
     "babel",
@@ -616,7 +617,8 @@
       2,
       "last"
     ],
-    "sort-keys": [
+    "sort-keys": 0,
+    "sort-keys-fix/sort-keys-fix": [
       2,
       "asc",
       {
