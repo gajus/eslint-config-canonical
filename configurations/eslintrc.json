@@ -198,12 +198,7 @@
         "json": "always"
       }
     ],
-    "import/first": [
-      2,
-      {
-        "absolute-first": true
-      }
-    ],
+    "import/first": 2,
     "import/group-exports": 0,
     "import/max-dependencies": [
       1,
