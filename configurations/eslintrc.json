@@ -733,7 +733,7 @@
         }
       }
     ],
-    "unicorn/regex-shorthand": 2,
+    "unicorn/regex-shorthand": 0,
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,
     "valid-jsdoc": 0,
