@@ -35,10 +35,6 @@
     ],
     "flowtype/require-compound-type-alias": 1,
     "flowtype/require-exact-type": 1,
-    "flowtype/require-indexer-name": [
-      2,
-      "never"
-    ],
     "flowtype/require-inexact-type": [
       2,
       "always"
