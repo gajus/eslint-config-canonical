@@ -32,6 +32,7 @@
     "ava/test-ended": 2,
     "ava/test-title": 2,
     "ava/use-t": 2,
+    "ava/use-t-throws-async-well": 2,
     "ava/use-t-well": 2,
     "ava/use-test": 2,
     "ava/use-true-false": 2
