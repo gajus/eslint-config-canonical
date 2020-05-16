@@ -721,7 +721,7 @@
     "unicorn/prefer-query-selector": 2,
     "unicorn/prefer-reflect-apply": 2,
     "unicorn/prefer-replace-all": 0,
-    "unicorn/prefer-set-has": 1,
+    "unicorn/prefer-set-has": 0,
     "unicorn/prefer-spread": 0,
     "unicorn/prefer-starts-ends-with": 2,
     "unicorn/prefer-string-slice": 2,
