@@ -33,12 +33,7 @@
       2,
       "never"
     ],
-    "array-callback-return": [
-      2,
-      {
-        "allowImplicit": true
-      }
-    ],
+    "array-callback-return": 2,
     "array-element-newline": 0,
     "arrow-body-style": [
       2,
@@ -709,7 +704,7 @@
     "unicorn/no-reduce": 2,
     "unicorn/no-unreadable-array-destructuring": 0,
     "unicorn/no-unused-properties": 1,
-    "unicorn/no-useless-undefined": 2,
+    "unicorn/no-useless-undefined": 0,
     "unicorn/no-zero-fractions": 2,
     "unicorn/number-literal-case": 2,
     "unicorn/prefer-add-event-listener": 0,
