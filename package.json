@@ -37,6 +37,10 @@
     "eslint-plugin-unicorn": "^20.0.0"
   },
   "description": "Canonical ESLint Shareable Config",
+  "peerDependencies": "^6.0.0 || ^7.0.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
     "@babel/core": "^7.9.6",
@@ -54,6 +58,7 @@
   },
   "keywords": [
     "eslint",
+    "eslintconfig",
     "canonical"
   ],
   "license": "BSD-3-Clause",
