@@ -57,6 +57,14 @@ const getRules = async (configuration) => {
       return '[`' + ruleName + '`](https://eslint.org/docs/rules/' + ruleName + ')';
     }
 
+    if (ruleName.startsWith('fp/')) {
+      return '[`' + ruleName + '`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/' + ruleName.replace(/^fp\//, '') + '.md)';
+    }
+
+    if (ruleName.startsWith('ava/')) {
+      return '[`' + ruleName + '`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/' + ruleName.replace(/^ava\//, '') + '.md)';
+    }
+
     if (ruleName.startsWith('unicorn/')) {
       return '[`' + ruleName + '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/' + ruleName.replace(/^unicorn\//, '') + '.md)';
     }
