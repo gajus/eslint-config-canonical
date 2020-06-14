@@ -81,7 +81,31 @@
     "react/jsx-no-target-blank": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-one-expression-per-line": 0,
-    "react/jsx-pascal-case": 2,
+    "react/jsx-pascal-case": [
+      2,
+      {
+        "ignore": [
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "p",
+          "h4",
+          "a",
+          "ul",
+          "ol",
+          "li",
+          "img",
+          "div",
+          "span",
+          "dl",
+          "dt",
+          "dd"
+        ]
+      }
+    ],
     "react/jsx-props-no-multi-spaces": 2,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-sort-default-props": 2,
