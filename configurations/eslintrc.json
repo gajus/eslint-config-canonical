@@ -34,7 +34,10 @@
       "never"
     ],
     "array-callback-return": 2,
-    "array-element-newline": 0,
+    "array-element-newline": [
+      2,
+      "consistent"
+    ],
     "arrow-body-style": [
       2,
       "always"
