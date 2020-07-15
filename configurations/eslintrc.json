@@ -160,7 +160,6 @@
         "before": true
       }
     ],
-    "global-require": 2,
     "guard-for-in": 2,
     "handle-callback-err": 2,
     "id-length": [
@@ -435,7 +434,6 @@
     "no-new": 2,
     "no-new-func": 2,
     "no-new-object": 2,
-    "no-new-require": 2,
     "no-new-symbol": 2,
     "no-new-wrappers": 2,
     "no-obj-calls": 2,
@@ -447,9 +445,6 @@
         "props": false
       }
     ],
-    "no-path-concat": 2,
-    "no-process-env": 2,
-    "no-process-exit": 2,
     "no-proto": 2,
     "no-redeclare": [
       2,

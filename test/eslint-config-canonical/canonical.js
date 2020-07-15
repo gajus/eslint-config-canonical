@@ -8,6 +8,7 @@ const configurations = [
   'jest',
   'lodash',
   'mocha',
+  'node',
   'react',
 ];
 

@@ -18,6 +18,7 @@ This package includes the following configurations:
 * [`canonical/jest`](./configurations/jest.json) – To be used in addition to "canonical" configuration by projects that use [jest](https://facebook.github.io/jest/).
 * [`canonical/lodash`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
 * [`canonical/mocha`](./configurations/mocha.json) – To be used in addition to "canonical" configuration by projects that use [Mocha](https://mochajs.org/).
+* [`canonical/node`](./configurations/node.json) – To be used in addition to "canonical" configuration by projects that use Node.js.
 * [`canonical/react`](./configurations/react.json) – To be used in addition to "canonical" configuration by projects that use [React](https://facebook.github.io/react/).
 
 Example:
@@ -31,6 +32,7 @@ Example:
     "canonical/jest",
     "canonical/lodash",
     "canonical/mocha",
+    "canonical/node",
     "canonical/react"
   ]
 }
