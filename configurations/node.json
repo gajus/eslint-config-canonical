@@ -50,6 +50,16 @@
     "node/prefer-promises/dns": 2,
     "node/prefer-promises/fs": 2,
     "node/process-exit-as-throw": 2,
-    "node/shebang": 2
+    "node/shebang": [
+      2,
+      {
+        "convertPath": {
+          "src/**/*.js": [
+            "^src/(.+?)\\.js$",
+            "dist/$1.js"
+          ]
+        }
+      }
+    ]
   }
 }
