@@ -72,7 +72,6 @@
         "allowSingleLine": false
       }
     ],
-    "callback-return": 2,
     "camelcase": 0,
     "capitalized-comments": 0,
     "class-methods-use-this": 2,
