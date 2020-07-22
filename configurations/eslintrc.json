@@ -344,6 +344,8 @@
         "max": 1
       }
     ],
+    "modules-newline/export-declaration-newline": 2,
+    "modules-newline/import-declaration-newline": 2,
     "multiline-comment-style": 0,
     "multiline-ternary": 0,
     "new-cap": [
@@ -526,6 +528,19 @@
       2,
       "below"
     ],
+    "object-curly-newline": [
+      2,
+      {
+        "ExportDeclaration": {
+          "minProperties": 1,
+          "multiline": true
+        },
+        "ImportDeclaration": {
+          "minProperties": 1,
+          "multiline": true
+        }
+      }
+    ],
     "object-curly-spacing": [
       0,
       "never"
@@ -697,6 +712,7 @@
     "unicorn/no-nested-ternary": 0,
     "unicorn/no-new-buffer": 2,
     "unicorn/no-null": 0,
+    "unicorn/no-object-as-default-parameter": 2,
     "unicorn/no-process-exit": 0,
     "unicorn/no-reduce": 2,
     "unicorn/no-unreadable-array-destructuring": 0,
@@ -705,6 +721,7 @@
     "unicorn/no-zero-fractions": 2,
     "unicorn/number-literal-case": 2,
     "unicorn/prefer-add-event-listener": 0,
+    "unicorn/prefer-array-find": 2,
     "unicorn/prefer-dataset": 2,
     "unicorn/prefer-event-key": 2,
     "unicorn/prefer-flat-map": 2,
