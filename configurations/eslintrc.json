@@ -344,8 +344,6 @@
         "max": 1
       }
     ],
-    "modules-newline/export-declaration-newline": 2,
-    "modules-newline/import-declaration-newline": 2,
     "multiline-comment-style": 0,
     "multiline-ternary": 0,
     "new-cap": [
