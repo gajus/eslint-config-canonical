@@ -245,6 +245,10 @@
     "import/order": [
       2,
       {
+        "alphabetize": {
+          "caseInsensitive": false,
+          "order": "asc"
+        },
         "groups": [
           "builtin",
           "external",
