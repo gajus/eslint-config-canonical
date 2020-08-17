@@ -770,7 +770,8 @@
   },
   "settings": {
     "import/extensions": [
-      ".js"
+      ".js",
+      ".ts"
     ]
   }
 }
