@@ -633,6 +633,7 @@
       2,
       "last"
     ],
+    "sort-imports": 1,
     "sort-keys": 0,
     "sort-keys-fix/sort-keys-fix": [
       2,
