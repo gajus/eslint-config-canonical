@@ -36,6 +36,7 @@
       2,
       "never"
     ],
+    "react/jsx-filename-extension": 0,
     "react/jsx-first-prop-new-line": [
       2,
       "multiline-multiprop"
@@ -47,6 +48,8 @@
     "react/jsx-handler-names": [
       2,
       {
+        "checkInlineFunction": true,
+        "checkLocalVariables": true,
         "eventHandlerPrefix": "handle",
         "eventHandlerPropPrefix": "on"
       }
@@ -59,7 +62,13 @@
       2,
       2
     ],
-    "react/jsx-key": 2,
+    "react/jsx-key": [
+      2,
+      {
+        "checkFragmentShorthand": true,
+        "checkKeyMustBeforeSpread": true
+      }
+    ],
     "react/jsx-max-props-per-line": [
       2,
       {
