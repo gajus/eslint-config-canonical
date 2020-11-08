@@ -14,6 +14,7 @@ This package includes the following configurations:
 
 * [`canonical`](./configurations/eslintrc.json) – The Canonical code style guide.
 * [`canonical/ava`](./configurations/ava.json) – To be used in addition to "canonical" configuration by projects that use [AVA](https://ava.li/).
+* [`canonical/cypress`](./configurations/cypress.json) – To be used in addition to "canonical" configuration by projects that use [Cypress](https://cypress.io/).
 * [`canonical/flowtype`](./configurations/flowtype.json) – To be used in addition to "canonical" configuration by projects that use [Flowtype](https://flowtype.org/).
 * [`canonical/jest`](./configurations/jest.json) – To be used in addition to "canonical" configuration by projects that use [jest](https://facebook.github.io/jest/).
 * [`canonical/lodash`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
@@ -28,6 +29,7 @@ Example:
   "extends": [
     "canonical",
     "canonical/ava",
+    "canonical/cypress",
     "canonical/flowtype",
     "canonical/jest",
     "canonical/lodash",
