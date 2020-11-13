@@ -21,6 +21,7 @@ This package includes the following configurations:
 * [`canonical/mocha`](./configurations/mocha.json) – To be used in addition to "canonical" configuration by projects that use [Mocha](https://mochajs.org/).
 * [`canonical/node`](./configurations/node.json) – To be used in addition to "canonical" configuration by projects that use Node.js.
 * [`canonical/react`](./configurations/react.json) – To be used in addition to "canonical" configuration by projects that use [React](https://facebook.github.io/react/).
+* [`canonical/typescript`](./configurations/typescript.json) – To be used in addition to "canonical" configuration by projects that use [TypeScript](http://typescriptlang.org/).
 
 Example:
 
@@ -35,7 +36,8 @@ Example:
     "canonical/lodash",
     "canonical/mocha",
     "canonical/node",
-    "canonical/react"
+    "canonical/react",
+    "canonical/typescript"
   ]
 }
 ```
