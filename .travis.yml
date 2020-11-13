@@ -13,3 +13,4 @@ after_success:
   - semantic-release
 notifications:
   email: false
+cache: npm
