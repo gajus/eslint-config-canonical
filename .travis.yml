@@ -1,4 +1,5 @@
 os: linux
+dist: focal
 arch: arm64-graviton2
 language: node_js
 node_js:
@@ -6,7 +7,7 @@ node_js:
   - 10
   - 12
   - 14
-scripts:
+script:
   - npm run test
 after_success:
   - semantic-release
