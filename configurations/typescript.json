@@ -8,6 +8,15 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "@typescript-eslint/ban-ts-comment": [
+      2,
+      {
+        "ts-check": true,
+        "ts-expect-error": "allow-with-description",
+        "ts-ignore": false,
+        "ts-nocheck": false
+      }
+    ],
     "no-use-before-define": 0,
     "node/no-missing-import": 0
   }
