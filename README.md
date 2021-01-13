@@ -53,89 +53,89 @@ This is how Canonical ruleset compares to other popular configurations.
 
 |Rule|Canonical|[Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)|[Google](https://www.npmjs.com/package/eslint-config-google)|[Standard](https://www.npmjs.com/package/eslint-config-standard)|
 |---|---|---|---|---|
-|`@typescript-eslint/@typescript-eslint/explicit-member-accessibility`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/adjacent-overload-signatures`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/array-type`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/await-thenable`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/ban-ts-comment`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/ban-tslint-comment`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/ban-types`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/consistent-indexed-object-style`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/consistent-type-assertions`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/consistent-type-definitions`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/consistent-type-imports`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/explicit-function-return-type`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/explicit-module-boundary-types`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/member-delimiter-style`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/member-ordering`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/method-signature-style`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/naming-convention`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-array-constructor`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-base-to-string`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-confusing-non-null-assertion`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-confusing-void-expression`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-duplicate-imports`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-dynamic-delete`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-empty-function`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-empty-interface`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-explicit-any`|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-extra-non-null-assertion`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-extra-semi`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-extraneous-class`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-floating-promises`|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-for-in-array`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-implicit-any-catch`|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-inferrable-types`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-invalid-void-type`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-misused-new`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-misused-promises`|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-namespace`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-non-null-asserted-optional-chain`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-non-null-assertion`|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-parameter-properties`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-require-imports`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-this-alias`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-type-alias`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unnecessary-boolean-literal-compare`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unnecessary-condition`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unnecessary-qualifier`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unnecessary-type-arguments`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unnecessary-type-assertion`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unnecessary-type-constraint`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unsafe-assignment`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unsafe-call`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unsafe-member-access`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unsafe-return`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-unused-vars`|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/no-var-requires`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/non-nullable-type-assertion-style`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-as-const`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-enum-initializers`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-for-of`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-function-type`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-includes`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-literal-enum-member`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-namespace-keyword`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-nullish-coalescing`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-optional-chain`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-readonly`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-readonly-parameter-types`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-reduce-type-parameter`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-regexp-exec`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-string-starts-ends-with`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/prefer-ts-expect-error`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/promise-function-async`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/require-array-sort-compare`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/restrict-plus-operands`|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/restrict-template-expressions`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/sort-type-union-intersection-members`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/strict-boolean-expressions`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/switch-exhaustiveness-check`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/triple-slash-reference`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/type-annotation-spacing`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/typedef`|off|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/unbound-method`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`@typescript-eslint/unified-signatures`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/@typescript-eslint/explicit-member-accessibility`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/@typescript-eslint/explicit-member-accessibility.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/adjacent-overload-signatures`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/array-type`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/await-thenable`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/await-thenable.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/ban-ts-comment`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/ban-tslint-comment`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-tslint-comment.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/ban-types`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-types.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/consistent-indexed-object-style`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-indexed-object-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/consistent-type-assertions`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-assertions.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/consistent-type-definitions`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-definitions.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/consistent-type-imports`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/explicit-function-return-type`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/explicit-module-boundary-types`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/member-delimiter-style`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-delimiter-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/member-ordering`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-ordering.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/method-signature-style`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/method-signature-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/naming-convention`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-array-constructor`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-array-constructor.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-base-to-string`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-base-to-string.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-confusing-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-confusing-non-null-assertion.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-confusing-void-expression`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-confusing-void-expression.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-duplicate-imports`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-duplicate-imports.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-dynamic-delete`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-dynamic-delete.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-empty-function`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-empty-interface`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-interface.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-explicit-any`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-extra-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-extra-semi`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-extraneous-class`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extraneous-class.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-floating-promises`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-floating-promises.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-for-in-array`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-for-in-array.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-implicit-any-catch`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-inferrable-types`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-inferrable-types.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-invalid-void-type`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-invalid-void-type.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-misused-new`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-misused-new.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-misused-promises`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-misused-promises.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-namespace`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-namespace.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-non-null-asserted-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-asserted-optional-chain.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-assertion.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-parameter-properties`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-parameter-properties.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-require-imports`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-require-imports.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-this-alias`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-this-alias.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-type-alias`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-type-alias.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unnecessary-boolean-literal-compare`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unnecessary-condition`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-condition.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unnecessary-qualifier`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-qualifier.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unnecessary-type-arguments`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-arguments.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unnecessary-type-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-assertion.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unnecessary-type-constraint`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-constraint.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unsafe-assignment`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-assignment.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unsafe-call`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-call.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unsafe-member-access`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-member-access.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unsafe-return`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-return.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unused-vars`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-var-requires`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-var-requires.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/non-nullable-type-assertion-style`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-as-const`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-as-const.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-enum-initializers`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-enum-initializers.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-for-of`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-for-of.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-function-type`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-function-type.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-includes`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-includes.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-literal-enum-member`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-literal-enum-member.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-namespace-keyword`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-namespace-keyword.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-nullish-coalescing`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-readonly`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-readonly.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-readonly-parameter-types`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-readonly-parameter-types.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-reduce-type-parameter`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-regexp-exec`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-regexp-exec.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-string-starts-ends-with`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-string-starts-ends-with.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-ts-expect-error`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-ts-expect-error.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/promise-function-async`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/promise-function-async.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/require-array-sort-compare`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-array-sort-compare.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/restrict-plus-operands`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/restrict-template-expressions`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/sort-type-union-intersection-members`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-type-union-intersection-members.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/strict-boolean-expressions`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/strict-boolean-expressions.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/switch-exhaustiveness-check`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/triple-slash-reference`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/triple-slash-reference.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/type-annotation-spacing`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/type-annotation-spacing.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/typedef`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/typedef.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/unbound-method`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/unbound-method.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/unified-signatures`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/unified-signatures.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`accessor-pairs`](https://eslint.org/docs/rules/accessor-pairs)|error 🚨|off|N/A 👻|error 🚨|
 |[`array-bracket-newline`](https://eslint.org/docs/rules/array-bracket-newline)|off|off|off|N/A 👻|
 |[`array-bracket-spacing`](https://eslint.org/docs/rules/array-bracket-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|

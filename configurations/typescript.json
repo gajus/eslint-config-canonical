@@ -28,7 +28,7 @@
     "@typescript-eslint"
   ],
   "rules": {
-    "@typescript-eslint/@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
     "@typescript-eslint/adjacent-overload-signatures": 2,
     "@typescript-eslint/array-type": [
       2,

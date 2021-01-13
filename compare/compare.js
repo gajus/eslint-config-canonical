@@ -102,8 +102,8 @@ const getRules = async (configuration) => {
       return '[`' + ruleName + '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' + ruleName.replace(/^jest\//, '') + '.md)';
     }
 
-    if (ruleName.startsWith('typescript/')) {
-      return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^jest\//, '') + '.md)';
+    if (ruleName.startsWith('@typescript-eslint/')) {
+      return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^\@typescript-eslint\//, '') + '.md)';
     }
 
     return '`' + ruleName + '`';
