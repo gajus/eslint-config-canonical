@@ -17,6 +17,8 @@
         "ts-nocheck": false
       }
     ],
+    "@typescript-eslint/no-duplicate-imports": 2,
+    "no-duplicate-imports": 0,
     "no-use-before-define": 0,
     "node/no-missing-import": 0
   }
