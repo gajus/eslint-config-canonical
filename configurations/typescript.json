@@ -21,5 +21,14 @@
     "no-duplicate-imports": 0,
     "no-use-before-define": 0,
     "node/no-missing-import": 0
+  },
+  "settings": {
+    "node": {
+      "tryExtensions": [
+        ".ts",
+        ".js",
+        ".json"
+      ]
+    }
   }
 }

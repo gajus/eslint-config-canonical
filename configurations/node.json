@@ -3,6 +3,7 @@
     "ecmaVersion": 2020
   },
   "plugins": [
+    "import",
     "node"
   ],
   "rules": {
