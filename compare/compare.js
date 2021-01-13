@@ -20,7 +20,8 @@ const getRules = async (configuration) => {
       'canonical/jest',
       'canonical/lodash',
       'canonical/mocha',
-      'canonical/react'
+      'canonical/react',
+      'canonical/typescript',
     ]
   });
 
@@ -99,6 +100,10 @@ const getRules = async (configuration) => {
 
     if (ruleName.startsWith('jest/')) {
       return '[`' + ruleName + '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' + ruleName.replace(/^jest\//, '') + '.md)';
+    }
+
+    if (ruleName.startsWith('typescript/')) {
+      return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^jest\//, '') + '.md)';
     }
 
     return '`' + ruleName + '`';
