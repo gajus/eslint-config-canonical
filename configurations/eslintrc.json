@@ -207,12 +207,7 @@
     ],
     "import/first": 2,
     "import/group-exports": 0,
-    "import/max-dependencies": [
-      1,
-      {
-        "max": 10
-      }
-    ],
+    "import/max-dependencies": 0,
     "import/named": 2,
     "import/namespace": 2,
     "import/newline-after-import": 2,
