@@ -95,7 +95,7 @@
     "@typescript-eslint/member-ordering": 0,
     "@typescript-eslint/method-signature-style": [
       2,
-      "method"
+      "property"
     ],
     "@typescript-eslint/naming-convention": [
       2,
@@ -223,7 +223,7 @@
     "@typescript-eslint/prefer-regexp-exec": 2,
     "@typescript-eslint/prefer-string-starts-ends-with": 2,
     "@typescript-eslint/prefer-ts-expect-error": 2,
-    "@typescript-eslint/promise-function-async": 2,
+    "@typescript-eslint/promise-function-async": 0,
     "@typescript-eslint/require-array-sort-compare": [
       2,
       {
