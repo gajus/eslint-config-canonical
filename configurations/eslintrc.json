@@ -211,7 +211,7 @@
     ],
     "import/default": 2,
     "import/export": 2,
-    "import/exports-last": 2,
+    "import/exports-last": 0,
     "import/extensions": [
       2,
       "never",

@@ -72,7 +72,7 @@
     "react/jsx-no-bind": [
       2,
       {
-        "allowArrowFunctions": false,
+        "allowArrowFunctions": true,
         "allowBind": false,
         "ignoreRefs": true
       }
@@ -155,7 +155,7 @@
       }
     ],
     "react/prop-types": 2,
-    "react/react-in-jsx-scope": 2,
+    "react/react-in-jsx-scope": 0,
     "react/require-default-props": 2,
     "react/require-render-return": 2,
     "react/self-closing-comp": 2,
