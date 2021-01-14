@@ -118,7 +118,7 @@
       2,
       {
         "ignoreArrowShorthand": true,
-        "ignoreVoidOperator": true
+        "ignoreVoidOperator": false
       }
     ],
     "@typescript-eslint/no-duplicate-imports": 2,
