@@ -47,7 +47,8 @@
     "@babel/core": "^7.12.10",
     "@babel/register": "^7.12.10",
     "ava": "^3.14.0",
-    "eslint": "^7.16.0",
+    "eslint": "^7.17.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
     "husky": "^4.3.6",
     "jsonlint": "^1.6.3",
     "semantic-release": "^17.3.0"

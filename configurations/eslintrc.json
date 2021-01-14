@@ -24,7 +24,8 @@
     "jsdoc",
     "promise",
     "filenames",
-    "unicorn"
+    "unicorn",
+    "eslint-comments"
   ],
   "rules": {
     "accessor-pairs": 2,
@@ -119,6 +120,14 @@
     "dot-notation": 2,
     "eol-last": 2,
     "eqeqeq": 2,
+    "eslint-comments/disable-enable-pair": 2,
+    "eslint-comments/no-aggregating-enable": 2,
+    "eslint-comments/no-duplicate-disable": 2,
+    "eslint-comments/no-unlimited-disable": 2,
+    "eslint-comments/no-unused-disable": 2,
+    "eslint-comments/no-unused-enable": 2,
+    "eslint-comments/no-use": 2,
+    "eslint-comments/require-description": 2,
     "filenames/match-exported": 2,
     "filenames/match-regex": [
       1,
