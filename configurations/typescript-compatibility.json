@@ -70,7 +70,14 @@
     "@typescript-eslint/no-throw-literal": 2,
     "@typescript-eslint/no-unused-expressions": 2,
     "@typescript-eslint/no-unused-vars": 2,
-    "@typescript-eslint/no-use-before-define": 2,
+    "@typescript-eslint/no-use-before-define": [
+      2,
+      {
+        "classes": true,
+        "functions": false,
+        "variables": true
+      }
+    ],
     "@typescript-eslint/no-useless-constructor": 2,
     "@typescript-eslint/quotes": [
       2,
