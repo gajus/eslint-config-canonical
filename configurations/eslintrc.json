@@ -127,7 +127,7 @@
     "eslint-comments/no-unused-disable": 2,
     "eslint-comments/no-unused-enable": 2,
     "eslint-comments/no-use": 2,
-    "eslint-comments/require-description": 2,
+    "eslint-comments/require-description": 0,
     "filenames/match-exported": 2,
     "filenames/match-regex": [
       1,
