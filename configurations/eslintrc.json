@@ -121,7 +121,7 @@
     "eqeqeq": 2,
     "filenames/match-exported": 2,
     "filenames/match-regex": [
-      2,
+      1,
       "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*$",
       false
     ],
