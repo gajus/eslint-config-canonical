@@ -537,7 +537,12 @@
     ],
     "no-useless-return": 2,
     "no-var": 2,
-    "no-void": 2,
+    "no-void": [
+      2,
+      {
+        "allowAsStatement": true
+      }
+    ],
     "no-warning-comments": [
       1,
       {
