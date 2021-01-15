@@ -43,11 +43,12 @@ const eslintConfiguration = require('../configurations/eslintrc.json');
 const appendRules = {};
 
 for (const incompatibleRule of incompatibleRules) {
-  appendRules[incompatibleRule] = 0;
-
-  if (eslintConfiguration.rules[incompatibleRule]) {
-    appendRules['@typescript-eslint/' + incompatibleRule] = eslintConfiguration.rules[incompatibleRule];
+  if (!eslintConfiguration.rules[incompatibleRule] === undefined) {
+    continue;
   }
+
+  appendRules[incompatibleRule] = 0;
+  appendRules['@typescript-eslint/' + incompatibleRule] = eslintConfiguration.rules[incompatibleRule];
 }
 
 console.log(JSON.stringify(appendRules));
