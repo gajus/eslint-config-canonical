@@ -18,8 +18,8 @@
     ]
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.11.0",
-    "@typescript-eslint/parser": "^4.11.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-ava": "^11.0.0",
     "eslint-plugin-babel": "^5.3.1",
