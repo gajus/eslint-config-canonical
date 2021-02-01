@@ -77,6 +77,7 @@
     "url": "https://github.com/gajus/eslint-config-canonical"
   },
   "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/eslintrc.json && echo '' >> ./configurations/eslintrc.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/lodash.json && echo '' >> ./configurations/lodash.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/flowtype.json && echo '' >> ./configurations/flowtype.json",
     "test": "ava --verbose --serial"
   },
