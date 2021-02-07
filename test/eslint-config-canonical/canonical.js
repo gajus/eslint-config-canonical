@@ -13,27 +13,28 @@ const configurations = [
 ];
 
 for (const configuration of configurations) {
+  // eslint-disable-next-line import/no-dynamic-require -- Safe as for testing
   const config = require('../../' + configuration);
 
   const rulesDefinition = new CLIEngine({
     configFile: './' + configuration + '.js',
-    useEslintrc: false
+    useEslintrc: false,
   })
     .getRules();
 
   const ruleNames = Object.keys(config.rules || []);
 
   for (const ruleName of ruleNames) {
-    test('plugin "' + configuration + '" has "' + ruleName + '" rule', (t) => {
+    test('plugin "' + configuration + '" has "' + ruleName + '" rule', (tst) => {
       const pluginHasRule = rulesDefinition.has(ruleName);
 
-      t.true(pluginHasRule);
+      tst.true(pluginHasRule);
     });
   }
 
-  test('plugin "' + configuration + '" does not have "does-not-exist" rule', (t) => {
+  test('plugin "' + configuration + '" does not have "does-not-exist" rule', (tst) => {
     const pluginHasRule = rulesDefinition.has('does-not-exist');
 
-    t.true(pluginHasRule === false);
+    tst.true(pluginHasRule === false);
   });
 }

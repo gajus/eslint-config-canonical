@@ -1,6 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-
 const incompatibleRules = [
   'brace-style',
   'comma-dangle',
@@ -51,4 +48,5 @@ for (const incompatibleRule of incompatibleRules) {
   appendRules['@typescript-eslint/' + incompatibleRule] = eslintConfiguration.rules[incompatibleRule];
 }
 
+// eslint-disable-next-line no-console -- CLI
 console.log(JSON.stringify(appendRules));

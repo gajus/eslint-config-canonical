@@ -5,7 +5,7 @@ const {
 const getRules = async (configuration) => {
   const engine = new ESLint({
     baseConfig: configuration,
-    useEslintrc: false
+    useEslintrc: false,
   });
 
   return (await engine.calculateConfigForFile('./compare')).rules;
@@ -22,25 +22,25 @@ const getRules = async (configuration) => {
       'canonical/mocha',
       'canonical/react',
       'canonical/typescript',
-    ]
+    ],
   });
 
   const airbnbRules = await getRules({
     extends: [
-      'airbnb'
-    ]
+      'airbnb',
+    ],
   });
 
   const googleRules = await getRules({
     extends: [
-      'google'
-    ]
+      'google',
+    ],
   });
 
   const standardRules = await getRules({
     extends: [
-      'standard'
-    ]
+      'standard',
+    ],
   });
 
   const ruleNames = [
@@ -48,8 +48,8 @@ const getRules = async (configuration) => {
       ...Object.keys(canonicalRules),
       ...Object.keys(airbnbRules),
       ...Object.keys(googleRules),
-      ...Object.keys(standardRules)
-    ])
+      ...Object.keys(standardRules),
+    ]),
   ]
     .sort();
 
@@ -103,7 +103,8 @@ const getRules = async (configuration) => {
     }
 
     if (ruleName.startsWith('@typescript-eslint/')) {
-      return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^\@typescript-eslint\//, '') + '.md)';
+      // eslint-disable-next-line max-len
+      return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^@typescript-eslint\//, '') + '.md)';
     }
 
     return '`' + ruleName + '`';
@@ -140,7 +141,14 @@ const getRules = async (configuration) => {
   };
 
   for (const ruleName of ruleNames) {
-    console.log('|' + getRuleLink(ruleName) + '|' + getRuleConfiguration(canonicalRules, ruleName) + '|' + getRuleConfiguration(airbnbRules, ruleName) + '|' + getRuleConfiguration(googleRules, ruleName) + '|' + getRuleConfiguration(standardRules, ruleName) + '|');
+    // eslint-disable-next-line no-console -- CLI
+    console.log(
+      '|' + getRuleLink(ruleName) +
+      '|' + getRuleConfiguration(canonicalRules, ruleName) +
+      '|' + getRuleConfiguration(airbnbRules, ruleName) +
+      '|' + getRuleConfiguration(googleRules, ruleName) +
+      '|' + getRuleConfiguration(standardRules, ruleName) +
+      '|',
+    );
   }
-
 })();
