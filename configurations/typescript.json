@@ -12,15 +12,6 @@
       "rules": {
         "@typescript-eslint/explicit-member-accessibility": 2
       }
-    },
-    {
-      "files": [
-        "*.ts",
-        "*.tsx"
-      ],
-      "rules": {
-        "@typescript-eslint/explicit-module-boundary-types": 2
-      }
     }
   ],
   "parser": "@typescript-eslint/parser",
