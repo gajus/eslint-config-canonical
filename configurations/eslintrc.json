@@ -254,7 +254,7 @@
     "import/no-restricted-paths": 0,
     "import/no-self-import": 2,
     "import/no-unassigned-import": 2,
-    "import/no-unresolved": 2,
+    "import/no-unresolved": 0,
     "import/no-useless-path-segments": 2,
     "import/no-webpack-loader-syntax": 2,
     "import/order": [
