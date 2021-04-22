@@ -818,7 +818,8 @@
   "settings": {
     "import/extensions": [
       ".js",
-      ".ts"
+      ".ts",
+      ".mjs"
     ]
   }
 }
