@@ -616,7 +616,7 @@
     "prefer-rest-params": 2,
     "prefer-spread": 2,
     "prefer-template": 0,
-    "promise/always-return": 2,
+    "promise/always-return": 1,
     "promise/avoid-new": 0,
     "promise/catch-or-return": 2,
     "promise/no-callback-in-promise": 0,

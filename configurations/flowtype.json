@@ -30,10 +30,7 @@
     "flowtype/no-types-missing-file-annotation": 2,
     "flowtype/no-unused-expressions": 0,
     "flowtype/no-weak-types": 2,
-    "flowtype/object-type-curly-spacing": [
-      2,
-      "never"
-    ],
+    "flowtype/object-type-curly-spacing": 0,
     "flowtype/object-type-delimiter": [
       2,
       "comma"
@@ -42,7 +39,7 @@
       2,
       "single"
     ],
-    "flowtype/require-compound-type-alias": 1,
+    "flowtype/require-compound-type-alias": 0,
     "flowtype/require-exact-type": 1,
     "flowtype/require-inexact-type": [
       2,
