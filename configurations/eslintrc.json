@@ -580,7 +580,7 @@
     "object-property-newline": [
       2,
       {
-        "allowMultiplePropertiesPerLine": false
+        "allowMultiplePropertiesPerLine": true
       }
     ],
     "object-shorthand": [
