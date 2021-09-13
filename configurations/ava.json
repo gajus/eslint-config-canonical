@@ -1,6 +1,7 @@
 {
   "plugins": [
-    "ava"
+    "ava",
+    "unicorn"
   ],
   "rules": {
     "ava/assertion-arguments": 2,
