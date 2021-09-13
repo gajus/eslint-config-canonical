@@ -52,6 +52,7 @@
         "max": 50,
         "min": 2
       }
-    ]
+    ],
+    "unicorn/consistent-function-scoping": 0
   }
 }
