@@ -53,6 +53,10 @@ This is how Canonical ruleset compares to other popular configurations.
 
 |Rule|Canonical|[Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)|[Google](https://www.npmjs.com/package/eslint-config-google)|[Standard](https://www.npmjs.com/package/eslint-config-standard)|
 |---|---|---|---|---|
+|`@babel/new-cap`|off|N/A 👻|N/A 👻|N/A 👻|
+|`@babel/no-invalid-this`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|`@babel/object-curly-spacing`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|`@babel/valid-typeof`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/@typescript-eslint/explicit-member-accessibility`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/@typescript-eslint/explicit-member-accessibility.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/adjacent-overload-signatures`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/array-type`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -174,10 +178,6 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`ava/use-t-well`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/use-t-well.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`ava/use-test`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/use-test.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`ava/use-true-false`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/use-true-false.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`babel/new-cap`|off|N/A 👻|N/A 👻|N/A 👻|
-|`babel/no-invalid-this`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`babel/object-curly-spacing`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|`babel/valid-typeof`|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`block-scoped-var`](https://eslint.org/docs/rules/block-scoped-var)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`block-spacing`](https://eslint.org/docs/rules/block-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`brace-style`](https://eslint.org/docs/rules/brace-style)|error 🚨|error 🚨|error 🚨|error 🚨|

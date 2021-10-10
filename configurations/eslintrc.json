@@ -20,7 +20,7 @@
     "sort-keys-fix",
     "fp",
     "no-use-extend-native",
-    "babel",
+    "@babel",
     "import",
     "jsdoc",
     "promise",
@@ -29,6 +29,13 @@
     "eslint-comments"
   ],
   "rules": {
+    "@babel/new-cap": 0,
+    "@babel/no-invalid-this": 2,
+    "@babel/object-curly-spacing": [
+      2,
+      "never"
+    ],
+    "@babel/valid-typeof": 2,
     "accessor-pairs": 2,
     "array-bracket-newline": 0,
     "array-bracket-spacing": [
@@ -55,13 +62,6 @@
         "before": true
       }
     ],
-    "babel/new-cap": 0,
-    "babel/no-invalid-this": 2,
-    "babel/object-curly-spacing": [
-      2,
-      "never"
-    ],
-    "babel/valid-typeof": 2,
     "block-scoped-var": 2,
     "block-spacing": [
       2,

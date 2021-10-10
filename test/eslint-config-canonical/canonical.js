@@ -1,5 +1,5 @@
 const test = require('ava');
-const CLIEngine = require('eslint').CLIEngine;
+const {ESLint} = require('eslint');
 
 const configurations = [
   'ava',
@@ -16,8 +16,8 @@ for (const configuration of configurations) {
   // eslint-disable-next-line import/no-dynamic-require -- Safe as for testing
   const config = require('../../' + configuration);
 
-  const rulesDefinition = new CLIEngine({
-    configFile: './' + configuration + '.js',
+  const rulesDefinition = new ESLint({
+    overrideConfigFile: './' + configuration + '.js',
     useEslintrc: false,
   })
     .getRules();
