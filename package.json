@@ -45,14 +45,14 @@
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
-    "@ava/babel": "^1.0.1",
-    "@babel/core": "^7.13.16",
-    "@babel/register": "^7.13.16",
+    "@ava/babel": "^2.0.0",
+    "@babel/core": "^7.15.8",
+    "@babel/register": "^7.15.3",
     "ava": "^3.15.0",
     "eslint": "^7.24.0",
     "husky": "^4.3.8",
     "jsonlint": "^1.6.3",
-    "semantic-release": "^17.4.2"
+    "semantic-release": "^18.0.0"
   },
   "engines": {
     "node": ">=10.0.0"
