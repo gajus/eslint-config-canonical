@@ -291,10 +291,6 @@
       "always"
     ],
     "jsdoc/no-bad-blocks": 2,
-    "jsdoc/tag-lines": [
-      2,
-      "never"
-    ],
     "jsdoc/require-asterisk-prefix": 2,
     "jsdoc/require-description": 0,
     "jsdoc/require-description-complete-sentence": 0,
@@ -305,6 +301,10 @@
     "jsdoc/require-param-type": 0,
     "jsdoc/require-returns-description": 0,
     "jsdoc/require-returns-type": 0,
+    "jsdoc/tag-lines": [
+      2,
+      "never"
+    ],
     "jsx-quotes": [
       2,
       "prefer-single"
@@ -745,10 +745,13 @@
     "unicorn/new-for-builtins": 2,
     "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/no-array-instanceof": 2,
+    "unicorn/no-array-method-this-argument": 2,
     "unicorn/no-console-spaces": 0,
+    "unicorn/no-document-cookie": 2,
     "unicorn/no-fn-reference-in-iterator": 0,
     "unicorn/no-for-loop": 2,
     "unicorn/no-hex-escape": 2,
+    "unicorn/no-invalid-remove-event-listener": 2,
     "unicorn/no-lonely-if": 2,
     "unicorn/no-nested-ternary": 2,
     "unicorn/no-new-buffer": 2,
@@ -759,6 +762,9 @@
     "unicorn/no-static-only-class": 2,
     "unicorn/no-unreadable-array-destructuring": 0,
     "unicorn/no-unused-properties": 1,
+    "unicorn/no-useless-fallback-in-spread": 2,
+    "unicorn/no-useless-length-check": 2,
+    "unicorn/no-useless-spread": 2,
     "unicorn/no-useless-undefined": 0,
     "unicorn/no-zero-fractions": 2,
     "unicorn/number-literal-case": 2,
@@ -774,6 +780,8 @@
     "unicorn/prefer-add-event-listener": 0,
     "unicorn/prefer-array-find": 2,
     "unicorn/prefer-array-flat": 2,
+    "unicorn/prefer-array-flat-map": 2,
+    "unicorn/prefer-at": 2,
     "unicorn/prefer-dataset": 2,
     "unicorn/prefer-date-now": 2,
     "unicorn/prefer-event-key": 2,
@@ -785,7 +793,10 @@
     "unicorn/prefer-node-append": 2,
     "unicorn/prefer-node-remove": 2,
     "unicorn/prefer-number-properties": 2,
+    "unicorn/prefer-object-from-entries": 2,
+    "unicorn/prefer-object-has-own": 0,
     "unicorn/prefer-optional-catch-binding": 2,
+    "unicorn/prefer-prototype-methods": 0,
     "unicorn/prefer-query-selector": 2,
     "unicorn/prefer-reflect-apply": 2,
     "unicorn/prefer-replace-all": 0,
@@ -796,6 +807,7 @@
     "unicorn/prefer-switch": 0,
     "unicorn/prefer-ternary": 0,
     "unicorn/prefer-text-content": 2,
+    "unicorn/prefer-top-level-await": 0,
     "unicorn/prefer-trim-start-end": 2,
     "unicorn/prefer-type-error": 2,
     "unicorn/prevent-abbreviations": [
@@ -810,6 +822,9 @@
         }
       }
     ],
+    "unicorn/require-array-join-separator": 2,
+    "unicorn/require-number-to-fixed-digits-argument": 2,
+    "unicorn/require-post-message-target-origin": 2,
     "unicorn/string-content": 0,
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,

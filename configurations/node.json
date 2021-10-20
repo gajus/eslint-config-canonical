@@ -3,6 +3,7 @@
     "ecmaVersion": 2020
   },
   "plugins": [
+    "unicorn",
     "import",
     "node"
   ],
@@ -62,6 +63,7 @@
           ]
         }
       }
-    ]
+    ],
+    "unicorn/prefer-node-protocol": 2
   }
 }
