@@ -15,16 +15,21 @@
     "jest/no-identical-title": 2,
     "jest/no-interpolation-in-snapshots": 2,
     "jest/no-jasmine-globals": 2,
-    "jest/no-truthy-falsy": 2,
     "jest/prefer-expect-assertions": [
       2,
       {
         "onlyFunctionsWithAsyncKeyword": true
       }
     ],
+    "jest/prefer-expect-resolves": 2,
+    "jest/prefer-lowercase-title": 0,
     "jest/prefer-spy-on": 2,
+    "jest/prefer-to-be": 2,
     "jest/prefer-to-contain": 2,
+    "jest/require-hook": 2,
+    "jest/valid-describe-callback": 2,
     "jest/valid-expect": 2,
+    "jest/valid-expect-in-promise": 2,
     "jest/valid-title": 2
   }
 }

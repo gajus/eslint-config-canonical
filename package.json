@@ -29,7 +29,7 @@
     "eslint-plugin-flowtype": "^6.1.1",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-jest": "^24.3.5",
+    "eslint-plugin-jest": "^25.2.2",
     "eslint-plugin-jsdoc": "^32.3.0",
     "eslint-plugin-lodash": "^7.2.0",
     "eslint-plugin-mocha": "^8.1.0",
