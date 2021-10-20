@@ -16,11 +16,14 @@
       2,
       "always-multiline"
     ],
+    "flowtype/enforce-line-break": 2,
     "flowtype/generic-spacing": [
       2,
       "never"
     ],
+    "flowtype/interface-id-match": 0,
     "flowtype/newline-after-flow-annotation": 2,
+    "flowtype/no-duplicate-type-union-intersection-members": 2,
     "flowtype/no-existential-type": 0,
     "flowtype/no-flow-fix-me-comments": 1,
     "flowtype/no-internal-flow-type": 2,
@@ -64,6 +67,12 @@
       {
         "caseSensitive": true,
         "natural": true
+      }
+    ],
+    "flowtype/sort-type-union-intersection-members": [
+      2,
+      {
+        "order": "asc"
       }
     ],
     "flowtype/space-after-type-colon": [
