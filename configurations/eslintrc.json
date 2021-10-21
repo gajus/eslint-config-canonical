@@ -781,7 +781,7 @@
     "unicorn/prefer-array-find": 2,
     "unicorn/prefer-array-flat": 2,
     "unicorn/prefer-array-flat-map": 2,
-    "unicorn/prefer-at": 2,
+    "unicorn/prefer-at": 0,
     "unicorn/prefer-dataset": 2,
     "unicorn/prefer-date-now": 2,
     "unicorn/prefer-event-key": 2,
