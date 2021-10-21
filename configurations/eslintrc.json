@@ -17,6 +17,7 @@
     "sourceType": "module"
   },
   "plugins": [
+    "canonical",
     "sort-keys-fix",
     "fp",
     "no-use-extend-native",
@@ -75,6 +76,16 @@
       }
     ],
     "camelcase": 0,
+    "canonical/id-match": [
+      2,
+      "(^[A-Za-z]+(?:[A-Z][a-z]*)*\\d*$)|(^[A-Z]+(_[A-Z]+)*(_\\d$)*$)|(^(_|\\$)$)",
+      {
+        "ignoreDestructuring": true,
+        "ignoreNamedImports": true,
+        "onlyDeclarations": true,
+        "properties": true
+      }
+    ],
     "capitalized-comments": 0,
     "class-methods-use-this": 2,
     "comma-dangle": [
@@ -197,15 +208,7 @@
         "min": 2
       }
     ],
-    "id-match": [
-      2,
-      "(^[A-Za-z]+(?:[A-Z][a-z]*)*\\d*$)|(^[A-Z]+(_[A-Z]+)*(_\\d$)*$)|(^(_|\\$)$)",
-      {
-        "ignoreDestructuring": true,
-        "onlyDeclarations": true,
-        "properties": true
-      }
-    ],
+    "id-match": 0,
     "implicit-arrow-linebreak": [
       2,
       "beside"
