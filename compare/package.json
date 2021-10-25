@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "eslint": "^7.17.0",
+    "eslint": "^8.1.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-canonical": "^29.0.1",
+    "eslint-config-canonical": "^32.0.1",
     "eslint-config-google": "^0.14.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-jsx-a11y": "^6.4.1",

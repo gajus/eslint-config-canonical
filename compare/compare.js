@@ -66,6 +66,14 @@ const getRules = async (configuration) => {
       return '[`' + ruleName + '`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/' + ruleName.replace(/^ava\//, '') + '.md)';
     }
 
+    if (ruleName.startsWith('canonical/')) {
+      return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-' + ruleName.replace(/^canonical\//, '') + ')';
+    }
+
+    if (ruleName.startsWith('eslint-comments/')) {
+      return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/' + ruleName.replace(/^eslint-comments\//, '') + '.md)';
+    }
+
     if (ruleName.startsWith('unicorn/')) {
       return '[`' + ruleName + '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/' + ruleName.replace(/^unicorn\//, '') + '.md)';
     }
@@ -92,6 +100,14 @@ const getRules = async (configuration) => {
 
     if (ruleName.startsWith('lodash/')) {
       return '[`' + ruleName + '`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/' + ruleName.replace(/^lodash\//, '') + '.md)';
+    }
+
+    if (ruleName.startsWith('mocha/')) {
+      return '[`' + ruleName + '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/' + ruleName.replace(/^mocha\//, '') + '.md)';
+    }
+
+    if (ruleName.startsWith('node/')) {
+      return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/' + ruleName.replace(/^node\//, '') + '.md)';
     }
 
     if (ruleName.startsWith('jsx-a11y/')) {
