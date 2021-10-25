@@ -626,6 +626,12 @@
     "prefer-object-spread": 2,
     "prefer-promise-reject-errors": 2,
     "prefer-reflect": 0,
+    "prefer-regex-literals": [
+      2,
+      {
+        "disallowRedundantWrapping": true
+      }
+    ],
     "prefer-rest-params": 2,
     "prefer-spread": 2,
     "prefer-template": 0,
