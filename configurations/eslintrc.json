@@ -708,6 +708,10 @@
       }
     ],
     "symbol-description": 2,
+    "template-curly-spacing": [
+      2,
+      "never"
+    ],
     "template-tag-spacing": [
       2,
       "never"
