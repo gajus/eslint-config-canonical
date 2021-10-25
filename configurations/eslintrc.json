@@ -7,7 +7,6 @@
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
       "globalReturn": false,
       "impliedStrict": true,
       "jsx": true
@@ -19,7 +18,6 @@
   "plugins": [
     "canonical",
     "fp",
-    "no-use-extend-native",
     "@babel",
     "import",
     "jsdoc",
@@ -89,6 +87,7 @@
         "properties": true
       }
     ],
+    "canonical/no-use-extend-native": 2,
     "canonical/sort-keys": [
       2,
       "asc",
@@ -535,7 +534,6 @@
         "variables": true
       }
     ],
-    "no-use-extend-native/no-use-extend-native": 2,
     "no-useless-call": 2,
     "no-useless-catch": 2,
     "no-useless-computed-key": 2,
