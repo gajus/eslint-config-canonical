@@ -19,10 +19,10 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.15.8",
+    "@babel/eslint-plugin": "^7.14.5",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "eslint-plugin-ava": "^13.1.0",
-    "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-canonical": "^1.2.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
