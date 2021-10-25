@@ -293,6 +293,7 @@
       2
     ],
     "init-declarations": 0,
+    "jsdoc/check-examples": 0,
     "jsdoc/check-param-names": 1,
     "jsdoc/check-tag-names": 1,
     "jsdoc/check-types": 1,
