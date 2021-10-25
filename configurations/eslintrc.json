@@ -623,6 +623,7 @@
     "prefer-exponentiation-operator": 2,
     "prefer-named-capture-group": 0,
     "prefer-numeric-literals": 2,
+    "prefer-object-spread": 2,
     "prefer-promise-reject-errors": 2,
     "prefer-reflect": 0,
     "prefer-rest-params": 2,
