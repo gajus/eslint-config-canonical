@@ -16,6 +16,7 @@ This package includes the following configurations:
 * [`canonical/cypress`](./configurations/cypress.json) – To be used in addition to "canonical" configuration by projects that use [Cypress](https://cypress.io/).
 * [`canonical/flowtype`](./configurations/flowtype.json) – To be used in addition to "canonical" configuration by projects that use [Flowtype](https://flowtype.org/).
 * [`canonical/jest`](./configurations/jest.json) – To be used in addition to "canonical" configuration by projects that use [jest](https://facebook.github.io/jest/).
+* [`canonical/jsx-a11y`](./configurations/jsx-a11y.json) – To be used in addition to "canonical" configuration by projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 * [`canonical/lodash`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
 * [`canonical/mocha`](./configurations/mocha.json) – To be used in addition to "canonical" configuration by projects that use [Mocha](https://mochajs.org/).
 * [`canonical/node`](./configurations/node.json) – To be used in addition to "canonical" configuration by projects that use Node.js.
@@ -32,6 +33,7 @@ Example:
     "canonical/cypress",
     "canonical/flowtype",
     "canonical/jest",
+    "canonical/jsx-a11y",
     "canonical/lodash",
     "canonical/mocha",
     "canonical/node",
