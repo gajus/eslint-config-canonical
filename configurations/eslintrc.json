@@ -206,6 +206,7 @@
     ],
     "guard-for-in": 2,
     "handle-callback-err": 2,
+    "id-denylist": 0,
     "id-length": [
       1,
       {
