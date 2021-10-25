@@ -143,6 +143,7 @@
     "react/no-multi-comp": 0,
     "react/no-namespace": 2,
     "react/no-redundant-should-component-update": 2,
+    "react/no-render-return-value": 2,
     "react/no-set-state": 2,
     "react/no-string-refs": 2,
     "react/no-this-in-sfc": 2,
