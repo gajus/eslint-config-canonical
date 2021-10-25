@@ -20,6 +20,7 @@ const getRules = async (configuration) => {
       'canonical/jest',
       'canonical/lodash',
       'canonical/mocha',
+      'canonical/node',
       'canonical/react',
       'canonical/typescript',
     ],
