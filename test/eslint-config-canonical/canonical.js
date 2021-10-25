@@ -1,7 +1,9 @@
-const test = require('ava');
-const CLIEngine = require('eslint').CLIEngine;
+/* eslint-disable import/no-dynamic-require */
 
-const configurations = [
+const test = require('ava');
+const {builtinRules} = require('eslint/use-at-your-own-risk');
+
+const configurationNames = [
   'ava',
   'eslintrc',
   'flowtype',
@@ -12,29 +14,32 @@ const configurations = [
   'react',
 ];
 
-for (const configuration of configurations) {
-  // eslint-disable-next-line import/no-dynamic-require -- Safe as for testing
-  const config = require('../../' + configuration);
+const getPluginRuleNames = (pluginName) => {
+  const dependencyName = pluginName === '@babel' ? '@babel/eslint-plugin' : 'eslint-plugin-' + pluginName;
 
-  const rulesDefinition = new CLIEngine({
-    configFile: './' + configuration + '.js',
-    useEslintrc: false,
-  })
-    .getRules();
-
-  const ruleNames = Object.keys(config.rules || []);
-
-  for (const ruleName of ruleNames) {
-    test('plugin "' + configuration + '" has "' + ruleName + '" rule', (tst) => {
-      const pluginHasRule = rulesDefinition.has(ruleName);
-
-      tst.true(pluginHasRule);
-    });
-  }
-
-  test('plugin "' + configuration + '" does not have "does-not-exist" rule', (tst) => {
-    const pluginHasRule = rulesDefinition.has('does-not-exist');
-
-    tst.true(pluginHasRule === false);
+  return Object.keys(require(dependencyName).rules).map((ruleName) => {
+    return pluginName + '/' + ruleName;
   });
-}
+};
+
+const main = async () => {
+  for (const configurationName of configurationNames) {
+    const configuration = require('../../' + configurationName);
+
+    const supportedRuleNames = [
+      ...builtinRules.keys(),
+    ];
+
+    for (const pluginName of configuration.plugins) {
+      supportedRuleNames.push(...getPluginRuleNames(pluginName));
+    }
+
+    for (const configurationRuleName of Object.keys(configuration.rules)) {
+      test('"' + configurationName + '" configuration has "' + configurationRuleName + '" rule', (t) => {
+        t.true(supportedRuleNames.includes(configurationRuleName));
+      });
+    }
+  }
+};
+
+main();
