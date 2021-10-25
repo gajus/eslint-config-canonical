@@ -48,7 +48,7 @@
     "@babel/core": "^7.15.8",
     "@babel/register": "^7.15.3",
     "ava": "^3.15.0",
-    "eslint": "^7.24.0",
+    "eslint": "^8.0.0",
     "husky": "^4.3.8",
     "jsonlint": "^1.6.3",
     "semantic-release": "^18.0.0"
@@ -63,14 +63,14 @@
   },
   "keywords": [
     "eslint",
-    "eslintconfig",
+    "config",
     "canonical"
   ],
   "license": "BSD-3-Clause",
   "main": "./eslintrc.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
-    "eslint": "^6.0.0 || ^7.0.0"
+    "eslint": "^8.0.0"
   },
   "repository": {
     "type": "git",
