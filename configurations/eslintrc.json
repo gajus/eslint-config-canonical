@@ -24,7 +24,6 @@
     "import",
     "jsdoc",
     "promise",
-    "filenames",
     "unicorn",
     "eslint-comments"
   ],
@@ -73,6 +72,13 @@
       }
     ],
     "camelcase": 0,
+    "canonical/filename-match-exported": 2,
+    "canonical/filename-match-regex": [
+      1,
+      "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*$",
+      false
+    ],
+    "canonical/filename-no-index": 0,
     "canonical/id-match": [
       2,
       "(^[A-Za-z]+(?:[A-Z][a-z]*)*\\d*$)|(^[A-Z]+(_[A-Z]+)*(_\\d$)*$)|(^(_|\\$)$)",
@@ -150,13 +156,6 @@
     "eslint-comments/no-unused-enable": 2,
     "eslint-comments/no-use": 0,
     "eslint-comments/require-description": 0,
-    "filenames/match-exported": 2,
-    "filenames/match-regex": [
-      1,
-      "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*$",
-      false
-    ],
-    "filenames/no-index": 0,
     "for-direction": 2,
     "fp/no-arguments": 2,
     "fp/no-class": 2,
