@@ -69,6 +69,7 @@
         "checkKeyMustBeforeSpread": true
       }
     ],
+    "react/jsx-max-depth": 0,
     "react/jsx-max-props-per-line": [
       2,
       {
