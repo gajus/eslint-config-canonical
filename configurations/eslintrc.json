@@ -199,6 +199,7 @@
         "before": true
       }
     ],
+    "getter-return": 2,
     "guard-for-in": 2,
     "handle-callback-err": 2,
     "id-length": [
