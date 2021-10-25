@@ -653,6 +653,7 @@
     "radix": 2,
     "require-await": 0,
     "require-jsdoc": 0,
+    "require-unicode-regexp": 2,
     "require-yield": 2,
     "rest-spread-spacing": [
       2,
