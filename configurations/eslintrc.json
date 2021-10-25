@@ -827,6 +827,12 @@
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,
     "valid-jsdoc": 0,
+    "valid-typeof": [
+      2,
+      {
+        "requireStringLiterals": true
+      }
+    ],
     "vars-on-top": 2,
     "wrap-iife": [
       2,
