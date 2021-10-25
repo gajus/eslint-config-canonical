@@ -184,6 +184,10 @@
       2,
       "expression"
     ],
+    "function-call-argument-newline": [
+      2,
+      "consistent"
+    ],
     "function-paren-newline": [
       2,
       "consistent"
