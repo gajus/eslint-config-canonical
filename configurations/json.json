@@ -33,12 +33,10 @@
     "jsonc/quotes": 2,
     "jsonc/sort-keys": [
       2,
+      "asc",
       {
-        "order": {
-          "caseSensitive": false,
-          "natural": true,
-          "type": "asc"
-        }
+        "caseSensitive": false,
+        "natural": true
       }
     ],
     "jsonc/space-unary-ops": 2,
