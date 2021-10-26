@@ -30,6 +30,7 @@
     "jest/prefer-strict-equal": 2,
     "jest/prefer-to-be": 2,
     "jest/prefer-to-contain": 2,
+    "jest/prefer-todo": 2,
     "jest/require-hook": 0,
     "jest/valid-describe-callback": 2,
     "jest/valid-expect": 2,
