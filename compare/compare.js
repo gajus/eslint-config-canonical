@@ -1,6 +1,9 @@
 const {
   ESLint,
 } = require('eslint');
+const {
+  builtinRules,
+} = require('eslint/use-at-your-own-risk');
 
 /**
  * Determines what rules are going to be used for a given ESLint configuration.
@@ -38,68 +41,68 @@ const getRuleLink = (ruleName) => {
   }
 
   if (ruleName.startsWith('fp/')) {
-    return '[`' + ruleName + '`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/' + ruleName.replace(/^fp\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/' + ruleName.replace(/^fp\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('ava/')) {
-    return '[`' + ruleName + '`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/' + ruleName.replace(/^ava\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/' + ruleName.replace(/^ava\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('canonical/')) {
-    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-' + ruleName.replace(/^canonical\//, '') + ')';
+    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-' + ruleName.replace(/^canonical\//u, '') + ')';
   }
 
   if (ruleName.startsWith('eslint-comments/')) {
-    return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/' + ruleName.replace(/^eslint-comments\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/' + ruleName.replace(/^eslint-comments\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('unicorn/')) {
-    return '[`' + ruleName + '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/' + ruleName.replace(/^unicorn\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/' + ruleName.replace(/^unicorn\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('flowtype/')) {
-    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-' + ruleName.replace(/^flowtype\//, '') + ')';
+    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-' + ruleName.replace(/^flowtype\//u, '') + ')';
   }
 
   if (ruleName.startsWith('jsdoc/')) {
-    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-' + ruleName.replace(/^jsdoc\//, '') + ')';
+    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-' + ruleName.replace(/^jsdoc\//u, '') + ')';
   }
 
   if (ruleName.startsWith('import/')) {
-    return '[`' + ruleName + '`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/' + ruleName.replace(/^import\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/' + ruleName.replace(/^import\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('react/')) {
-    return '[`' + ruleName + '`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/' + ruleName.replace(/^react\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/' + ruleName.replace(/^react\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('promise/')) {
-    return '[`' + ruleName + '`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/' + ruleName.replace(/^promise\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/' + ruleName.replace(/^promise\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('lodash/')) {
-    return '[`' + ruleName + '`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/' + ruleName.replace(/^lodash\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/' + ruleName.replace(/^lodash\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('mocha/')) {
-    return '[`' + ruleName + '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/' + ruleName.replace(/^mocha\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/' + ruleName.replace(/^mocha\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('node/')) {
-    return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/' + ruleName.replace(/^node\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/' + ruleName.replace(/^node\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('jsx-a11y/')) {
-    return '[`' + ruleName + '`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/' + ruleName.replace(/^jsx-a11y\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/' + ruleName.replace(/^jsx-a11y\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('jest/')) {
-    return '[`' + ruleName + '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' + ruleName.replace(/^jest\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' + ruleName.replace(/^jest\//u, '') + '.md)';
   }
 
   if (ruleName.startsWith('@typescript-eslint/')) {
     // eslint-disable-next-line max-len
-    return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^@typescript-eslint\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^@typescript-eslint\//u, '') + '.md)';
   }
 
   return '`' + ruleName + '`';
@@ -153,7 +156,9 @@ const getLoadedRules = async () => {
     ],
   });
 
-  let loadedRules = {};
+  let loadedRules = {
+    ...Object.fromEntries(builtinRules),
+  };
 
   for (const usedPluginName of usedPluginNames) {
     loadedRules = {
