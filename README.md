@@ -7,6 +7,10 @@ Canonical is the most comprehensive code style guide. It consists of more than 8
 
 The goal of the Canonical style guide is to reduce noise in code version control and promote use of the latest ES features.
 
+* [Usage](#usage)
+* [Versioning Policy](#versioning-policy)
+* [Table of Comparison](#table-of-comparison)
+
 ## Usage
 
 This package includes the following configurations:
@@ -47,7 +51,7 @@ Example:
 
 All breaking changes will bump the major version as per the semver convention. Therefore, every new rule addition will increase the major version.
 
-## Table of comparison
+## Table of Comparison
 
 This is how Canonical ruleset compares to other popular configurations.
 
