@@ -102,9 +102,17 @@ const getRuleLink = (ruleName) => {
     return '[`' + ruleName + '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' + ruleName.replace(/^jest\//u, '') + '.md)';
   }
 
+  if (ruleName.startsWith('jsonc/')) {
+    return '[`' + ruleName + '`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/' + ruleName.replace(/^jsonc\//u, '') + '.html)';
+  }
+
   if (ruleName.startsWith('@typescript-eslint/')) {
     // eslint-disable-next-line max-len
     return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^@typescript-eslint\//u, '') + '.md)';
+  }
+
+  if (ruleName.startsWith('yml/')) {
+    return '[`' + ruleName + '`](https://ota-meshi.github.io/eslint-plugin-yml/rules/' + ruleName.replace(/^yml\//u, '') + '.html)';
   }
 
   return '`' + ruleName + '`';

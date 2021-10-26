@@ -3,9 +3,9 @@
 [![Travis build status](http://img.shields.io/travis/gajus/eslint-config-canonical/master.svg?style=flat-square)](https://app.travis-ci.com/github/gajus/eslint-config-canonical)
 [![NPM version](http://img.shields.io/npm/v/eslint-config-canonical.svg?style=flat-square)](https://www.npmjs.org/package/eslint-config-canonical)
 
-Canonical is the most comprehensive code style guide. It consists of more than 950 rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical.
+Canonical is the most comprehensive code style guide. It consists 1,000+ rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical.
 
-The goal of the Canonical style guide is to reduce noise in code version control and promote use of the latest ES features.
+The goal of Canonical style guide is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
 * [Versioning Policy](#versioning-policy)
@@ -491,7 +491,7 @@ Configurations:
 |[`jsdoc/no-missing-syntax`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-missing-syntax)|❌|👻|👻|👻|👻|
 |[`jsdoc/no-multi-asterisks`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-multi-asterisks)|🚨|👻|👻|👻|👻|
 |[`jsdoc/no-restricted-syntax`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-restricted-syntax)|❌|👻|👻|👻|👻|
-|[`jsdoc/no-types`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-types)|👻|👻|👻|👻|👻|
+|[`jsdoc/no-types`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-types)|❌|👻|👻|👻|👻|
 |[`jsdoc/no-undefined-types`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-undefined-types)|🚨|👻|👻|👻|👻|
 |[`jsdoc/require-asterisk-prefix`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-asterisk-prefix)|🚨|👻|👻|👻|👻|
 |[`jsdoc/require-description`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-description)|❌|👻|👻|👻|👻|
@@ -517,6 +517,46 @@ Configurations:
 |[`jsdoc/require-yields-check`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-yields-check)|❌|👻|👻|👻|👻|
 |[`jsdoc/tag-lines`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-tag-lines)|🚨|👻|👻|👻|👻|
 |[`jsdoc/valid-types`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-valid-types)|🚨|👻|👻|👻|👻|
+|[`jsonc/array-bracket-newline`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/array-bracket-newline.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/array-bracket-spacing`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/array-bracket-spacing.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/array-element-newline`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/array-element-newline.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/auto`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/auto.html)|❌|👻|👻|👻|👻|
+|[`jsonc/comma-dangle`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/comma-dangle.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/comma-style`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/comma-style.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/indent`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/indent.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/key-name-casing`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/key-name-casing.html)|❌|👻|👻|👻|👻|
+|[`jsonc/key-spacing`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/key-spacing.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-bigint-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-bigint-literals.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-binary-numeric-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-binary-numeric-literals.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-comments`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-comments.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-dupe-keys`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-dupe-keys.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-escape-sequence-in-identifier`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-escape-sequence-in-identifier.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-floating-decimal`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-floating-decimal.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-hexadecimal-numeric-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-hexadecimal-numeric-literals.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-infinity`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-infinity.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-multi-str`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-multi-str.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-nan`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-nan.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-number-props`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-number-props.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-numeric-separators`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-numeric-separators.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-octal`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-octal.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-octal-escape`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-octal-escape.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-octal-numeric-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-octal-numeric-literals.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-plus-sign`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-plus-sign.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-regexp-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-regexp-literals.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-sparse-arrays`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-sparse-arrays.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-template-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-template-literals.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-undefined-value`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-undefined-value.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-unicode-codepoint-escapes`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-unicode-codepoint-escapes.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-useless-escape`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-useless-escape.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/object-curly-newline`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/object-curly-newline.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/object-curly-spacing`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/object-curly-spacing.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/object-property-newline`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/object-property-newline.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/quote-props`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/quote-props.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/quotes`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/quotes.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/sort-keys`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/sort-keys.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/space-unary-ops`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/space-unary-ops.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/valid-json-number`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/valid-json-number.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/vue-custom-block/no-parsing-error`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/vue-custom-block/no-parsing-error.html)|🚨|👻|👻|👻|👻|
 |[`jsx-a11y/accessible-emoji`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md) ⛔️|👻|❌|👻|👻|👻|
 |[`jsx-a11y/alt-text`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md)|🚨|🚨|👻|👻|👻|
 |[`jsx-a11y/anchor-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md)|🚨|🚨|👻|👻|👻|
@@ -1103,4 +1143,27 @@ Configurations:
 |[`wrap-iife`](https://eslint.org/docs/rules/wrap-iife)|🚨|🚨|👻|🚨|🚨|
 |[`wrap-regex`](https://eslint.org/docs/rules/wrap-regex)|❌|❌|👻|👻|👻|
 |[`yield-star-spacing`](https://eslint.org/docs/rules/yield-star-spacing)|🚨|🚨|🚨|🚨|🚨|
+|[`yml/block-mapping`](https://ota-meshi.github.io/eslint-plugin-yml/rules/block-mapping.html)|🚨|👻|👻|👻|👻|
+|[`yml/block-mapping-question-indicator-newline`](https://ota-meshi.github.io/eslint-plugin-yml/rules/block-mapping-question-indicator-newline.html)|🚨|👻|👻|👻|👻|
+|[`yml/block-sequence`](https://ota-meshi.github.io/eslint-plugin-yml/rules/block-sequence.html)|🚨|👻|👻|👻|👻|
+|[`yml/block-sequence-hyphen-indicator-newline`](https://ota-meshi.github.io/eslint-plugin-yml/rules/block-sequence-hyphen-indicator-newline.html)|🚨|👻|👻|👻|👻|
+|[`yml/flow-mapping-curly-newline`](https://ota-meshi.github.io/eslint-plugin-yml/rules/flow-mapping-curly-newline.html)|🚨|👻|👻|👻|👻|
+|[`yml/flow-mapping-curly-spacing`](https://ota-meshi.github.io/eslint-plugin-yml/rules/flow-mapping-curly-spacing.html)|🚨|👻|👻|👻|👻|
+|[`yml/flow-sequence-bracket-newline`](https://ota-meshi.github.io/eslint-plugin-yml/rules/flow-sequence-bracket-newline.html)|🚨|👻|👻|👻|👻|
+|[`yml/flow-sequence-bracket-spacing`](https://ota-meshi.github.io/eslint-plugin-yml/rules/flow-sequence-bracket-spacing.html)|🚨|👻|👻|👻|👻|
+|[`yml/indent`](https://ota-meshi.github.io/eslint-plugin-yml/rules/indent.html)|🚨|👻|👻|👻|👻|
+|[`yml/key-name-casing`](https://ota-meshi.github.io/eslint-plugin-yml/rules/key-name-casing.html)|❌|👻|👻|👻|👻|
+|[`yml/key-spacing`](https://ota-meshi.github.io/eslint-plugin-yml/rules/key-spacing.html)|🚨|👻|👻|👻|👻|
+|[`yml/no-empty-document`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-empty-document.html)|🚨|👻|👻|👻|👻|
+|[`yml/no-empty-key`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-empty-key.html)|🚨|👻|👻|👻|👻|
+|[`yml/no-empty-mapping-value`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-empty-mapping-value.html)|🚨|👻|👻|👻|👻|
+|[`yml/no-empty-sequence-entry`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-empty-sequence-entry.html)|🚨|👻|👻|👻|👻|
+|[`yml/no-irregular-whitespace`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-irregular-whitespace.html)|🚨|👻|👻|👻|👻|
+|[`yml/no-tab-indent`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-tab-indent.html)|🚨|👻|👻|👻|👻|
+|[`yml/plain-scalar`](https://ota-meshi.github.io/eslint-plugin-yml/rules/plain-scalar.html)|❌|👻|👻|👻|👻|
+|[`yml/quotes`](https://ota-meshi.github.io/eslint-plugin-yml/rules/quotes.html)|🚨|👻|👻|👻|👻|
+|[`yml/require-string-key`](https://ota-meshi.github.io/eslint-plugin-yml/rules/require-string-key.html)|🚨|👻|👻|👻|👻|
+|[`yml/sort-keys`](https://ota-meshi.github.io/eslint-plugin-yml/rules/sort-keys.html)|🚨|👻|👻|👻|👻|
+|[`yml/spaced-comment`](https://ota-meshi.github.io/eslint-plugin-yml/rules/spaced-comment.html)|🚨|👻|👻|👻|👻|
+|[`yml/vue-custom-block/no-parsing-error`](https://ota-meshi.github.io/eslint-plugin-yml/rules/vue-custom-block/no-parsing-error.html)|🚨|👻|👻|👻|👻|
 |[`yoda`](https://eslint.org/docs/rules/yoda)|🚨|🚨|👻|🚨|🚨|
