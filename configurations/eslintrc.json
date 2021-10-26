@@ -548,6 +548,7 @@
         "variables": true
       }
     ],
+    "no-useless-backreference": 2,
     "no-useless-call": 2,
     "no-useless-catch": 2,
     "no-useless-computed-key": 2,
