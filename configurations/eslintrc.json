@@ -382,6 +382,7 @@
       }
     ],
     "max-lines": 0,
+    "max-lines-per-function": 0,
     "max-nested-callbacks": [
       1,
       3
