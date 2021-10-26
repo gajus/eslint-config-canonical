@@ -895,7 +895,10 @@
         "before": false
       }
     ],
-    "yoda": 0
+    "yoda": [
+      2,
+      "never"
+    ]
   },
   "settings": {
     "import/extensions": [
