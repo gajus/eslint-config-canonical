@@ -54,7 +54,7 @@ const getRuleLink = (ruleName) => {
   }
 
   if (ruleName.startsWith('unicorn/')) {
-    return '[`' + ruleName + '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/' + ruleName.replace(/^unicorn\//, '') + '.md)';
+    return '[`' + ruleName + '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/' + ruleName.replace(/^unicorn\//, '') + '.md)';
   }
 
   if (ruleName.startsWith('flowtype/')) {
