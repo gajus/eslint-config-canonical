@@ -41,6 +41,7 @@
       3
     ],
     "lodash/prefer-find": 2,
+    "lodash/prefer-flat-map": 2,
     "lodash/prefer-get": [
       1,
       3
