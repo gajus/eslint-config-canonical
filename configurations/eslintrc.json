@@ -661,7 +661,14 @@
       2,
       "never"
     ],
-    "padding-line-between-statements": 0,
+    "padding-line-between-statements": [
+      2,
+      {
+        "blankLine": "always",
+        "prev": "multiline-block-like",
+        "next": "*"
+      }
+    ],
     "prefer-arrow-callback": 2,
     "prefer-const": 2,
     "prefer-destructuring": 0,
