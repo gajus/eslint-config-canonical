@@ -282,6 +282,7 @@ const getLoadedRules = async () => {
     'react/jsx-one-expression-per-line',
     'react/jsx-props-no-spreading',
     'react/jsx-wrap-multilines',
+    'react/require-default-props',
   ];
 
   for (const ruleName of ruleNames) {
