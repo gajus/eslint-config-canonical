@@ -215,7 +215,7 @@ const getLoadedRules = async () => {
   for (const ruleName of ruleNames) {
     // eslint-disable-next-line no-console -- CLI
     console.log(
-      '|' + getRuleLink(ruleName) +
+      '|' + getRuleLink(ruleName) + (loadedRules[ruleName]?.meta?.deprecated ? ' ⛔️' : '') +
       '|' + getRuleConfiguration(canonicalRules, ruleName) +
       '|' + getRuleConfiguration(airbnbRules, ruleName) +
       '|' + getRuleConfiguration(googleRules, ruleName) +

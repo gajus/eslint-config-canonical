@@ -55,6 +55,7 @@ This is how Canonical ruleset compares to other popular configurations.
 * ⚠️ - warning
 * ❌ - disabled
 * 👻 - not in use
+* ⛔️ – deprecated rule
 
 <!-- This comparison is created using `./compare` script. -->
 
@@ -110,7 +111,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`@typescript-eslint/no-extraneous-class`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extraneous-class.md)|🚨|👻|👻|👻|
 |[`@typescript-eslint/no-floating-promises`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-floating-promises.md)|⚠️|👻|👻|👻|
 |[`@typescript-eslint/no-for-in-array`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-for-in-array.md)|🚨|👻|👻|👻|
-|[`@typescript-eslint/no-implicit-any-catch`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md)|❌|👻|👻|👻|
+|[`@typescript-eslint/no-implicit-any-catch`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md) ⛔️|❌|👻|👻|👻|
 |[`@typescript-eslint/no-implied-eval`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implied-eval.md)|🚨|👻|👻|👻|
 |[`@typescript-eslint/no-inferrable-types`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-inferrable-types.md)|🚨|👻|👻|👻|
 |[`@typescript-eslint/no-invalid-this`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-invalid-this.md)|❌|👻|👻|👻|
@@ -224,7 +225,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`block-scoped-var`](https://eslint.org/docs/rules/block-scoped-var)|🚨|🚨|👻|👻|
 |[`block-spacing`](https://eslint.org/docs/rules/block-spacing)|🚨|🚨|🚨|🚨|
 |[`brace-style`](https://eslint.org/docs/rules/brace-style)|❌|🚨|🚨|🚨|
-|[`callback-return`](https://eslint.org/docs/rules/callback-return)|👻|❌|👻|👻|
+|[`callback-return`](https://eslint.org/docs/rules/callback-return) ⛔️|👻|❌|👻|👻|
 |[`camelcase`](https://eslint.org/docs/rules/camelcase)|❌|🚨|🚨|🚨|
 |[`canonical/filename-match-exported`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-filename-match-exported)|🚨|👻|👻|👻|
 |[`canonical/filename-match-regex`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-filename-match-regex)|⚠️|👻|👻|👻|
@@ -306,7 +307,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`flowtype/union-intersection-spacing`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-union-intersection-spacing)|🚨|👻|👻|👻|
 |[`flowtype/use-flow-type`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-use-flow-type)|⚠️|👻|👻|👻|
 |[`flowtype/use-read-only-spread`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-use-read-only-spread)|🚨|👻|👻|👻|
-|[`flowtype/valid-syntax`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-valid-syntax)|👻|👻|👻|👻|
+|[`flowtype/valid-syntax`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-valid-syntax) ⛔️|👻|👻|👻|👻|
 |[`for-direction`](https://eslint.org/docs/rules/for-direction)|🚨|🚨|👻|👻|
 |[`fp/no-arguments`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-arguments.md)|🚨|👻|👻|👻|
 |[`fp/no-class`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-class.md)|🚨|👻|👻|👻|
@@ -333,11 +334,11 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`function-paren-newline`](https://eslint.org/docs/rules/function-paren-newline)|🚨|🚨|👻|👻|
 |[`generator-star-spacing`](https://eslint.org/docs/rules/generator-star-spacing)|🚨|🚨|🚨|🚨|
 |[`getter-return`](https://eslint.org/docs/rules/getter-return)|🚨|🚨|👻|👻|
-|[`global-require`](https://eslint.org/docs/rules/global-require)|👻|🚨|👻|👻|
+|[`global-require`](https://eslint.org/docs/rules/global-require) ⛔️|👻|🚨|👻|👻|
 |[`grouped-accessor-pairs`](https://eslint.org/docs/rules/grouped-accessor-pairs)|🚨|❌|👻|👻|
 |[`guard-for-in`](https://eslint.org/docs/rules/guard-for-in)|🚨|🚨|🚨|👻|
-|[`handle-callback-err`](https://eslint.org/docs/rules/handle-callback-err)|🚨|❌|👻|👻|
-|[`id-blacklist`](https://eslint.org/docs/rules/id-blacklist)|👻|❌|👻|👻|
+|[`handle-callback-err`](https://eslint.org/docs/rules/handle-callback-err) ⛔️|🚨|❌|👻|👻|
+|[`id-blacklist`](https://eslint.org/docs/rules/id-blacklist) ⛔️|👻|❌|👻|👻|
 |[`id-denylist`](https://eslint.org/docs/rules/id-denylist)|❌|❌|👻|👻|
 |[`id-length`](https://eslint.org/docs/rules/id-length)|⚠️|❌|👻|👻|
 |[`id-match`](https://eslint.org/docs/rules/id-match)|❌|❌|👻|👻|
@@ -349,7 +350,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`import/extensions`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)|🚨|🚨|👻|👻|
 |[`import/first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md)|🚨|🚨|👻|🚨|
 |[`import/group-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md)|❌|❌|👻|👻|
-|[`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md)|👻|❌|👻|👻|
+|[`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md) ⛔️|👻|❌|👻|👻|
 |[`import/max-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md)|❌|❌|👻|👻|
 |[`import/named`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md)|❌|🚨|👻|👻|
 |[`import/namespace`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md)|❌|❌|👻|👻|
@@ -386,7 +387,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)|❌|🚨|👻|👻|
 |[`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md)|⚠️|❌|👻|👻|
 |[`indent`](https://eslint.org/docs/rules/indent)|❌|🚨|🚨|🚨|
-|[`indent-legacy`](https://eslint.org/docs/rules/indent-legacy)|👻|👻|👻|👻|
+|[`indent-legacy`](https://eslint.org/docs/rules/indent-legacy) ⛔️|👻|👻|👻|👻|
 |[`init-declarations`](https://eslint.org/docs/rules/init-declarations)|❌|❌|👻|👻|
 |[`jest/consistent-test-it`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/consistent-test-it.md)|👻|👻|👻|👻|
 |[`jest/expect-expect`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/expect-expect.md)|👻|👻|👻|👻|
@@ -479,7 +480,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`jsdoc/require-yields-check`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-yields-check)|👻|👻|👻|👻|
 |[`jsdoc/tag-lines`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-tag-lines)|🚨|👻|👻|👻|
 |[`jsdoc/valid-types`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-valid-types)|👻|👻|👻|👻|
-|[`jsx-a11y/accessible-emoji`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md)|👻|❌|👻|👻|
+|[`jsx-a11y/accessible-emoji`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md) ⛔️|👻|❌|👻|👻|
 |[`jsx-a11y/alt-text`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md)|👻|🚨|👻|👻|
 |[`jsx-a11y/anchor-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md)|👻|🚨|👻|👻|
 |[`jsx-a11y/anchor-is-valid`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md)|👻|🚨|👻|👻|
@@ -497,7 +498,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`jsx-a11y/img-redundant-alt`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-redundant-alt.md)|👻|🚨|👻|👻|
 |[`jsx-a11y/interactive-supports-focus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/interactive-supports-focus.md)|👻|🚨|👻|👻|
 |[`jsx-a11y/label-has-associated-control`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md)|👻|🚨|👻|👻|
-|[`jsx-a11y/label-has-for`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md)|👻|❌|👻|👻|
+|[`jsx-a11y/label-has-for`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md) ⛔️|👻|❌|👻|👻|
 |[`jsx-a11y/lang`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md)|👻|🚨|👻|👻|
 |[`jsx-a11y/media-has-caption`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/media-has-caption.md)|👻|🚨|👻|👻|
 |[`jsx-a11y/mouse-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/mouse-events-have-key-events.md)|👻|🚨|👻|👻|
@@ -521,7 +522,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`line-comment-position`](https://eslint.org/docs/rules/line-comment-position)|🚨|❌|👻|👻|
 |[`linebreak-style`](https://eslint.org/docs/rules/linebreak-style)|🚨|🚨|🚨|👻|
 |[`lines-around-comment`](https://eslint.org/docs/rules/lines-around-comment)|🚨|❌|👻|👻|
-|[`lines-around-directive`](https://eslint.org/docs/rules/lines-around-directive)|🚨|🚨|👻|👻|
+|[`lines-around-directive`](https://eslint.org/docs/rules/lines-around-directive) ⛔️|🚨|🚨|👻|👻|
 |[`lines-between-class-members`](https://eslint.org/docs/rules/lines-between-class-members)|❌|🚨|👻|🚨|
 |[`lodash/callback-binding`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/callback-binding.md)|⚠️|👻|👻|👻|
 |[`lodash/chain-style`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/chain-style.md)|⚠️|👻|👻|👻|
@@ -600,18 +601,18 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`multiline-ternary`](https://eslint.org/docs/rules/multiline-ternary)|❌|❌|👻|🚨|
 |[`new-cap`](https://eslint.org/docs/rules/new-cap)|❌|🚨|🚨|🚨|
 |[`new-parens`](https://eslint.org/docs/rules/new-parens)|🚨|🚨|👻|🚨|
-|[`newline-after-var`](https://eslint.org/docs/rules/newline-after-var)|❌|❌|👻|👻|
-|[`newline-before-return`](https://eslint.org/docs/rules/newline-before-return)|🚨|❌|👻|👻|
+|[`newline-after-var`](https://eslint.org/docs/rules/newline-after-var) ⛔️|❌|❌|👻|👻|
+|[`newline-before-return`](https://eslint.org/docs/rules/newline-before-return) ⛔️|🚨|❌|👻|👻|
 |[`newline-per-chained-call`](https://eslint.org/docs/rules/newline-per-chained-call)|❌|🚨|👻|👻|
 |[`no-alert`](https://eslint.org/docs/rules/no-alert)|🚨|⚠️|👻|👻|
 |[`no-array-constructor`](https://eslint.org/docs/rules/no-array-constructor)|❌|🚨|🚨|🚨|
 |[`no-async-promise-executor`](https://eslint.org/docs/rules/no-async-promise-executor)|🚨|🚨|👻|🚨|
 |[`no-await-in-loop`](https://eslint.org/docs/rules/no-await-in-loop)|❌|🚨|👻|👻|
 |[`no-bitwise`](https://eslint.org/docs/rules/no-bitwise)|👻|🚨|👻|👻|
-|[`no-buffer-constructor`](https://eslint.org/docs/rules/no-buffer-constructor)|🚨|🚨|👻|👻|
+|[`no-buffer-constructor`](https://eslint.org/docs/rules/no-buffer-constructor) ⛔️|🚨|🚨|👻|👻|
 |[`no-caller`](https://eslint.org/docs/rules/no-caller)|🚨|🚨|🚨|🚨|
 |[`no-case-declarations`](https://eslint.org/docs/rules/no-case-declarations)|🚨|🚨|👻|🚨|
-|[`no-catch-shadow`](https://eslint.org/docs/rules/no-catch-shadow)|🚨|❌|👻|👻|
+|[`no-catch-shadow`](https://eslint.org/docs/rules/no-catch-shadow) ⛔️|🚨|❌|👻|👻|
 |[`no-class-assign`](https://eslint.org/docs/rules/no-class-assign)|🚨|🚨|👻|🚨|
 |[`no-compare-neg-zero`](https://eslint.org/docs/rules/no-compare-neg-zero)|🚨|🚨|👻|🚨|
 |[`no-cond-assign`](https://eslint.org/docs/rules/no-cond-assign)|🚨|🚨|❌|🚨|
@@ -668,20 +669,20 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`no-magic-numbers`](https://eslint.org/docs/rules/no-magic-numbers)|❌|❌|👻|👻|
 |[`no-misleading-character-class`](https://eslint.org/docs/rules/no-misleading-character-class)|🚨|🚨|👻|🚨|
 |[`no-mixed-operators`](https://eslint.org/docs/rules/no-mixed-operators)|👻|🚨|👻|🚨|
-|[`no-mixed-requires`](https://eslint.org/docs/rules/no-mixed-requires)|❌|❌|👻|👻|
+|[`no-mixed-requires`](https://eslint.org/docs/rules/no-mixed-requires) ⛔️|❌|❌|👻|👻|
 |[`no-mixed-spaces-and-tabs`](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)|🚨|🚨|🚨|🚨|
 |[`no-multi-assign`](https://eslint.org/docs/rules/no-multi-assign)|👻|🚨|👻|👻|
 |[`no-multi-spaces`](https://eslint.org/docs/rules/no-multi-spaces)|🚨|🚨|🚨|🚨|
 |[`no-multi-str`](https://eslint.org/docs/rules/no-multi-str)|🚨|🚨|🚨|🚨|
 |[`no-multiple-empty-lines`](https://eslint.org/docs/rules/no-multiple-empty-lines)|🚨|🚨|🚨|🚨|
-|[`no-native-reassign`](https://eslint.org/docs/rules/no-native-reassign)|🚨|❌|👻|👻|
+|[`no-native-reassign`](https://eslint.org/docs/rules/no-native-reassign) ⛔️|🚨|❌|👻|👻|
 |[`no-negated-condition`](https://eslint.org/docs/rules/no-negated-condition)|🚨|❌|👻|👻|
-|[`no-negated-in-lhs`](https://eslint.org/docs/rules/no-negated-in-lhs)|🚨|❌|👻|👻|
+|[`no-negated-in-lhs`](https://eslint.org/docs/rules/no-negated-in-lhs) ⛔️|🚨|❌|👻|👻|
 |[`no-nested-ternary`](https://eslint.org/docs/rules/no-nested-ternary)|❌|🚨|👻|👻|
 |[`no-new`](https://eslint.org/docs/rules/no-new)|🚨|🚨|👻|🚨|
 |[`no-new-func`](https://eslint.org/docs/rules/no-new-func)|🚨|🚨|👻|🚨|
 |[`no-new-object`](https://eslint.org/docs/rules/no-new-object)|🚨|🚨|🚨|🚨|
-|[`no-new-require`](https://eslint.org/docs/rules/no-new-require)|👻|🚨|👻|👻|
+|[`no-new-require`](https://eslint.org/docs/rules/no-new-require) ⛔️|👻|🚨|👻|👻|
 |[`no-new-symbol`](https://eslint.org/docs/rules/no-new-symbol)|🚨|🚨|🚨|🚨|
 |[`no-new-wrappers`](https://eslint.org/docs/rules/no-new-wrappers)|🚨|🚨|🚨|🚨|
 |[`no-nonoctal-decimal-escape`](https://eslint.org/docs/rules/no-nonoctal-decimal-escape)|🚨|👻|👻|👻|
@@ -689,10 +690,10 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`no-octal`](https://eslint.org/docs/rules/no-octal)|🚨|🚨|👻|🚨|
 |[`no-octal-escape`](https://eslint.org/docs/rules/no-octal-escape)|🚨|🚨|👻|🚨|
 |[`no-param-reassign`](https://eslint.org/docs/rules/no-param-reassign)|🚨|🚨|👻|👻|
-|[`no-path-concat`](https://eslint.org/docs/rules/no-path-concat)|👻|🚨|👻|👻|
+|[`no-path-concat`](https://eslint.org/docs/rules/no-path-concat) ⛔️|👻|🚨|👻|👻|
 |[`no-plusplus`](https://eslint.org/docs/rules/no-plusplus)|👻|🚨|👻|👻|
-|[`no-process-env`](https://eslint.org/docs/rules/no-process-env)|👻|❌|👻|👻|
-|[`no-process-exit`](https://eslint.org/docs/rules/no-process-exit)|👻|❌|👻|👻|
+|[`no-process-env`](https://eslint.org/docs/rules/no-process-env) ⛔️|👻|❌|👻|👻|
+|[`no-process-exit`](https://eslint.org/docs/rules/no-process-exit) ⛔️|👻|❌|👻|👻|
 |[`no-promise-executor-return`](https://eslint.org/docs/rules/no-promise-executor-return)|👻|❌|👻|👻|
 |[`no-proto`](https://eslint.org/docs/rules/no-proto)|🚨|🚨|👻|🚨|
 |[`no-prototype-builtins`](https://eslint.org/docs/rules/no-prototype-builtins)|👻|🚨|👻|🚨|
@@ -701,7 +702,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`no-restricted-exports`](https://eslint.org/docs/rules/no-restricted-exports)|👻|❌|👻|👻|
 |[`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-globals)|❌|🚨|👻|👻|
 |[`no-restricted-imports`](https://eslint.org/docs/rules/no-restricted-imports)|👻|❌|👻|👻|
-|[`no-restricted-modules`](https://eslint.org/docs/rules/no-restricted-modules)|❌|❌|👻|👻|
+|[`no-restricted-modules`](https://eslint.org/docs/rules/no-restricted-modules) ⛔️|❌|❌|👻|👻|
 |[`no-restricted-properties`](https://eslint.org/docs/rules/no-restricted-properties)|❌|🚨|👻|👻|
 |[`no-restricted-syntax`](https://eslint.org/docs/rules/no-restricted-syntax)|❌|🚨|👻|👻|
 |[`no-return-assign`](https://eslint.org/docs/rules/no-return-assign)|🚨|🚨|👻|🚨|
@@ -713,9 +714,9 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`no-setter-return`](https://eslint.org/docs/rules/no-setter-return)|👻|❌|👻|👻|
 |[`no-shadow`](https://eslint.org/docs/rules/no-shadow)|❌|🚨|👻|👻|
 |[`no-shadow-restricted-names`](https://eslint.org/docs/rules/no-shadow-restricted-names)|🚨|🚨|👻|🚨|
-|[`no-spaced-func`](https://eslint.org/docs/rules/no-spaced-func)|🚨|🚨|👻|👻|
+|[`no-spaced-func`](https://eslint.org/docs/rules/no-spaced-func) ⛔️|🚨|🚨|👻|👻|
 |[`no-sparse-arrays`](https://eslint.org/docs/rules/no-sparse-arrays)|🚨|🚨|👻|🚨|
-|[`no-sync`](https://eslint.org/docs/rules/no-sync)|❌|❌|👻|👻|
+|[`no-sync`](https://eslint.org/docs/rules/no-sync) ⛔️|❌|❌|👻|👻|
 |[`no-tabs`](https://eslint.org/docs/rules/no-tabs)|🚨|🚨|🚨|🚨|
 |[`no-template-curly-in-string`](https://eslint.org/docs/rules/no-template-curly-in-string)|🚨|🚨|👻|🚨|
 |[`no-ternary`](https://eslint.org/docs/rules/no-ternary)|❌|❌|👻|👻|
@@ -763,7 +764,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`node/no-exports-assign`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-exports-assign.md)|🚨|👻|👻|🚨|
 |[`node/no-extraneous-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-extraneous-import.md)|🚨|👻|👻|👻|
 |[`node/no-extraneous-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-extraneous-require.md)|🚨|👻|👻|👻|
-|[`node/no-hide-core-modules`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-hide-core-modules.md)|👻|👻|👻|👻|
+|[`node/no-hide-core-modules`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-hide-core-modules.md) ⛔️|👻|👻|👻|👻|
 |[`node/no-missing-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-missing-import.md)|❌|👻|👻|👻|
 |[`node/no-missing-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-missing-require.md)|❌|👻|👻|👻|
 |[`node/no-mixed-requires`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-mixed-requires.md)|❌|👻|👻|👻|
@@ -777,7 +778,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`node/no-unpublished-bin`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-bin.md)|🚨|👻|👻|👻|
 |[`node/no-unpublished-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-import.md)|🚨|👻|👻|👻|
 |[`node/no-unpublished-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md)|🚨|👻|👻|👻|
-|[`node/no-unsupported-features`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features.md)|👻|👻|👻|👻|
+|[`node/no-unsupported-features`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features.md) ⛔️|👻|👻|👻|👻|
 |[`node/no-unsupported-features/es-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-builtins.md)|❌|👻|👻|👻|
 |[`node/no-unsupported-features/es-syntax`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-syntax.md)|❌|👻|👻|👻|
 |[`node/no-unsupported-features/node-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/node-builtins.md)|❌|👻|👻|👻|
@@ -811,7 +812,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`prefer-numeric-literals`](https://eslint.org/docs/rules/prefer-numeric-literals)|🚨|🚨|👻|👻|
 |[`prefer-object-spread`](https://eslint.org/docs/rules/prefer-object-spread)|🚨|🚨|👻|👻|
 |[`prefer-promise-reject-errors`](https://eslint.org/docs/rules/prefer-promise-reject-errors)|🚨|🚨|🚨|🚨|
-|[`prefer-reflect`](https://eslint.org/docs/rules/prefer-reflect)|❌|❌|👻|👻|
+|[`prefer-reflect`](https://eslint.org/docs/rules/prefer-reflect) ⛔️|❌|❌|👻|👻|
 |[`prefer-regex-literals`](https://eslint.org/docs/rules/prefer-regex-literals)|🚨|❌|👻|🚨|
 |[`prefer-rest-params`](https://eslint.org/docs/rules/prefer-rest-params)|🚨|🚨|🚨|👻|
 |[`prefer-spread`](https://eslint.org/docs/rules/prefer-spread)|🚨|🚨|🚨|👻|
@@ -879,7 +880,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`react/jsx-props-no-spreading`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md)|❌|🚨|👻|👻|
 |[`react/jsx-sort-default-props`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md)|🚨|❌|👻|👻|
 |[`react/jsx-sort-props`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md)|🚨|❌|👻|👻|
-|[`react/jsx-space-before-closing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md)|👻|❌|👻|👻|
+|[`react/jsx-space-before-closing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md) ⛔️|👻|❌|👻|👻|
 |[`react/jsx-tag-spacing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md)|🚨|🚨|👻|👻|
 |[`react/jsx-uses-react`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md)|⚠️|🚨|👻|👻|
 |[`react/jsx-uses-vars`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md)|⚠️|🚨|👻|👻|
@@ -929,7 +930,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`react/void-dom-elements-no-children`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md)|🚨|🚨|👻|👻|
 |[`require-atomic-updates`](https://eslint.org/docs/rules/require-atomic-updates)|🚨|❌|👻|👻|
 |[`require-await`](https://eslint.org/docs/rules/require-await)|❌|❌|👻|👻|
-|[`require-jsdoc`](https://eslint.org/docs/rules/require-jsdoc)|❌|❌|🚨|👻|
+|[`require-jsdoc`](https://eslint.org/docs/rules/require-jsdoc) ⛔️|❌|❌|🚨|👻|
 |[`require-unicode-regexp`](https://eslint.org/docs/rules/require-unicode-regexp)|🚨|❌|👻|👻|
 |[`require-yield`](https://eslint.org/docs/rules/require-yield)|🚨|🚨|👻|👻|
 |[`rest-spread-spacing`](https://eslint.org/docs/rules/rest-spread-spacing)|🚨|🚨|🚨|🚨|
@@ -970,13 +971,13 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`unicorn/no-abusive-eslint-disable`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-abusive-eslint-disable.md)|🚨|👻|👻|👻|
 |[`unicorn/no-array-callback-reference`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md)|👻|👻|👻|👻|
 |[`unicorn/no-array-for-each`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md)|👻|👻|👻|👻|
-|[`unicorn/no-array-instanceof`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-instanceof.md)|🚨|👻|👻|👻|
+|[`unicorn/no-array-instanceof`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-instanceof.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/no-array-method-this-argument`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md)|🚨|👻|👻|👻|
 |[`unicorn/no-array-push-push`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md)|👻|👻|👻|👻|
 |[`unicorn/no-array-reduce`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reduce.md)|👻|👻|👻|👻|
 |[`unicorn/no-console-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-console-spaces.md)|❌|👻|👻|👻|
 |[`unicorn/no-document-cookie`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md)|🚨|👻|👻|👻|
-|[`unicorn/no-fn-reference-in-iterator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-fn-reference-in-iterator.md)|❌|👻|👻|👻|
+|[`unicorn/no-fn-reference-in-iterator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-fn-reference-in-iterator.md) ⛔️|❌|👻|👻|👻|
 |[`unicorn/no-for-loop`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md)|🚨|👻|👻|👻|
 |[`unicorn/no-hex-escape`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-hex-escape.md)|🚨|👻|👻|👻|
 |[`unicorn/no-instanceof-array`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-array.md)|👻|👻|👻|👻|
@@ -989,7 +990,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`unicorn/no-null`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md)|❌|👻|👻|👻|
 |[`unicorn/no-object-as-default-parameter`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md)|🚨|👻|👻|👻|
 |[`unicorn/no-process-exit`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md)|❌|👻|👻|👻|
-|[`unicorn/no-reduce`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-reduce.md)|🚨|👻|👻|👻|
+|[`unicorn/no-reduce`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-reduce.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/no-static-only-class`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md)|🚨|👻|👻|👻|
 |[`unicorn/no-this-assignment`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)|👻|👻|👻|👻|
 |[`unicorn/no-unreadable-array-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)|❌|👻|👻|👻|
@@ -1009,25 +1010,25 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`unicorn/prefer-array-index-of`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-index-of.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-array-some`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-some.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-at`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md)|❌|👻|👻|👻|
-|[`unicorn/prefer-dataset`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dataset.md)|🚨|👻|👻|👻|
+|[`unicorn/prefer-dataset`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dataset.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/prefer-date-now`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-date-now.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-default-parameters`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-dom-node-append`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-append.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-dom-node-dataset`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-dom-node-remove`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-dom-node-text-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md)|👻|👻|👻|👻|
-|[`unicorn/prefer-event-key`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-key.md)|🚨|👻|👻|👻|
-|[`unicorn/prefer-exponentiation-operator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-exponentiation-operator.md)|👻|👻|👻|👻|
-|[`unicorn/prefer-flat-map`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-flat-map.md)|🚨|👻|👻|👻|
+|[`unicorn/prefer-event-key`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-key.md) ⛔️|🚨|👻|👻|👻|
+|[`unicorn/prefer-exponentiation-operator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-exponentiation-operator.md) ⛔️|👻|👻|👻|👻|
+|[`unicorn/prefer-flat-map`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-flat-map.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/prefer-includes`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-includes.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-keyboard-event-key`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-math-trunc`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-trunc.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-modern-dom-apis`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-module`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-negative-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-negative-index.md)|❌|👻|👻|👻|
-|[`unicorn/prefer-node-append`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-append.md)|🚨|👻|👻|👻|
+|[`unicorn/prefer-node-append`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-append.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/prefer-node-protocol`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md)|🚨|👻|👻|👻|
-|[`unicorn/prefer-node-remove`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-remove.md)|🚨|👻|👻|👻|
+|[`unicorn/prefer-node-remove`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-remove.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/prefer-number-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-object-from-entries`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-object-has-own`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-has-own.md)|❌|👻|👻|👻|
@@ -1036,22 +1037,22 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`unicorn/prefer-query-selector`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-reflect-apply`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-reflect-apply.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-regexp-test`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-regexp-test.md)|👻|👻|👻|👻|
-|[`unicorn/prefer-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-replace-all.md)|❌|👻|👻|👻|
+|[`unicorn/prefer-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-replace-all.md) ⛔️|❌|👻|👻|👻|
 |[`unicorn/prefer-set-has`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md)|❌|👻|👻|👻|
 |[`unicorn/prefer-spread`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md)|❌|👻|👻|👻|
-|[`unicorn/prefer-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-starts-ends-with.md)|🚨|👻|👻|👻|
+|[`unicorn/prefer-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-starts-ends-with.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/prefer-string-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-string-slice`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-slice.md)|🚨|👻|👻|👻|
 |[`unicorn/prefer-string-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-starts-ends-with.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-string-trim-start-end`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-trim-start-end.md)|👻|👻|👻|👻|
 |[`unicorn/prefer-switch`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-switch.md)|❌|👻|👻|👻|
 |[`unicorn/prefer-ternary`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md)|❌|👻|👻|👻|
-|[`unicorn/prefer-text-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-text-content.md)|🚨|👻|👻|👻|
+|[`unicorn/prefer-text-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-text-content.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/prefer-top-level-await`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md)|❌|👻|👻|👻|
-|[`unicorn/prefer-trim-start-end`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-trim-start-end.md)|🚨|👻|👻|👻|
+|[`unicorn/prefer-trim-start-end`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-trim-start-end.md) ⛔️|🚨|👻|👻|👻|
 |[`unicorn/prefer-type-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-type-error.md)|🚨|👻|👻|👻|
 |[`unicorn/prevent-abbreviations`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md)|🚨|👻|👻|👻|
-|[`unicorn/regex-shorthand`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/regex-shorthand.md)|👻|👻|👻|👻|
+|[`unicorn/regex-shorthand`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/regex-shorthand.md) ⛔️|👻|👻|👻|👻|
 |[`unicorn/require-array-join-separator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md)|🚨|👻|👻|👻|
 |[`unicorn/require-number-to-fixed-digits-argument`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md)|🚨|👻|👻|👻|
 |[`unicorn/require-post-message-target-origin`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md)|🚨|👻|👻|👻|
@@ -1059,7 +1060,7 @@ This is how Canonical ruleset compares to other popular configurations.
 |[`unicorn/template-indent`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md)|👻|👻|👻|👻|
 |[`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)|🚨|👻|👻|👻|
 |[`use-isnan`](https://eslint.org/docs/rules/use-isnan)|🚨|🚨|👻|🚨|
-|[`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc)|❌|❌|🚨|👻|
+|[`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc) ⛔️|❌|❌|🚨|👻|
 |[`valid-typeof`](https://eslint.org/docs/rules/valid-typeof)|🚨|🚨|👻|🚨|
 |[`vars-on-top`](https://eslint.org/docs/rules/vars-on-top)|🚨|🚨|👻|👻|
 |[`wrap-iife`](https://eslint.org/docs/rules/wrap-iife)|🚨|🚨|👻|🚨|
