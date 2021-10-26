@@ -236,6 +236,7 @@
       "beside"
     ],
     "import/default": 2,
+    "import/dynamic-import-chunkname": 0,
     "import/export": 2,
     "import/exports-last": 0,
     "import/extensions": [
@@ -268,6 +269,7 @@
         "peerDependencies": true
       }
     ],
+    "import/no-import-module-exports": 0,
     "import/no-internal-modules": 0,
     "import/no-mutable-exports": 2,
     "import/no-named-as-default": 2,
@@ -276,11 +278,13 @@
     "import/no-named-export": 0,
     "import/no-namespace": 2,
     "import/no-nodejs-modules": 0,
+    "import/no-relative-packages": 0,
     "import/no-relative-parent-imports": 0,
     "import/no-restricted-paths": 0,
     "import/no-self-import": 2,
     "import/no-unassigned-import": 2,
     "import/no-unresolved": 0,
+    "import/no-unused-modules": 0,
     "import/no-useless-path-segments": 2,
     "import/no-webpack-loader-syntax": 2,
     "import/order": [
@@ -308,29 +312,72 @@
       2
     ],
     "init-declarations": 0,
+    "jsdoc/check-access": 2,
+    "jsdoc/check-alignment": 2,
     "jsdoc/check-examples": 0,
+    "jsdoc/check-indentation": [
+      2,
+      {
+        "excludeTags": [
+          "example"
+        ]
+      }
+    ],
+    "jsdoc/check-line-alignment": 0,
     "jsdoc/check-param-names": 1,
+    "jsdoc/check-property-names": 2,
+    "jsdoc/check-syntax": 2,
     "jsdoc/check-tag-names": 1,
     "jsdoc/check-types": 1,
+    "jsdoc/check-values": 2,
+    "jsdoc/empty-tags": 2,
+    "jsdoc/implements-on-classes": 2,
+    "jsdoc/match-description": 0,
+    "jsdoc/match-name": 0,
+    "jsdoc/multiline-blocks": [
+      2,
+      {
+        "noMultilineBlocks": false,
+        "noSingleLineBlocks": true
+      }
+    ],
     "jsdoc/newline-after-description": [
       1,
       "always"
     ],
     "jsdoc/no-bad-blocks": 2,
+    "jsdoc/no-defaults": 2,
+    "jsdoc/no-missing-syntax": 0,
+    "jsdoc/no-multi-asterisks": 2,
+    "jsdoc/no-restricted-syntax": 2,
+    "jsdoc/no-undefined-types": 2,
     "jsdoc/require-asterisk-prefix": 2,
     "jsdoc/require-description": 0,
     "jsdoc/require-description-complete-sentence": 0,
+    "jsdoc/require-example": 0,
+    "jsdoc/require-file-overview": 0,
     "jsdoc/require-hyphen-before-param-description": 0,
+    "jsdoc/require-jsdoc": 0,
     "jsdoc/require-param": 0,
     "jsdoc/require-param-description": 0,
     "jsdoc/require-param-name": 2,
     "jsdoc/require-param-type": 0,
+    "jsdoc/require-property": 2,
+    "jsdoc/require-property-description": 2,
+    "jsdoc/require-property-name": 2,
+    "jsdoc/require-property-type": 2,
+    "jsdoc/require-returns": 0,
+    "jsdoc/require-returns-check": 0,
     "jsdoc/require-returns-description": 0,
     "jsdoc/require-returns-type": 0,
+    "jsdoc/require-throws": 0,
+    "jsdoc/require-yields": 0,
+    "jsdoc/require-yields-check": 0,
     "jsdoc/tag-lines": [
       2,
       "never"
     ],
+    "jsdoc/valid-types": 2,
     "jsx-quotes": [
       2,
       "prefer-single"
@@ -520,6 +567,7 @@
       }
     ],
     "no-regex-spaces": 2,
+    "no-restricted-exports": 0,
     "no-restricted-globals": 0,
     "no-restricted-imports": 0,
     "no-restricted-properties": 0,
@@ -560,6 +608,7 @@
     "no-unsafe-optional-chaining": 2,
     "no-unused-expressions": 2,
     "no-unused-labels": 2,
+    "no-unused-private-class-members": 0,
     "no-unused-vars": 2,
     "no-use-before-define": [
       2,
@@ -656,8 +705,8 @@
       2,
       {
         "blankLine": "always",
-        "prev": "multiline-block-like",
-        "next": "*"
+        "next": "*",
+        "prev": "multiline-block-like"
       }
     ],
     "prefer-arrow-callback": 2,
@@ -665,13 +714,13 @@
     "prefer-destructuring": [
       "error",
       {
-        "VariableDeclarator": {
-          "array": false,
-          "object": true
-        },
         "AssignmentExpression": {
           "array": false,
           "object": false
+        },
+        "VariableDeclarator": {
+          "array": false,
+          "object": true
         }
       },
       {
@@ -815,11 +864,13 @@
     "unicorn/explicit-length-check": 0,
     "unicorn/filename-case": 0,
     "unicorn/import-index": 2,
+    "unicorn/import-style": 0,
     "unicorn/new-for-builtins": 2,
     "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/no-array-callback-reference": 2,
     "unicorn/no-array-for-each": 2,
     "unicorn/no-array-method-this-argument": 2,
+    "unicorn/no-array-push-push": 0,
     "unicorn/no-array-reduce": [
       "error",
       {
@@ -830,15 +881,20 @@
     "unicorn/no-document-cookie": 2,
     "unicorn/no-for-loop": 2,
     "unicorn/no-hex-escape": 2,
+    "unicorn/no-instanceof-array": 2,
     "unicorn/no-invalid-remove-event-listener": 2,
+    "unicorn/no-keyword-prefix": 0,
     "unicorn/no-lonely-if": 2,
     "unicorn/no-nested-ternary": 2,
+    "unicorn/no-new-array": 2,
     "unicorn/no-new-buffer": 2,
     "unicorn/no-null": 0,
     "unicorn/no-object-as-default-parameter": 2,
     "unicorn/no-process-exit": 0,
     "unicorn/no-static-only-class": 2,
+    "unicorn/no-this-assignment": 2,
     "unicorn/no-unreadable-array-destructuring": 0,
+    "unicorn/no-unsafe-regex": 2,
     "unicorn/no-unused-properties": 1,
     "unicorn/no-useless-fallback-in-spread": 2,
     "unicorn/no-useless-length-check": 2,
@@ -859,11 +915,13 @@
     "unicorn/prefer-array-find": 2,
     "unicorn/prefer-array-flat": 2,
     "unicorn/prefer-array-flat-map": 2,
+    "unicorn/prefer-array-index-of": 2,
+    "unicorn/prefer-array-some": 2,
     "unicorn/prefer-at": 0,
     "unicorn/prefer-date-now": 2,
+    "unicorn/prefer-default-parameters": 2,
     "unicorn/prefer-includes": 2,
     "unicorn/prefer-math-trunc": 2,
-    "unicorn/prefer-modern-dom-apis": 2,
     "unicorn/prefer-negative-index": 0,
     "unicorn/prefer-number-properties": 2,
     "unicorn/prefer-object-from-entries": 2,

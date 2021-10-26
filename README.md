@@ -17,12 +17,14 @@ This package includes the following configurations:
 
 * [`canonical`](./configurations/eslintrc.json) – The Canonical code style guide.
 * [`canonical/ava`](./configurations/ava.json) – for projects that use [AVA](https://ava.li/).
+* [`canonical/browser`](./configurations/browser.json) – for projects that use DOM and other browser APIs.
 * [`canonical/cypress`](./configurations/cypress.json) – for projects that use [Cypress](https://cypress.io/).
 * [`canonical/flowtype`](./configurations/flowtype.json) – for projects that use [Flowtype](https://flowtype.org/).
 * [`canonical/jest`](./configurations/jest.json) – for projects that use [jest](https://facebook.github.io/jest/).
 * [`canonical/jsx-a11y`](./configurations/jsx-a11y.json) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 * [`canonical/lodash`](./configurations/lodash.json) – for projects that use [lodash](https://lodash.com/).
 * [`canonical/mocha`](./configurations/mocha.json) – for projects that use [Mocha](https://mochajs.org/).
+* [`canonical/module`](./configurations/module.json) – for projects that use ESM modules.
 * [`canonical/node`](./configurations/node.json) – for projects that use Node.js.
 * [`canonical/react`](./configurations/react.json) – for projects that use [React](https://facebook.github.io/react/).
 * [`canonical/typescript`](./configurations/typescript.json) – for projects that use [TypeScript](http://typescriptlang.org/).
@@ -34,12 +36,14 @@ Example:
   "extends": [
     "canonical",
     "canonical/ava",
+    "canonical/browser",
     "canonical/cypress",
     "canonical/flowtype",
     "canonical/jest",
     "canonical/jsx-a11y",
     "canonical/lodash",
     "canonical/mocha",
+    "canonical/module",
     "canonical/node",
     "canonical/react",
     "canonical/typescript"

@@ -314,13 +314,7 @@ const getLoadedRules = async () => {
   for (const ruleName of ruleNames) {
     if (
       loadedRules[ruleName]?.meta?.deprecated !== true &&
-      !canonicalRules[ruleName] &&
-      (
-        isRuleEnabled(airbnbRules[ruleName]?.[0]) ||
-        isRuleEnabled(googleRules[ruleName]?.[0]) ||
-        isRuleEnabled(standardRules[ruleName]?.[0]) ||
-        isRuleEnabled(xoRules[ruleName]?.[0])
-      )
+      !canonicalRules[ruleName]
     ) {
       console.warn('unused rule "' + ruleName + '"', {
         airbnb: airbnbRules[ruleName],

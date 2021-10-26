@@ -3,6 +3,14 @@
     "flowtype"
   ],
   "rules": {
+    "flowtype/array-style-complex-type": [
+      2,
+      "verbose"
+    ],
+    "flowtype/array-style-simple-type": [
+      2,
+      "shorthand"
+    ],
     "flowtype/arrow-parens": [
       2,
       "always"
@@ -45,6 +53,10 @@
     ],
     "flowtype/require-compound-type-alias": 0,
     "flowtype/require-exact-type": 1,
+    "flowtype/require-indexer-name": [
+      2,
+      "always"
+    ],
     "flowtype/require-inexact-type": [
       2,
       "always"
@@ -102,7 +114,8 @@
       "always"
     ],
     "flowtype/use-flow-type": 1,
-    "flowtype/use-read-only-spread": 2
+    "flowtype/use-read-only-spread": 2,
+    "jsdoc/no-types": 2
   },
   "settings": {
     "flowtype": {
