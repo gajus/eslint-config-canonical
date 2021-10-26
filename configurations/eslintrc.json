@@ -535,6 +535,7 @@
     "no-unmodified-loop-condition": 2,
     "no-unneeded-ternary": 2,
     "no-unreachable": 1,
+    "no-unreachable-loop": 2,
     "no-unsafe-finally": 2,
     "no-unsafe-negation": 2,
     "no-unsafe-optional-chaining": 2,
