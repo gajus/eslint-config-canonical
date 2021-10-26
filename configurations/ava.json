@@ -28,6 +28,7 @@
     "ava/prefer-power-assert": 0,
     "ava/prefer-t-regex": 2,
     "ava/test-title": 2,
+    "ava/test-title-format": 0,
     "ava/use-t": 2,
     "ava/use-t-throws-async-well": 2,
     "ava/use-t-well": 2,
