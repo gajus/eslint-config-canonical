@@ -51,15 +51,25 @@ All breaking changes will bump the major version as per the semver convention. T
 
 This is how Canonical ruleset compares to other popular configurations.
 
+Emojis:
+
 * 🚨 – error
 * ⚠️ - warning
 * ❌ - disabled
 * 👻 - not in use
 * ⛔️ – deprecated rule
 
+Configurations:
+
+* CN – Canonical
+* [AB](https://www.npmjs.com/package/eslint-config-airbnb) – AirBnb
+* [GG](https://www.npmjs.com/package/eslint-config-google) – Google
+* [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard
+
+
 <!-- This comparison is created using `./compare` script. -->
 
-|Rule|Canonical|[Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)|[Google](https://www.npmjs.com/package/eslint-config-google)|[Standard](https://www.npmjs.com/package/eslint-config-standard)|
+|Rule|CN|[AB](https://www.npmjs.com/package/eslint-config-airbnb)|[GG](https://www.npmjs.com/package/eslint-config-google)|[SD](https://www.npmjs.com/package/eslint-config-standard)|
 |---|---|---|---|---|
 |`@babel/new-cap`|🚨|👻|👻|👻|
 |`@babel/no-invalid-this`|🚨|👻|👻|👻|
