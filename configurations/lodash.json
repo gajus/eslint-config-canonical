@@ -24,6 +24,12 @@
       "always"
     ],
     "lodash/import-scope": 0,
+    "lodash/lodash/prefer-some": [
+      2,
+      {
+        "includeNative": false
+      }
+    ],
     "lodash/matches-prop-shorthand": 1,
     "lodash/matches-shorthand": [
       1,
