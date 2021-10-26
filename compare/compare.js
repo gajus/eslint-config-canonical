@@ -14,13 +14,22 @@ const getConfigurationRules = async (configuration) => {
   return (await engine.calculateConfigForFile('./compare')).rules;
 };
 
-const getConfigurationPlugins = async (configuration) => {
+const getConfigurationPluginNames = async (configuration) => {
   const engine = new ESLint({
     baseConfig: configuration,
     useEslintrc: false,
   });
 
-  return (await engine.calculateConfigForFile('./compare')).rules;
+  return (await engine.calculateConfigForFile('./compare')).plugins;
+};
+
+const getPluginRules = (pluginName) => {
+  // eslint-disable-next-line import/no-dynamic-require
+  const rules = require(pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName).rules;
+
+  return Object.fromEntries(Object.entries(rules).map(([ruleName, ruleConfiguration]) => {
+    return [pluginName + '/' + ruleName, ruleConfiguration];
+  }));
 };
 
 const getRuleLink = (ruleName) => {
@@ -98,19 +107,19 @@ const getRuleLink = (ruleName) => {
 
 const describeRuleValue = (ruleValue) => {
   if (ruleValue === undefined) {
-    return 'N/A 👻';
+    return '👻';
   }
 
   if (ruleValue === 0 || ruleValue === 'off') {
-    return 'off';
+    return '❌';
   }
 
   if (ruleValue === 1 || ruleValue === 'warn') {
-    return 'warn ⚠️';
+    return '⚠️';
   }
 
   if (ruleValue === 2 || ruleValue === 'error') {
-    return 'error 🚨';
+    return '🚨';
   }
 
   return false;
@@ -126,9 +135,12 @@ const getRuleConfiguration = (ruleset, ruleName) => {
   return describeRuleValue(ruleset[ruleName][0]);
 };
 
-(async () => {
-  console.log(await getConfigurationPlugins({
+const getLoadedRules = async () => {
+  const usedPluginNames = await getConfigurationPluginNames({
     extends: [
+      'airbnb',
+      'google',
+      'standard',
       'canonical',
       'canonical/ava',
       'canonical/flowtype',
@@ -139,9 +151,27 @@ const getRuleConfiguration = (ruleset, ruleName) => {
       'canonical/react',
       'canonical/typescript',
     ],
-  }));
+  });
 
-  return;
+  let loadedRules = {};
+
+  for (const usedPluginName of usedPluginNames) {
+    loadedRules = {
+      ...loadedRules,
+      ...getPluginRules(usedPluginName),
+    };
+  }
+
+  return Object.fromEntries(
+    Object.entries(loadedRules)
+      .sort((a, b) => {
+        return a[0].localeCompare(b[0]);
+      }),
+  );
+};
+
+(async () => {
+  const loadedRules = await getLoadedRules();
 
   const canonicalRules = await getConfigurationRules({
     extends: [
@@ -175,15 +205,7 @@ const getRuleConfiguration = (ruleset, ruleName) => {
     ],
   });
 
-  const ruleNames = [
-    ...new Set([
-      ...Object.keys(canonicalRules),
-      ...Object.keys(airbnbRules),
-      ...Object.keys(googleRules),
-      ...Object.keys(standardRules),
-    ]),
-  ]
-    .sort();
+  const ruleNames = Object.keys(loadedRules);
 
   for (const ruleName of ruleNames) {
     // eslint-disable-next-line no-console -- CLI
