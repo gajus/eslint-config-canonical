@@ -498,12 +498,7 @@
         "props": false
       }
     ],
-    "no-plusplus": [
-      2,
-      {
-        "allowForLoopAfterthoughts": true
-      }
-    ],
+    "no-plusplus": 0,
     "no-promise-executor-return": 2,
     "no-proto": 2,
     "no-prototype-builtins": 2,
