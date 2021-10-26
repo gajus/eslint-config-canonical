@@ -163,12 +163,14 @@ const getLoadedRules = async () => {
       'canonical/browser',
       'canonical/flowtype',
       'canonical/jest',
+      'canonical/json',
       'canonical/lodash',
       'canonical/mocha',
       'canonical/module',
       'canonical/node',
       'canonical/react',
       'canonical/typescript',
+      'canonical/yaml',
     ],
   });
 
@@ -200,6 +202,7 @@ const getLoadedRules = async () => {
       'canonical/browser',
       'canonical/flowtype',
       'canonical/jest',
+      'canonical/json',
       'canonical/jsx-a11y',
       'canonical/lodash',
       'canonical/mocha',
@@ -207,6 +210,7 @@ const getLoadedRules = async () => {
       'canonical/node',
       'canonical/react',
       'canonical/typescript',
+      'canonical/yaml',
 
       // The order is important!
       // The last ruleset overrides rules in previous rulesets.
