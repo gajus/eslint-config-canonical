@@ -387,6 +387,7 @@
       1,
       3
     ],
+    "max-params": 2,
     "max-statements-per-line": [
       2,
       {
