@@ -259,6 +259,7 @@ const getLoadedRules = async () => {
     'max-classes-per-file',
     'max-params',
     'multiline-ternary',
+    'new-cap',
     'no-await-in-loop',
     'no-continue',
     'no-empty-function',
@@ -276,6 +277,10 @@ const getLoadedRules = async () => {
     'react/destructuring-assignment',
     'react/forbid-foreign-prop-types',
     'react/forbid-prop-types',
+    'react/jsx-filename-extension',
+    'react/jsx-one-expression-per-line',
+    'react/jsx-props-no-spreading',
+    'react/jsx-wrap-multilines',
   ];
 
   for (const ruleName of ruleNames) {
