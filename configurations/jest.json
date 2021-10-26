@@ -27,6 +27,7 @@
     "jest/prefer-hooks-on-top": 2,
     "jest/prefer-lowercase-title": 0,
     "jest/prefer-spy-on": 2,
+    "jest/prefer-strict-equal": 2,
     "jest/prefer-to-be": 2,
     "jest/prefer-to-contain": 2,
     "jest/require-hook": 0,
