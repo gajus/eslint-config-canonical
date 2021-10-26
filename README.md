@@ -185,7 +185,7 @@ Emojis:
 
 Configurations:
 
-* CN – Canonical (960 rules)
+* CN – Canonical (1007 rules)
 * [AB](https://www.npmjs.com/package/eslint-config-airbnb) – Airbnb (446 rules)
 * [GG](https://www.npmjs.com/package/eslint-config-google) – Google (65 rules)
 * [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard (160 rules)
@@ -444,23 +444,6 @@ Configurations:
 |[`flowtype/use-read-only-spread`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-use-read-only-spread)|🚨|👻|👻|👻|👻|
 |[`flowtype/valid-syntax`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-valid-syntax) ⛔️|👻|👻|👻|👻|👻|
 |[`for-direction`](https://eslint.org/docs/rules/for-direction)|🚨|🚨|👻|👻|🚨|
-|[`fp/no-arguments`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-arguments.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-class`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-class.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-delete`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-delete.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-events`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-events.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-get-set`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-get-set.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-let`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-let.md)|❌|👻|👻|👻|👻|
-|[`fp/no-loops`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-loops.md)|❌|👻|👻|👻|👻|
-|[`fp/no-mutating-assign`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-mutating-assign.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-mutating-methods`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-mutating-methods.md)|❌|👻|👻|👻|👻|
-|[`fp/no-mutation`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-mutation.md)|❌|👻|👻|👻|👻|
-|[`fp/no-nil`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-nil.md)|❌|👻|👻|👻|👻|
-|[`fp/no-proxy`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-proxy.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-rest-parameters`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-rest-parameters.md)|❌|👻|👻|👻|👻|
-|[`fp/no-this`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-this.md)|🚨|👻|👻|👻|👻|
-|[`fp/no-throw`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-throw.md)|❌|👻|👻|👻|👻|
-|[`fp/no-unused-expression`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-unused-expression.md)|❌|👻|👻|👻|👻|
-|[`fp/no-valueof-field`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-valueof-field.md)|🚨|👻|👻|👻|👻|
 |[`func-call-spacing`](https://eslint.org/docs/rules/func-call-spacing) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`func-name-matching`](https://eslint.org/docs/rules/func-name-matching)|🚨|❌|👻|👻|🚨|
 |[`func-names`](https://eslint.org/docs/rules/func-names)|🚨|⚠️|👻|👻|🚨|
