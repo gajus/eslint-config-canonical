@@ -158,6 +158,12 @@
         "allowInGenericTypeArguments": true
       }
     ],
+    "@typescript-eslint/no-meaningless-void-operator": [
+      2,
+      {
+        "checkNever": true
+      }
+    ],
     "@typescript-eslint/no-misused-new": 2,
     "@typescript-eslint/no-misused-promises": [
       1,
