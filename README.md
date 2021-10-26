@@ -23,6 +23,7 @@ This package includes the following configurations:
 * [`canonical/jest`](./configurations/jest.json) – for projects that use [jest](https://facebook.github.io/jest/).
 * [`canonical/jsx-a11y`](./configurations/jsx-a11y.json) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 * [`canonical/lodash`](./configurations/lodash.json) – for projects that use [lodash](https://lodash.com/).
+* [`canonical/json`](./configurations/json.json) – for projects that use JSON.
 * [`canonical/mocha`](./configurations/mocha.json) – for projects that use [Mocha](https://mochajs.org/).
 * [`canonical/module`](./configurations/module.json) – for projects that use ESM modules.
 * [`canonical/node`](./configurations/node.json) – for projects that use Node.js.
@@ -40,6 +41,7 @@ Example:
     "canonical/cypress",
     "canonical/flowtype",
     "canonical/jest",
+    "canonical/json",
     "canonical/jsx-a11y",
     "canonical/lodash",
     "canonical/mocha",

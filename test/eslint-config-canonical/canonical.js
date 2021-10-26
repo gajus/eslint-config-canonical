@@ -5,17 +5,22 @@ const {builtinRules} = require('eslint/use-at-your-own-risk');
 
 const configurationNames = [
   'ava',
+  'browser',
   'eslintrc',
   'flowtype',
   'jest',
+  'json',
+
+  // 'jsx-a11y',
   'lodash',
   'mocha',
+  'module',
   'node',
   'react',
 ];
 
 const getPluginRuleNames = (pluginName) => {
-  const dependencyName = pluginName === '@babel' ? '@babel/eslint-plugin' : 'eslint-plugin-' + pluginName;
+  const dependencyName = pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName;
 
   return Object.keys(require(dependencyName).rules).map((ruleName) => {
     return pluginName + '/' + ruleName;
