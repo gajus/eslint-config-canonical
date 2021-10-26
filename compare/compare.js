@@ -224,6 +224,12 @@ const getLoadedRules = async () => {
     ],
   });
 
+  const xoRules = await getConfigurationRules({
+    extends: [
+      'xo',
+    ],
+  });
+
   const ruleNames = Object.keys(loadedRules);
 
   for (const ruleName of ruleNames) {
@@ -233,6 +239,7 @@ const getLoadedRules = async () => {
       '|' + getRuleConfiguration(airbnbRules, ruleName) +
       '|' + getRuleConfiguration(googleRules, ruleName) +
       '|' + getRuleConfiguration(standardRules, ruleName) +
+      '|' + getRuleConfiguration(xoRules, ruleName) +
       '|',
     );
   }
@@ -244,13 +251,15 @@ const getLoadedRules = async () => {
       (
         isRuleEnabled(airbnbRules[ruleName]?.[0]) ||
         isRuleEnabled(googleRules[ruleName]?.[0]) ||
-        isRuleEnabled(standardRules[ruleName]?.[0])
+        isRuleEnabled(standardRules[ruleName]?.[0]) ||
+        isRuleEnabled(xoRules[ruleName]?.[0])
       )
     ) {
       console.warn('unused rule "' + ruleName + '"', {
         airbnb: airbnbRules[ruleName],
         google: googleRules[ruleName],
         standard: standardRules[ruleName],
+        xo: xoRules[ruleName],
       });
     }
   }
