@@ -8,6 +8,7 @@ Canonical is the most comprehensive code style guide. It consists 1,000+ rules, 
 Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
+  * [Compatibility with other style guides](#compatibility-with-other-style-guides)
 * [Editor Integrations](#editor-integrations)
   * [Visual Studio Code](#visual-studio-code)
 * [Versioning Policy](#versioning-policy)
