@@ -30,7 +30,7 @@ const getConfigurationPluginNames = async (configuration) => {
 
 const getPluginRules = (pluginName) => {
   // eslint-disable-next-line import/no-dynamic-require
-  const rules = require(pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName).rules;
+  const {rules} = require(pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName);
 
   return Object.fromEntries(Object.entries(rules).map(([ruleName, ruleConfiguration]) => {
     return [pluginName + '/' + ruleName, ruleConfiguration];
@@ -198,6 +198,7 @@ const getLoadedRules = async () => {
       'canonical/ava',
       'canonical/flowtype',
       'canonical/jest',
+      'canonical/jsx-a11y',
       'canonical/lodash',
       'canonical/mocha',
       'canonical/node',
@@ -256,6 +257,7 @@ const getLoadedRules = async () => {
     'import/named',
     'import/no-unresolved',
     'import/prefer-default-export',
+    'jsx-a11y/control-has-associated-label',
     'max-classes-per-file',
     'max-params',
     'multiline-ternary',
@@ -282,6 +284,7 @@ const getLoadedRules = async () => {
     'react/jsx-one-expression-per-line',
     'react/jsx-props-no-spreading',
     'react/jsx-wrap-multilines',
+    'react/react-in-jsx-scope',
     'react/require-default-props',
   ];
 
