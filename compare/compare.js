@@ -108,6 +108,18 @@ const getRuleLink = (ruleName) => {
   return '`' + ruleName + '`';
 };
 
+const isRuleEnabled = (ruleValue) => {
+  if (ruleValue === 1 || ruleValue === 'warn') {
+    return true;
+  }
+
+  if (ruleValue === 2 || ruleValue === 'error') {
+    return true;
+  }
+
+  return false;
+};
+
 const describeRuleValue = (ruleValue) => {
   if (ruleValue === undefined) {
     return '👻';
@@ -222,5 +234,23 @@ const getLoadedRules = async () => {
       '|' + getRuleConfiguration(standardRules, ruleName) +
       '|',
     );
+  }
+
+  for (const ruleName of ruleNames) {
+    if (
+      !canonicalRules[ruleName] &&
+      (
+        isRuleEnabled(airbnbRules[ruleName]?.[0]) ||
+        isRuleEnabled(googleRules[ruleName]?.[0]) ||
+        isRuleEnabled(standardRules[ruleName]?.[0])
+      )
+    ) {
+      // eslint-disable-next-line no-console -- CLI
+      console.warn('unused rule "' + ruleName + '"', {
+        airbnb: airbnbRules[ruleName],
+        google: googleRules[ruleName],
+        standard: standardRules[ruleName],
+      });
+    }
   }
 })();
