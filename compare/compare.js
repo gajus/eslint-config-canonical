@@ -329,9 +329,9 @@ const getLoadedRules = async () => {
   for (const ruleName of ruleNames) {
     if (
       loadedRules[ruleName]?.meta?.deprecated &&
-      isRuleEnabled(canonicalRules[ruleName]?.[0])
+      canonicalRules[ruleName]
     ) {
-      console.warn('enabled deprecated rule "' + ruleName + '"');
+      console.warn('deprecated rule "' + ruleName + '"');
     }
   }
 

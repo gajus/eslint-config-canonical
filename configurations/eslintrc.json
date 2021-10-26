@@ -412,7 +412,6 @@
       }
     ],
     "new-parens": 2,
-    "newline-after-var": 0,
     "newline-per-chained-call": 0,
     "no-alert": 2,
     "no-array-constructor": 2,
@@ -481,7 +480,6 @@
     "no-magic-numbers": 0,
     "no-misleading-character-class": 2,
     "no-mixed-operators": 0,
-    "no-mixed-requires": 0,
     "no-mixed-spaces-and-tabs": 2,
     "no-multi-assign": 2,
     "no-multi-spaces": 2,
@@ -524,7 +522,6 @@
     "no-regex-spaces": 2,
     "no-restricted-globals": 0,
     "no-restricted-imports": 0,
-    "no-restricted-modules": 0,
     "no-restricted-properties": 0,
     "no-restricted-syntax": 0,
     "no-return-assign": 2,
@@ -543,7 +540,6 @@
     ],
     "no-shadow-restricted-names": 2,
     "no-sparse-arrays": 2,
-    "no-sync": 0,
     "no-tabs": 2,
     "no-template-curly-in-string": 2,
     "no-ternary": 0,
@@ -687,7 +683,6 @@
     "prefer-numeric-literals": 2,
     "prefer-object-spread": 2,
     "prefer-promise-reject-errors": 2,
-    "prefer-reflect": 0,
     "prefer-regex-literals": [
       2,
       {
@@ -722,7 +717,6 @@
     "radix": 2,
     "require-atomic-updates": 2,
     "require-await": 0,
-    "require-jsdoc": 0,
     "require-unicode-regexp": 2,
     "require-yield": 2,
     "rest-spread-spacing": [
@@ -834,7 +828,6 @@
     ],
     "unicorn/no-console-spaces": 0,
     "unicorn/no-document-cookie": 2,
-    "unicorn/no-fn-reference-in-iterator": 0,
     "unicorn/no-for-loop": 2,
     "unicorn/no-hex-escape": 2,
     "unicorn/no-invalid-remove-event-listener": 2,
@@ -880,7 +873,6 @@
     "unicorn/prefer-query-selector": 2,
     "unicorn/prefer-reflect-apply": 2,
     "unicorn/prefer-regexp-test": 2,
-    "unicorn/prefer-replace-all": 0,
     "unicorn/prefer-set-has": 0,
     "unicorn/prefer-spread": 0,
     "unicorn/prefer-string-replace-all": 2,
@@ -910,7 +902,6 @@
     "unicorn/template-indent": 2,
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,
-    "valid-jsdoc": 0,
     "valid-typeof": [
       2,
       {
