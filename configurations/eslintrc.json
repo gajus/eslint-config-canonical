@@ -758,6 +758,7 @@
     "unicorn/custom-error-definition": 0,
     "unicorn/empty-brace-spaces": 2,
     "unicorn/error-message": 2,
+    "unicorn/escape-case": 2,
     "unicorn/expiring-todo-comments": [
       2,
       {
