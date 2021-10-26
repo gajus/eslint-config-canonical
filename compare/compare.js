@@ -258,6 +258,7 @@ const getLoadedRules = async () => {
     'import/no-unresolved',
     'import/prefer-default-export',
     'jsx-a11y/control-has-associated-label',
+    'jsx-a11y/lang',
     'max-classes-per-file',
     'max-params',
     'multiline-ternary',
