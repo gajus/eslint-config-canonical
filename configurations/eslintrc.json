@@ -855,6 +855,7 @@
     "unicorn/require-number-to-fixed-digits-argument": 2,
     "unicorn/require-post-message-target-origin": 2,
     "unicorn/string-content": 0,
+    "unicorn/template-indent": 2,
     "unicorn/throw-new-error": 2,
     "use-isnan": 2,
     "valid-jsdoc": 0,
