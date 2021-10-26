@@ -12,6 +12,7 @@
     "jest/no-disabled-tests": 2,
     "jest/no-done-callback": 2,
     "jest/no-duplicate-hooks": 2,
+    "jest/no-export": 2,
     "jest/no-focused-tests": 2,
     "jest/no-identical-title": 2,
     "jest/no-interpolation-in-snapshots": 2,
