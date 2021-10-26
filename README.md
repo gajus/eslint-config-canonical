@@ -62,7 +62,7 @@ Emojis:
 Configurations:
 
 * CN – Canonical
-* [AB](https://www.npmjs.com/package/eslint-config-airbnb) – AirBnb
+* [AB](https://www.npmjs.com/package/eslint-config-airbnb) – Airbnb
 * [GG](https://www.npmjs.com/package/eslint-config-google) – Google
 * [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard
 

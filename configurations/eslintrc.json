@@ -870,6 +870,13 @@
       "inside"
     ],
     "wrap-regex": 0,
+    "yield-star-spacing": [
+      2,
+      {
+        "after": true,
+        "before": false
+      }
+    ],
     "yoda": 0
   },
   "settings": {
