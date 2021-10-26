@@ -671,7 +671,22 @@
     ],
     "prefer-arrow-callback": 2,
     "prefer-const": 2,
-    "prefer-destructuring": 0,
+    "prefer-destructuring": [
+      "error",
+      {
+        "VariableDeclarator": {
+          "array": false,
+          "object": true
+        },
+        "AssignmentExpression": {
+          "array": false,
+          "object": false
+        }
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
     "prefer-exponentiation-operator": 2,
     "prefer-named-capture-group": 0,
     "prefer-numeric-literals": 2,
