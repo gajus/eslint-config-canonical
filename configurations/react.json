@@ -28,7 +28,10 @@
       "never"
     ],
     "react/jsx-child-element-spacing": 0,
-    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-closing-bracket-location": [
+      2,
+      "line-aligned"
+    ],
     "react/jsx-closing-tag-location": 2,
     "react/jsx-curly-brace-presence": [
       2,
