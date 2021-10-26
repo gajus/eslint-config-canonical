@@ -189,6 +189,7 @@ const getLoadedRules = async () => {
   );
 };
 
+// eslint-disable-next-line complexity
 (async () => {
   const loadedRules = await getLoadedRules();
 
@@ -249,8 +250,37 @@ const getLoadedRules = async () => {
     );
   }
 
+  const ignoreDisabled = [
+    'camelcase',
+    'capitalized-comments',
+    'import/named',
+    'import/no-unresolved',
+    'import/prefer-default-export',
+    'max-classes-per-file',
+    'max-params',
+    'multiline-ternary',
+    'no-await-in-loop',
+    'no-continue',
+    'no-empty-function',
+    'no-invalid-this',
+    'no-mixed-operators',
+    'no-nested-ternary',
+    'no-plusplus',
+    'no-restricted-globals',
+    'no-restricted-imports',
+    'no-restricted-properties',
+    'no-restricted-syntax',
+    'no-return-await',
+    'no-underscore-dangle',
+    'prefer-template',
+    'react/destructuring-assignment',
+    'react/forbid-foreign-prop-types',
+    'react/forbid-prop-types',
+  ];
+
   for (const ruleName of ruleNames) {
     if (
+      !ignoreDisabled.includes(ruleName) &&
       loadedRules[ruleName]?.meta?.deprecated !== true &&
       !isRuleEnabled(canonicalRules[ruleName]?.[0]) &&
       (
