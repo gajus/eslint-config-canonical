@@ -260,6 +260,7 @@ const getLoadedRules = async () => {
     'max-params',
     'multiline-ternary',
     'new-cap',
+    'newline-per-chained-call',
     'no-await-in-loop',
     'no-continue',
     'no-empty-function',
