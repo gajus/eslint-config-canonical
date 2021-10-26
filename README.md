@@ -9,6 +9,7 @@ The goal of Canonical style guide is to reduce noise in code version control and
 
 * [Usage](#usage)
 * [Editor Integrations](#editor-integrations)
+  * [Visual Studio Code](#visual-studio-code)
 * [Versioning Policy](#versioning-policy)
 * [Table of Comparison](#table-of-comparison)
 
