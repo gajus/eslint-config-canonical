@@ -185,7 +185,10 @@
       "never"
     ],
     "func-name-matching": 2,
-    "func-names": 0,
+    "func-names": [
+      2,
+      "never"
+    ],
     "func-style": [
       2,
       "expression"
