@@ -381,6 +381,7 @@
         "code": 160
       }
     ],
+    "max-lines": 0,
     "max-nested-callbacks": [
       1,
       3
