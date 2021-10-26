@@ -136,6 +136,7 @@
     "curly": 2,
     "default-case": 0,
     "default-case-last": 2,
+    "default-param-last": 2,
     "dot-location": [
       2,
       "property"
