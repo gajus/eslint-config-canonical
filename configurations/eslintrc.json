@@ -375,6 +375,7 @@
       2,
       "always"
     ],
+    "max-classes-per-file": 0,
     "max-len": [
       1,
       {
