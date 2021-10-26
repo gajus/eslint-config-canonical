@@ -20,10 +20,6 @@
     "typescript-sort-keys"
   ],
   "rules": {
-    "@typescript-eslint/class-literal-property-style": [
-      2,
-      "fields"
-    ],
     "@typescript-eslint/adjacent-overload-signatures": 2,
     "@typescript-eslint/array-type": [
       2,
@@ -43,6 +39,10 @@
     ],
     "@typescript-eslint/ban-tslint-comment": 2,
     "@typescript-eslint/ban-types": 0,
+    "@typescript-eslint/class-literal-property-style": [
+      2,
+      "fields"
+    ],
     "@typescript-eslint/consistent-indexed-object-style": 0,
     "@typescript-eslint/consistent-type-assertions": [
       2,
@@ -55,6 +55,7 @@
       2,
       "type"
     ],
+    "@typescript-eslint/consistent-type-exports": 2,
     "@typescript-eslint/consistent-type-imports": [
       2,
       {
