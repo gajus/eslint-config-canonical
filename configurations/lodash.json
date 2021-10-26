@@ -24,7 +24,7 @@
       "always"
     ],
     "lodash/import-scope": 0,
-    "lodash/lodash/prefer-some": [
+    "lodash/prefer-some": [
       2,
       {
         "includeNative": false
