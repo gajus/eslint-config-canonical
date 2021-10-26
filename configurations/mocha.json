@@ -28,14 +28,7 @@
     "mocha/no-setup-in-describe": 2,
     "mocha/no-sibling-hooks": 2,
     "mocha/no-skipped-tests": 2,
-    "mocha/no-synchronous-tests": [
-      2,
-      {
-        "allowed": [
-          "async"
-        ]
-      }
-    ],
+    "mocha/no-synchronous-tests": 0,
     "mocha/no-top-level-hooks": 2,
     "mocha/prefer-arrow-callback": 0,
     "mocha/valid-suite-description": 0,
