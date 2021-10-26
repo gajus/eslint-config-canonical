@@ -24,6 +24,7 @@
       }
     ],
     "jest/prefer-expect-resolves": 2,
+    "jest/prefer-hooks-on-top": 2,
     "jest/prefer-lowercase-title": 0,
     "jest/prefer-spy-on": 2,
     "jest/prefer-to-be": 2,
