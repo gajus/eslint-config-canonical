@@ -87,6 +87,7 @@
         "properties": true
       }
     ],
+    "canonical/no-restricted-strings": 0,
     "canonical/no-use-extend-native": 2,
     "canonical/sort-keys": [
       2,
