@@ -248,7 +248,7 @@
     "import/first": 2,
     "import/group-exports": 0,
     "import/max-dependencies": 0,
-    "import/named": 2,
+    "import/named": 0,
     "import/namespace": 0,
     "import/newline-after-import": 2,
     "import/no-absolute-path": 2,
@@ -407,7 +407,8 @@
       0,
       {
         "capIsNew": false,
-        "newIsCap": true
+        "newIsCap": true,
+        "properties": true
       }
     ],
     "new-parens": 2,
