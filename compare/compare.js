@@ -264,5 +264,14 @@ const getLoadedRules = async () => {
     }
   }
 
+  for (const ruleName of ruleNames) {
+    if (
+      loadedRules[ruleName]?.meta?.deprecated &&
+      isRuleEnabled(canonicalRules[ruleName]?.[0])
+    ) {
+      console.warn('enabled deprecated rule "' + ruleName + '"');
+    }
+  }
+
   console.log('Total rules: ' + Object.keys(canonicalRules).length);
 })();

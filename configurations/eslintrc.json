@@ -208,7 +208,6 @@
       "getBeforeSet"
     ],
     "guard-for-in": 2,
-    "handle-callback-err": 2,
     "id-denylist": 0,
     "id-length": [
       1,
@@ -367,10 +366,6 @@
         "beforeLineComment": true
       }
     ],
-    "lines-around-directive": [
-      2,
-      "always"
-    ],
     "lines-between-class-members": [
       2,
       "always"
@@ -411,17 +406,14 @@
     ],
     "new-parens": 2,
     "newline-after-var": 0,
-    "newline-before-return": 2,
     "newline-per-chained-call": 0,
     "no-alert": 2,
     "no-array-constructor": 2,
     "no-async-promise-executor": 2,
     "no-await-in-loop": 0,
     "no-bitwise": 2,
-    "no-buffer-constructor": 2,
     "no-caller": 2,
     "no-case-declarations": 2,
-    "no-catch-shadow": 2,
     "no-class-assign": 2,
     "no-compare-neg-zero": 2,
     "no-cond-assign": 2,
@@ -489,9 +481,7 @@
         "maxEOF": 1
       }
     ],
-    "no-native-reassign": 2,
     "no-negated-condition": 2,
-    "no-negated-in-lhs": 2,
     "no-nested-ternary": 0,
     "no-new": 2,
     "no-new-func": 2,
@@ -539,7 +529,6 @@
       }
     ],
     "no-shadow-restricted-names": 2,
-    "no-spaced-func": 2,
     "no-sparse-arrays": 2,
     "no-sync": 0,
     "no-tabs": 2,
@@ -801,7 +790,6 @@
     "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/no-array-callback-reference": 2,
     "unicorn/no-array-for-each": 2,
-    "unicorn/no-array-instanceof": 2,
     "unicorn/no-array-method-this-argument": 2,
     "unicorn/no-array-reduce": [
       "error",
@@ -849,8 +837,6 @@
     "unicorn/prefer-math-trunc": 2,
     "unicorn/prefer-modern-dom-apis": 2,
     "unicorn/prefer-negative-index": 0,
-    "unicorn/prefer-node-append": 2,
-    "unicorn/prefer-node-remove": 2,
     "unicorn/prefer-number-properties": 2,
     "unicorn/prefer-object-from-entries": 2,
     "unicorn/prefer-object-has-own": 0,
@@ -862,16 +848,13 @@
     "unicorn/prefer-replace-all": 0,
     "unicorn/prefer-set-has": 0,
     "unicorn/prefer-spread": 0,
-    "unicorn/prefer-starts-ends-with": 2,
     "unicorn/prefer-string-replace-all": 2,
     "unicorn/prefer-string-slice": 2,
     "unicorn/prefer-string-starts-ends-with": 2,
     "unicorn/prefer-string-trim-start-end": 2,
     "unicorn/prefer-switch": 0,
     "unicorn/prefer-ternary": 0,
-    "unicorn/prefer-text-content": 2,
     "unicorn/prefer-top-level-await": 0,
-    "unicorn/prefer-trim-start-end": 2,
     "unicorn/prefer-type-error": 2,
     "unicorn/prevent-abbreviations": [
       2,
