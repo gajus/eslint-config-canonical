@@ -12,16 +12,16 @@ The goal of the Canonical style guide is to reduce noise in code version control
 This package includes the following configurations:
 
 * [`canonical`](./configurations/eslintrc.json) – The Canonical code style guide.
-* [`canonical/ava`](./configurations/ava.json) – To be used in addition to "canonical" configuration by projects that use [AVA](https://ava.li/).
-* [`canonical/cypress`](./configurations/cypress.json) – To be used in addition to "canonical" configuration by projects that use [Cypress](https://cypress.io/).
-* [`canonical/flowtype`](./configurations/flowtype.json) – To be used in addition to "canonical" configuration by projects that use [Flowtype](https://flowtype.org/).
-* [`canonical/jest`](./configurations/jest.json) – To be used in addition to "canonical" configuration by projects that use [jest](https://facebook.github.io/jest/).
-* [`canonical/jsx-a11y`](./configurations/jsx-a11y.json) – To be used in addition to "canonical" configuration by projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
-* [`canonical/lodash`](./configurations/lodash.json) – To be used in addition to "canonical" configuration by projects that use [lodash](https://lodash.com/).
-* [`canonical/mocha`](./configurations/mocha.json) – To be used in addition to "canonical" configuration by projects that use [Mocha](https://mochajs.org/).
-* [`canonical/node`](./configurations/node.json) – To be used in addition to "canonical" configuration by projects that use Node.js.
-* [`canonical/react`](./configurations/react.json) – To be used in addition to "canonical" configuration by projects that use [React](https://facebook.github.io/react/).
-* [`canonical/typescript`](./configurations/typescript.json) – To be used in addition to "canonical" configuration by projects that use [TypeScript](http://typescriptlang.org/).
+* [`canonical/ava`](./configurations/ava.json) – for projects that use [AVA](https://ava.li/).
+* [`canonical/cypress`](./configurations/cypress.json) – for projects that use [Cypress](https://cypress.io/).
+* [`canonical/flowtype`](./configurations/flowtype.json) – for projects that use [Flowtype](https://flowtype.org/).
+* [`canonical/jest`](./configurations/jest.json) – for projects that use [jest](https://facebook.github.io/jest/).
+* [`canonical/jsx-a11y`](./configurations/jsx-a11y.json) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
+* [`canonical/lodash`](./configurations/lodash.json) – for projects that use [lodash](https://lodash.com/).
+* [`canonical/mocha`](./configurations/mocha.json) – for projects that use [Mocha](https://mochajs.org/).
+* [`canonical/node`](./configurations/node.json) – for projects that use Node.js.
+* [`canonical/react`](./configurations/react.json) – for projects that use [React](https://facebook.github.io/react/).
+* [`canonical/typescript`](./configurations/typescript.json) – for projects that use [TypeScript](http://typescriptlang.org/).
 
 Example:
 
