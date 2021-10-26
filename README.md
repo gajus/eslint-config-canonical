@@ -8,6 +8,7 @@ Canonical is the most comprehensive code style guide. It consists 1,000+ rules, 
 The goal of Canonical style guide is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
+* [Editor Integrations](#editor-integrations)
 * [Versioning Policy](#versioning-policy)
 * [Table of Comparison](#table-of-comparison)
 
@@ -66,6 +67,38 @@ Since Canonical style guide includes more rules than any other style guide, you 
     "canonical/react",
     "airbnb"
   ]
+}
+```
+
+## Editor Integrations
+
+### Visual Studio Code
+
+Use the [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension that Microsoft provides officially.
+
+Example **.vscode/settings.json**:
+
+```json
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "typescript",
+    "typescriptreact",
+    "yaml"
+  ]
+}
+```
+
+The setting below turns on Auto Fix for all providers including ESLint:
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true
 }
 ```
 
