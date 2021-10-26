@@ -775,6 +775,12 @@
     "unicorn/no-abusive-eslint-disable": 2,
     "unicorn/no-array-instanceof": 2,
     "unicorn/no-array-method-this-argument": 2,
+    "unicorn/no-array-reduce": [
+      "error",
+      {
+        "allowSimpleOperations": true
+      }
+    ],
     "unicorn/no-console-spaces": 0,
     "unicorn/no-document-cookie": 2,
     "unicorn/no-fn-reference-in-iterator": 0,
