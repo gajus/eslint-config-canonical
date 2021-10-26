@@ -9,9 +9,11 @@ Canonical goal is to reduce noise in code version control and promote use of the
 
 * [Usage](#usage)
   * [Compatibility with other style guides](#compatibility-with-other-style-guides)
-* [Editor Integrations](#editor-integrations)
+* [Integrations](#integrations)
   * [Visual Studio Code](#visual-studio-code)
 * [Versioning Policy](#versioning-policy)
+* [Benchmark](#benchmark)
+  * [Canonical vs Prettier](#canonical-vs-prettier)
 * [Table of Comparison](#table-of-comparison)
 
 ## Usage
@@ -72,7 +74,7 @@ Since Canonical style guide includes more rules than any other style guide, you 
 }
 ```
 
-## Editor Integrations
+## Integrations
 
 ### Visual Studio Code
 
@@ -122,6 +124,55 @@ This example removes all TypeScript ESLint specific rules from the code action o
 ## Versioning Policy
 
 All breaking changes will bump the major version as per the semver convention. Therefore, every new rule addition will increase the major version.
+
+## Benchmark
+
+### Canonical vs Prettier
+
+This benchmark compares running ESLint using Canonical style guide against a project with 3,000+ files VS linting the same project using Prettier.
+
+```
+System:
+  OS: macOS 11.6
+  CPU: (16) x64 Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz
+  Memory: 64.00 GB
+npmPackages:
+  eslint: 8.1.0
+  prettier: 2.4.1
+```
+
+As you may expect, Prettier is going to complete checks quicker – this is because it runs a lot fewer transforms and it only runs style checks (as opposed to static analyses).
+
+The first time you run ESLint, it will take significantly more time. However, if you enable [`--cache`](https://eslint.org/docs/user-guide/command-line-interface#--cache), then the follow up checks will complete in no time.
+
+```bash
+$ time prettier src
+27.06s user
+1.74s system
+166% cpu
+17.335 total
+
+$ eslint --cache src
+182.43s user
+9.13s system
+126% cpu
+2:31.22 total
+
+$ eslint --cache src
+1.96s user
+0.39s system
+107% cpu
+2.188 total
+```
+
+Using ESLint cache will dramatically improve ESLint running time by ensuring that only changed files are linted. This is useful if you are using ESLint to run `pre-commit` / `pre-push` [git hooks](https://git-scm.com/docs/githooks) or otherwise depend on these checks completing in real-time.
+
+Additionally, if performance is a consideration, you may consider:
+
+* [`jest-eslint-runner`](https://github.com/jest-community/jest-runner-eslint)
+* [Integrations](#integrations)
+
+These options provide near instant feedback just how you are used to when using Prettier.
 
 ## Table of Comparison
 
