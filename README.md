@@ -76,7 +76,7 @@ Since Canonical style guide includes more rules than any other style guide, you 
 
 Use the [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension that Microsoft provides officially.
 
-Example **.vscode/settings.json**:
+Example `.vscode/settings.json`:
 
 ```json
 {
@@ -101,6 +101,21 @@ The setting below turns on Auto Fix for all providers including ESLint:
   "editor.formatOnSave": true
 }
 ```
+
+#### TypeScript
+
+If you are using TypeScript and experiencing performance issues, you should consider disabling TypeScript rules:
+
+```json
+{
+  "eslint.codeActionsOnSave.rules": [
+    "!@typescript-eslint/*",
+    "*"
+  ]
+}
+```
+
+This example removes all TypeScript ESLint specific rules from the code action on save pass but keeps all other rules.
 
 ## Versioning Policy
 
