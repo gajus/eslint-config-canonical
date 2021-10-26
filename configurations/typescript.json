@@ -224,6 +224,7 @@
     "@typescript-eslint/prefer-readonly-parameter-types": 0,
     "@typescript-eslint/prefer-reduce-type-parameter": 2,
     "@typescript-eslint/prefer-regexp-exec": 2,
+    "@typescript-eslint/prefer-return-this-type": 2,
     "@typescript-eslint/prefer-string-starts-ends-with": 2,
     "@typescript-eslint/prefer-ts-expect-error": 2,
     "@typescript-eslint/promise-function-async": 0,
