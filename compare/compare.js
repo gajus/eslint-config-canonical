@@ -238,6 +238,7 @@ const getLoadedRules = async () => {
 
   for (const ruleName of ruleNames) {
     if (
+      loadedRules[ruleName]?.meta?.deprecated !== true &&
       !canonicalRules[ruleName] &&
       (
         isRuleEnabled(airbnbRules[ruleName]?.[0]) ||
