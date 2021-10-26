@@ -47,6 +47,20 @@ Example:
 }
 ```
 
+### Compatibility with other style guides
+
+Since Canonical style guide includes more rules than any other style guide, you can have your codebase compatible with a specific style guide (e.g. [airbnb](https://www.npmjs.com/package/eslint-config-airbnb)) and benefit from Canonical for rules that are not covered by the other guide. All you have to do is extend from Canonical before extending from the desired style guide, e.g.
+
+```json
+{
+  "extends": [
+    "canonical",
+    "canonical/react",
+    "airbnb"
+  ]
+}
+```
+
 ## Versioning Policy
 
 All breaking changes will bump the major version as per the semver convention. Therefore, every new rule addition will increase the major version.
