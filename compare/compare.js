@@ -14,6 +14,15 @@ const getConfigurationRules = async (configuration) => {
   return (await engine.calculateConfigForFile('./compare')).rules;
 };
 
+const getConfigurationPlugins = async (configuration) => {
+  const engine = new ESLint({
+    baseConfig: configuration,
+    useEslintrc: false,
+  });
+
+  return (await engine.calculateConfigForFile('./compare')).rules;
+};
+
 const getRuleLink = (ruleName) => {
   if (!ruleName.includes('/')) {
     return '[`' + ruleName + '`](https://eslint.org/docs/rules/' + ruleName + ')';
@@ -118,6 +127,22 @@ const getRuleConfiguration = (ruleset, ruleName) => {
 };
 
 (async () => {
+  console.log(await getConfigurationPlugins({
+    extends: [
+      'canonical',
+      'canonical/ava',
+      'canonical/flowtype',
+      'canonical/jest',
+      'canonical/lodash',
+      'canonical/mocha',
+      'canonical/node',
+      'canonical/react',
+      'canonical/typescript',
+    ],
+  }));
+
+  return;
+
   const canonicalRules = await getConfigurationRules({
     extends: [
       'canonical',
