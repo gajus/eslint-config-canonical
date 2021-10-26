@@ -242,7 +242,13 @@
     "import/dynamic-import-chunkname": 0,
     "import/export": 2,
     "import/exports-last": 0,
-    "import/extensions": 0,
+    "import/extensions": [
+      2,
+      "never",
+      {
+        "json": "always"
+      }
+    ],
     "import/first": 2,
     "import/group-exports": 0,
     "import/max-dependencies": 0,
@@ -253,12 +259,19 @@
     "import/no-amd": 2,
     "import/no-anonymous-default-export": 0,
     "import/no-commonjs": 2,
-    "import/no-cycle": 0,
+    "import/no-cycle": 2,
     "import/no-default-export": 0,
     "import/no-deprecated": 1,
-    "import/no-duplicates": 0,
+    "import/no-duplicates": 2,
     "import/no-dynamic-require": 2,
-    "import/no-extraneous-dependencies": 0,
+    "import/no-extraneous-dependencies": [
+      2,
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ],
     "import/no-import-module-exports": 0,
     "import/no-internal-modules": 0,
     "import/no-mutable-exports": 2,
@@ -271,11 +284,11 @@
     "import/no-relative-packages": 0,
     "import/no-relative-parent-imports": 0,
     "import/no-restricted-paths": 0,
-    "import/no-self-import": 0,
+    "import/no-self-import": 2,
     "import/no-unassigned-import": 2,
     "import/no-unresolved": 0,
     "import/no-unused-modules": 0,
-    "import/no-useless-path-segments": 0,
+    "import/no-useless-path-segments": 2,
     "import/no-webpack-loader-syntax": 2,
     "import/order": [
       2,
@@ -963,6 +976,13 @@
     "yoda": [
       2,
       "never"
+    ]
+  },
+  "settings": {
+    "import/extensions": [
+      ".js",
+      ".ts",
+      ".mjs"
     ]
   }
 }
