@@ -194,7 +194,6 @@ const getLoadedRules = async () => {
 
   const canonicalRules = await getConfigurationRules({
     extends: [
-      'canonical',
       'canonical/ava',
       'canonical/flowtype',
       'canonical/jest',
@@ -203,6 +202,12 @@ const getLoadedRules = async () => {
       'canonical/node',
       'canonical/react',
       'canonical/typescript',
+
+      // The order is important!
+      // The last ruleset overrides rules in previous rulesets.
+      // This affects rules that are overridden in specific configs, e.g.
+      // typescript disabled no-duplicate-imports but enables @typescript-eslint/no-duplicate-imports.
+      'canonical',
     ],
   });
 
