@@ -7,8 +7,8 @@
       ],
       "parser": "jsonc-eslint-parser",
       "rules": {
-        "no-unused-expressions": "off",
-        "strict": "off"
+        "no-unused-expressions": 0,
+        "strict": 0
       }
     }
   ],

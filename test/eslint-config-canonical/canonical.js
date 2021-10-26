@@ -17,6 +17,7 @@ const configurationNames = [
   'module',
   'node',
   'react',
+  'yaml',
 ];
 
 const getPluginRuleNames = (pluginName) => {

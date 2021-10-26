@@ -1,0 +1,27 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "*.yaml",
+        "*.yml"
+      ],
+      "parser": "yaml-eslint-parser",
+      "rules": {
+        "no-irregular-whitespace": 0,
+        "spaced-comment": 0
+      }
+    }
+  ],
+  "plugins": [
+    "yml"
+  ],
+  "rules": {
+    "yml/no-empty-document": 2,
+    "yml/no-empty-key": 2,
+    "yml/no-empty-mapping-value": 2,
+    "yml/no-empty-sequence-entry": 2,
+    "yml/no-irregular-whitespace": 2,
+    "yml/no-tab-indent": 2,
+    "yml/vue-custom-block/no-parsing-error": 2
+  }
+}

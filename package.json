@@ -40,7 +40,9 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-typescript-sort-keys": "^2.0.0",
-    "eslint-plugin-unicorn": "^37.0.1"
+    "eslint-plugin-unicorn": "^37.0.1",
+    "eslint-plugin-yml": "^0.10.1",
+    "yaml-eslint-parser": "^0.4.1"
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
