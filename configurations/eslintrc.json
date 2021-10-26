@@ -787,7 +787,6 @@
     "unicorn/no-null": 0,
     "unicorn/no-object-as-default-parameter": 2,
     "unicorn/no-process-exit": 0,
-    "unicorn/no-reduce": 2,
     "unicorn/no-static-only-class": 2,
     "unicorn/no-unreadable-array-destructuring": 0,
     "unicorn/no-unused-properties": 1,
