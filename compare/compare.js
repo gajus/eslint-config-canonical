@@ -2,7 +2,10 @@ const {
   ESLint,
 } = require('eslint');
 
-const getRules = async (configuration) => {
+/**
+ * Determines what rules are going to be used for a given ESLint configuration.
+ */
+const getConfigurationRules = async (configuration) => {
   const engine = new ESLint({
     baseConfig: configuration,
     useEslintrc: false,
@@ -115,7 +118,7 @@ const getRuleConfiguration = (ruleset, ruleName) => {
 };
 
 (async () => {
-  const canonicalRules = await getRules({
+  const canonicalRules = await getConfigurationRules({
     extends: [
       'canonical',
       'canonical/ava',
@@ -129,19 +132,19 @@ const getRuleConfiguration = (ruleset, ruleName) => {
     ],
   });
 
-  const airbnbRules = await getRules({
+  const airbnbRules = await getConfigurationRules({
     extends: [
       'airbnb',
     ],
   });
 
-  const googleRules = await getRules({
+  const googleRules = await getConfigurationRules({
     extends: [
       'google',
     ],
   });
 
-  const standardRules = await getRules({
+  const standardRules = await getConfigurationRules({
     extends: [
       'standard',
     ],
