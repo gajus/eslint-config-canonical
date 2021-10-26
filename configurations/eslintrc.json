@@ -492,6 +492,7 @@
         "props": false
       }
     ],
+    "no-plusplus": 2,
     "no-proto": 2,
     "no-redeclare": [
       2,
