@@ -334,5 +334,9 @@ const getLoadedRules = async () => {
     }
   }
 
-  console.log('Total rules: ' + Object.keys(canonicalRules).length);
+  console.log('Canonical rules: ' + Object.keys(canonicalRules).length);
+  console.log('Airbnb rules: ' + Object.keys(airbnbRules).length);
+  console.log('Google rules: ' + Object.keys(googleRules).length);
+  console.log('Standard rules: ' + Object.keys(standardRules).length);
+  console.log('XO rules: ' + Object.keys(xoRules).length);
 })();

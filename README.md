@@ -83,11 +83,11 @@ Emojis:
 
 Configurations:
 
-* CN – Canonical
-* [AB](https://www.npmjs.com/package/eslint-config-airbnb) – Airbnb
-* [GG](https://www.npmjs.com/package/eslint-config-google) – Google
-* [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard
-* [XO](https://github.com/xojs/eslint-config-xo) – XO
+* CN – Canonical (863 rules)
+* [AB](https://www.npmjs.com/package/eslint-config-airbnb) – Airbnb (446 rules)
+* [GG](https://www.npmjs.com/package/eslint-config-google) – Google (65 rules)
+* [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard (160 rules)
+* [XO](https://github.com/xojs/eslint-config-xo) – XO (204 rules)
 
 
 <!-- This comparison is created using `./compare` script. -->
