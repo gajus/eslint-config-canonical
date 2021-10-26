@@ -832,6 +832,7 @@
     "unicorn/prefer-set-has": 0,
     "unicorn/prefer-spread": 0,
     "unicorn/prefer-starts-ends-with": 2,
+    "unicorn/prefer-string-replace-all": 2,
     "unicorn/prefer-string-slice": 2,
     "unicorn/prefer-string-starts-ends-with": 2,
     "unicorn/prefer-string-trim-start-end": 2,
