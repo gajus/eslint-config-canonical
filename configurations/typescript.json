@@ -277,6 +277,9 @@
     "typescript-sort-keys/string-enum": 2
   },
   "settings": {
+    "jsdoc": {
+      "mode": "typescript"
+    },
     "node": {
       "tryExtensions": [
         ".ts",

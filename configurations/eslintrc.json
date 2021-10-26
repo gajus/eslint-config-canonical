@@ -315,14 +315,7 @@
     "jsdoc/check-access": 2,
     "jsdoc/check-alignment": 2,
     "jsdoc/check-examples": 0,
-    "jsdoc/check-indentation": [
-      2,
-      {
-        "excludeTags": [
-          "example"
-        ]
-      }
-    ],
+    "jsdoc/check-indentation": 0,
     "jsdoc/check-line-alignment": 0,
     "jsdoc/check-param-names": 1,
     "jsdoc/check-property-names": 2,
