@@ -828,6 +828,7 @@
     "unicorn/prefer-prototype-methods": 0,
     "unicorn/prefer-query-selector": 2,
     "unicorn/prefer-reflect-apply": 2,
+    "unicorn/prefer-regexp-test": 2,
     "unicorn/prefer-replace-all": 0,
     "unicorn/prefer-set-has": 0,
     "unicorn/prefer-spread": 0,
