@@ -114,8 +114,7 @@
       "always"
     ],
     "flowtype/use-flow-type": 1,
-    "flowtype/use-read-only-spread": 2,
-    "jsdoc/no-types": 2
+    "flowtype/use-read-only-spread": 2
   },
   "settings": {
     "flowtype": {
