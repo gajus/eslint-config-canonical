@@ -280,6 +280,7 @@ const getLoadedRules = async () => {
     'no-restricted-syntax',
     'no-return-await',
     'no-underscore-dangle',
+    'object-curly-spacing',
     'prefer-template',
     'react/destructuring-assignment',
     'react/forbid-foreign-prop-types',
