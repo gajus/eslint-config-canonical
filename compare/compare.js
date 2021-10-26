@@ -160,10 +160,12 @@ const getLoadedRules = async () => {
       'standard',
       'canonical',
       'canonical/ava',
+      'canonical/browser',
       'canonical/flowtype',
       'canonical/jest',
       'canonical/lodash',
       'canonical/mocha',
+      'canonical/module',
       'canonical/node',
       'canonical/react',
       'canonical/typescript',
@@ -189,18 +191,19 @@ const getLoadedRules = async () => {
   );
 };
 
-// eslint-disable-next-line complexity
 (async () => {
   const loadedRules = await getLoadedRules();
 
   const canonicalRules = await getConfigurationRules({
     extends: [
       'canonical/ava',
+      'canonical/browser',
       'canonical/flowtype',
       'canonical/jest',
       'canonical/jsx-a11y',
       'canonical/lodash',
       'canonical/mocha',
+      'canonical/module',
       'canonical/node',
       'canonical/react',
       'canonical/typescript',

@@ -3,7 +3,7 @@
 [![Travis build status](http://img.shields.io/travis/gajus/eslint-config-canonical/master.svg?style=flat-square)](https://app.travis-ci.com/github/gajus/eslint-config-canonical)
 [![NPM version](http://img.shields.io/npm/v/eslint-config-canonical.svg?style=flat-square)](https://www.npmjs.org/package/eslint-config-canonical)
 
-Canonical is the most comprehensive code style guide. It consists of more than 850 rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical.
+Canonical is the most comprehensive code style guide. It consists of more than 900 rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical.
 
 The goal of the Canonical style guide is to reduce noise in code version control and promote use of the latest ES features.
 
@@ -83,7 +83,7 @@ Emojis:
 
 Configurations:
 
-* CN – Canonical (863 rules)
+* CN – Canonical (939 rules)
 * [AB](https://www.npmjs.com/package/eslint-config-airbnb) – Airbnb (446 rules)
 * [GG](https://www.npmjs.com/package/eslint-config-google) – Google (65 rules)
 * [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard (160 rules)

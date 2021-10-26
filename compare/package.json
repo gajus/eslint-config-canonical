@@ -2,7 +2,7 @@
   "dependencies": {
     "eslint": "^8.1.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-canonical": "^32.10.3",
+    "eslint-config-canonical": "^32.11.1",
     "eslint-config-google": "^0.14.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-config-xo": "^0.39.0",

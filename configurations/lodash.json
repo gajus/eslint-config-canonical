@@ -24,12 +24,6 @@
       "always"
     ],
     "lodash/import-scope": 0,
-    "lodash/prefer-some": [
-      2,
-      {
-        "includeNative": false
-      }
-    ],
     "lodash/matches-prop-shorthand": 1,
     "lodash/matches-shorthand": [
       1,
@@ -39,6 +33,7 @@
     "lodash/no-commit": 1,
     "lodash/no-double-unwrap": 1,
     "lodash/no-extra-args": 1,
+    "lodash/no-unbound-this": 2,
     "lodash/path-style": 0,
     "lodash/prefer-compact": 1,
     "lodash/prefer-constant": 0,
@@ -66,6 +61,12 @@
     "lodash/prefer-reject": [
       1,
       3
+    ],
+    "lodash/prefer-some": [
+      2,
+      {
+        "includeNative": false
+      }
     ],
     "lodash/prefer-startswith": 0,
     "lodash/prefer-thru": 1,
