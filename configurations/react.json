@@ -30,7 +30,13 @@
     "react/jsx-child-element-spacing": 0,
     "react/jsx-closing-bracket-location": 0,
     "react/jsx-closing-tag-location": 0,
-    "react/jsx-curly-brace-presence": 0,
+    "react/jsx-curly-brace-presence": [
+      2,
+      {
+        "props": "never",
+        "children": "never"
+      }
+    ],
     "react/jsx-curly-newline": 2,
     "react/jsx-curly-spacing": [
       2,
