@@ -813,7 +813,6 @@
     "unicorn/prefer-at": 0,
     "unicorn/prefer-dataset": 2,
     "unicorn/prefer-date-now": 2,
-    "unicorn/prefer-flat-map": 2,
     "unicorn/prefer-includes": 2,
     "unicorn/prefer-math-trunc": 2,
     "unicorn/prefer-modern-dom-apis": 2,
