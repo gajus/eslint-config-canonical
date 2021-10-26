@@ -11,10 +11,10 @@ Canonical goal is to reduce noise in code version control and promote use of the
   * [Compatibility with other style guides](#compatibility-with-other-style-guides)
 * [Integrations](#integrations)
   * [Visual Studio Code](#visual-studio-code)
-* [Versioning Policy](#versioning-policy)
 * [Benchmark](#benchmark)
   * [Canonical vs Prettier](#canonical-vs-prettier)
 * [Table of Comparison](#table-of-comparison)
+* [Versioning Policy](#versioning-policy)
 
 ## Usage
 
@@ -120,10 +120,6 @@ If you are using TypeScript and experiencing performance issues, you should cons
 ```
 
 This example removes all TypeScript ESLint specific rules from the code action on save pass but keeps all other rules.
-
-## Versioning Policy
-
-All breaking changes will bump the major version as per the semver convention. Therefore, every new rule addition will increase the major version.
 
 ## Benchmark
 
@@ -1269,3 +1265,7 @@ Configurations:
 |[`yml/spaced-comment`](https://ota-meshi.github.io/eslint-plugin-yml/rules/spaced-comment.html) 🛠|🚨|👻|👻|👻|👻|
 |[`yml/vue-custom-block/no-parsing-error`](https://ota-meshi.github.io/eslint-plugin-yml/rules/vue-custom-block/no-parsing-error.html)|🚨|👻|👻|👻|👻|
 |[`yoda`](https://eslint.org/docs/rules/yoda) 🛠|🚨|🚨|👻|🚨|🚨|
+
+## Versioning Policy
+
+All breaking changes will bump the major version as per the semver convention. Therefore, every new rule addition will increase the major version.
