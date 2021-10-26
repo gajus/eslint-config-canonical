@@ -5,7 +5,7 @@
 
 Canonical is the most comprehensive code style guide. It consists 1,000+ rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical.
 
-The goal of Canonical style guide is to reduce noise in code version control and promote use of the latest ES features.
+Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
 * [Editor Integrations](#editor-integrations)
