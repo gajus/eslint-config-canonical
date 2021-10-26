@@ -376,6 +376,10 @@
       "always"
     ],
     "max-classes-per-file": 0,
+    "max-depth": [
+      1,
+      4
+    ],
     "max-len": [
       1,
       {
