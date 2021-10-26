@@ -51,12 +51,12 @@ All breaking changes will bump the major version as per the semver convention. T
 
 This is how Canonical ruleset compares to other popular configurations.
 
-<!-- This comparison is created using `./compare` script. -->
+* 🚨 – error
+* ⚠️ - warning
+* ❌ - disabled
+* 👻 - not in use
 
-🚨 – error
-⚠️ - warning
-❌ - disabled
-👻 - not in use
+<!-- This comparison is created using `./compare` script. -->
 
 |Rule|Canonical|[Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)|[Google](https://www.npmjs.com/package/eslint-config-google)|[Standard](https://www.npmjs.com/package/eslint-config-standard)|
 |---|---|---|---|---|
