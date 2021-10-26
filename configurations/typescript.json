@@ -177,6 +177,7 @@
     "@typescript-eslint/no-non-null-assertion": 1,
     "@typescript-eslint/no-parameter-properties": 2,
     "@typescript-eslint/no-require-imports": 2,
+    "@typescript-eslint/no-restricted-imports": 0,
     "@typescript-eslint/no-this-alias": [
       2,
       {
