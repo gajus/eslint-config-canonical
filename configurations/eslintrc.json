@@ -408,6 +408,7 @@
     "no-array-constructor": 2,
     "no-async-promise-executor": 2,
     "no-await-in-loop": 0,
+    "no-bitwise": 2,
     "no-buffer-constructor": 2,
     "no-caller": 2,
     "no-case-declarations": 2,
