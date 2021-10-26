@@ -631,7 +631,7 @@
       }
     ],
     "object-curly-spacing": [
-      0,
+      2,
       "never"
     ],
     "object-property-newline": [
