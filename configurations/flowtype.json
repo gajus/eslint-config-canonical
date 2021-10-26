@@ -23,6 +23,7 @@
     ],
     "flowtype/interface-id-match": 0,
     "flowtype/newline-after-flow-annotation": 2,
+    "flowtype/no-dupe-keys": 2,
     "flowtype/no-duplicate-type-union-intersection-members": 2,
     "flowtype/no-existential-type": 0,
     "flowtype/no-flow-fix-me-comments": 1,
