@@ -32,7 +32,10 @@
     "@babel/object-curly-spacing": 2,
     "@babel/semi": 2,
     "accessor-pairs": 2,
-    "array-bracket-newline": 0,
+    "array-bracket-newline": [
+      2,
+      "consistent"
+    ],
     "array-bracket-spacing": [
       2,
       "never"
