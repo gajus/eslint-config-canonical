@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 const {
   ESLint,
 } = require('eslint');
@@ -225,7 +227,6 @@ const getLoadedRules = async () => {
   const ruleNames = Object.keys(loadedRules);
 
   for (const ruleName of ruleNames) {
-    // eslint-disable-next-line no-console -- CLI
     console.log(
       '|' + getRuleLink(ruleName) + (loadedRules[ruleName]?.meta?.deprecated ? ' ⛔️' : '') +
       '|' + getRuleConfiguration(canonicalRules, ruleName) +
@@ -246,7 +247,6 @@ const getLoadedRules = async () => {
         isRuleEnabled(standardRules[ruleName]?.[0])
       )
     ) {
-      // eslint-disable-next-line no-console -- CLI
       console.warn('unused rule "' + ruleName + '"', {
         airbnb: airbnbRules[ruleName],
         google: googleRules[ruleName],
@@ -254,4 +254,6 @@ const getLoadedRules = async () => {
       });
     }
   }
+
+  console.log('Total rules: ' + Object.keys(canonicalRules).length);
 })();
