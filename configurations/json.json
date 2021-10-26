@@ -1,0 +1,48 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "*.json",
+        "*.json5"
+      ],
+      "parser": "jsonc-eslint-parser",
+      "rules": {
+        "no-unused-expressions": "off",
+        "strict": "off"
+      }
+    }
+  ],
+  "plugins": [
+    "jsonc"
+  ],
+  "rules": {
+    "jsonc/comma-dangle": 2,
+    "jsonc/no-bigint-literals": 2,
+    "jsonc/no-comments": 2,
+    "jsonc/no-dupe-keys": 2,
+    "jsonc/no-floating-decimal": 2,
+    "jsonc/no-multi-str": 2,
+    "jsonc/no-number-props": 2,
+    "jsonc/no-numeric-separators": 2,
+    "jsonc/no-regexp-literals": 2,
+    "jsonc/no-sparse-arrays": 2,
+    "jsonc/no-template-literals": 2,
+    "jsonc/no-undefined-value": 2,
+    "jsonc/no-useless-escape": 2,
+    "jsonc/quote-props": 2,
+    "jsonc/quotes": 2,
+    "jsonc/sort-keys": [
+      2,
+      {
+        "order": {
+          "caseSensitive": false,
+          "natural": true,
+          "type": "asc"
+        }
+      }
+    ],
+    "jsonc/space-unary-ops": 2,
+    "jsonc/valid-json-number": 2,
+    "jsonc/vue-custom-block/no-parsing-error": 2
+  }
+}
