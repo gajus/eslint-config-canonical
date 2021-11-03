@@ -10,6 +10,7 @@ node_modules
 !.gitattributes
 !.github
 !.gitignore
+!.husky
 !.lintstagedrc.js
 !.npmignore
 !.npmrc
