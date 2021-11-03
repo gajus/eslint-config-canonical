@@ -42,6 +42,7 @@
     "eslint-plugin-typescript-sort-keys": "^2.0.0",
     "eslint-plugin-unicorn": "^37.0.1",
     "eslint-plugin-yml": "^0.10.1",
+    "typescript": "^4.4.4",
     "yaml-eslint-parser": "^0.4.1"
   },
   "description": "Canonical ESLint Shareable Config",
@@ -79,8 +80,9 @@
     "url": "https://github.com/gajus/eslint-config-canonical"
   },
   "scripts": {
-    "lint": "eslint --report-unused-disable-directives .",
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/eslintrc.json && echo '' >> ./configurations/eslintrc.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/lodash.json && echo '' >> ./configurations/lodash.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/flowtype.json && echo '' >> ./configurations/flowtype.json",
+    "generate-typescript-compatibility-rules": "node bin/generate-typescript-compatibility-rules.js > configurations/typescript-compatibility.json",
+    "lint": "eslint --report-unused-disable-directives .",
     "test": "ava --verbose --serial"
   },
   "version": "1.0.0"
