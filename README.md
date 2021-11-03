@@ -15,6 +15,7 @@ Canonical goal is to reduce noise in code version control and promote use of the
   * [Canonical vs Prettier](#canonical-vs-prettier)
 * [Table of Comparison](#table-of-comparison)
 * [Versioning Policy](#versioning-policy)
+* [Development](#development)
 
 ## Usage
 
@@ -1252,3 +1253,10 @@ Configurations:
 ## Versioning Policy
 
 All breaking changes will bump the major version as per the semver convention. Therefore, every new rule addition will increase the major version.
+
+## Development
+
+Any time that ESLint dependencies are updated you must:
+
+1. Run `npm run generate-typescript-compatibility-rules` script. It disables and override any TypeScript rules that are incompatible with ESLint built-in rules.
+1. Run `npm run compare` script. It generates updated ruleset comparison table and identifies rules that are not configured. Copy generated table to README.md.
