@@ -229,6 +229,7 @@
       {
         "ignorePackages": true,
         "pattern": {
+          "json": "always",
           "svg": "always"
         }
       }
