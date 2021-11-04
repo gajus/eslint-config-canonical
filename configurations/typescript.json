@@ -137,7 +137,7 @@
     "@typescript-eslint/no-extra-non-null-assertion": 2,
     "@typescript-eslint/no-extraneous-class": 2,
     "@typescript-eslint/no-floating-promises": [
-      1,
+      2,
       {
         "ignoreIIFE": true,
         "ignoreVoid": true
