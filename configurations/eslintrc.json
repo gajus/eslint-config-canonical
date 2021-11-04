@@ -821,7 +821,7 @@
       }
     ],
     "unicorn/consistent-destructuring": 0,
-    "unicorn/consistent-function-scoping": 1,
+    "unicorn/consistent-function-scoping": 2,
     "unicorn/custom-error-definition": 0,
     "unicorn/empty-brace-spaces": 2,
     "unicorn/error-message": 2,
