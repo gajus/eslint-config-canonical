@@ -966,8 +966,10 @@
   "settings": {
     "import/extensions": [
       ".js",
+      ".jsx",
+      ".mjs",
       ".ts",
-      ".mjs"
+      ".tsx"
     ]
   }
 }
