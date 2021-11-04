@@ -34,23 +34,6 @@
     "ava/use-t-well": 2,
     "ava/use-test": 2,
     "ava/use-true-false": 2,
-    "id-length": [
-      1,
-      {
-        "exceptions": [
-          "_",
-          "$",
-          "a",
-          "b",
-          "P",
-          "R",
-          "t",
-          "x"
-        ],
-        "max": 50,
-        "min": 2
-      }
-    ],
     "unicorn/consistent-function-scoping": 0
   }
 }

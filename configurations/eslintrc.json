@@ -201,7 +201,7 @@
     "guard-for-in": 2,
     "id-denylist": 0,
     "id-length": [
-      1,
+      2,
       {
         "exceptions": [
           "_",
