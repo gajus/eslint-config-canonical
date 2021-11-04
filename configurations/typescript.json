@@ -242,7 +242,7 @@
       }
     ],
     "@typescript-eslint/restrict-plus-operands": [
-      1,
+      2,
       {
         "checkCompoundAssignments": false
       }
