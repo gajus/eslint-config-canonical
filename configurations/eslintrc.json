@@ -227,7 +227,10 @@
       2,
       "never",
       {
-        "json": "always"
+        "ignorePackages": true,
+        "pattern": {
+          "svg": "always"
+        }
       }
     ],
     "import/first": 2,
