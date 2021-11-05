@@ -18,7 +18,7 @@
     "mocha/no-exports": 2,
     "mocha/no-global-tests": 2,
     "mocha/no-hooks": 0,
-    "mocha/no-hooks-for-single-case": 1,
+    "mocha/no-hooks-for-single-case": 2,
     "mocha/no-identical-title": 2,
     "mocha/no-mocha-arrows": 0,
     "mocha/no-nested-tests": 2,

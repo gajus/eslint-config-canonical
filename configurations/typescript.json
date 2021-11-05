@@ -129,7 +129,7 @@
       }
     ],
     "@typescript-eslint/no-explicit-any": [
-      1,
+      2,
       {
         "ignoreRestArgs": true
       }

@@ -241,7 +241,7 @@ Configurations:
 |[`@typescript-eslint/no-dynamic-delete`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-dynamic-delete.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-empty-function`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-empty-interface`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-interface.md) 🛠|🚨|👻|👻|👻|👻|
-|[`@typescript-eslint/no-explicit-any`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md) 🛠|⚠️|👻|👻|👻|👻|
+|[`@typescript-eslint/no-explicit-any`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extra-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extra-parens`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-parens.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extra-semi`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md) 🛠|🚨|👻|👻|👻|👻|
@@ -729,11 +729,11 @@ Configurations:
 |[`lodash/prop-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/prop-shorthand.md)|🚨|👻|👻|👻|👻|
 |[`lodash/unwrap`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/unwrap.md)|🚨|👻|👻|👻|👻|
 |[`max-classes-per-file`](https://eslint.org/docs/rules/max-classes-per-file)|❌|🚨|👻|👻|👻|
-|[`max-depth`](https://eslint.org/docs/rules/max-depth)|⚠️|❌|👻|👻|⚠️|
-|[`max-len`](https://eslint.org/docs/rules/max-len)|⚠️|🚨|🚨|👻|👻|
+|[`max-depth`](https://eslint.org/docs/rules/max-depth)|🚨|❌|👻|👻|⚠️|
+|[`max-len`](https://eslint.org/docs/rules/max-len)|🚨|🚨|🚨|👻|👻|
 |[`max-lines`](https://eslint.org/docs/rules/max-lines)|❌|❌|👻|👻|👻|
 |[`max-lines-per-function`](https://eslint.org/docs/rules/max-lines-per-function)|❌|❌|👻|👻|👻|
-|[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|⚠️|❌|👻|👻|⚠️|
+|[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|🚨|❌|👻|👻|⚠️|
 |[`max-params`](https://eslint.org/docs/rules/max-params)|❌|❌|👻|👻|⚠️|
 |[`max-statements`](https://eslint.org/docs/rules/max-statements)|❌|❌|👻|👻|👻|
 |[`max-statements-per-line`](https://eslint.org/docs/rules/max-statements-per-line)|🚨|❌|👻|👻|🚨|
@@ -744,7 +744,7 @@ Configurations:
 |[`mocha/no-exports`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-exports.md)|🚨|👻|👻|👻|👻|
 |[`mocha/no-global-tests`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-global-tests.md)|🚨|👻|👻|👻|👻|
 |[`mocha/no-hooks`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-hooks.md)|❌|👻|👻|👻|👻|
-|[`mocha/no-hooks-for-single-case`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-hooks-for-single-case.md)|⚠️|👻|👻|👻|👻|
+|[`mocha/no-hooks-for-single-case`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-hooks-for-single-case.md)|🚨|👻|👻|👻|👻|
 |[`mocha/no-identical-title`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-identical-title.md)|🚨|👻|👻|👻|👻|
 |[`mocha/no-mocha-arrows`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-mocha-arrows.md) 🛠|❌|👻|👻|👻|👻|
 |[`mocha/no-nested-tests`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-nested-tests.md)|🚨|👻|👻|👻|👻|

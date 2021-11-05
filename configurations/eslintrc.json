@@ -407,11 +407,11 @@
     ],
     "max-classes-per-file": 0,
     "max-depth": [
-      1,
+      2,
       4
     ],
     "max-len": [
-      1,
+      2,
       {
         "code": 160
       }
@@ -419,7 +419,7 @@
     "max-lines": 0,
     "max-lines-per-function": 0,
     "max-nested-callbacks": [
-      1,
+      2,
       3
     ],
     "max-params": 0,
