@@ -245,7 +245,7 @@ Configurations:
 |[`@typescript-eslint/no-extra-parens`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-parens.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extra-semi`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extraneous-class`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extraneous-class.md)|🚨|👻|👻|👻|👻|
-|[`@typescript-eslint/no-floating-promises`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-floating-promises.md)|⚠️|👻|👻|👻|👻|
+|[`@typescript-eslint/no-floating-promises`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-floating-promises.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-for-in-array`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-for-in-array.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-implicit-any-catch`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md) 🛠 ⛔️|👻|👻|👻|👻|👻|
 |[`@typescript-eslint/no-implied-eval`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implied-eval.md)|🚨|👻|👻|👻|👻|
@@ -287,8 +287,8 @@ Configurations:
 |[`@typescript-eslint/no-useless-constructor`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-useless-constructor.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-var-requires`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-var-requires.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/non-nullable-type-assertion-style`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md) 🛠|❌|👻|👻|👻|👻|
-|[`@typescript-eslint/object-curly-spacing`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/object-curly-spacing.md) 🛠|🚨|👻|👻|👻|👻|
-|[`@typescript-eslint/padding-line-between-statements`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/padding-line-between-statements.md) 🛠|❌|👻|👻|👻|👻|
+|[`@typescript-eslint/object-curly-spacing`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/object-curly-spacing.md) 🛠|❌|👻|👻|👻|👻|
+|[`@typescript-eslint/padding-line-between-statements`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/padding-line-between-statements.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/prefer-as-const`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-as-const.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/prefer-enum-initializers`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-enum-initializers.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/prefer-for-of`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-for-of.md)|🚨|👻|👻|👻|👻|
@@ -309,7 +309,7 @@ Configurations:
 |[`@typescript-eslint/quotes`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/quotes.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/require-array-sort-compare`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-array-sort-compare.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/require-await`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-await.md)|❌|👻|👻|👻|👻|
-|[`@typescript-eslint/restrict-plus-operands`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md)|⚠️|👻|👻|👻|👻|
+|[`@typescript-eslint/restrict-plus-operands`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/restrict-template-expressions`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md)|❌|👻|👻|👻|👻|
 |[`@typescript-eslint/return-await`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/return-await.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/semi`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/semi.md) 🛠|🚨|👻|👻|👻|👻|
@@ -459,7 +459,7 @@ Configurations:
 |[`handle-callback-err`](https://eslint.org/docs/rules/handle-callback-err) ⛔️|👻|❌|👻|👻|👻|
 |[`id-blacklist`](https://eslint.org/docs/rules/id-blacklist) ⛔️|👻|❌|👻|👻|👻|
 |[`id-denylist`](https://eslint.org/docs/rules/id-denylist)|❌|❌|👻|👻|👻|
-|[`id-length`](https://eslint.org/docs/rules/id-length)|⚠️|❌|👻|👻|👻|
+|[`id-length`](https://eslint.org/docs/rules/id-length)|🚨|❌|👻|👻|👻|
 |[`id-match`](https://eslint.org/docs/rules/id-match)|❌|❌|👻|👻|👻|
 |[`implicit-arrow-linebreak`](https://eslint.org/docs/rules/implicit-arrow-linebreak) 🛠|🚨|🚨|👻|👻|👻|
 |[`import/default`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md)|🚨|❌|👻|👻|👻|
@@ -504,7 +504,7 @@ Configurations:
 |[`import/no-webpack-loader-syntax`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md)|🚨|🚨|👻|🚨|👻|
 |[`import/order`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md) 🛠|🚨|🚨|👻|👻|👻|
 |[`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)|❌|🚨|👻|👻|👻|
-|[`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md)|⚠️|❌|👻|👻|👻|
+|[`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md)|❌|❌|👻|👻|👻|
 |[`indent`](https://eslint.org/docs/rules/indent) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`indent-legacy`](https://eslint.org/docs/rules/indent-legacy) 🛠 ⛔️|👻|👻|👻|👻|👻|
 |[`init-declarations`](https://eslint.org/docs/rules/init-declarations)|❌|❌|👻|👻|👻|
@@ -976,7 +976,7 @@ Configurations:
 |[`prefer-rest-params`](https://eslint.org/docs/rules/prefer-rest-params)|🚨|🚨|🚨|👻|🚨|
 |[`prefer-spread`](https://eslint.org/docs/rules/prefer-spread)|🚨|🚨|🚨|👻|🚨|
 |[`prefer-template`](https://eslint.org/docs/rules/prefer-template) 🛠|❌|🚨|👻|👻|👻|
-|[`promise/always-return`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md)|⚠️|👻|👻|👻|👻|
+|[`promise/always-return`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md)|❌|👻|👻|👻|👻|
 |[`promise/avoid-new`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/avoid-new.md)|❌|👻|👻|👻|👻|
 |[`promise/catch-or-return`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md)|🚨|👻|👻|👻|👻|
 |[`promise/no-callback-in-promise`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-callback-in-promise.md)|❌|👻|👻|👻|👻|
@@ -987,8 +987,8 @@ Configurations:
 |[`promise/no-return-in-finally`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-in-finally.md)|🚨|👻|👻|👻|👻|
 |[`promise/no-return-wrap`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-wrap.md)|🚨|👻|👻|👻|👻|
 |[`promise/param-names`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/param-names.md)|🚨|👻|👻|🚨|👻|
-|[`promise/prefer-await-to-callbacks`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-callbacks.md)|⚠️|👻|👻|👻|👻|
-|[`promise/prefer-await-to-then`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md)|⚠️|👻|👻|👻|👻|
+|[`promise/prefer-await-to-callbacks`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-callbacks.md)|❌|👻|👻|👻|👻|
+|[`promise/prefer-await-to-then`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md)|❌|👻|👻|👻|👻|
 |[`promise/valid-params`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md)|🚨|👻|👻|👻|👻|
 |[`quote-props`](https://eslint.org/docs/rules/quote-props) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`quotes`](https://eslint.org/docs/rules/quotes) 🛠|🚨|🚨|🚨|🚨|🚨|
@@ -1064,7 +1064,7 @@ Configurations:
 |[`react/no-string-refs`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md)|🚨|🚨|👻|👻|👻|
 |[`react/no-this-in-sfc`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-this-in-sfc.md)|🚨|🚨|👻|👻|👻|
 |[`react/no-typos`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-typos.md)|🚨|🚨|👻|👻|👻|
-|[`react/no-unescaped-entities`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md)|🚨|🚨|👻|👻|👻|
+|[`react/no-unescaped-entities`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md)|❌|🚨|👻|👻|👻|
 |[`react/no-unknown-property`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md) 🛠|🚨|🚨|👻|👻|👻|
 |[`react/no-unsafe`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md)|🚨|❌|👻|👻|👻|
 |[`react/no-unstable-nested-components`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md)|🚨|👻|👻|👻|👻|
@@ -1116,7 +1116,7 @@ Configurations:
 |[`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/better-regex.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/consistent-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-destructuring.md) 🛠|❌|👻|👻|👻|👻|
-|[`unicorn/consistent-function-scoping`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-function-scoping.md)|⚠️|👻|👻|👻|👻|
+|[`unicorn/consistent-function-scoping`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-function-scoping.md)|🚨|👻|👻|👻|👻|
 |[`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/custom-error-definition.md) 🛠|❌|👻|👻|👻|👻|
 |[`unicorn/empty-brace-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/error-message`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/error-message.md)|🚨|👻|👻|👻|👻|
@@ -1136,6 +1136,7 @@ Configurations:
 |[`unicorn/no-array-reduce`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reduce.md)|🚨|👻|👻|👻|👻|
 |[`unicorn/no-console-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-console-spaces.md) 🛠|❌|👻|👻|👻|👻|
 |[`unicorn/no-document-cookie`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md)|🚨|👻|👻|👻|👻|
+|[`unicorn/no-empty-file`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md)|🚨|👻|👻|👻|👻|
 |[`unicorn/no-fn-reference-in-iterator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-fn-reference-in-iterator.md) ⛔️|👻|👻|👻|👻|👻|
 |[`unicorn/no-for-loop`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/no-hex-escape`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-hex-escape.md) 🛠|🚨|👻|👻|👻|👻|
@@ -1178,6 +1179,7 @@ Configurations:
 |[`unicorn/prefer-dom-node-text-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md)|🚨|👻|👻|👻|👻|
 |[`unicorn/prefer-event-key`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-key.md) ⛔️|👻|👻|👻|👻|👻|
 |[`unicorn/prefer-exponentiation-operator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-exponentiation-operator.md) ⛔️|👻|👻|👻|👻|👻|
+|[`unicorn/prefer-export-from`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/prefer-flat-map`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-flat-map.md) ⛔️|👻|👻|👻|👻|👻|
 |[`unicorn/prefer-includes`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-includes.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/prefer-keyboard-event-key`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md) 🛠|🚨|👻|👻|👻|👻|
