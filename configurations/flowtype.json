@@ -19,7 +19,7 @@
       2,
       "boolean"
     ],
-    "flowtype/define-flow-type": 1,
+    "flowtype/define-flow-type": 2,
     "flowtype/delimiter-dangle": [
       2,
       "always-multiline"
@@ -34,7 +34,7 @@
     "flowtype/no-dupe-keys": 2,
     "flowtype/no-duplicate-type-union-intersection-members": 2,
     "flowtype/no-existential-type": 0,
-    "flowtype/no-flow-fix-me-comments": 1,
+    "flowtype/no-flow-fix-me-comments": 2,
     "flowtype/no-internal-flow-type": 2,
     "flowtype/no-mixed": 2,
     "flowtype/no-mutable-array": 2,
@@ -52,7 +52,7 @@
       "single"
     ],
     "flowtype/require-compound-type-alias": 0,
-    "flowtype/require-exact-type": 1,
+    "flowtype/require-exact-type": 2,
     "flowtype/require-indexer-name": [
       2,
       "always"
@@ -113,7 +113,7 @@
       2,
       "always"
     ],
-    "flowtype/use-flow-type": 1,
+    "flowtype/use-flow-type": 2,
     "flowtype/use-read-only-spread": 2
   },
   "settings": {

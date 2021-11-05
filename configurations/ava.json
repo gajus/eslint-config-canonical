@@ -7,7 +7,7 @@
     "ava/assertion-arguments": 2,
     "ava/hooks-order": 2,
     "ava/max-asserts": [
-      1,
+      2,
       5
     ],
     "ava/no-async-fn-without-await": 2,
@@ -22,7 +22,7 @@
     "ava/no-skip-assert": 2,
     "ava/no-skip-test": 2,
     "ava/no-todo-implementation": 2,
-    "ava/no-todo-test": 1,
+    "ava/no-todo-test": 2,
     "ava/no-unknown-modifiers": 2,
     "ava/prefer-async-await": 2,
     "ava/prefer-power-assert": 0,

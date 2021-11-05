@@ -166,7 +166,7 @@
     ],
     "@typescript-eslint/no-misused-new": 2,
     "@typescript-eslint/no-misused-promises": [
-      1,
+      2,
       {
         "checksConditionals": true,
         "checksVoidReturn": true
@@ -175,7 +175,7 @@
     "@typescript-eslint/no-namespace": 2,
     "@typescript-eslint/no-non-null-asserted-nullish-coalescing": 2,
     "@typescript-eslint/no-non-null-asserted-optional-chain": 2,
-    "@typescript-eslint/no-non-null-assertion": 1,
+    "@typescript-eslint/no-non-null-assertion": 2,
     "@typescript-eslint/no-parameter-properties": 2,
     "@typescript-eslint/no-require-imports": 2,
     "@typescript-eslint/no-restricted-imports": 0,
