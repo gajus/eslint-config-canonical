@@ -6,7 +6,7 @@ node_js:
   - 16
   - 12
 install:
-  - npm install --legacy-peer-deps
+  - npm install
 script:
   - npm run test
 after_success:
