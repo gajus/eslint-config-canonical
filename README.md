@@ -193,8 +193,9 @@ Configurations:
 * [XO](https://github.com/xojs/eslint-config-xo) – XO (204 rules)
 
 
-<!-- This comparison is created using `./compare` script. -->
+<!-- This comparison is created using `npm run compare` script. -->
 
+<!-- START compare -->
 |Rule|CN|[AB](https://www.npmjs.com/package/eslint-config-airbnb)|[GG](https://www.npmjs.com/package/eslint-config-google)|[SD](https://www.npmjs.com/package/eslint-config-standard)|[XO](https://github.com/xojs/eslint-config-xo)|
 |---|---|---|---|---|---|
 |`@babel/new-cap`|🚨|👻|👻|👻|👻|
@@ -1251,6 +1252,7 @@ Configurations:
 |[`yml/spaced-comment`](https://ota-meshi.github.io/eslint-plugin-yml/rules/spaced-comment.html) 🛠|🚨|👻|👻|👻|👻|
 |[`yml/vue-custom-block/no-parsing-error`](https://ota-meshi.github.io/eslint-plugin-yml/rules/vue-custom-block/no-parsing-error.html)|🚨|👻|👻|👻|👻|
 |[`yoda`](https://eslint.org/docs/rules/yoda) 🛠|🚨|🚨|👻|🚨|🚨|
+<!-- END compare -->
 
 ## Versioning Policy
 
@@ -1261,4 +1263,4 @@ All breaking changes will bump the major version as per the semver convention. T
 First, run `npm run setup-dev`. Then, any time that ESLint dependencies are updated you must:
 
 1. Run `npm run generate-typescript-compatibility-rules` script. It disables and override any TypeScript rules that are incompatible with ESLint built-in rules.
-1. Run `npm run compare` script. It generates updated ruleset comparison table and identifies rules that are not configured. Copy generated table to README.md.
+1. Run `npm run compare` script. It generates ruleset comparison table, updates README.md, and identifies rules that are not configured.

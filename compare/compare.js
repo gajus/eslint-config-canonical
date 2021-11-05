@@ -1,6 +1,13 @@
 /* eslint-disable no-console */
 
 const {
+  readFileSync,
+  writeFileSync,
+} = require('fs');
+const {
+  resolve,
+} = require('path');
+const {
   ESLint,
 } = require('eslint');
 const {
@@ -254,8 +261,14 @@ const getLoadedRules = async () => {
 
   const ruleNames = Object.keys(loadedRules);
 
+  const markdownLines = [
+    '<!-- START compare -->',
+    '|Rule|CN|[AB](https://www.npmjs.com/package/eslint-config-airbnb)|[GG](https://www.npmjs.com/package/eslint-config-google)|[SD](https://www.npmjs.com/package/eslint-config-standard)|[XO](https://github.com/xojs/eslint-config-xo)|',
+    '|---|---|---|---|---|---|',
+  ];
+
   for (const ruleName of ruleNames) {
-    console.log(
+    markdownLines.push(
       '|' + getRuleLink(ruleName) + (loadedRules[ruleName]?.meta?.fixable ? ' 🛠' : '') + (loadedRules[ruleName]?.meta?.deprecated ? ' ⛔️' : '') +
       '|' + getRuleConfiguration(canonicalRules, ruleName) +
       '|' + getRuleConfiguration(airbnbRules, ruleName) +
@@ -265,6 +278,12 @@ const getLoadedRules = async () => {
       '|',
     );
   }
+
+  markdownLines.push('<!-- END compare -->');
+
+  const README_PATH = resolve(__dirname, '../README.md');
+
+  writeFileSync(README_PATH, readFileSync(README_PATH, 'UTF-8').replace(/<!-- START compare -->[\S\s]+<!-- END compare -->/u, markdownLines.join('\n')));
 
   const ignoreDisabled = [
     'camelcase',
