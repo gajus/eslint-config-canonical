@@ -29,7 +29,9 @@ for (const incompatibleRuleName of incompatibleRuleNames) {
   appendRules['@typescript-eslint/' + incompatibleRuleName] = eslintConfiguration.rules[incompatibleRuleName];
 }
 
-const orderedRules = Object.fromEntries(Object.entries(appendRules).sort());
+const orderedRules = {
+  rules: Object.fromEntries(Object.entries(appendRules).sort()),
+};
 
 // eslint-disable-next-line no-console -- CLI
 console.log(JSON.stringify(orderedRules, '', '  '));
