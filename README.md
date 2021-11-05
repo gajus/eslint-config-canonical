@@ -610,6 +610,7 @@ Configurations:
 |[`jsonc/key-name-casing`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/key-name-casing.html)|❌|👻|👻|👻|👻|
 |[`jsonc/key-spacing`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/key-spacing.html) 🛠|🚨|👻|👻|👻|👻|
 |[`jsonc/no-bigint-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-bigint-literals.html)|🚨|👻|👻|👻|👻|
+|[`jsonc/no-binary-expression`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-binary-expression.html) 🛠|🚨|👻|👻|👻|👻|
 |[`jsonc/no-binary-numeric-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-binary-numeric-literals.html) 🛠|🚨|👻|👻|👻|👻|
 |[`jsonc/no-comments`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-comments.html)|🚨|👻|👻|👻|👻|
 |[`jsonc/no-dupe-keys`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-dupe-keys.html)|🚨|👻|👻|👻|👻|
@@ -624,6 +625,7 @@ Configurations:
 |[`jsonc/no-octal`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-octal.html)|🚨|👻|👻|👻|👻|
 |[`jsonc/no-octal-escape`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-octal-escape.html)|🚨|👻|👻|👻|👻|
 |[`jsonc/no-octal-numeric-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-octal-numeric-literals.html) 🛠|🚨|👻|👻|👻|👻|
+|[`jsonc/no-parenthesized`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-parenthesized.html) 🛠|🚨|👻|👻|👻|👻|
 |[`jsonc/no-plus-sign`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-plus-sign.html) 🛠|🚨|👻|👻|👻|👻|
 |[`jsonc/no-regexp-literals`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-regexp-literals.html)|🚨|👻|👻|👻|👻|
 |[`jsonc/no-sparse-arrays`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/no-sparse-arrays.html)|🚨|👻|👻|👻|👻|
@@ -936,8 +938,8 @@ Configurations:
 |[`node/no-restricted-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-restricted-require.md)|❌|👻|👻|👻|👻|
 |[`node/no-sync`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-sync.md)|🚨|👻|👻|👻|👻|
 |[`node/no-unpublished-bin`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-bin.md)|🚨|👻|👻|👻|👻|
-|[`node/no-unpublished-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-import.md)|🚨|👻|👻|👻|👻|
-|[`node/no-unpublished-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md)|🚨|👻|👻|👻|👻|
+|[`node/no-unpublished-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-import.md)|❌|👻|👻|👻|👻|
+|[`node/no-unpublished-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md)|❌|👻|👻|👻|👻|
 |[`node/no-unsupported-features`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features.md) ⛔️|👻|👻|👻|👻|👻|
 |[`node/no-unsupported-features/es-builtins`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-builtins.md)|❌|👻|👻|👻|👻|
 |[`node/no-unsupported-features/es-syntax`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features/es-syntax.md)|❌|👻|👻|👻|👻|
