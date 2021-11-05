@@ -1256,7 +1256,7 @@ All breaking changes will bump the major version as per the semver convention. T
 
 ## Development
 
-Any time that ESLint dependencies are updated you must:
+First, run `npm run setup-dev`. Then, any time that ESLint dependencies are updated you must:
 
 1. Run `npm run generate-typescript-compatibility-rules` script. It disables and override any TypeScript rules that are incompatible with ESLint built-in rules.
 1. Run `npm run compare` script. It generates updated ruleset comparison table and identifies rules that are not configured. Copy generated table to README.md.
