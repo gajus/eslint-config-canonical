@@ -327,8 +327,15 @@ const getLoadedRules = async () => {
     }
   }
 
+  const ignoreUnused = [
+    // Deprecated in documentation.
+    // Not reflected in meta.
+    'jsx-a11y/no-onchange',
+  ];
+
   for (const ruleName of ruleNames) {
     if (
+      !ignoreUnused.includes(ruleName) &&
       loadedRules[ruleName]?.meta?.deprecated !== true &&
       !canonicalRules[ruleName]
     ) {
