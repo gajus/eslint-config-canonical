@@ -180,7 +180,7 @@
     "react/no-string-refs": 2,
     "react/no-this-in-sfc": 2,
     "react/no-typos": 2,
-    "react/no-unescaped-entities": 2,
+    "react/no-unescaped-entities": 0,
     "react/no-unknown-property": 2,
     "react/no-unsafe": 2,
     "react/no-unstable-nested-components": 2,
