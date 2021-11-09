@@ -3,9 +3,9 @@
 [![Travis build status](http://img.shields.io/travis/gajus/eslint-config-canonical/master.svg?style=flat-square)](https://app.travis-ci.com/github/gajus/eslint-config-canonical)
 [![NPM version](http://img.shields.io/npm/v/eslint-config-canonical.svg?style=flat-square)](https://www.npmjs.org/package/eslint-config-canonical)
 
-Canonical is the most comprehensive code style guide. It consists 1,000+ rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical.
+The most comprehensive code style guide.
 
-Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
+Canonical consists of 1,000+ rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
   * [Example configuration](#example-configuration)
