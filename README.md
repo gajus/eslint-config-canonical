@@ -56,8 +56,8 @@ This is an example configuration of a React project using TypeScript and Jest:
       ],
       "files": "*.ts",
       "parserOptions": {
-        "project": "./tsconfig.json",
-      },
+        "project": "./tsconfig.json"
+      }
     },
     {
       "extends": [
@@ -68,7 +68,7 @@ This is an example configuration of a React project using TypeScript and Jest:
       "files": "*.tsx",
       "parserOptions": {
         "project": "./tsconfig.json"
-      },
+      }
     },
     {
       "extends": [
@@ -77,7 +77,7 @@ This is an example configuration of a React project using TypeScript and Jest:
       "files": "*.test.{ts,tsx}",
       "parserOptions": {
         "project": "./tsconfig.json"
-      },
+      }
     },
     {
       "extends": [
@@ -90,7 +90,7 @@ This is an example configuration of a React project using TypeScript and Jest:
         "canonical/yaml"
       ],
       "files": "*.yaml"
-    },
+    }
   ],
   "root": true
 }
