@@ -8,6 +8,7 @@ Canonical is the most comprehensive code style guide. It consists 1,000+ rules, 
 Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
+  * [Example configuration](#example-configuration)
   * [Compatibility with other style guides](#compatibility-with-other-style-guides)
 * [Integrations](#integrations)
   * [Visual Studio Code](#visual-studio-code)
@@ -37,27 +38,66 @@ This package includes the following configurations:
 * [`canonical/typescript`](./configurations/typescript.json) – for projects that use [TypeScript](http://typescriptlang.org/).
 * [`canonical/yaml`](./configurations/yaml.json) – for projects that use YAML.
 
-Example:
+### Example configuration
+
+For maximum efficiency, use [overrides](https://eslint.org/docs/user-guide/configuring/configuration-files#how-do-overrides-work) to only apply relevant style guides. This reduces the linting time and the number of false-positives.
+
+This is an example configuration of a React project using TypeScript and Jest:
 
 ```json
 {
-  "extends": [
-    "canonical",
-    "canonical/ava",
-    "canonical/browser",
-    "canonical/cypress",
-    "canonical/flowtype",
-    "canonical/jest",
-    "canonical/json",
-    "canonical/jsx-a11y",
-    "canonical/lodash",
-    "canonical/mocha",
-    "canonical/module",
-    "canonical/node",
-    "canonical/react",
-    "canonical/typescript",
-    "canonical/yaml"
-  ]
+  "overrides": [
+    {
+      "extends": [
+        "canonical",
+        "canonical/typescript"
+      ],
+      "files": "*.ts",
+      "parserOptions": {
+        "project": "./tsconfig.json",
+      },
+    },
+    {
+      "extends": [
+        "canonical",
+        "canonical/react",
+        "canonical/jsx-a11y",
+        "canonical/typescript"
+      ],
+      "files": "*.tsx",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+    },
+    {
+      "extends": [
+        "canonical/jest"
+      ],
+      "files": "*.test.{ts,tsx}",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+    },
+    {
+      "extends": [
+        "canonical"
+      ],
+      "files": "*.js"
+    },
+    {
+      "extends": [
+        "canonical/json"
+      ],
+      "files": "*.json"
+    },
+    {
+      "extends": [
+        "canonical/yaml"
+      ],
+      "files": "*.yaml"
+    },
+  ],
+  "root": true
 }
 ```
 
