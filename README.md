@@ -46,10 +46,12 @@ This is an example configuration of a React project using TypeScript and Jest:
 
 ```json
 {
+  "extends": [
+    "canonical"
+  ],
   "overrides": [
     {
       "extends": [
-        "canonical",
         "canonical/typescript"
       ],
       "files": "*.ts",
@@ -59,7 +61,6 @@ This is an example configuration of a React project using TypeScript and Jest:
     },
     {
       "extends": [
-        "canonical",
         "canonical/react",
         "canonical/jsx-a11y",
         "canonical/typescript"
@@ -77,12 +78,6 @@ This is an example configuration of a React project using TypeScript and Jest:
       "parserOptions": {
         "project": "./tsconfig.json"
       },
-    },
-    {
-      "extends": [
-        "canonical"
-      ],
-      "files": "*.js"
     },
     {
       "extends": [
