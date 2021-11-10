@@ -176,7 +176,7 @@
     "@typescript-eslint/no-non-null-asserted-nullish-coalescing": 2,
     "@typescript-eslint/no-non-null-asserted-optional-chain": 2,
     "@typescript-eslint/no-non-null-assertion": 2,
-    "@typescript-eslint/no-parameter-properties": 2,
+    "@typescript-eslint/no-parameter-properties": 0,
     "@typescript-eslint/no-require-imports": 2,
     "@typescript-eslint/no-restricted-imports": 0,
     "@typescript-eslint/no-this-alias": [
