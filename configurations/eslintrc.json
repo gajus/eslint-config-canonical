@@ -103,7 +103,7 @@
       }
     ],
     "capitalized-comments": 0,
-    "class-methods-use-this": 2,
+    "class-methods-use-this": 0,
     "comma-dangle": [
       2,
       {

@@ -288,6 +288,7 @@ const getLoadedRules = async () => {
   const ignoreDisabled = [
     'camelcase',
     'capitalized-comments',
+    'class-methods-use-this',
     'import/named',
     'import/no-unresolved',
     'import/prefer-default-export',

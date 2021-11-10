@@ -407,7 +407,7 @@ Configurations:
 |[`canonical/no-use-extend-native`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-no-use-extend-native)|🚨|👻|👻|👻|👻|
 |[`canonical/sort-keys`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-sort-keys) 🛠|🚨|👻|👻|👻|👻|
 |[`capitalized-comments`](https://eslint.org/docs/rules/capitalized-comments) 🛠|❌|❌|👻|👻|🚨|
-|[`class-methods-use-this`](https://eslint.org/docs/rules/class-methods-use-this)|🚨|🚨|👻|👻|👻|
+|[`class-methods-use-this`](https://eslint.org/docs/rules/class-methods-use-this)|❌|🚨|👻|👻|👻|
 |[`comma-dangle`](https://eslint.org/docs/rules/comma-dangle) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`comma-spacing`](https://eslint.org/docs/rules/comma-spacing) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`comma-style`](https://eslint.org/docs/rules/comma-style) 🛠|🚨|🚨|🚨|🚨|🚨|
