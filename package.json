@@ -52,6 +52,7 @@
     "@babel/register": "^7.16.0",
     "ava": "^3.15.0",
     "eslint": "^8.2.0",
+    "got": "^11.8.2",
     "husky": "^7.0.4",
     "jsonlint": "^1.6.3",
     "semantic-release": "^18.0.0"
@@ -76,6 +77,7 @@
   },
   "scripts": {
     "compare": "(cd compare; node compare.js)",
+    "find-deprecated": "(cd compare; node find-deprecated.js)",
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/eslintrc.json && echo '' >> ./configurations/eslintrc.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/lodash.json && echo '' >> ./configurations/lodash.json && jsonlint --sort-keys --in-place --indent '  ' ./configurations/flowtype.json && echo '' >> ./configurations/flowtype.json",
     "generate-typescript-compatibility-rules": "node bin/generate-typescript-compatibility-rules.js > configurations/typescript-compatibility.json",
     "lint": "eslint --report-unused-disable-directives .",
