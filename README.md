@@ -298,7 +298,7 @@ Configurations:
 |[`@typescript-eslint/no-non-null-asserted-nullish-coalescing`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-asserted-nullish-coalescing.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-non-null-asserted-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-asserted-optional-chain.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-assertion.md)|🚨|👻|👻|👻|👻|
-|[`@typescript-eslint/no-parameter-properties`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-parameter-properties.md)|🚨|👻|👻|👻|👻|
+|[`@typescript-eslint/no-parameter-properties`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-parameter-properties.md)|❌|👻|👻|👻|👻|
 |[`@typescript-eslint/no-redeclare`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-redeclare.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-require-imports`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-require-imports.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-restricted-imports`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-restricted-imports.md)|❌|👻|👻|👻|👻|
@@ -718,7 +718,7 @@ Configurations:
 |[`keyword-spacing`](https://eslint.org/docs/rules/keyword-spacing) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`line-comment-position`](https://eslint.org/docs/rules/line-comment-position)|🚨|❌|👻|👻|👻|
 |[`linebreak-style`](https://eslint.org/docs/rules/linebreak-style) 🛠|🚨|🚨|🚨|👻|🚨|
-|[`lines-around-comment`](https://eslint.org/docs/rules/lines-around-comment) 🛠|🚨|❌|👻|👻|👻|
+|[`lines-around-comment`](https://eslint.org/docs/rules/lines-around-comment) 🛠|❌|❌|👻|👻|👻|
 |[`lines-around-directive`](https://eslint.org/docs/rules/lines-around-directive) 🛠 ⛔️|👻|🚨|👻|👻|👻|
 |[`lines-between-class-members`](https://eslint.org/docs/rules/lines-between-class-members) 🛠|🚨|🚨|👻|🚨|🚨|
 |[`lodash/callback-binding`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/callback-binding.md)|🚨|👻|👻|👻|👻|
