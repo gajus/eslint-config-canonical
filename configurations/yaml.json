@@ -18,7 +18,10 @@
   "rules": {
     "yml/block-mapping": 2,
     "yml/block-mapping-question-indicator-newline": 2,
-    "yml/block-sequence": 2,
+    "yml/block-sequence": [
+      2,
+      "always"
+    ],
     "yml/block-sequence-hyphen-indicator-newline": 2,
     "yml/flow-mapping-curly-newline": 2,
     "yml/flow-mapping-curly-spacing": 2,
