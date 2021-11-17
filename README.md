@@ -9,6 +9,7 @@ Canonical consists of 1,000+ rules, some of which are [custom written](https://g
 
 * [Usage](#usage)
   * [Example configuration](#example-configuration)
+  * [Compatibility with Prettier](#compatibility-prettier)
   * [Compatibility with other style guides](#compatibility-with-other-style-guides)
 * [Integrations](#integrations)
   * [Visual Studio Code](#visual-studio-code)
@@ -95,6 +96,24 @@ This is an example configuration of a React project using TypeScript and Jest:
   "root": true
 }
 ```
+
+### Compatibility with Prettier
+
+For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you just want to disable conflicting rules, you can use [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) to do that. Just add it as the last config in your `extends` configuration, e.g.
+
+```json
+{
+  "extends": [
+    "canonical",
+    "canonical/react",
+    "canonical/typescript",
+    "canonical/jest",
+    "prettier"
+  ]
+}
+```
+
+This configuration disables all Canonical rules that conflict with Prettier.
 
 ### Compatibility with other style guides
 
