@@ -8,7 +8,6 @@
     "node"
   ],
   "rules": {
-    "import/no-namespace": 0,
     "node/callback-return": 2,
     "node/exports-style": [
       2,

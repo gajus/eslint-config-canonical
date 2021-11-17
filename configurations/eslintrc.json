@@ -264,7 +264,7 @@
     "import/no-named-as-default-member": 2,
     "import/no-named-default": 2,
     "import/no-named-export": 0,
-    "import/no-namespace": 2,
+    "import/no-namespace": 0,
     "import/no-nodejs-modules": 0,
     "import/no-relative-packages": 0,
     "import/no-relative-parent-imports": 0,
