@@ -364,7 +364,7 @@ Configurations:
 |[`@typescript-eslint/quotes`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/quotes.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/require-array-sort-compare`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-array-sort-compare.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/require-await`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-await.md)|❌|👻|👻|👻|👻|
-|[`@typescript-eslint/restrict-plus-operands`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md)|🚨|👻|👻|👻|👻|
+|[`@typescript-eslint/restrict-plus-operands`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md)|❌|👻|👻|👻|👻|
 |[`@typescript-eslint/restrict-template-expressions`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md)|❌|👻|👻|👻|👻|
 |[`@typescript-eslint/return-await`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/return-await.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/semi`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/semi.md) 🛠|🚨|👻|👻|👻|👻|
