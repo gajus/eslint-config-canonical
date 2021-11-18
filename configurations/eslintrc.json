@@ -401,10 +401,7 @@
     "max-len": 0,
     "max-lines": 0,
     "max-lines-per-function": 0,
-    "max-nested-callbacks": [
-      2,
-      3
-    ],
+    "max-nested-callbacks": 0,
     "max-params": 0,
     "max-statements": 0,
     "max-statements-per-line": [
