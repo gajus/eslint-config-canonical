@@ -18,7 +18,10 @@
   "rules": {
     "jsonc/array-bracket-newline": [
       2,
-      "always"
+      {
+        "minItems": 1,
+        "multiline": true
+      }
     ],
     "jsonc/array-bracket-spacing": 2,
     "jsonc/array-element-newline": [
