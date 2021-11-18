@@ -18,7 +18,7 @@
     "jest/no-commented-out-tests": 2,
     "jest/no-conditional-expect": 2,
     "jest/no-deprecated-functions": 2,
-    "jest/no-disabled-tests": 2,
+    "jest/no-disabled-tests": 1,
     "jest/no-done-callback": 2,
     "jest/no-duplicate-hooks": 2,
     "jest/no-export": 2,
