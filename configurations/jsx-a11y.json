@@ -42,7 +42,7 @@
     "jsx-a11y/media-has-caption": 2,
     "jsx-a11y/mouse-events-have-key-events": 2,
     "jsx-a11y/no-access-key": 2,
-    "jsx-a11y/no-autofocus": 2,
+    "jsx-a11y/no-autofocus": 0,
     "jsx-a11y/no-distracting-elements": 2,
     "jsx-a11y/no-interactive-element-to-noninteractive-role": [
       2,
