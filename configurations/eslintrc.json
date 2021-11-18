@@ -25,7 +25,7 @@
     "eslint-comments"
   ],
   "rules": {
-    "@babel/new-cap": 2,
+    "@babel/new-cap": 0,
     "@babel/no-invalid-this": 2,
     "@babel/no-unused-expressions": 2,
     "@babel/object-curly-spacing": [
@@ -415,14 +415,7 @@
     ],
     "multiline-comment-style": 0,
     "multiline-ternary": 0,
-    "new-cap": [
-      0,
-      {
-        "capIsNew": false,
-        "newIsCap": true,
-        "properties": true
-      }
-    ],
+    "new-cap": 0,
     "new-parens": 2,
     "newline-per-chained-call": 0,
     "no-alert": 2,
