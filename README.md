@@ -252,7 +252,7 @@ Configurations:
 <!-- START compare -->
 |Rule|CN|[AB](https://www.npmjs.com/package/eslint-config-airbnb)|[GG](https://www.npmjs.com/package/eslint-config-google)|[SD](https://www.npmjs.com/package/eslint-config-standard)|[XO](https://github.com/xojs/eslint-config-xo)|
 |---|---|---|---|---|---|
-|`@babel/new-cap`|🚨|👻|👻|👻|👻|
+|`@babel/new-cap`|❌|👻|👻|👻|👻|
 |`@babel/no-invalid-this`|🚨|👻|👻|👻|👻|
 |`@babel/no-unused-expressions`|🚨|👻|👻|👻|👻|
 |`@babel/object-curly-spacing` 🛠|🚨|👻|👻|👻|👻|
@@ -593,7 +593,7 @@ Configurations:
 |[`jest/prefer-hooks-on-top`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md)|🚨|👻|👻|👻|👻|
 |[`jest/prefer-lowercase-title`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-lowercase-title.md) 🛠|❌|👻|👻|👻|👻|
 |[`jest/prefer-spy-on`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-spy-on.md) 🛠|🚨|👻|👻|👻|👻|
-|[`jest/prefer-strict-equal`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md)|🚨|👻|👻|👻|👻|
+|[`jest/prefer-strict-equal`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md)|❌|👻|👻|👻|👻|
 |[`jest/prefer-to-be`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-be.md) 🛠|🚨|👻|👻|👻|👻|
 |[`jest/prefer-to-contain`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-contain.md) 🛠|🚨|👻|👻|👻|👻|
 |[`jest/prefer-to-have-length`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-have-length.md) 🛠|🚨|👻|👻|👻|👻|
@@ -719,7 +719,7 @@ Configurations:
 |[`jsx-a11y/media-has-caption`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/media-has-caption.md)|🚨|🚨|👻|👻|👻|
 |[`jsx-a11y/mouse-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/mouse-events-have-key-events.md)|🚨|🚨|👻|👻|👻|
 |[`jsx-a11y/no-access-key`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-access-key.md)|🚨|🚨|👻|👻|👻|
-|[`jsx-a11y/no-autofocus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-autofocus.md)|🚨|🚨|👻|👻|👻|
+|[`jsx-a11y/no-autofocus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-autofocus.md)|❌|🚨|👻|👻|👻|
 |[`jsx-a11y/no-distracting-elements`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-distracting-elements.md)|🚨|🚨|👻|👻|👻|
 |[`jsx-a11y/no-interactive-element-to-noninteractive-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-interactive-element-to-noninteractive-role.md)|🚨|🚨|👻|👻|👻|
 |[`jsx-a11y/no-noninteractive-element-interactions`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-interactions.md)|🚨|🚨|👻|👻|👻|
@@ -783,11 +783,11 @@ Configurations:
 |[`lodash/prop-shorthand`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/prop-shorthand.md)|🚨|👻|👻|👻|👻|
 |[`lodash/unwrap`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/unwrap.md)|🚨|👻|👻|👻|👻|
 |[`max-classes-per-file`](https://eslint.org/docs/rules/max-classes-per-file)|❌|🚨|👻|👻|👻|
-|[`max-depth`](https://eslint.org/docs/rules/max-depth)|🚨|❌|👻|👻|⚠️|
-|[`max-len`](https://eslint.org/docs/rules/max-len)|🚨|🚨|🚨|👻|👻|
+|[`max-depth`](https://eslint.org/docs/rules/max-depth)|❌|❌|👻|👻|⚠️|
+|[`max-len`](https://eslint.org/docs/rules/max-len)|❌|🚨|🚨|👻|👻|
 |[`max-lines`](https://eslint.org/docs/rules/max-lines)|❌|❌|👻|👻|👻|
 |[`max-lines-per-function`](https://eslint.org/docs/rules/max-lines-per-function)|❌|❌|👻|👻|👻|
-|[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|🚨|❌|👻|👻|⚠️|
+|[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|❌|❌|👻|👻|⚠️|
 |[`max-params`](https://eslint.org/docs/rules/max-params)|❌|❌|👻|👻|⚠️|
 |[`max-statements`](https://eslint.org/docs/rules/max-statements)|❌|❌|👻|👻|👻|
 |[`max-statements-per-line`](https://eslint.org/docs/rules/max-statements-per-line)|🚨|❌|👻|👻|🚨|
