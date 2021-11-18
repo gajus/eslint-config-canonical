@@ -1,3 +1,4 @@
+/* eslint-disable id-length */
 /* eslint-disable import/no-dynamic-require */
 
 const test = require('ava');

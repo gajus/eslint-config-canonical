@@ -10,6 +10,5 @@ module.exports = {
   rules: {
     ...base.rules,
     'canonical/filename-match-regex': 0,
-    'import/no-commonjs': 0,
   },
 };

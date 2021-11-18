@@ -398,12 +398,7 @@
       2,
       4
     ],
-    "max-len": [
-      2,
-      {
-        "code": 160
-      }
-    ],
+    "max-len": 0,
     "max-lines": 0,
     "max-lines-per-function": 0,
     "max-nested-callbacks": [

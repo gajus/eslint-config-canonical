@@ -1,9 +1,7 @@
-const {
-  rules: typescriptRules,
-} = require('@typescript-eslint/eslint-plugin');
-const {
-  builtinRules,
-} = require('eslint/use-at-your-own-risk');
+/* eslint-disable import/order */
+
+const typescriptRules = require('@typescript-eslint/eslint-plugin').rules;
+const {builtinRules} = require('eslint/use-at-your-own-risk');
 
 const builtinRuleNames = Object.keys(Object.fromEntries(builtinRules));
 const typescriptRuleNames = Object.keys(typescriptRules);

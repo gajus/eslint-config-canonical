@@ -161,7 +161,6 @@ const getRuleLink = (ruleName) => {
   }
 
   if (ruleName.startsWith('@typescript-eslint/')) {
-    // eslint-disable-next-line max-len
     return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^@typescript-eslint\//u, '') + '.md)';
   }
 

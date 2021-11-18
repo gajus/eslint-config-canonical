@@ -8,7 +8,6 @@
     "jsx-a11y"
   ],
   "rules": {
-    "jsx-a11y/lang": 0,
     "jsx-a11y/alt-text": 2,
     "jsx-a11y/anchor-has-content": 2,
     "jsx-a11y/anchor-is-valid": 2,
@@ -39,6 +38,7 @@
       }
     ],
     "jsx-a11y/label-has-associated-control": 2,
+    "jsx-a11y/lang": 0,
     "jsx-a11y/media-has-caption": 2,
     "jsx-a11y/mouse-events-have-key-events": 2,
     "jsx-a11y/no-access-key": 2,
