@@ -829,7 +829,7 @@
     "unicorn/import-style": 0,
     "unicorn/new-for-builtins": 2,
     "unicorn/no-abusive-eslint-disable": 2,
-    "unicorn/no-array-callback-reference": 2,
+    "unicorn/no-array-callback-reference": 0,
     "unicorn/no-array-for-each": 2,
     "unicorn/no-array-method-this-argument": 2,
     "unicorn/no-array-push-push": 0,
