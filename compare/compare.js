@@ -108,6 +108,7 @@ const {
     'newline-per-chained-call',
     'no-await-in-loop',
     'no-continue',
+    'no-else-return',
     'no-empty-function',
     'no-invalid-this',
     'no-mixed-operators',

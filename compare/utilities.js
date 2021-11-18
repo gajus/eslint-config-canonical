@@ -23,27 +23,42 @@ const getPluginRules = (pluginName) => {
   }));
 };
 
+const configurationNames = [
+  'airbnb',
+  'google',
+  'standard',
+  'canonical',
+  'canonical/ava',
+  'canonical/browser',
+  'canonical/flowtype',
+  'canonical/jest',
+  'canonical/json',
+  'canonical/lodash',
+  'canonical/mocha',
+  'canonical/module',
+  'canonical/node',
+  'canonical/react',
+  'canonical/typescript',
+  'canonical/yaml',
+];
+
 const getLoadedRules = async () => {
-  const usedPluginNames = await getConfigurationPluginNames({
-    extends: [
-      'airbnb',
-      'google',
-      'standard',
-      'canonical',
-      'canonical/ava',
-      'canonical/browser',
-      'canonical/flowtype',
-      'canonical/jest',
-      'canonical/json',
-      'canonical/lodash',
-      'canonical/mocha',
-      'canonical/module',
-      'canonical/node',
-      'canonical/react',
-      'canonical/typescript',
-      'canonical/yaml',
-    ],
-  });
+  const usedPluginNames = [];
+
+  for (const configurationName of configurationNames) {
+    const configurationUsedPluginNames = await getConfigurationPluginNames({
+      extends: [
+        configurationName,
+      ],
+      root: true,
+    });
+
+    for (const configurationUsedPluginName of configurationUsedPluginNames) {
+      if (!usedPluginNames.includes(configurationUsedPluginNames)) {
+        usedPluginNames.push(configurationUsedPluginName);
+      }
+    }
+  }
 
   let loadedRules = {
     ...Object.fromEntries(builtinRules),

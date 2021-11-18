@@ -1,8 +1,4 @@
 {
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript"
-  ],
   "overrides": [
     {
       "files": [
@@ -122,6 +118,7 @@
     ],
     "@typescript-eslint/no-duplicate-imports": 2,
     "@typescript-eslint/no-dynamic-delete": 2,
+    "@typescript-eslint/no-empty-function": 0,
     "@typescript-eslint/no-empty-interface": [
       "error",
       {

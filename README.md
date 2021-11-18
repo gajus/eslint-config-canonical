@@ -293,7 +293,7 @@ Configurations:
 |[`@typescript-eslint/no-dupe-class-members`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-dupe-class-members.md)|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-duplicate-imports`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-duplicate-imports.md)|❌|👻|👻|👻|👻|
 |[`@typescript-eslint/no-dynamic-delete`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-dynamic-delete.md) 🛠|🚨|👻|👻|👻|👻|
-|[`@typescript-eslint/no-empty-function`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md)|🚨|👻|👻|👻|👻|
+|[`@typescript-eslint/no-empty-function`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md)|❌|👻|👻|👻|👻|
 |[`@typescript-eslint/no-empty-interface`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-interface.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-explicit-any`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md) 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extra-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md) 🛠|🚨|👻|👻|👻|👻|
@@ -546,7 +546,7 @@ Configurations:
 |[`import/no-named-as-default-member`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md)|🚨|🚨|👻|👻|👻|
 |[`import/no-named-default`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-default.md)|🚨|🚨|👻|🚨|👻|
 |[`import/no-named-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-export.md)|❌|❌|👻|👻|👻|
-|[`import/no-namespace`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md) 🛠|🚨|❌|👻|👻|👻|
+|[`import/no-namespace`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md) 🛠|❌|❌|👻|👻|👻|
 |[`import/no-nodejs-modules`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md)|❌|❌|👻|👻|👻|
 |[`import/no-relative-packages`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-packages.md)|❌|👻|👻|👻|👻|
 |[`import/no-relative-parent-imports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md)|❌|❌|👻|👻|👻|
@@ -570,7 +570,7 @@ Configurations:
 |[`jest/no-commented-out-tests`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-commented-out-tests.md)|🚨|👻|👻|👻|👻|
 |[`jest/no-conditional-expect`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-conditional-expect.md)|🚨|👻|👻|👻|👻|
 |[`jest/no-deprecated-functions`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md) 🛠|🚨|👻|👻|👻|👻|
-|[`jest/no-disabled-tests`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-disabled-tests.md)|🚨|👻|👻|👻|👻|
+|[`jest/no-disabled-tests`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-disabled-tests.md)|⚠️|👻|👻|👻|👻|
 |[`jest/no-done-callback`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-done-callback.md)|🚨|👻|👻|👻|👻|
 |[`jest/no-duplicate-hooks`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md)|🚨|👻|👻|👻|👻|
 |[`jest/no-export`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-export.md)|🚨|👻|👻|👻|👻|
@@ -848,7 +848,7 @@ Configurations:
 |[`no-dupe-keys`](https://eslint.org/docs/rules/no-dupe-keys)|🚨|🚨|👻|🚨|🚨|
 |[`no-duplicate-case`](https://eslint.org/docs/rules/no-duplicate-case)|🚨|🚨|👻|🚨|🚨|
 |[`no-duplicate-imports`](https://eslint.org/docs/rules/no-duplicate-imports)|❌|❌|👻|👻|👻|
-|[`no-else-return`](https://eslint.org/docs/rules/no-else-return) 🛠|🚨|🚨|👻|👻|🚨|
+|[`no-else-return`](https://eslint.org/docs/rules/no-else-return) 🛠|❌|🚨|👻|👻|🚨|
 |[`no-empty`](https://eslint.org/docs/rules/no-empty)|🚨|🚨|👻|🚨|🚨|
 |[`no-empty-character-class`](https://eslint.org/docs/rules/no-empty-character-class)|🚨|🚨|👻|🚨|🚨|
 |[`no-empty-function`](https://eslint.org/docs/rules/no-empty-function)|❌|🚨|👻|👻|👻|
@@ -1185,7 +1185,7 @@ Configurations:
 |[`unicorn/import-style`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-style.md)|❌|👻|👻|👻|👻|
 |[`unicorn/new-for-builtins`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/no-abusive-eslint-disable`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-abusive-eslint-disable.md)|🚨|👻|👻|👻|👻|
-|[`unicorn/no-array-callback-reference`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md)|🚨|👻|👻|👻|👻|
+|[`unicorn/no-array-callback-reference`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md)|❌|👻|👻|👻|👻|
 |[`unicorn/no-array-for-each`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/no-array-instanceof`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-instanceof.md) ⛔️|👻|👻|👻|👻|👻|
 |[`unicorn/no-array-method-this-argument`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md) 🛠|🚨|👻|👻|👻|👻|
