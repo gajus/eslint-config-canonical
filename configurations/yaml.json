@@ -38,6 +38,12 @@
     "yml/no-empty-mapping-value": 2,
     "yml/no-empty-sequence-entry": 2,
     "yml/no-irregular-whitespace": 2,
+    "yml/no-multiple-empty-lines": [
+      2,
+      {
+        "max": 0
+      }
+    ],
     "yml/no-tab-indent": 2,
     "yml/plain-scalar": 0,
     "yml/quotes": [
