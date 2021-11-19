@@ -1033,20 +1033,20 @@ Configurations:
 |[`prefer-rest-params`](https://eslint.org/docs/rules/prefer-rest-params)|🚨|🚨|🚨|👻|🚨|
 |[`prefer-spread`](https://eslint.org/docs/rules/prefer-spread)|🚨|🚨|🚨|👻|🚨|
 |[`prefer-template`](https://eslint.org/docs/rules/prefer-template) 🛠|❌|🚨|👻|👻|👻|
-|[`promise/always-return`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md)|❌|👻|👻|👻|👻|
-|[`promise/avoid-new`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/avoid-new.md)|❌|👻|👻|👻|👻|
-|[`promise/catch-or-return`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md)|🚨|👻|👻|👻|👻|
-|[`promise/no-callback-in-promise`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-callback-in-promise.md)|❌|👻|👻|👻|👻|
-|[`promise/no-native`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md)|❌|👻|👻|👻|👻|
-|[`promise/no-nesting`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-nesting.md)|❌|👻|👻|👻|👻|
-|[`promise/no-new-statics`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-new-statics.md) 🛠|🚨|👻|👻|👻|👻|
-|[`promise/no-promise-in-callback`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-promise-in-callback.md)|❌|👻|👻|👻|👻|
-|[`promise/no-return-in-finally`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-in-finally.md)|🚨|👻|👻|👻|👻|
-|[`promise/no-return-wrap`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-wrap.md)|🚨|👻|👻|👻|👻|
-|[`promise/param-names`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/param-names.md)|🚨|👻|👻|🚨|👻|
-|[`promise/prefer-await-to-callbacks`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-callbacks.md)|❌|👻|👻|👻|👻|
-|[`promise/prefer-await-to-then`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md)|❌|👻|👻|👻|👻|
-|[`promise/valid-params`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md)|🚨|👻|👻|👻|👻|
+|[`promise/always-return`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md)|👻|👻|👻|👻|👻|
+|[`promise/avoid-new`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/avoid-new.md)|👻|👻|👻|👻|👻|
+|[`promise/catch-or-return`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md)|👻|👻|👻|👻|👻|
+|[`promise/no-callback-in-promise`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-callback-in-promise.md)|👻|👻|👻|👻|👻|
+|[`promise/no-native`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md)|👻|👻|👻|👻|👻|
+|[`promise/no-nesting`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-nesting.md)|👻|👻|👻|👻|👻|
+|[`promise/no-new-statics`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-new-statics.md) 🛠|👻|👻|👻|👻|👻|
+|[`promise/no-promise-in-callback`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-promise-in-callback.md)|👻|👻|👻|👻|👻|
+|[`promise/no-return-in-finally`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-in-finally.md)|👻|👻|👻|👻|👻|
+|[`promise/no-return-wrap`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-wrap.md)|👻|👻|👻|👻|👻|
+|[`promise/param-names`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/param-names.md)|👻|👻|👻|🚨|👻|
+|[`promise/prefer-await-to-callbacks`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-callbacks.md)|👻|👻|👻|👻|👻|
+|[`promise/prefer-await-to-then`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md)|👻|👻|👻|👻|👻|
+|[`promise/valid-params`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md)|👻|👻|👻|👻|👻|
 |[`quote-props`](https://eslint.org/docs/rules/quote-props) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`quotes`](https://eslint.org/docs/rules/quotes) 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`radix`](https://eslint.org/docs/rules/radix)|🚨|🚨|👻|👻|🚨|

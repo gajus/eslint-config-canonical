@@ -12,9 +12,6 @@
     "cypress/no-force": 2,
     "cypress/no-pause": 2,
     "cypress/no-unnecessary-waiting": 2,
-    "import/unambiguous": 0,
-    "promise/always-return": 0,
-    "promise/catch-or-return": 0,
-    "promise/prefer-await-to-then": 0
+    "import/unambiguous": 0
   }
 }
