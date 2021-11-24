@@ -1066,7 +1066,7 @@ Configurations:
 |[`react/jsx-boolean-value`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md) 🛠|🚨|🚨|👻|👻|👻|
 |[`react/jsx-child-element-spacing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md)|❌|❌|👻|👻|👻|
 |[`react/jsx-closing-bracket-location`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md) 🛠|🚨|🚨|👻|👻|👻|
-|[`react/jsx-closing-tag-location`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md) 🛠|🚨|🚨|👻|👻|👻|
+|[`react/jsx-closing-tag-location`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md) 🛠|❌|🚨|👻|👻|👻|
 |[`react/jsx-curly-brace-presence`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md) 🛠|🚨|🚨|👻|👻|👻|
 |[`react/jsx-curly-newline`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md) 🛠|🚨|🚨|👻|👻|👻|
 |[`react/jsx-curly-spacing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md) 🛠|🚨|🚨|👻|👻|👻|
@@ -1191,6 +1191,7 @@ Configurations:
 |[`unicorn/no-array-method-this-argument`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/no-array-push-push`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md) 🛠|❌|👻|👻|👻|👻|
 |[`unicorn/no-array-reduce`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reduce.md)|🚨|👻|👻|👻|👻|
+|[`unicorn/no-await-expression-member`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md) 🛠|👻|👻|👻|👻|👻|
 |[`unicorn/no-console-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-console-spaces.md) 🛠|❌|👻|👻|👻|👻|
 |[`unicorn/no-document-cookie`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md)|🚨|👻|👻|👻|👻|
 |[`unicorn/no-empty-file`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md)|🚨|👻|👻|👻|👻|
@@ -1227,6 +1228,7 @@ Configurations:
 |[`unicorn/prefer-array-index-of`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-index-of.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/prefer-array-some`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-some.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/prefer-at`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md) 🛠|❌|👻|👻|👻|👻|
+|[`unicorn/prefer-code-point`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md)|👻|👻|👻|👻|👻|
 |[`unicorn/prefer-dataset`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dataset.md) ⛔️|👻|👻|👻|👻|👻|
 |[`unicorn/prefer-date-now`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-date-now.md) 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/prefer-default-parameters`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md) 🛠|🚨|👻|👻|👻|👻|
@@ -1300,6 +1302,7 @@ Configurations:
 |[`yml/no-empty-mapping-value`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-empty-mapping-value.html)|🚨|👻|👻|👻|👻|
 |[`yml/no-empty-sequence-entry`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-empty-sequence-entry.html)|🚨|👻|👻|👻|👻|
 |[`yml/no-irregular-whitespace`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-irregular-whitespace.html)|🚨|👻|👻|👻|👻|
+|[`yml/no-multiple-empty-lines`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-multiple-empty-lines.html) 🛠|🚨|👻|👻|👻|👻|
 |[`yml/no-tab-indent`](https://ota-meshi.github.io/eslint-plugin-yml/rules/no-tab-indent.html)|🚨|👻|👻|👻|👻|
 |[`yml/plain-scalar`](https://ota-meshi.github.io/eslint-plugin-yml/rules/plain-scalar.html) 🛠|❌|👻|👻|👻|👻|
 |[`yml/quotes`](https://ota-meshi.github.io/eslint-plugin-yml/rules/quotes.html) 🛠|🚨|👻|👻|👻|👻|
