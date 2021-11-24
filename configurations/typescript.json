@@ -271,6 +271,7 @@
     "@typescript-eslint/unified-signatures": 2,
     "default-param-last": 0,
     "import/no-dynamic-require": 0,
+    "jsdoc/require-property-type": 0,
     "no-duplicate-imports": 0,
     "no-undef": 0,
     "no-use-before-define": 0,
