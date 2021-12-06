@@ -449,8 +449,8 @@ Configurations:
 |[`eslint-comments/no-duplicate-disable`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-duplicate-disable.md)|🚨|👻|👻|👻|👻|
 |[`eslint-comments/no-restricted-disable`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-restricted-disable.md)|❌|👻|👻|👻|👻|
 |[`eslint-comments/no-unlimited-disable`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unlimited-disable.md)|🚨|👻|👻|👻|👻|
-|[`eslint-comments/no-unused-disable`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unused-disable.md)|🚨|👻|👻|👻|👻|
-|[`eslint-comments/no-unused-enable`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unused-enable.md)|🚨|👻|👻|👻|👻|
+|[`eslint-comments/no-unused-disable`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unused-disable.md)|❌|👻|👻|👻|👻|
+|[`eslint-comments/no-unused-enable`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unused-enable.md)|❌|👻|👻|👻|👻|
 |[`eslint-comments/no-use`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-use.md)|❌|👻|👻|👻|👻|
 |[`eslint-comments/require-description`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/require-description.md)|❌|👻|👻|👻|👻|
 |[`flowtype/array-style-complex-type`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-array-style-complex-type) 🛠|🚨|👻|👻|👻|👻|
@@ -947,7 +947,7 @@ Configurations:
 |[`no-unexpected-multiline`](https://eslint.org/docs/rules/no-unexpected-multiline)|🚨|🚨|🚨|🚨|🚨|
 |[`no-unmodified-loop-condition`](https://eslint.org/docs/rules/no-unmodified-loop-condition)|🚨|❌|👻|🚨|🚨|
 |[`no-unneeded-ternary`](https://eslint.org/docs/rules/no-unneeded-ternary) 🛠|🚨|🚨|👻|🚨|🚨|
-|[`no-unreachable`](https://eslint.org/docs/rules/no-unreachable)|🚨|🚨|👻|🚨|🚨|
+|[`no-unreachable`](https://eslint.org/docs/rules/no-unreachable)|❌|🚨|👻|🚨|🚨|
 |[`no-unreachable-loop`](https://eslint.org/docs/rules/no-unreachable-loop)|🚨|❌|👻|🚨|🚨|
 |[`no-unsafe-finally`](https://eslint.org/docs/rules/no-unsafe-finally)|🚨|🚨|👻|🚨|🚨|
 |[`no-unsafe-negation`](https://eslint.org/docs/rules/no-unsafe-negation)|🚨|🚨|👻|🚨|🚨|
@@ -1023,7 +1023,7 @@ Configurations:
 |[`padding-line-between-statements`](https://eslint.org/docs/rules/padding-line-between-statements) 🛠|🚨|❌|👻|👻|🚨|
 |[`prefer-arrow-callback`](https://eslint.org/docs/rules/prefer-arrow-callback) 🛠|🚨|🚨|👻|👻|🚨|
 |[`prefer-const`](https://eslint.org/docs/rules/prefer-const) 🛠|🚨|🚨|🚨|🚨|🚨|
-|[`prefer-destructuring`](https://eslint.org/docs/rules/prefer-destructuring) 🛠|🚨|🚨|👻|👻|🚨|
+|[`prefer-destructuring`](https://eslint.org/docs/rules/prefer-destructuring) 🛠|❌|🚨|👻|👻|🚨|
 |[`prefer-exponentiation-operator`](https://eslint.org/docs/rules/prefer-exponentiation-operator) 🛠|🚨|❌|👻|👻|🚨|
 |[`prefer-named-capture-group`](https://eslint.org/docs/rules/prefer-named-capture-group)|❌|❌|👻|👻|👻|
 |[`prefer-numeric-literals`](https://eslint.org/docs/rules/prefer-numeric-literals) 🛠|🚨|🚨|👻|👻|🚨|
