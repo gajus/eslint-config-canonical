@@ -34,6 +34,7 @@ This package includes the following configurations:
 * [`canonical/lodash`](./configurations/lodash.json) – for projects that use [lodash](https://lodash.com/).
 * [`canonical/mocha`](./configurations/mocha.json) – for projects that use [Mocha](https://mochajs.org/).
 * [`canonical/module`](./configurations/module.json) – for projects that use ESM modules.
+* [`canonical/next`](./configurations/next.json) – for projects that use [Next.js](https://nextjs.org/).
 * [`canonical/node`](./configurations/node.json) – for projects that use Node.js.
 * [`canonical/react`](./configurations/react.json) – for projects that use [React](https://facebook.github.io/react/).
 * [`canonical/typescript`](./configurations/typescript.json) – for projects that use [TypeScript](http://typescriptlang.org/).

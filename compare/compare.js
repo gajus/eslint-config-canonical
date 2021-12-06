@@ -29,6 +29,7 @@ const {
       'canonical/lodash',
       'canonical/mocha',
       'canonical/module',
+      'canonical/next',
       'canonical/node',
       'canonical/react',
       'canonical/typescript',
