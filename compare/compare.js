@@ -75,7 +75,13 @@ const {
     '|---|---|---|---|---|---|',
   ];
 
+  let fixableRuleCount = 0;
+
   for (const ruleName of ruleNames) {
+    if (loadedRules[ruleName]?.meta?.fixable) {
+      fixableRuleCount++;
+    }
+
     markdownLines.push(
       '|' + getRuleLink(ruleName) + (loadedRules[ruleName]?.meta?.fixable ? ' 🛠' : '') + (loadedRules[ruleName]?.meta?.deprecated ? ' ⛔️' : '') +
       '|' + getRuleConfiguration(canonicalRules, ruleName) +
@@ -191,7 +197,7 @@ const {
     }
   }
 
-  console.log('Canonical rules: ' + Object.keys(canonicalRules).length);
+  console.log('Canonical rules: ' + Object.keys(canonicalRules).length + ' (' + Math.round(fixableRuleCount / Object.keys(canonicalRules).length * 100) + '% auto-fixable)');
   console.log('Airbnb rules: ' + Object.keys(airbnbRules).length);
   console.log('Google rules: ' + Object.keys(googleRules).length);
   console.log('Standard rules: ' + Object.keys(standardRules).length);

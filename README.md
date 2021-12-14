@@ -5,7 +5,7 @@
 
 The most comprehensive code style guide.
 
-Canonical consists of 1,000+ rules, some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
+Canonical consists of 1,000+ rules (39% auto-fixable), some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
   * [Example configuration](#example-configuration)
@@ -241,7 +241,7 @@ Emojis:
 
 Configurations:
 
-* CN – Canonical (1007 rules)
+* CN – Canonical (1017 rules)
 * [AB](https://www.npmjs.com/package/eslint-config-airbnb) – Airbnb (446 rules)
 * [GG](https://www.npmjs.com/package/eslint-config-google) – Google (65 rules)
 * [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard (160 rules)
