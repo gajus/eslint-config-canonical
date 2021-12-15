@@ -1,3 +1,4 @@
+/* eslint-disable complexity */
 /* eslint-disable no-console */
 
 const {
@@ -7,13 +8,81 @@ const {
 const {
   resolve,
 } = require('path');
+const stringify = require('safe-stable-stringify');
 const {
   isRuleEnabled,
   getRuleLink,
   getRuleConfiguration,
   getConfigurationRules,
   getLoadedRules,
+  normalizeConfiguration,
 } = require('./utilities');
+
+const getIncompatibleRuleNames = (canonicalRules, comparedRules) => {
+  const incompatibleRuleNames = [];
+
+  for (const ruleName of Object.keys(comparedRules)) {
+    if (!isRuleEnabled(comparedRules[ruleName]?.[0])) {
+      continue;
+    }
+
+    const canonicalRuleConfiguration = stringify(normalizeConfiguration(canonicalRules[ruleName]), null, '  ');
+    const comparedRuleConfiguration = stringify(normalizeConfiguration(comparedRules[ruleName]), null, '  ');
+
+    if (canonicalRuleConfiguration === comparedRuleConfiguration) {
+      continue;
+    }
+
+    incompatibleRuleNames.push(ruleName);
+  }
+
+  return incompatibleRuleNames;
+};
+
+const createIncompatibleRuleSummary = (urlSafeName, comparedName, canonicalRules, comparedRules) => {
+  // We are ignoring these rules because their configuration is breaking table layout.
+  const ignoreRuleNames = [
+    'no-restricted-globals',
+    'no-restricted-syntax',
+    'capitalized-comments',
+    'react/sort-comp',
+    'no-restricted-properties',
+  ];
+
+  const rows = [];
+
+  const incompatibleRuleNames = getIncompatibleRuleNames(canonicalRules, comparedRules);
+
+  for (const incompatibleRuleName of incompatibleRuleNames) {
+    if (ignoreRuleNames.includes(incompatibleRuleName)) {
+      continue;
+    }
+
+    const canonicalRuleConfiguration = stringify(normalizeConfiguration(canonicalRules[incompatibleRuleName]), null, '  ');
+    const comparedRuleConfiguration = stringify(normalizeConfiguration(comparedRules[incompatibleRuleName]), null, '  ');
+
+    rows.push(`
+<tr>
+  <th colspan="2" align="left">
+    <code>${incompatibleRuleName}</code>
+    (<a href="#rule-canonical-${incompatibleRuleName}">back to comparison table 👆</a>)
+    <a id="rule-${urlSafeName}-${incompatibleRuleName}" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>${canonicalRuleConfiguration}</code></pre></td>
+  <td><pre><code>${comparedRuleConfiguration}</code></pre></td>
+</tr>
+    `.trim());
+  }
+
+  return [
+    '### ' + comparedName + ' Incompatible Rules',
+    '<table>',
+    ...rows,
+    '</table>',
+  ].join('\n');
+};
 
 (async () => {
   const loadedRules = await getLoadedRules();
@@ -77,18 +146,23 @@ const {
 
   let fixableRuleCount = 0;
 
+  const airbnbIncompatibleRuleNames = getIncompatibleRuleNames(canonicalRules, airbnbRules);
+  const googleIncompatibleRuleNames = getIncompatibleRuleNames(canonicalRules, googleRules);
+  const standardIncompatibleRuleNames = getIncompatibleRuleNames(canonicalRules, standardRules);
+  const xoIncompatibleRuleNames = getIncompatibleRuleNames(canonicalRules, xoRules);
+
   for (const ruleName of ruleNames) {
     if (loadedRules[ruleName]?.meta?.fixable) {
       fixableRuleCount++;
     }
 
     markdownLines.push(
-      '|' + getRuleLink(ruleName) + (loadedRules[ruleName]?.meta?.fixable ? ' 🛠' : '') + (loadedRules[ruleName]?.meta?.deprecated ? ' ⛔️' : '') +
+      '|' + getRuleLink(ruleName) + '<a id="rule-canonical-' + ruleName + '" />' + (loadedRules[ruleName]?.meta?.fixable ? ' 🛠' : '') + (loadedRules[ruleName]?.meta?.deprecated ? ' ⛔️' : '') +
       '|' + getRuleConfiguration(canonicalRules, ruleName) +
-      '|' + getRuleConfiguration(airbnbRules, ruleName) +
-      '|' + getRuleConfiguration(googleRules, ruleName) +
-      '|' + getRuleConfiguration(standardRules, ruleName) +
-      '|' + getRuleConfiguration(xoRules, ruleName) +
+      '|' + getRuleConfiguration(airbnbRules, ruleName) + (airbnbIncompatibleRuleNames.includes(ruleName) ? '<a href="#rule-airbnb-' + ruleName + '">?</a>' : '') +
+      '|' + getRuleConfiguration(googleRules, ruleName) + (googleIncompatibleRuleNames.includes(ruleName) ? '<a href="#rule-google-' + ruleName + '">?</a>' : '') +
+      '|' + getRuleConfiguration(standardRules, ruleName) + (standardIncompatibleRuleNames.includes(ruleName) ? '<a href="#rule-standard-' + ruleName + '">?</a>' : '') +
+      '|' + getRuleConfiguration(xoRules, ruleName) + (xoIncompatibleRuleNames.includes(ruleName) ? '<a href="#rule-xo-' + ruleName + '">?</a>' : '') +
       '|',
     );
   }
@@ -98,6 +172,33 @@ const {
   const README_PATH = resolve(__dirname, '../README.md');
 
   writeFileSync(README_PATH, readFileSync(README_PATH, 'UTF-8').replace(/<!-- START compare -->[\S\s]+<!-- END compare -->/u, markdownLines.join('\n')));
+
+  writeFileSync(README_PATH, readFileSync(README_PATH, 'UTF-8').replace(/<!-- START incompatibleRules -->[\S\s]+<!-- END incompatibleRules -->/u, '<!-- START incompatibleRules -->\n' + [
+    createIncompatibleRuleSummary(
+      'airbnb',
+      'AirBnb',
+      canonicalRules,
+      airbnbRules,
+    ),
+    createIncompatibleRuleSummary(
+      'google',
+      'Google',
+      canonicalRules,
+      googleRules,
+    ),
+    createIncompatibleRuleSummary(
+      'standard',
+      'Standard',
+      canonicalRules,
+      standardRules,
+    ),
+    createIncompatibleRuleSummary(
+      'xo',
+      'XO',
+      canonicalRules,
+      xoRules,
+    ),
+  ].join('\n\n') + '\n<!-- END incompatibleRules -->'));
 
   const ignoreDisabled = [
     'camelcase',

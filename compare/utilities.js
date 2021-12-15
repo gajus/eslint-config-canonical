@@ -183,6 +183,30 @@ const isRuleEnabled = (ruleValue) => {
   return false;
 };
 
+const normalizeConfiguration = (configuration) => {
+  if (!configuration) {
+    return [
+      'off',
+    ];
+  }
+
+  const nextConfiguration = [
+    ...configuration,
+  ];
+
+  if (typeof nextConfiguration[0] === 'number') {
+    if (nextConfiguration[0] === 0) {
+      nextConfiguration[0] = 'off';
+    } else if (nextConfiguration[0] === 1) {
+      nextConfiguration[0] = 'warn';
+    } else if (nextConfiguration[0] === 2) {
+      nextConfiguration[0] = 'error';
+    }
+  }
+
+  return nextConfiguration;
+};
+
 const describeRuleValue = (ruleValue) => {
   if (ruleValue === undefined) {
     return '👻';
@@ -219,4 +243,5 @@ module.exports = {
   getRuleConfiguration,
   getRuleLink,
   isRuleEnabled,
+  normalizeConfiguration,
 };
