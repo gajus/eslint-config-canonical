@@ -1340,8 +1340,6 @@ This section of the documentation highlights differences in configuration betwee
 
 For a high-level overview of differences between rulesets refer to the [Table of Comparison](#table-of-comparison).
 
-### AirBnb Incompatible Rules
-
 <!-- START incompatibleRules -->
 ### AirBnb Incompatible Rules
 <table>
