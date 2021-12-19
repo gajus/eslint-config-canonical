@@ -77,7 +77,7 @@ module.exports = {
     'canonical/destructuring-property-newline': [
       2,
       {
-        allowMultiplePropertiesPerLine: false,
+        allowAllPropertiesOnSameLine: true,
       },
     ],
     'canonical/export-specifier-newline': 2,
@@ -622,7 +622,7 @@ module.exports = {
     'object-property-newline': [
       2,
       {
-        allowMultiplePropertiesPerLine: false,
+        allowAllPropertiesOnSameLine: true,
       },
     ],
     'object-shorthand': [
