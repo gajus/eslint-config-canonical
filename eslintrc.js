@@ -6,4 +6,4 @@ try {
   console.error(error);
 }
 
-module.exports = require('./configurations/eslintrc.json');
+module.exports = require('./configurations/eslintrc');

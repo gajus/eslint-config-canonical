@@ -1,1 +1,1 @@
-module.exports = require('./configurations/yaml.json');
+module.exports = require('./configurations/yaml');

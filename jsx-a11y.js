@@ -1,1 +1,1 @@
-module.exports = require('./configurations/jsx-a11y.json');
+module.exports = require('./configurations/jsx-a11y');

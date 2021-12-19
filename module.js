@@ -1,1 +1,1 @@
-module.exports = require('./configurations/module.json');
+module.exports = require('./configurations/module');

@@ -1,1 +1,1 @@
-module.exports = require('./configurations/next.json');
+module.exports = require('./configurations/next');

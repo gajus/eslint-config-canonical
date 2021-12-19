@@ -1,8 +1,8 @@
-const typescript = require('./configurations/typescript.json');
+const typescript = require('./configurations/typescript');
 
 typescript.rules = {
   ...typescript.rules,
-  ...require('./configurations/typescript-compatibility.json').rules,
+  ...require('./configurations/typescript-compatibility').rules,
 };
 
 module.exports = typescript;

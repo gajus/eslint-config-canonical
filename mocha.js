@@ -1,1 +1,1 @@
-module.exports = require('./configurations/mocha.json');
+module.exports = require('./configurations/mocha');

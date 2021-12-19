@@ -1,1 +1,1 @@
-module.exports = require('./configurations/cypress.json');
+module.exports = require('./configurations/cypress');

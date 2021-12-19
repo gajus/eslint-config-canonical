@@ -1,1 +1,1 @@
-module.exports = require('./configurations/flowtype.json');
+module.exports = require('./configurations/flowtype');

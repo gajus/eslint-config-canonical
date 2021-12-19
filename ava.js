@@ -1,1 +1,1 @@
-module.exports = require('./configurations/ava.json');
+module.exports = require('./configurations/ava');

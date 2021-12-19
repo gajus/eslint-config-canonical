@@ -1,1 +1,1 @@
-module.exports = require('./configurations/react.json');
+module.exports = require('./configurations/react');
