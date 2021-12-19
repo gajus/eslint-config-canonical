@@ -137,6 +137,7 @@ module.exports = {
     'object-curly-spacing': 0,
     'padding-line-between-statements': 0,
     quotes: 0,
+    'react/jsx-indent': 0,
     'require-await': 0,
     semi: 0,
     'space-before-function-paren': 0,
