@@ -688,6 +688,9 @@ module.exports = {
     'quote-props': [
       2,
       'as-needed',
+      {
+        numbers: true,
+      },
     ],
     quotes: [
       2,
