@@ -49,7 +49,7 @@ module.exports = {
     '@typescript-eslint/no-array-constructor': 2,
     '@typescript-eslint/no-dupe-class-members': 2,
     '@typescript-eslint/no-duplicate-imports': 0,
-    '@typescript-eslint/no-extra-parens': 2,
+    '@typescript-eslint/no-extra-parens': 0,
     '@typescript-eslint/no-extra-semi': 2,
     '@typescript-eslint/no-implied-eval': 2,
     '@typescript-eslint/no-invalid-this': 0,
