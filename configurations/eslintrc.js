@@ -35,7 +35,10 @@ module.exports = {
     'accessor-pairs': 2,
     'array-bracket-newline': [
       2,
-      'consistent',
+      {
+        minItems: 1,
+        multiline: true,
+      },
     ],
     'array-bracket-spacing': [
       2,
@@ -44,7 +47,10 @@ module.exports = {
     'array-callback-return': 2,
     'array-element-newline': [
       2,
-      'consistent',
+      {
+        minItems: 1,
+        multiline: true,
+      },
     ],
     'arrow-body-style': [
       2,
@@ -77,7 +83,7 @@ module.exports = {
     'canonical/destructuring-property-newline': [
       2,
       {
-        allowAllPropertiesOnSameLine: true,
+        allowAllPropertiesOnSameLine: false,
       },
     ],
     'canonical/export-specifier-newline': 2,
@@ -616,13 +622,21 @@ module.exports = {
       {
         ExportDeclaration: 'always',
         ImportDeclaration: 'always',
+        ObjectExpression: {
+          minProperties: 1,
+          multiline: true,
+        },
+        ObjectPattern: {
+          minProperties: 1,
+          multiline: true,
+        },
       },
     ],
     'object-curly-spacing': 0,
     'object-property-newline': [
       2,
       {
-        allowAllPropertiesOnSameLine: true,
+        allowAllPropertiesOnSameLine: false,
       },
     ],
     'object-shorthand': [
