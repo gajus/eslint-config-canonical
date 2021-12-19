@@ -606,21 +606,17 @@
     "object-curly-newline": [
       2,
       {
-        "ExportDeclaration": {
-          "minProperties": 1,
-          "multiline": true
-        },
-        "ImportDeclaration": {
-          "minProperties": 1,
-          "multiline": true
-        }
+        "ExportDeclaration": "always",
+        "ImportDeclaration": "always"
       }
     ],
+    "canonical/export-specifier-newline": 2,
+    "canonical/import-specifier-newline": 2,
     "object-curly-spacing": 0,
     "object-property-newline": [
       2,
       {
-        "allowMultiplePropertiesPerLine": true
+        "allowMultiplePropertiesPerLine": false
       }
     ],
     "object-shorthand": [
