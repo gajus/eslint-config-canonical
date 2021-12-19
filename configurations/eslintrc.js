@@ -74,6 +74,12 @@ module.exports = {
       },
     ],
     camelcase: 0,
+    'canonical/destructuring-property-newline': [
+      2,
+      {
+        allowMultiplePropertiesPerLine: false,
+      },
+    ],
     'canonical/export-specifier-newline': 2,
     'canonical/filename-match-exported': 2,
     'canonical/filename-match-regex': [
