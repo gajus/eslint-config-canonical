@@ -28,22 +28,22 @@ Canonical consists of 1,000+ rules (39% auto-fixable), some of which are [custom
 
 This package includes the following configurations:
 
-* [`canonical`](./configurations/eslintrc.json) – The Canonical code style guide.
-* [`canonical/ava`](./configurations/ava.json) – for projects that use [AVA](https://ava.li/).
-* [`canonical/browser`](./configurations/browser.json) – for projects that use DOM and other browser APIs.
-* [`canonical/cypress`](./configurations/cypress.json) – for projects that use [Cypress](https://cypress.io/).
-* [`canonical/flowtype`](./configurations/flowtype.json) – for projects that use [Flowtype](https://flowtype.org/).
-* [`canonical/jest`](./configurations/jest.json) – for projects that use [jest](https://facebook.github.io/jest/).
-* [`canonical/json`](./configurations/json.json) – for projects that use JSON.
-* [`canonical/jsx-a11y`](./configurations/jsx-a11y.json) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
-* [`canonical/lodash`](./configurations/lodash.json) – for projects that use [lodash](https://lodash.com/).
-* [`canonical/mocha`](./configurations/mocha.json) – for projects that use [Mocha](https://mochajs.org/).
-* [`canonical/module`](./configurations/module.json) – for projects that use ESM modules.
-* [`canonical/next`](./configurations/next.json) – for projects that use [Next.js](https://nextjs.org/).
-* [`canonical/node`](./configurations/node.json) – for projects that use Node.js.
-* [`canonical/react`](./configurations/react.json) – for projects that use [React](https://facebook.github.io/react/).
-* [`canonical/typescript`](./configurations/typescript.json) – for projects that use [TypeScript](http://typescriptlang.org/).
-* [`canonical/yaml`](./configurations/yaml.json) – for projects that use YAML.
+* [`canonical`](./configurations/eslintrc.js) – The Canonical code style guide.
+* [`canonical/ava`](./configurations/ava.js) – for projects that use [AVA](https://ava.li/).
+* [`canonical/browser`](./configurations/browser.js) – for projects that use DOM and other browser APIs.
+* [`canonical/cypress`](./configurations/cypress.js) – for projects that use [Cypress](https://cypress.io/).
+* [`canonical/flowtype`](./configurations/flowtype.js) – for projects that use [Flowtype](https://flowtype.org/).
+* [`canonical/jest`](./configurations/jest.js) – for projects that use [jest](https://facebook.github.io/jest/).
+* [`canonical/json`](./configurations/json.js) – for projects that use JSON.
+* [`canonical/jsx-a11y`](./configurations/jsx-a11y.js) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
+* [`canonical/lodash`](./configurations/lodash.js) – for projects that use [lodash](https://lodash.com/).
+* [`canonical/mocha`](./configurations/mocha.js) – for projects that use [Mocha](https://mochajs.org/).
+* [`canonical/module`](./configurations/module.js) – for projects that use ESM modules.
+* [`canonical/next`](./configurations/next.js) – for projects that use [Next.js](https://nextjs.org/).
+* [`canonical/node`](./configurations/node.js) – for projects that use Node.js.
+* [`canonical/react`](./configurations/react.js) – for projects that use [React](https://facebook.github.io/react/).
+* [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
+* [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML.
 
 ### Example configuration
 
