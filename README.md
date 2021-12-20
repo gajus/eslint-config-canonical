@@ -32,6 +32,7 @@ This package includes the following configurations:
 * [`canonical/ava`](./configurations/ava.js) – for projects that use [AVA](https://ava.li/).
 * [`canonical/browser`](./configurations/browser.js) – for projects that use DOM and other browser APIs.
 * [`canonical/cypress`](./configurations/cypress.js) – for projects that use [Cypress](https://cypress.io/).
+* [`canonical/graphql`](./configurations/graphql.js) – for projects that use [GraphQL](https://graphql.org/) (only affects `.graphql` files).
 * [`canonical/flowtype`](./configurations/flowtype.js) – for projects that use [Flowtype](https://flowtype.org/).
 * [`canonical/jest`](./configurations/jest.js) – for projects that use [jest](https://facebook.github.io/jest/).
 * [`canonical/json`](./configurations/json.js) – for projects that use JSON.
