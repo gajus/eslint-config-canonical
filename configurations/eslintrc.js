@@ -438,7 +438,7 @@ module.exports = {
     'no-confusing-arrow': 2,
     'no-console': 2,
     'no-const-assign': 2,
-    'no-constant-condition': 2,
+    'no-constant-condition': 0,
     'no-constructor-return': 2,
     'no-continue': 0,
     'no-control-regex': 2,
