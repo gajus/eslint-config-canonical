@@ -2,7 +2,9 @@
 /* eslint-disable import/no-dynamic-require */
 
 const test = require('ava');
-const {builtinRules} = require('eslint/use-at-your-own-risk');
+const {
+  builtinRules,
+} = require('eslint/use-at-your-own-risk');
 
 const configurationNames = [
   'ava',
@@ -11,8 +13,7 @@ const configurationNames = [
   'flowtype',
   'jest',
   'json',
-
-  // 'jsx-a11y',
+  'jsx-a11y',
   'lodash',
   'mocha',
   'module',
@@ -37,11 +38,13 @@ const main = async () => {
       ...builtinRules.keys(),
     ];
 
-    for (const pluginName of configuration.plugins) {
+    // @todo does not work with overrides
+    for (const pluginName of configuration?.plugins ?? []) {
       supportedRuleNames.push(...getPluginRuleNames(pluginName));
     }
 
-    for (const configurationRuleName of Object.keys(configuration.rules)) {
+    // @todo does not work with overrides
+    for (const configurationRuleName of Object.keys(configuration?.rules ?? [])) {
       test('"' + configurationName + '" configuration has "' + configurationRuleName + '" rule', (t) => {
         t.true(supportedRuleNames.includes(configurationRuleName));
       });
