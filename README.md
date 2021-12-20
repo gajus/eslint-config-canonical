@@ -32,10 +32,10 @@ This package includes the following configurations:
 * [`canonical/ava`](./configurations/ava.js) – for projects that use [AVA](https://ava.li/).
 * [`canonical/browser`](./configurations/browser.js) – for projects that use DOM and other browser APIs.
 * [`canonical/cypress`](./configurations/cypress.js) – for projects that use [Cypress](https://cypress.io/).
-* [`canonical/graphql`](./configurations/graphql.js) – for projects that use [GraphQL](https://graphql.org/) (only affects `.graphql` files).
+* [`canonical/graphql`](./configurations/graphql.js) – for projects that use [GraphQL](https://graphql.org/).
 * [`canonical/flowtype`](./configurations/flowtype.js) – for projects that use [Flowtype](https://flowtype.org/).
 * [`canonical/jest`](./configurations/jest.js) – for projects that use [jest](https://facebook.github.io/jest/).
-* [`canonical/json`](./configurations/json.js) – for projects that use JSON (only affects `.json` and `.json5` files).
+* [`canonical/json`](./configurations/json.js) – for projects that use JSON.
 * [`canonical/jsx-a11y`](./configurations/jsx-a11y.js) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 * [`canonical/lodash`](./configurations/lodash.js) – for projects that use [lodash](https://lodash.com/).
 * [`canonical/mocha`](./configurations/mocha.js) – for projects that use [Mocha](https://mochajs.org/).
@@ -44,7 +44,7 @@ This package includes the following configurations:
 * [`canonical/node`](./configurations/node.js) – for projects that use Node.js.
 * [`canonical/react`](./configurations/react.js) – for projects that use [React](https://facebook.github.io/react/).
 * [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
-* [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML (only affects `.yml` and `.yaml` files).
+* [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML.
 
 ### Example configuration
 
@@ -98,6 +98,12 @@ This is an example configuration of a React project using TypeScript and Jest:
         "canonical/yaml"
       ],
       "files": "*.yaml"
+    },
+    {
+      "extends": [
+        "canonical/graphql"
+      ],
+      "files": "*.graphql"
     }
   ],
   "root": true
