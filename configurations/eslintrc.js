@@ -882,6 +882,7 @@ module.exports = {
         checkProperties: false,
         replacements: {
           args: false,
+          pkg: false,
           props: false,
           ref: false,
           rel: false,
