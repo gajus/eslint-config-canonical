@@ -5,7 +5,7 @@
 
 The most comprehensive code style guide.
 
-Canonical consists of 1,000+ rules (39% auto-fixable), some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
+Canonical consists of 1,000+ rules (40% auto-fixable), some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
 * [Usage](#usage)
   * [Example configuration](#example-configuration)
@@ -247,7 +247,7 @@ Emojis:
 
 Configurations:
 
-* CN – Canonical (1017 rules)
+* CN – Canonical (1020 rules)
 * [AB](https://www.npmjs.com/package/eslint-config-airbnb) – Airbnb (446 rules)
 * [GG](https://www.npmjs.com/package/eslint-config-google) – Google (65 rules)
 * [SD](https://www.npmjs.com/package/eslint-config-standard) – Standard (160 rules)
@@ -304,7 +304,7 @@ Configurations:
 |[`@typescript-eslint/no-empty-interface`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-interface.md)<a id="rule-canonical-@typescript-eslint/no-empty-interface" /> 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-explicit-any`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md)<a id="rule-canonical-@typescript-eslint/no-explicit-any" /> 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extra-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md)<a id="rule-canonical-@typescript-eslint/no-extra-non-null-assertion" /> 🛠|🚨|👻|👻|👻|👻|
-|[`@typescript-eslint/no-extra-parens`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-parens.md)<a id="rule-canonical-@typescript-eslint/no-extra-parens" /> 🛠|🚨|👻|👻|👻|👻|
+|[`@typescript-eslint/no-extra-parens`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-parens.md)<a id="rule-canonical-@typescript-eslint/no-extra-parens" /> 🛠|❌|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extra-semi`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md)<a id="rule-canonical-@typescript-eslint/no-extra-semi" /> 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-extraneous-class`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extraneous-class.md)<a id="rule-canonical-@typescript-eslint/no-extraneous-class" />|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/no-floating-promises`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-floating-promises.md)<a id="rule-canonical-@typescript-eslint/no-floating-promises" />|🚨|👻|👻|👻|👻|
@@ -386,10 +386,10 @@ Configurations:
 |[`@typescript-eslint/unbound-method`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/unbound-method.md)<a id="rule-canonical-@typescript-eslint/unbound-method" />|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/unified-signatures`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/unified-signatures.md)<a id="rule-canonical-@typescript-eslint/unified-signatures" />|🚨|👻|👻|👻|👻|
 |[`accessor-pairs`](https://eslint.org/docs/rules/accessor-pairs)<a id="rule-canonical-accessor-pairs" />|🚨|❌|👻|🚨<a href="#rule-standard-accessor-pairs">?</a>|🚨<a href="#rule-xo-accessor-pairs">?</a>|
-|[`array-bracket-newline`](https://eslint.org/docs/rules/array-bracket-newline)<a id="rule-canonical-array-bracket-newline" /> 🛠|🚨|❌|❌|👻|🚨|
+|[`array-bracket-newline`](https://eslint.org/docs/rules/array-bracket-newline)<a id="rule-canonical-array-bracket-newline" /> 🛠|🚨|❌|❌|👻|🚨<a href="#rule-xo-array-bracket-newline">?</a>|
 |[`array-bracket-spacing`](https://eslint.org/docs/rules/array-bracket-spacing)<a id="rule-canonical-array-bracket-spacing" /> 🛠|🚨|🚨|🚨|🚨|🚨|
 |[`array-callback-return`](https://eslint.org/docs/rules/array-callback-return)<a id="rule-canonical-array-callback-return" />|🚨|🚨<a href="#rule-airbnb-array-callback-return">?</a>|👻|🚨<a href="#rule-standard-array-callback-return">?</a>|🚨<a href="#rule-xo-array-callback-return">?</a>|
-|[`array-element-newline`](https://eslint.org/docs/rules/array-element-newline)<a id="rule-canonical-array-element-newline" /> 🛠|🚨|❌|❌|👻|🚨|
+|[`array-element-newline`](https://eslint.org/docs/rules/array-element-newline)<a id="rule-canonical-array-element-newline" /> 🛠|🚨|❌|❌|👻|🚨<a href="#rule-xo-array-element-newline">?</a>|
 |[`arrow-body-style`](https://eslint.org/docs/rules/arrow-body-style)<a id="rule-canonical-arrow-body-style" /> 🛠|🚨|🚨<a href="#rule-airbnb-arrow-body-style">?</a>|👻|👻|🚨<a href="#rule-xo-arrow-body-style">?</a>|
 |[`arrow-parens`](https://eslint.org/docs/rules/arrow-parens)<a id="rule-canonical-arrow-parens" /> 🛠|🚨|🚨|🚨|👻|🚨<a href="#rule-xo-arrow-parens">?</a>|
 |[`arrow-spacing`](https://eslint.org/docs/rules/arrow-spacing)<a id="rule-canonical-arrow-spacing" /> 🛠|🚨|🚨|👻|🚨|🚨|
@@ -425,10 +425,13 @@ Configurations:
 |[`brace-style`](https://eslint.org/docs/rules/brace-style)<a id="rule-canonical-brace-style" /> 🛠|🚨|🚨<a href="#rule-airbnb-brace-style">?</a>|🚨<a href="#rule-google-brace-style">?</a>|🚨<a href="#rule-standard-brace-style">?</a>|🚨|
 |[`callback-return`](https://eslint.org/docs/rules/callback-return)<a id="rule-canonical-callback-return" /> ⛔️|👻|❌|👻|👻|👻|
 |[`camelcase`](https://eslint.org/docs/rules/camelcase)<a id="rule-canonical-camelcase" />|❌|🚨<a href="#rule-airbnb-camelcase">?</a>|🚨<a href="#rule-google-camelcase">?</a>|🚨<a href="#rule-standard-camelcase">?</a>|🚨<a href="#rule-xo-camelcase">?</a>|
+|[`canonical/destructuring-property-newline`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-destructuring-property-newline)<a id="rule-canonical-canonical/destructuring-property-newline" /> 🛠|🚨|👻|👻|👻|👻|
+|[`canonical/export-specifier-newline`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-export-specifier-newline)<a id="rule-canonical-canonical/export-specifier-newline" /> 🛠|🚨|👻|👻|👻|👻|
 |[`canonical/filename-match-exported`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-filename-match-exported)<a id="rule-canonical-canonical/filename-match-exported" />|🚨|👻|👻|👻|👻|
 |[`canonical/filename-match-regex`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-filename-match-regex)<a id="rule-canonical-canonical/filename-match-regex" />|⚠️|👻|👻|👻|👻|
 |[`canonical/filename-no-index`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-filename-no-index)<a id="rule-canonical-canonical/filename-no-index" />|❌|👻|👻|👻|👻|
 |[`canonical/id-match`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-id-match)<a id="rule-canonical-canonical/id-match" />|🚨|👻|👻|👻|👻|
+|[`canonical/import-specifier-newline`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-import-specifier-newline)<a id="rule-canonical-canonical/import-specifier-newline" /> 🛠|🚨|👻|👻|👻|👻|
 |[`canonical/no-restricted-strings`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-no-restricted-strings)<a id="rule-canonical-canonical/no-restricted-strings" />|❌|👻|👻|👻|👻|
 |[`canonical/no-use-extend-native`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-no-use-extend-native)<a id="rule-canonical-canonical/no-use-extend-native" />|🚨|👻|👻|👻|👻|
 |[`canonical/sort-keys`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-sort-keys)<a id="rule-canonical-canonical/sort-keys" /> 🛠|🚨|👻|👻|👻|👻|
@@ -843,7 +846,7 @@ Configurations:
 |[`no-confusing-arrow`](https://eslint.org/docs/rules/no-confusing-arrow)<a id="rule-canonical-no-confusing-arrow" /> 🛠|🚨|🚨<a href="#rule-airbnb-no-confusing-arrow">?</a>|👻|👻|👻|
 |[`no-console`](https://eslint.org/docs/rules/no-console)<a id="rule-canonical-no-console" />|🚨|⚠️<a href="#rule-airbnb-no-console">?</a>|👻|👻|👻|
 |[`no-const-assign`](https://eslint.org/docs/rules/no-const-assign)<a id="rule-canonical-no-const-assign" />|🚨|🚨|👻|🚨|🚨|
-|[`no-constant-condition`](https://eslint.org/docs/rules/no-constant-condition)<a id="rule-canonical-no-constant-condition" />|🚨|⚠️<a href="#rule-airbnb-no-constant-condition">?</a>|👻|🚨<a href="#rule-standard-no-constant-condition">?</a>|🚨|
+|[`no-constant-condition`](https://eslint.org/docs/rules/no-constant-condition)<a id="rule-canonical-no-constant-condition" />|❌|⚠️<a href="#rule-airbnb-no-constant-condition">?</a>|👻|🚨<a href="#rule-standard-no-constant-condition">?</a>|🚨<a href="#rule-xo-no-constant-condition">?</a>|
 |[`no-constructor-return`](https://eslint.org/docs/rules/no-constructor-return)<a id="rule-canonical-no-constructor-return" />|🚨|❌|👻|👻|🚨|
 |[`no-continue`](https://eslint.org/docs/rules/no-continue)<a id="rule-canonical-no-continue" />|❌|🚨<a href="#rule-airbnb-no-continue">?</a>|👻|👻|👻|
 |[`no-control-regex`](https://eslint.org/docs/rules/no-control-regex)<a id="rule-canonical-no-control-regex" />|🚨|🚨|👻|🚨|🚨|
@@ -1020,7 +1023,7 @@ Configurations:
 |[`nonblock-statement-body-position`](https://eslint.org/docs/rules/nonblock-statement-body-position)<a id="rule-canonical-nonblock-statement-body-position" /> 🛠|🚨|🚨<a href="#rule-airbnb-nonblock-statement-body-position">?</a>|👻|👻|👻|
 |[`object-curly-newline`](https://eslint.org/docs/rules/object-curly-newline)<a id="rule-canonical-object-curly-newline" /> 🛠|🚨|🚨<a href="#rule-airbnb-object-curly-newline">?</a>|👻|🚨<a href="#rule-standard-object-curly-newline">?</a>|👻|
 |[`object-curly-spacing`](https://eslint.org/docs/rules/object-curly-spacing)<a id="rule-canonical-object-curly-spacing" /> 🛠|❌|🚨<a href="#rule-airbnb-object-curly-spacing">?</a>|🚨<a href="#rule-google-object-curly-spacing">?</a>|🚨<a href="#rule-standard-object-curly-spacing">?</a>|🚨<a href="#rule-xo-object-curly-spacing">?</a>|
-|[`object-property-newline`](https://eslint.org/docs/rules/object-property-newline)<a id="rule-canonical-object-property-newline" /> 🛠|🚨|🚨<a href="#rule-airbnb-object-property-newline">?</a>|👻|🚨|👻|
+|[`object-property-newline`](https://eslint.org/docs/rules/object-property-newline)<a id="rule-canonical-object-property-newline" /> 🛠|🚨|🚨<a href="#rule-airbnb-object-property-newline">?</a>|👻|🚨<a href="#rule-standard-object-property-newline">?</a>|👻|
 |[`object-shorthand`](https://eslint.org/docs/rules/object-shorthand)<a id="rule-canonical-object-shorthand" /> 🛠|🚨|🚨<a href="#rule-airbnb-object-shorthand">?</a>|👻|👻|🚨|
 |[`one-var`](https://eslint.org/docs/rules/one-var)<a id="rule-canonical-one-var" /> 🛠|🚨|🚨|🚨<a href="#rule-google-one-var">?</a>|🚨<a href="#rule-standard-one-var">?</a>|🚨|
 |[`one-var-declaration-per-line`](https://eslint.org/docs/rules/one-var-declaration-per-line)<a id="rule-canonical-one-var-declaration-per-line" /> 🛠|🚨|🚨<a href="#rule-airbnb-one-var-declaration-per-line">?</a>|👻|👻|🚨|
@@ -1034,6 +1037,7 @@ Configurations:
 |[`prefer-exponentiation-operator`](https://eslint.org/docs/rules/prefer-exponentiation-operator)<a id="rule-canonical-prefer-exponentiation-operator" /> 🛠|🚨|❌|👻|👻|🚨|
 |[`prefer-named-capture-group`](https://eslint.org/docs/rules/prefer-named-capture-group)<a id="rule-canonical-prefer-named-capture-group" />|❌|❌|👻|👻|👻|
 |[`prefer-numeric-literals`](https://eslint.org/docs/rules/prefer-numeric-literals)<a id="rule-canonical-prefer-numeric-literals" /> 🛠|🚨|🚨|👻|👻|🚨|
+|[`prefer-object-has-own`](https://eslint.org/docs/rules/prefer-object-has-own)<a id="rule-canonical-prefer-object-has-own" /> 🛠|👻|👻|👻|👻|👻|
 |[`prefer-object-spread`](https://eslint.org/docs/rules/prefer-object-spread)<a id="rule-canonical-prefer-object-spread" /> 🛠|🚨|🚨|👻|👻|🚨|
 |[`prefer-promise-reject-errors`](https://eslint.org/docs/rules/prefer-promise-reject-errors)<a id="rule-canonical-prefer-promise-reject-errors" />|🚨|🚨<a href="#rule-airbnb-prefer-promise-reject-errors">?</a>|🚨|🚨|🚨<a href="#rule-xo-prefer-promise-reject-errors">?</a>|
 |[`prefer-reflect`](https://eslint.org/docs/rules/prefer-reflect)<a id="rule-canonical-prefer-reflect" /> ⛔️|👻|❌|👻|👻|👻|
@@ -1055,7 +1059,7 @@ Configurations:
 |[`promise/prefer-await-to-callbacks`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-callbacks.md)<a id="rule-canonical-promise/prefer-await-to-callbacks" />|👻|👻|👻|👻|👻|
 |[`promise/prefer-await-to-then`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-then.md)<a id="rule-canonical-promise/prefer-await-to-then" />|👻|👻|👻|👻|👻|
 |[`promise/valid-params`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md)<a id="rule-canonical-promise/valid-params" />|👻|👻|👻|👻|👻|
-|[`quote-props`](https://eslint.org/docs/rules/quote-props)<a id="rule-canonical-quote-props" /> 🛠|🚨|🚨<a href="#rule-airbnb-quote-props">?</a>|🚨<a href="#rule-google-quote-props">?</a>|🚨|🚨|
+|[`quote-props`](https://eslint.org/docs/rules/quote-props)<a id="rule-canonical-quote-props" /> 🛠|🚨|🚨<a href="#rule-airbnb-quote-props">?</a>|🚨<a href="#rule-google-quote-props">?</a>|🚨<a href="#rule-standard-quote-props">?</a>|🚨<a href="#rule-xo-quote-props">?</a>|
 |[`quotes`](https://eslint.org/docs/rules/quotes)<a id="rule-canonical-quotes" /> 🛠|🚨|🚨<a href="#rule-airbnb-quotes">?</a>|🚨<a href="#rule-google-quotes">?</a>|🚨<a href="#rule-standard-quotes">?</a>|🚨|
 |[`radix`](https://eslint.org/docs/rules/radix)<a id="rule-canonical-radix" />|🚨|🚨|👻|👻|🚨|
 |`react-hooks/exhaustive-deps`<a id="rule-canonical-react-hooks/exhaustive-deps" /> 🛠|🚨|👻|👻|👻|👻|
@@ -1083,7 +1087,7 @@ Configurations:
 |[`react/jsx-first-prop-new-line`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md)<a id="rule-canonical-react/jsx-first-prop-new-line" /> 🛠|🚨|🚨|👻|👻|👻|
 |[`react/jsx-fragments`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md)<a id="rule-canonical-react/jsx-fragments" /> 🛠|🚨|🚨|👻|👻|👻|
 |[`react/jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md)<a id="rule-canonical-react/jsx-handler-names" />|🚨|❌|👻|👻|👻|
-|[`react/jsx-indent`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md)<a id="rule-canonical-react/jsx-indent" /> 🛠|🚨|🚨|👻|👻|👻|
+|[`react/jsx-indent`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md)<a id="rule-canonical-react/jsx-indent" /> 🛠|❌|🚨<a href="#rule-airbnb-react/jsx-indent">?</a>|👻|👻|👻|
 |[`react/jsx-indent-props`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md)<a id="rule-canonical-react/jsx-indent-props" /> 🛠|🚨|🚨|👻|👻|👻|
 |[`react/jsx-key`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md)<a id="rule-canonical-react/jsx-key" />|🚨|❌|👻|👻|👻|
 |[`react/jsx-max-depth`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-depth.md)<a id="rule-canonical-react/jsx-max-depth" />|❌|❌|👻|👻|👻|
@@ -2193,6 +2197,23 @@ For a high-level overview of differences between rulesets refer to the [Table of
     "prop": "parens-new-line",
     "return": "parens-new-line"
   }
+]</code></pre></td>
+</tr>
+<tr>
+  <th colspan="2" align="left">
+    <code>react/jsx-indent</code>
+    (<a href="#rule-canonical-react/jsx-indent">back to comparison table 👆</a>)
+    <a id="rule-airbnb-react/jsx-indent" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>[
+  "off",
+  2
+]</code></pre></td>
+  <td><pre><code>[
+  "error",
+  2
 ]</code></pre></td>
 </tr>
 <tr>
@@ -3461,11 +3482,13 @@ For a high-level overview of differences between rulesets refer to the [Table of
   <td><pre><code>[
   "error",
   {
-    "ExportDeclaration": {
+    "ExportDeclaration": "always",
+    "ImportDeclaration": "always",
+    "ObjectExpression": {
       "minProperties": 1,
       "multiline": true
     },
-    "ImportDeclaration": {
+    "ObjectPattern": {
       "minProperties": 1,
       "multiline": true
     }
@@ -3509,7 +3532,7 @@ For a high-level overview of differences between rulesets refer to the [Table of
   "error",
   {
     "allowAllPropertiesOnSameLine": false,
-    "allowMultiplePropertiesPerLine": true
+    "allowMultiplePropertiesPerLine": false
   }
 ]</code></pre></td>
   <td><pre><code>[
@@ -3592,7 +3615,10 @@ For a high-level overview of differences between rulesets refer to the [Table of
 <tr>
   <td><pre><code>[
   "error",
-  "as-needed"
+  "as-needed",
+  {
+    "numbers": true
+  }
 ]</code></pre></td>
   <td><pre><code>[
   "error",
@@ -3861,7 +3887,7 @@ For a high-level overview of differences between rulesets refer to the [Table of
 </tr>
 <tr>
   <td><pre><code>[
-  "error"
+  "off"
 ]</code></pre></td>
   <td><pre><code>[
   "warn"
@@ -4716,7 +4742,10 @@ For a high-level overview of differences between rulesets refer to the [Table of
 <tr>
   <td><pre><code>[
   "error",
-  "as-needed"
+  "as-needed",
+  {
+    "numbers": true
+  }
 ]</code></pre></td>
   <td><pre><code>[
   "error",
@@ -5288,7 +5317,7 @@ For a high-level overview of differences between rulesets refer to the [Table of
 </tr>
 <tr>
   <td><pre><code>[
-  "error"
+  "off"
 ]</code></pre></td>
   <td><pre><code>[
   "error",
@@ -5616,11 +5645,13 @@ For a high-level overview of differences between rulesets refer to the [Table of
   <td><pre><code>[
   "error",
   {
-    "ExportDeclaration": {
+    "ExportDeclaration": "always",
+    "ImportDeclaration": "always",
+    "ObjectExpression": {
       "minProperties": 1,
       "multiline": true
     },
-    "ImportDeclaration": {
+    "ObjectPattern": {
       "minProperties": 1,
       "multiline": true
     }
@@ -5648,6 +5679,29 @@ For a high-level overview of differences between rulesets refer to the [Table of
   <td><pre><code>[
   "error",
   "always"
+]</code></pre></td>
+</tr>
+<tr>
+  <th colspan="2" align="left">
+    <code>object-property-newline</code>
+    (<a href="#rule-canonical-object-property-newline">back to comparison table 👆</a>)
+    <a id="rule-standard-object-property-newline" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>[
+  "error",
+  {
+    "allowAllPropertiesOnSameLine": false,
+    "allowMultiplePropertiesPerLine": false
+  }
+]</code></pre></td>
+  <td><pre><code>[
+  "error",
+  {
+    "allowAllPropertiesOnSameLine": false,
+    "allowMultiplePropertiesPerLine": true
+  }
 ]</code></pre></td>
 </tr>
 <tr>
@@ -5731,6 +5785,26 @@ For a high-level overview of differences between rulesets refer to the [Table of
     "destructuring": "all",
     "ignoreReadBeforeAssign": false
   }
+]</code></pre></td>
+</tr>
+<tr>
+  <th colspan="2" align="left">
+    <code>quote-props</code>
+    (<a href="#rule-canonical-quote-props">back to comparison table 👆</a>)
+    <a id="rule-standard-quote-props" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>[
+  "error",
+  "as-needed",
+  {
+    "numbers": true
+  }
+]</code></pre></td>
+  <td><pre><code>[
+  "error",
+  "as-needed"
 ]</code></pre></td>
 </tr>
 <tr>
@@ -5955,6 +6029,21 @@ For a high-level overview of differences between rulesets refer to the [Table of
     <code>no-await-in-loop</code>
     (<a href="#rule-canonical-no-await-in-loop">back to comparison table 👆</a>)
     <a id="rule-xo-no-await-in-loop" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>[
+  "off"
+]</code></pre></td>
+  <td><pre><code>[
+  "error"
+]</code></pre></td>
+</tr>
+<tr>
+  <th colspan="2" align="left">
+    <code>no-constant-condition</code>
+    (<a href="#rule-canonical-no-constant-condition">back to comparison table 👆</a>)
+    <a id="rule-xo-no-constant-condition" />
   </th>
 </tr>
 <tr>
@@ -6408,6 +6497,46 @@ For a high-level overview of differences between rulesets refer to the [Table of
 </tr>
 <tr>
   <th colspan="2" align="left">
+    <code>array-bracket-newline</code>
+    (<a href="#rule-canonical-array-bracket-newline">back to comparison table 👆</a>)
+    <a id="rule-xo-array-bracket-newline" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>[
+  "error",
+  {
+    "minItems": 1,
+    "multiline": true
+  }
+]</code></pre></td>
+  <td><pre><code>[
+  "error",
+  "consistent"
+]</code></pre></td>
+</tr>
+<tr>
+  <th colspan="2" align="left">
+    <code>array-element-newline</code>
+    (<a href="#rule-canonical-array-element-newline">back to comparison table 👆</a>)
+    <a id="rule-xo-array-element-newline" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>[
+  "error",
+  {
+    "minItems": 1,
+    "multiline": true
+  }
+]</code></pre></td>
+  <td><pre><code>[
+  "error",
+  "consistent"
+]</code></pre></td>
+</tr>
+<tr>
+  <th colspan="2" align="left">
     <code>camelcase</code>
     (<a href="#rule-canonical-camelcase">back to comparison table 👆</a>)
     <a id="rule-xo-camelcase" />
@@ -6719,6 +6848,26 @@ For a high-level overview of differences between rulesets refer to the [Table of
   {
     "allowSingleLineBlocks": false
   }
+]</code></pre></td>
+</tr>
+<tr>
+  <th colspan="2" align="left">
+    <code>quote-props</code>
+    (<a href="#rule-canonical-quote-props">back to comparison table 👆</a>)
+    <a id="rule-xo-quote-props" />
+  </th>
+</tr>
+<tr>
+  <td><pre><code>[
+  "error",
+  "as-needed",
+  {
+    "numbers": true
+  }
+]</code></pre></td>
+  <td><pre><code>[
+  "error",
+  "as-needed"
 ]</code></pre></td>
 </tr>
 <tr>
