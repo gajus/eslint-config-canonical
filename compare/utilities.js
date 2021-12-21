@@ -15,7 +15,6 @@ const getConfigurationPluginNames = async (configuration) => {
 };
 
 const getPluginRules = (pluginName) => {
-  // eslint-disable-next-line import/no-dynamic-require
   const {
     rules,
   } = require(pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName);

@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "import/no-dynamic-require": 0,
+    "id-length": 0
+  }
+}

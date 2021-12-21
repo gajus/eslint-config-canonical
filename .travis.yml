@@ -8,6 +8,7 @@ node_js:
 install:
   - npm install
 script:
+  - npm run lint
   - npm run test
 after_success:
   - semantic-release
