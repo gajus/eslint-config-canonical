@@ -16,10 +16,18 @@ const getConfigurationPluginNames = async (configuration) => {
 
 const getPluginRules = (pluginName) => {
   // eslint-disable-next-line import/no-dynamic-require
-  const {rules} = require(pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName);
+  const {
+    rules,
+  } = require(pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName);
 
-  return Object.fromEntries(Object.entries(rules).map(([ruleName, ruleConfiguration]) => {
-    return [pluginName + '/' + ruleName, ruleConfiguration];
+  return Object.fromEntries(Object.entries(rules).map(([
+    ruleName,
+    ruleConfiguration,
+  ]) => {
+    return [
+      pluginName + '/' + ruleName,
+      ruleConfiguration,
+    ];
   }));
 };
 

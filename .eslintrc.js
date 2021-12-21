@@ -1,9 +1,9 @@
-const base = require('./configurations/eslintrc');
-
 module.exports = {
-  ...base,
+  extends: [
+    './configurations/eslintrc',
+    './configurations/node',
+  ],
   rules: {
-    ...base.rules,
     'canonical/filename-match-regex': 0,
   },
 };
