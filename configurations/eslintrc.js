@@ -88,7 +88,7 @@ module.exports = {
     'canonical/filename-match-exported': 2,
     'canonical/filename-match-regex': [
       1,
-      '^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*$',
+      '^(?:.?[A-Z]?[a-z]+(?:[A-Z][a-z]+)*)*$',
       false,
     ],
     'canonical/filename-no-index': 0,
