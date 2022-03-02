@@ -57,6 +57,7 @@ module.exports = {
     'jsonc/object-property-newline': 2,
     'jsonc/quote-props': 2,
     'jsonc/quotes': 2,
+    'jsonc/sort-array-values': 0,
     'jsonc/sort-keys': [
       2,
       'asc',
