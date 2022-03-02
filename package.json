@@ -31,7 +31,7 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-jsdoc": "^37.2.0",
     "eslint-plugin-jsonc": "^2.0.0",
