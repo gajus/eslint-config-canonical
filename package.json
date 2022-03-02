@@ -26,7 +26,7 @@
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "eslint-plugin-ava": "^13.2.0",
-    "eslint-plugin-canonical": "^2.4.1",
+    "eslint-plugin-canonical": "^2.4.3",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-flowtype": "^8.0.3",
