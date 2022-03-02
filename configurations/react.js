@@ -21,6 +21,8 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    'react/hook-use-state': 2,
+    'react/iframe-missing-sandbox': 2,
     'react/jsx-boolean-value': [
       2,
       'never',

@@ -40,7 +40,7 @@
     "eslint-plugin-mocha": "^10.0.3",
     "eslint-plugin-modules-newline": "0.0.6",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react": "^7.29.2",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unicorn": "^39.0.0",
