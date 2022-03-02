@@ -50,6 +50,7 @@ module.exports = {
         natural: true,
       },
     ],
+    'yml/sort-sequence-values': 0,
     'yml/spaced-comment': 2,
     'yml/vue-custom-block/no-parsing-error': 2,
   },
