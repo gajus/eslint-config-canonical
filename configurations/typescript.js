@@ -122,7 +122,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-duplicate-imports': 2,
-    'canonical/prefer-inline-type-import': 2,
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-empty-function': 0,
     '@typescript-eslint/no-empty-interface': [
@@ -249,6 +248,7 @@ module.exports = {
         ignoreStringArrays: false,
       },
     ],
+    'canonical/prefer-inline-type-import': 2,
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
     '@typescript-eslint/return-await': [
