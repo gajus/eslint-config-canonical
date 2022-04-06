@@ -4,7 +4,6 @@ arch: arm64-graviton2
 language: node_js
 node_js:
   - 16
-  - 12
 install:
   - npm install
 script:
