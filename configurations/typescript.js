@@ -52,7 +52,12 @@ module.exports = {
       2,
       'type',
     ],
-    '@typescript-eslint/consistent-type-exports': 2,
+    '@typescript-eslint/consistent-type-exports': [
+      2,
+      {
+        fixMixedExportsWithInlineTypeSpecifier: true,
+      },
+    ],
     '@typescript-eslint/consistent-type-imports': [
       2,
       {
@@ -117,6 +122,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-duplicate-imports': 2,
+    'canonical/prefer-inline-type-import': 2,
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-empty-function': 0,
     '@typescript-eslint/no-empty-interface': [
