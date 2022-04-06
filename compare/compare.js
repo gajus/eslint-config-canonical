@@ -171,9 +171,9 @@ const createIncompatibleRuleSummary = (urlSafeName, comparedName, canonicalRules
 
   const README_PATH = resolve(__dirname, '../README.md');
 
-  writeFileSync(README_PATH, readFileSync(README_PATH, 'UTF-8').replace(/<!-- START compare -->[\S\s]+<!-- END compare -->/u, markdownLines.join('\n')));
+  writeFileSync(README_PATH, readFileSync(README_PATH, 'utf8').replace(/<!-- START compare -->[\S\s]+<!-- END compare -->/u, markdownLines.join('\n')));
 
-  writeFileSync(README_PATH, readFileSync(README_PATH, 'UTF-8').replace(/<!-- START incompatibleRules -->[\S\s]+<!-- END incompatibleRules -->/u, '<!-- START incompatibleRules -->\n' + [
+  writeFileSync(README_PATH, readFileSync(README_PATH, 'utf8').replace(/<!-- START incompatibleRules -->[\S\s]+<!-- END incompatibleRules -->/u, '<!-- START incompatibleRules -->\n' + [
     createIncompatibleRuleSummary(
       'airbnb',
       'AirBnb',
