@@ -112,7 +112,7 @@ This is an example configuration of a React project using TypeScript and Jest:
 
 ### Compatibility with Prettier
 
-For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you just want to disable conflicting rules, you can use [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) to do that. Just add it as the last config in your `extends` configuration, e.g.
+For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you just want to disable conflicting rules, you can use `canonical/prettier` to do that. Just add it as the last config in your `extends` configuration, e.g.
 
 ```json
 {
@@ -121,7 +121,7 @@ For the most part, Prettier and Canonical are already compatible. There are only
     "canonical/react",
     "canonical/typescript",
     "canonical/jest",
-    "prettier"
+    "canonical/prettier"
   ]
 }
 ```
