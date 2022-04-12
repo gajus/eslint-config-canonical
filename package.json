@@ -5,6 +5,7 @@
     "url": "http://gajus.com"
   },
   "dependencies": {
+    "@babel/core": "^7.17.9",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/eslint-plugin": "^7.17.7",
     "@graphql-eslint/eslint-plugin": "^3.10.2",
@@ -38,8 +39,6 @@
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
     "@ava/babel": "^2.0.0",
-    "@babel/core": "^7.17.9",
-    "@babel/register": "^7.17.7",
     "ava": "^4.2.0",
     "eslint": "^8.13.0",
     "got": "^11.8.3",
