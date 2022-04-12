@@ -171,7 +171,13 @@ module.exports = {
       2,
       {
         checksConditionals: true,
-        checksVoidReturn: true,
+        checksVoidReturn: {
+          arguments: true,
+          attributes: false,
+          properties: true,
+          returns: true,
+          variables: true,
+        },
       },
     ],
     '@typescript-eslint/no-namespace': [
