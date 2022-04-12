@@ -4,56 +4,44 @@
     "name": "Gajus Kuizinas",
     "url": "http://gajus.com"
   },
-  "ava": {
-    "babel": {
-      "compileAsTests": [
-        "test/helpers/**/*"
-      ]
-    },
-    "files": [
-      "test/eslint-config-canonical/**/*"
-    ],
-    "require": [
-      "@babel/register"
-    ]
-  },
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "@babel/eslint-plugin": "^7.14.5",
-    "@graphql-eslint/eslint-plugin": "^3.2.0",
-    "@next/eslint-plugin-next": "^12.0.7",
-    "@rushstack/eslint-patch": "^1.1.1",
-    "@typescript-eslint/eslint-plugin": "^5.6.0",
-    "@typescript-eslint/parser": "^5.18.0",
+    "@babel/eslint-plugin": "^7.17.7",
+    "@graphql-eslint/eslint-plugin": "^3.10.2",
+    "@next/eslint-plugin-next": "^12.1.4",
+    "@rushstack/eslint-patch": "^1.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
     "eslint-plugin-ava": "^13.2.0",
     "eslint-plugin-canonical": "^3.0.2",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.1",
-    "eslint-plugin-jsdoc": "^37.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jsdoc": "^39.2.0",
     "eslint-plugin-jsonc": "^2.2.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-lodash": "^7.4.0",
-    "eslint-plugin-mocha": "^10.0.3",
+    "eslint-plugin-mocha": "^10.0.4",
     "eslint-plugin-modules-newline": "0.0.6",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.29.2",
-    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
-    "eslint-plugin-unicorn": "^41.0.0",
+    "eslint-plugin-unicorn": "^42.0.0",
     "eslint-plugin-yml": "^0.14.0",
+    "ramda": "^0.28.0",
     "yaml-eslint-parser": "^0.5.0"
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
     "@ava/babel": "^2.0.0",
-    "@babel/core": "^7.16.0",
-    "@babel/register": "^7.16.0",
-    "ava": "^3.15.0",
-    "eslint": "^8.12.0",
+    "@babel/core": "^7.17.9",
+    "@babel/register": "^7.17.7",
+    "ava": "^4.2.0",
+    "eslint": "^8.13.0",
     "got": "^11.8.3",
     "husky": "^7.0.4",
     "semantic-release": "^18.0.1",
@@ -71,7 +59,7 @@
   "main": "./eslintrc.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
-    "eslint": "^8.12.0"
+    "eslint": "^8.13.0"
   },
   "repository": {
     "type": "git",
