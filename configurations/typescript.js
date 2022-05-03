@@ -203,7 +203,13 @@ module.exports = {
     ],
     '@typescript-eslint/no-type-alias': 0,
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 0,
-    '@typescript-eslint/no-unnecessary-condition': 0,
+    '@typescript-eslint/no-unnecessary-condition': [
+      2,
+      {
+        allowConstantLoopConditions: true,
+        allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
+      },
+    ],
     '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/no-unnecessary-type-arguments': 0,
     '@typescript-eslint/no-unnecessary-type-assertion': 0,
