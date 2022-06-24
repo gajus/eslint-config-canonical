@@ -295,6 +295,15 @@ module.exports = {
     'no-use-before-define': 0,
     'node/global-require': 0,
     'node/no-missing-import': 0,
+    'spaced-comment': [
+      2,
+      'always',
+      {
+        markers: [
+          '/',
+        ],
+      },
+    ],
     'typescript-sort-keys/interface': 2,
     'typescript-sort-keys/string-enum': 2,
   },
