@@ -16,7 +16,7 @@ for (const typescriptRuleName of typescriptRuleNames) {
   }
 }
 
-const eslintConfiguration = require('../configurations/eslintrc.json');
+const eslintConfiguration = require('../configurations/eslintrc');
 
 const appendRules = {};
 
@@ -34,4 +34,4 @@ const orderedRules = {
 };
 
 // eslint-disable-next-line no-console -- CLI
-console.log(JSON.stringify(orderedRules, '', '  '));
+console.log('module.exports = ' + JSON.stringify(orderedRules, '', '  '));
