@@ -35,7 +35,6 @@ module.exports = {
     '@graphql-eslint/input-name': 2,
     '@graphql-eslint/known-argument-names': 2,
     '@graphql-eslint/known-directives': 2,
-    '@graphql-eslint/known-fragment-names': 2,
     '@graphql-eslint/known-type-names': 2,
     '@graphql-eslint/lone-anonymous-operation': 2,
     '@graphql-eslint/lone-schema-definition': 2,
