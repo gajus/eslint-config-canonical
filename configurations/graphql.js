@@ -82,7 +82,6 @@ module.exports = {
     '@graphql-eslint/unique-directive-names-per-location': 2,
     '@graphql-eslint/unique-enum-value-names': 2,
     '@graphql-eslint/unique-field-definition-names': 2,
-    '@graphql-eslint/unique-fragment-name': 2,
     '@graphql-eslint/unique-input-field-names': 2,
     '@graphql-eslint/unique-operation-name': 2,
     '@graphql-eslint/unique-operation-types': 2,
