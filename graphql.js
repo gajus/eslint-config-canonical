@@ -1,1 +1,1 @@
-module.exports = require('./configurations/lodash');
+module.exports = require('./configurations/graphql');
