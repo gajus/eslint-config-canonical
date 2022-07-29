@@ -253,7 +253,7 @@ module.exports = {
     '@typescript-eslint/prefer-return-this-type': 2,
     '@typescript-eslint/prefer-string-starts-ends-with': 2,
     '@typescript-eslint/prefer-ts-expect-error': 2,
-    '@typescript-eslint/promise-function-async': 0,
+    '@typescript-eslint/promise-function-async': 2,
     '@typescript-eslint/require-array-sort-compare': [
       2,
       {
