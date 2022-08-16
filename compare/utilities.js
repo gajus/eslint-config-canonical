@@ -11,7 +11,9 @@ const getConfigurationPluginNames = async (configuration) => {
     useEslintrc: false,
   });
 
-  return (await engine.calculateConfigForFile('./compare')).plugins;
+  const calculatedConfiguration = await engine.calculateConfigForFile('./compare');
+
+  return calculatedConfiguration.plugins;
 };
 
 const getPluginRules = (pluginName) => {
@@ -95,7 +97,9 @@ const getConfigurationRules = async (configuration) => {
     useEslintrc: false,
   });
 
-  return (await engine.calculateConfigForFile('./compare')).rules;
+  const calculatedConfiguration = await engine.calculateConfigForFile('./compare');
+
+  return calculatedConfiguration.rules;
 };
 
 const getRuleLink = (ruleName) => {

@@ -4,10 +4,10 @@
 const {
   readFileSync,
   writeFileSync,
-} = require('fs');
+} = require('node:fs');
 const {
   resolve,
-} = require('path');
+} = require('node:path');
 const stringify = require('safe-stable-stringify');
 const {
   isRuleEnabled,
