@@ -685,7 +685,7 @@ module.exports = {
     'prefer-spread': 2,
     'prefer-template': 0,
     'promise/param-names': 2,
-    'promise/prefer-await-to-callbacks': 2,
+    'promise/prefer-await-to-callbacks': 0,
     'promise/prefer-await-to-then': 2,
     'promise/valid-params': 2,
     'quote-props': [
@@ -813,7 +813,7 @@ module.exports = {
         allowSimpleOperations: true,
       },
     ],
-    'unicorn/no-await-expression-member': 2,
+    'unicorn/no-await-expression-member': 0,
     'unicorn/no-console-spaces': 0,
     'unicorn/no-document-cookie': 2,
     'unicorn/no-empty-file': 2,
