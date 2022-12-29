@@ -5,14 +5,14 @@
     "url": "http://gajus.com"
   },
   "dependencies": {
-    "@babel/core": "^7.18.10",
-    "@babel/eslint-parser": "^7.18.9",
-    "@babel/eslint-plugin": "^7.18.10",
-    "@graphql-eslint/eslint-plugin": "^3.10.7",
+    "@babel/core": "^7.20.7",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/eslint-plugin": "^7.19.1",
+    "@graphql-eslint/eslint-plugin": "^3.14.3",
     "@next/eslint-plugin-next": "^12.2.5",
-    "@rushstack/eslint-patch": "^1.1.4",
-    "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "@typescript-eslint/parser": "^5.33.1",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-ava": "^13.2.0",
     "eslint-plugin-canonical": "^3.1.0",
@@ -22,19 +22,19 @@
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.8.3",
-    "eslint-plugin-jsdoc": "^39.3.6",
-    "eslint-plugin-jsonc": "^2.4.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-jsonc": "^2.5.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-lodash": "^7.4.0",
     "eslint-plugin-mocha": "^10.1.0",
     "eslint-plugin-modules-newline": "0.0.6",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unicorn": "^43.0.2",
-    "eslint-plugin-yml": "^1.1.0",
+    "eslint-plugin-yml": "^1.4.0",
     "ramda": "^0.28.0",
     "yaml-eslint-parser": "^1.1.0"
   },
@@ -42,11 +42,11 @@
   "devDependencies": {
     "@ava/babel": "^2.0.0",
     "ava": "^4.3.1",
-    "eslint": "^8.22.0",
+    "eslint": "^8.30.0",
     "got": "^11.8.3",
-    "husky": "^8.0.1",
-    "semantic-release": "^19.0.3",
-    "typescript": "^4.7.4"
+    "husky": "^8.0.2",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.9.4"
   },
   "engines": {
     "node": ">=16.0.0"
@@ -60,7 +60,7 @@
   "main": "./eslintrc.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
-    "eslint": "^8.22.0"
+    "eslint": "^8.30.0"
   },
   "repository": {
     "type": "git",
