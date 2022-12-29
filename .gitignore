@@ -1,7 +1,6 @@
 coverage
 dist
 node_modules
-package-lock.json
 *.log
 .*
 !.babelrc
@@ -17,4 +16,5 @@ package-lock.json
 !.npmrc
 !.prettierignore
 !.prettierrc
+!.releaserc
 !.yarnrc
