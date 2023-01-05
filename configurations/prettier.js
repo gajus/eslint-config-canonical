@@ -6,5 +6,26 @@ module.exports = {
     'canonical/import-specifier-newline': 0,
     'line-comment-position': 0,
     'no-inline-comments': 0,
+    'prettier/prettier': [
+      2,
+      {
+        arrowParens: 'always',
+        bracketSameLine: false,
+        bracketSpacing: true,
+        endOfLine: 'lf',
+        printWidth: 80,
+        proseWrap: 'preserve',
+        quoteProps: 'as-needed',
+        semi: true,
+        singleAttributePerLine: true,
+        singleQuote: true,
+        tabWidth: 2,
+        trailingComma: 'all',
+        useTabs: false,
+      },
+      {
+        usePrettierrc: false,
+      },
+    ],
   },
 };

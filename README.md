@@ -112,7 +112,7 @@ This is an example configuration of a React project using TypeScript and Jest:
 
 ### Compatibility with Prettier
 
-For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you just want to disable conflicting rules, you can use `canonical/prettier` to do that. Just add it as the last config in your `extends` configuration, e.g.
+For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you wish to use Prettier, you can do so by using `canonical/prettier` configuration, which uses [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) to apply Prettier formatting after applying Canonical rules.
 
 ```json
 {
@@ -126,7 +126,9 @@ For the most part, Prettier and Canonical are already compatible. There are only
 }
 ```
 
-This configuration disables all Canonical rules that conflict with Prettier.
+> **Note** The reason for using Prettier as an ESLint plugin (as opposed to a separate tool) is because having multiple tools that apply formatting complicates IDE and other tooling setup.
+
+> **Note** Your local `.prettierrc` is going to be ignored when using `canonical/prettier`.
 
 ### Compatibility with other style guides
 
