@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'prettier',
+  ],
   rules: {
     'arrow-body-style': 0,
     'canonical/destructuring-property-newline': 0,
