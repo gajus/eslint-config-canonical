@@ -28,7 +28,6 @@ module.exports = {
     'jest/no-identical-title': 2,
     'jest/no-interpolation-in-snapshots': 2,
     'jest/no-jasmine-globals': 2,
-    'jest/no-jest-import': 2,
     'jest/no-large-snapshots': 0,
     'jest/no-mocks-import': 2,
     'jest/no-restricted-matchers': 0,
