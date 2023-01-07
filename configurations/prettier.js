@@ -3,6 +3,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    '@typescript-eslint/indent': 0,
     'arrow-body-style': 0,
     'canonical/destructuring-property-newline': 0,
     'canonical/export-specifier-newline': 0,
@@ -31,5 +32,6 @@ module.exports = {
         usePrettierrc: false,
       },
     ],
+    'unicorn/template-indent': 0,
   },
 };
