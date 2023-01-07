@@ -146,5 +146,7 @@ module.exports = {
     'space-before-blocks': 0,
     'space-before-function-paren': 0,
     'space-infix-ops': 0,
+    // overlaps with @typescript-eslint/no-unused-expressions
+    '@babel/no-unused-expressions': 0,
   },
 };
