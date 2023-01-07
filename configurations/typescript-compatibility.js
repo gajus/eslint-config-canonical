@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    '@babel/no-unused-expressions': 0,
     '@typescript-eslint/brace-style': [
       2,
       '1tbs',
@@ -146,7 +147,5 @@ module.exports = {
     'space-before-blocks': 0,
     'space-before-function-paren': 0,
     'space-infix-ops': 0,
-    // overlaps with @typescript-eslint/no-unused-expressions
-    '@babel/no-unused-expressions': 0,
   },
 };
