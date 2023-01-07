@@ -241,6 +241,7 @@ module.exports = {
       {
         ignorePackages: true,
         pattern: {
+          graphql: 'always',
           json: 'always',
           svg: 'always',
         },
