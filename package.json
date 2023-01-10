@@ -36,6 +36,7 @@
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unicorn": "^45.0.2",
     "eslint-plugin-yml": "^1.4.0",
+    "eslint-plugin-zod": "^1.4.0",
     "prettier": "^2.8.1",
     "ramda": "^0.28.0",
     "yaml-eslint-parser": "^1.1.0"

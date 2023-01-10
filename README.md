@@ -29,6 +29,7 @@ This package includes the following configurations:
 * [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
 * [`canonical/vitest`](./configurations/vitest.js) – for projects that use [Vitest](https://vitest.dev/).
 * [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML.
+* [`canonical/zod`](./configurations/zod.js) – for projects that use [Zod](https://github.com/colinhacks/zod).
 
 ### Example configuration
 
