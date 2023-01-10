@@ -158,7 +158,6 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 2,
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
-    '@typescript-eslint/return-await': [2, 'always'],
     '@typescript-eslint/sort-type-union-intersection-members': 2,
     '@typescript-eslint/strict-boolean-expressions': 0,
     '@typescript-eslint/switch-exhaustiveness-check': 2,
