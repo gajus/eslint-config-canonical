@@ -18,7 +18,6 @@ module.exports = {
         default: 'array-simple',
       },
     ],
-    '@typescript-eslint/await-thenable': 2,
     '@typescript-eslint/ban-ts-comment': [
       2,
       {
@@ -40,12 +39,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/consistent-type-definitions': [2, 'type'],
-    '@typescript-eslint/consistent-type-exports': [
-      2,
-      {
-        fixMixedExportsWithInlineTypeSpecifier: true,
-      },
-    ],
     '@typescript-eslint/consistent-type-imports': [
       2,
       {
@@ -86,20 +79,7 @@ module.exports = {
         selector: 'variable',
       },
     ],
-    '@typescript-eslint/no-base-to-string': [
-      2,
-      {
-        ignoredTypeNames: ['RegExp'],
-      },
-    ],
     '@typescript-eslint/no-confusing-non-null-assertion': 2,
-    '@typescript-eslint/no-confusing-void-expression': [
-      2,
-      {
-        ignoreArrowShorthand: true,
-        ignoreVoidOperator: false,
-      },
-    ],
     '@typescript-eslint/no-duplicate-imports': 2,
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-empty-function': 0,
@@ -117,13 +97,6 @@ module.exports = {
     ],
     '@typescript-eslint/no-extra-non-null-assertion': 2,
     '@typescript-eslint/no-extraneous-class': 2,
-    '@typescript-eslint/no-floating-promises': [
-      2,
-      {
-        ignoreIIFE: true,
-        ignoreVoid: true,
-      },
-    ],
     '@typescript-eslint/no-for-in-array': 2,
     '@typescript-eslint/no-inferrable-types': [
       2,
@@ -139,26 +112,7 @@ module.exports = {
         allowInGenericTypeArguments: true,
       },
     ],
-    '@typescript-eslint/no-meaningless-void-operator': [
-      2,
-      {
-        checkNever: true,
-      },
-    ],
     '@typescript-eslint/no-misused-new': 2,
-    '@typescript-eslint/no-misused-promises': [
-      2,
-      {
-        checksConditionals: true,
-        checksVoidReturn: {
-          arguments: true,
-          attributes: false,
-          properties: true,
-          returns: true,
-          variables: true,
-        },
-      },
-    ],
     '@typescript-eslint/no-namespace': [
       2,
       {
@@ -181,7 +135,6 @@ module.exports = {
     '@typescript-eslint/no-type-alias': 0,
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 0,
     '@typescript-eslint/no-unnecessary-condition': 0,
-    '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/no-unnecessary-type-arguments': 0,
     '@typescript-eslint/no-unnecessary-type-assertion': 0,
     '@typescript-eslint/no-unnecessary-type-constraint': 2,
@@ -198,36 +151,11 @@ module.exports = {
     '@typescript-eslint/prefer-enum-initializers': 2,
     '@typescript-eslint/prefer-for-of': 2,
     '@typescript-eslint/prefer-function-type': 2,
-    '@typescript-eslint/prefer-includes': 2,
     '@typescript-eslint/prefer-literal-enum-member': 2,
     '@typescript-eslint/prefer-namespace-keyword': 2,
-    '@typescript-eslint/prefer-nullish-coalescing': [
-      2,
-      {
-        ignoreConditionalTests: true,
-        ignoreMixedLogicalExpressions: true,
-      },
-    ],
     '@typescript-eslint/prefer-optional-chain': 2,
-    '@typescript-eslint/prefer-readonly': [
-      2,
-      {
-        onlyInlineLambdas: true,
-      },
-    ],
     '@typescript-eslint/prefer-readonly-parameter-types': 0,
-    '@typescript-eslint/prefer-reduce-type-parameter': 2,
-    '@typescript-eslint/prefer-regexp-exec': 2,
-    '@typescript-eslint/prefer-return-this-type': 2,
-    '@typescript-eslint/prefer-string-starts-ends-with': 2,
     '@typescript-eslint/prefer-ts-expect-error': 2,
-    '@typescript-eslint/promise-function-async': 2,
-    '@typescript-eslint/require-array-sort-compare': [
-      2,
-      {
-        ignoreStringArrays: false,
-      },
-    ],
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
     '@typescript-eslint/return-await': [2, 'always'],

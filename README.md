@@ -7,23 +7,6 @@ The most comprehensive code style guide.
 
 Canonical consists of 1,000+ rules (40% auto-fixable), some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
-* [Usage](#usage)
-  * [Example configuration](#example-configuration)
-  * [Compatibility with Prettier](#compatibility-prettier)
-  * [Compatibility with other style guides](#compatibility-with-other-style-guides)
-* [Integrations](#integrations)
-  * [Visual Studio Code](#visual-studio-code)
-* [Benchmark](#benchmark)
-  * [Canonical vs Prettier](#canonical-vs-prettier)
-* [Table of Comparison](#table-of-comparison)
-* [Versioning Policy](#versioning-policy)
-* [Development](#development)
-* [Incompatible rules](#incompatible-rules)
-  * [AirBnb Incompatible Rules](#airbnb-incompatible-rules)
-  * [Google Incompatible Rules](#google-incompatible-rules)
-  * [Standard Incompatible Rules](#standard-incompatible-rules)
-  * [XO Incompatible Rules](#xo-incompatible-rules)
-
 ## Usage
 
 This package includes the following configurations:
@@ -63,10 +46,7 @@ This is an example configuration of a React project using TypeScript and Jest:
       "extends": [
         "canonical/typescript"
       ],
-      "files": "*.ts",
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      }
+      "files": "*.ts"
     },
     {
       "extends": [
@@ -74,19 +54,13 @@ This is an example configuration of a React project using TypeScript and Jest:
         "canonical/jsx-a11y",
         "canonical/typescript"
       ],
-      "files": "*.tsx",
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      }
+      "files": "*.tsx"
     },
     {
       "extends": [
         "canonical/vitest"
       ],
-      "files": "*.test.{ts,tsx}",
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      }
+      "files": "*.test.{ts,tsx}"
     },
     {
       "extends": [
@@ -176,21 +150,6 @@ The setting below turns on Auto Fix for all providers including ESLint:
   "editor.formatOnSave": true
 }
 ```
-
-#### TypeScript
-
-If you are using TypeScript and experiencing performance issues, you should consider disabling TypeScript rules:
-
-```json
-{
-  "eslint.codeActionsOnSave.rules": [
-    "!@typescript-eslint/*",
-    "*"
-  ]
-}
-```
-
-This example removes all TypeScript ESLint specific rules from the code action on save pass but keeps all other rules.
 
 ## Benchmark
 
