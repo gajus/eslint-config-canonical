@@ -1,8 +1,6 @@
 module.exports = {
   parser: '@graphql-eslint/eslint-plugin',
-  plugins: [
-    '@graphql-eslint',
-  ],
+  plugins: ['@graphql-eslint'],
   rules: {
     '@graphql-eslint/alphabetize': [
       2,
@@ -18,16 +16,9 @@ module.exports = {
           'InterfaceTypeDefinition',
           'InputObjectTypeDefinition',
         ],
-        selections: [
-          'OperationDefinition',
-          'FragmentDefinition',
-        ],
-        values: [
-          'EnumTypeDefinition',
-        ],
-        variables: [
-          'OperationDefinition',
-        ],
+        selections: ['OperationDefinition', 'FragmentDefinition'],
+        values: ['EnumTypeDefinition'],
+        variables: ['OperationDefinition'],
       },
     ],
     '@graphql-eslint/fields-on-correct-type': 2,

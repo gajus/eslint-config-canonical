@@ -2,9 +2,7 @@ module.exports = {
   env: {
     mocha: true,
   },
-  plugins: [
-    'mocha',
-  ],
+  plugins: ['mocha'],
   rules: {
     'mocha/handle-done-callback': 2,
     'mocha/max-top-level-suites': [

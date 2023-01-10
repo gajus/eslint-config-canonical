@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    '@next/next',
-  ],
+  plugins: ['@next/next'],
   rules: {
     '@next/next/google-font-display': 1,
     '@next/next/google-font-preconnect': 1,

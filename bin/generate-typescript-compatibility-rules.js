@@ -1,9 +1,7 @@
 /* eslint-disable import/order */
 
 const typescriptRules = require('@typescript-eslint/eslint-plugin').rules;
-const {
-  builtinRules,
-} = require('eslint/use-at-your-own-risk');
+const { builtinRules } = require('eslint/use-at-your-own-risk');
 
 const builtinRuleNames = Object.keys(Object.fromEntries(builtinRules));
 const typescriptRuleNames = Object.keys(typescriptRules);
@@ -26,7 +24,8 @@ for (const incompatibleRuleName of incompatibleRuleNames) {
   }
 
   appendRules[incompatibleRuleName] = 0;
-  appendRules['@typescript-eslint/' + incompatibleRuleName] = eslintConfiguration.rules[incompatibleRuleName];
+  appendRules['@typescript-eslint/' + incompatibleRuleName] =
+    eslintConfiguration.rules[incompatibleRuleName];
 }
 
 const orderedRules = {

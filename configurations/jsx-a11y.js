@@ -4,9 +4,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: [
-    'jsx-a11y',
-  ],
+  plugins: ['jsx-a11y'],
   rules: {
     'jsx-a11y/alt-text': 2,
     'jsx-a11y/anchor-has-content': 2,
@@ -47,32 +45,16 @@ module.exports = {
     'jsx-a11y/no-interactive-element-to-noninteractive-role': [
       2,
       {
-        canvas: [
-          'img',
-        ],
-        tr: [
-          'none',
-          'presentation',
-        ],
+        canvas: ['img'],
+        tr: ['none', 'presentation'],
       },
     ],
     'jsx-a11y/no-noninteractive-element-interactions': [
       2,
       {
-        alert: [
-          'onKeyUp',
-          'onKeyDown',
-          'onKeyPress',
-        ],
-        body: [
-          'onError',
-          'onLoad',
-        ],
-        dialog: [
-          'onKeyUp',
-          'onKeyDown',
-          'onKeyPress',
-        ],
+        alert: ['onKeyUp', 'onKeyDown', 'onKeyPress'],
+        body: ['onError', 'onLoad'],
+        dialog: ['onKeyUp', 'onKeyDown', 'onKeyPress'],
         handlers: [
           'onClick',
           'onError',
@@ -83,30 +65,15 @@ module.exports = {
           'onKeyDown',
           'onKeyUp',
         ],
-        iframe: [
-          'onError',
-          'onLoad',
-        ],
-        img: [
-          'onError',
-          'onLoad',
-        ],
+        iframe: ['onError', 'onLoad'],
+        img: ['onError', 'onLoad'],
       },
     ],
     'jsx-a11y/no-noninteractive-element-to-interactive-role': [
       2,
       {
-        fieldset: [
-          'radiogroup',
-          'presentation',
-        ],
-        li: [
-          'menuitem',
-          'option',
-          'row',
-          'tab',
-          'treeitem',
-        ],
+        fieldset: ['radiogroup', 'presentation'],
+        li: ['menuitem', 'option', 'row', 'tab', 'treeitem'],
         ol: [
           'listbox',
           'menu',
@@ -116,12 +83,8 @@ module.exports = {
           'tree',
           'treegrid',
         ],
-        table: [
-          'grid',
-        ],
-        td: [
-          'gridcell',
-        ],
+        table: ['grid'],
+        td: ['gridcell'],
         ul: [
           'listbox',
           'menu',
@@ -137,9 +100,7 @@ module.exports = {
       2,
       {
         allowExpressionValues: true,
-        roles: [
-          'tabpanel',
-        ],
+        roles: ['tabpanel'],
         tags: [],
       },
     ],

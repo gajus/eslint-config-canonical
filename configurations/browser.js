@@ -2,9 +2,7 @@ module.exports = {
   env: {
     browser: true,
   },
-  plugins: [
-    'unicorn',
-  ],
+  plugins: ['unicorn'],
   rules: {
     'unicorn/prefer-dom-node-append': 2,
     'unicorn/prefer-dom-node-dataset': 2,

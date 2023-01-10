@@ -1,34 +1,14 @@
 module.exports = {
-  plugins: [
-    'flowtype',
-  ],
+  plugins: ['flowtype'],
   rules: {
-    'flowtype/array-style-complex-type': [
-      2,
-      'verbose',
-    ],
-    'flowtype/array-style-simple-type': [
-      2,
-      'shorthand',
-    ],
-    'flowtype/arrow-parens': [
-      2,
-      'always',
-    ],
-    'flowtype/boolean-style': [
-      2,
-      'boolean',
-    ],
+    'flowtype/array-style-complex-type': [2, 'verbose'],
+    'flowtype/array-style-simple-type': [2, 'shorthand'],
+    'flowtype/arrow-parens': [2, 'always'],
+    'flowtype/boolean-style': [2, 'boolean'],
     'flowtype/define-flow-type': 2,
-    'flowtype/delimiter-dangle': [
-      2,
-      'always-multiline',
-    ],
+    'flowtype/delimiter-dangle': [2, 'always-multiline'],
     'flowtype/enforce-line-break': 2,
-    'flowtype/generic-spacing': [
-      2,
-      'never',
-    ],
+    'flowtype/generic-spacing': [2, 'never'],
     'flowtype/interface-id-match': 0,
     'flowtype/newline-after-flow-annotation': 2,
     'flowtype/no-dupe-keys': 2,
@@ -43,37 +23,19 @@ module.exports = {
     'flowtype/no-unused-expressions': 0,
     'flowtype/no-weak-types': 2,
     'flowtype/object-type-curly-spacing': 0,
-    'flowtype/object-type-delimiter': [
-      2,
-      'comma',
-    ],
-    'flowtype/quotes': [
-      2,
-      'single',
-    ],
+    'flowtype/object-type-delimiter': [2, 'comma'],
+    'flowtype/quotes': [2, 'single'],
     'flowtype/require-compound-type-alias': 0,
     'flowtype/require-exact-type': 2,
-    'flowtype/require-indexer-name': [
-      2,
-      'always',
-    ],
-    'flowtype/require-inexact-type': [
-      2,
-      'always',
-    ],
+    'flowtype/require-indexer-name': [2, 'always'],
+    'flowtype/require-inexact-type': [2, 'always'],
     'flowtype/require-parameter-type': 0,
     'flowtype/require-readonly-react-props': 2,
     'flowtype/require-return-type': 0,
     'flowtype/require-types-at-top': 2,
-    'flowtype/require-valid-file-annotation': [
-      2,
-      'always',
-    ],
+    'flowtype/require-valid-file-annotation': [2, 'always'],
     'flowtype/require-variable-type': 0,
-    'flowtype/semi': [
-      2,
-      'always',
-    ],
+    'flowtype/semi': [2, 'always'],
     'flowtype/sort-keys': [
       0,
       'asc',
@@ -88,31 +50,13 @@ module.exports = {
         order: 'asc',
       },
     ],
-    'flowtype/space-after-type-colon': [
-      2,
-      'always',
-    ],
-    'flowtype/space-before-generic-bracket': [
-      2,
-      'never',
-    ],
-    'flowtype/space-before-type-colon': [
-      2,
-      'never',
-    ],
+    'flowtype/space-after-type-colon': [2, 'always'],
+    'flowtype/space-before-generic-bracket': [2, 'never'],
+    'flowtype/space-before-type-colon': [2, 'never'],
     'flowtype/spread-exact-type': 0,
-    'flowtype/type-id-match': [
-      2,
-      '^([A-Z][a-z0-9]+)+Type$',
-    ],
-    'flowtype/type-import-style': [
-      2,
-      'declaration',
-    ],
-    'flowtype/union-intersection-spacing': [
-      2,
-      'always',
-    ],
+    'flowtype/type-id-match': [2, '^([A-Z][a-z0-9]+)+Type$'],
+    'flowtype/type-import-style': [2, 'declaration'],
+    'flowtype/union-intersection-spacing': [2, 'always'],
     'flowtype/use-flow-type': 2,
     'flowtype/use-read-only-spread': 2,
   },

@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'vitest',
-  ],
+  plugins: ['vitest'],
   rules: {
     'vitest/expect-expect': 2,
     'vitest/lower-case-title': 0,

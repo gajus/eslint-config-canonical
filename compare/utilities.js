@@ -1,9 +1,5 @@
-const {
-  ESLint,
-} = require('eslint');
-const {
-  builtinRules,
-} = require('eslint/use-at-your-own-risk');
+const { ESLint } = require('eslint');
+const { builtinRules } = require('eslint/use-at-your-own-risk');
 
 const getConfigurationPluginNames = async (configuration) => {
   const engine = new ESLint({
@@ -11,25 +7,23 @@ const getConfigurationPluginNames = async (configuration) => {
     useEslintrc: false,
   });
 
-  const calculatedConfiguration = await engine.calculateConfigForFile('./compare');
+  const calculatedConfiguration = await engine.calculateConfigForFile(
+    './compare',
+  );
 
   return calculatedConfiguration.plugins;
 };
 
 const getPluginRules = (pluginName) => {
-  const {
-    rules,
-  } = require(pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName);
+  const { rules } = require(pluginName.startsWith('@')
+    ? pluginName + '/eslint-plugin'
+    : 'eslint-plugin-' + pluginName);
 
-  return Object.fromEntries(Object.entries(rules).map(([
-    ruleName,
-    ruleConfiguration,
-  ]) => {
-    return [
-      pluginName + '/' + ruleName,
-      ruleConfiguration,
-    ];
-  }));
+  return Object.fromEntries(
+    Object.entries(rules).map(([ruleName, ruleConfiguration]) => {
+      return [pluginName + '/' + ruleName, ruleConfiguration];
+    }),
+  );
 };
 
 const configurationNames = [
@@ -56,9 +50,7 @@ const getLoadedRules = async () => {
 
   for (const configurationName of configurationNames) {
     const configurationUsedPluginNames = await getConfigurationPluginNames({
-      extends: [
-        configurationName,
-      ],
+      extends: [configurationName],
       root: true,
     });
 
@@ -81,10 +73,9 @@ const getLoadedRules = async () => {
   }
 
   return Object.fromEntries(
-    Object.entries(loadedRules)
-      .sort((a, b) => {
-        return a[0].localeCompare(b[0]);
-      }),
+    Object.entries(loadedRules).sort((a, b) => {
+      return a[0].localeCompare(b[0]);
+    }),
   );
 };
 
@@ -97,86 +88,198 @@ const getConfigurationRules = async (configuration) => {
     useEslintrc: false,
   });
 
-  const calculatedConfiguration = await engine.calculateConfigForFile('./compare');
+  const calculatedConfiguration = await engine.calculateConfigForFile(
+    './compare',
+  );
 
   return calculatedConfiguration.rules;
 };
 
 const getRuleLink = (ruleName) => {
   if (!ruleName.includes('/')) {
-    return '[`' + ruleName + '`](https://eslint.org/docs/rules/' + ruleName + ')';
+    return (
+      '[`' + ruleName + '`](https://eslint.org/docs/rules/' + ruleName + ')'
+    );
   }
 
   if (ruleName.startsWith('fp/')) {
-    return '[`' + ruleName + '`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/' + ruleName.replace(/^fp\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/' +
+      ruleName.replace(/^fp\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('ava/')) {
-    return '[`' + ruleName + '`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/' + ruleName.replace(/^ava\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/' +
+      ruleName.replace(/^ava\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('canonical/')) {
-    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-' + ruleName.replace(/^canonical\//u, '') + ')';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-' +
+      ruleName.replace(/^canonical\//u, '') +
+      ')'
+    );
   }
 
   if (ruleName.startsWith('eslint-comments/')) {
-    return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/' + ruleName.replace(/^eslint-comments\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/' +
+      ruleName.replace(/^eslint-comments\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('unicorn/')) {
-    return '[`' + ruleName + '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/' + ruleName.replace(/^unicorn\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/' +
+      ruleName.replace(/^unicorn\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('flowtype/')) {
-    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-' + ruleName.replace(/^flowtype\//u, '') + ')';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-' +
+      ruleName.replace(/^flowtype\//u, '') +
+      ')'
+    );
   }
 
   if (ruleName.startsWith('jsdoc/')) {
-    return '[`' + ruleName + '`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-' + ruleName.replace(/^jsdoc\//u, '') + ')';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-' +
+      ruleName.replace(/^jsdoc\//u, '') +
+      ')'
+    );
   }
 
   if (ruleName.startsWith('import/')) {
-    return '[`' + ruleName + '`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/' + ruleName.replace(/^import\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/' +
+      ruleName.replace(/^import\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('react/')) {
-    return '[`' + ruleName + '`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/' + ruleName.replace(/^react\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/' +
+      ruleName.replace(/^react\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('promise/')) {
-    return '[`' + ruleName + '`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/' + ruleName.replace(/^promise\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/' +
+      ruleName.replace(/^promise\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('lodash/')) {
-    return '[`' + ruleName + '`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/' + ruleName.replace(/^lodash\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/' +
+      ruleName.replace(/^lodash\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('mocha/')) {
-    return '[`' + ruleName + '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/' + ruleName.replace(/^mocha\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/' +
+      ruleName.replace(/^mocha\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('node/')) {
-    return '[`' + ruleName + '`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/' + ruleName.replace(/^node\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/' +
+      ruleName.replace(/^node\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('jsx-a11y/')) {
-    return '[`' + ruleName + '`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/' + ruleName.replace(/^jsx-a11y\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/' +
+      ruleName.replace(/^jsx-a11y\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('jest/')) {
-    return '[`' + ruleName + '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' + ruleName.replace(/^jest\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' +
+      ruleName.replace(/^jest\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('jsonc/')) {
-    return '[`' + ruleName + '`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/' + ruleName.replace(/^jsonc\//u, '') + '.html)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://ota-meshi.github.io/eslint-plugin-jsonc/rules/' +
+      ruleName.replace(/^jsonc\//u, '') +
+      '.html)'
+    );
   }
 
   if (ruleName.startsWith('@typescript-eslint/')) {
-    return '[`' + ruleName + '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' + ruleName.replace(/^@typescript-eslint\//u, '') + '.md)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' +
+      ruleName.replace(/^@typescript-eslint\//u, '') +
+      '.md)'
+    );
   }
 
   if (ruleName.startsWith('yml/')) {
-    return '[`' + ruleName + '`](https://ota-meshi.github.io/eslint-plugin-yml/rules/' + ruleName.replace(/^yml\//u, '') + '.html)';
+    return (
+      '[`' +
+      ruleName +
+      '`](https://ota-meshi.github.io/eslint-plugin-yml/rules/' +
+      ruleName.replace(/^yml\//u, '') +
+      '.html)'
+    );
   }
 
   return '`' + ruleName + '`';
@@ -196,14 +299,10 @@ const isRuleEnabled = (ruleValue) => {
 
 const normalizeConfiguration = (configuration) => {
   if (!configuration) {
-    return [
-      'off',
-    ];
+    return ['off'];
   }
 
-  const nextConfiguration = [
-    ...configuration,
-  ];
+  const nextConfiguration = [...configuration];
 
   if (typeof nextConfiguration[0] === 'number') {
     if (nextConfiguration[0] === 0) {

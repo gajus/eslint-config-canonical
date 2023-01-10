@@ -2,9 +2,7 @@ module.exports = {
   env: {
     jest: true,
   },
-  plugins: [
-    'jest',
-  ],
+  plugins: ['jest'],
   rules: {
     'jest/consistent-test-it': 2,
     'jest/expect-expect': 2,

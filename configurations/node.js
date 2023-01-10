@@ -5,17 +5,10 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2_020,
   },
-  plugins: [
-    'unicorn',
-    'import',
-    'node',
-  ],
+  plugins: ['unicorn', 'import', 'node'],
   rules: {
     'node/callback-return': 2,
-    'node/exports-style': [
-      2,
-      'module.exports',
-    ],
+    'node/exports-style': [2, 'module.exports'],
     'node/file-extension-in-import': 0,
     'node/global-require': 2,
     'node/handle-callback-err': 2,
@@ -59,10 +52,7 @@ module.exports = {
       2,
       {
         convertPath: {
-          'src/**/*.js': [
-            '^src/(.+?)\\.js$',
-            'dist/$1.js',
-          ],
+          'src/**/*.js': ['^src/(.+?)\\.js$', 'dist/$1.js'],
         },
       },
     ],

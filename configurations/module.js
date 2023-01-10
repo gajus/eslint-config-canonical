@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'unicorn',
-  ],
+  plugins: ['unicorn'],
   rules: {
     'unicorn/prefer-module': 2,
   },

@@ -1,24 +1,16 @@
 module.exports = {
   parser: 'yaml-eslint-parser',
-  plugins: [
-    'yml',
-  ],
+  plugins: ['yml'],
   rules: {
     'yml/block-mapping': 2,
     'yml/block-mapping-question-indicator-newline': 2,
-    'yml/block-sequence': [
-      2,
-      'always',
-    ],
+    'yml/block-sequence': [2, 'always'],
     'yml/block-sequence-hyphen-indicator-newline': 2,
     'yml/flow-mapping-curly-newline': 2,
     'yml/flow-mapping-curly-spacing': 2,
     'yml/flow-sequence-bracket-newline': 2,
     'yml/flow-sequence-bracket-spacing': 2,
-    'yml/indent': [
-      2,
-      2,
-    ],
+    'yml/indent': [2, 2],
     'yml/key-name-casing': 0,
     'yml/key-spacing': 2,
     'yml/no-empty-document': 2,

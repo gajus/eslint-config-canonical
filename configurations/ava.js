@@ -1,15 +1,9 @@
 module.exports = {
-  plugins: [
-    'ava',
-    'unicorn',
-  ],
+  plugins: ['ava', 'unicorn'],
   rules: {
     'ava/assertion-arguments': 2,
     'ava/hooks-order': 2,
-    'ava/max-asserts': [
-      2,
-      5,
-    ],
+    'ava/max-asserts': [2, 5],
     'ava/no-async-fn-without-await': 2,
     'ava/no-duplicate-modifiers': 2,
     'ava/no-identical-title': 2,
@@ -37,15 +31,7 @@ module.exports = {
     'id-length': [
       2,
       {
-        exceptions: [
-          '_',
-          '$',
-          'a',
-          'b',
-          'x',
-          'y',
-          't',
-        ],
+        exceptions: ['_', '$', 'a', 'b', 'x', 'y', 't'],
         min: 2,
       },
     ],

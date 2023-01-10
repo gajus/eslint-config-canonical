@@ -1,7 +1,5 @@
 const test = require('ava');
-const {
-  builtinRules,
-} = require('eslint/use-at-your-own-risk');
+const { builtinRules } = require('eslint/use-at-your-own-risk');
 
 const configurationNames = [
   'ava',
@@ -20,7 +18,9 @@ const configurationNames = [
 ];
 
 const getPluginRuleNames = (pluginName) => {
-  const dependencyName = pluginName.startsWith('@') ? pluginName + '/eslint-plugin' : 'eslint-plugin-' + pluginName;
+  const dependencyName = pluginName.startsWith('@')
+    ? pluginName + '/eslint-plugin'
+    : 'eslint-plugin-' + pluginName;
 
   return Object.keys(require(dependencyName).rules).map((ruleName) => {
     return pluginName + '/' + ruleName;
@@ -31,9 +31,7 @@ const main = async () => {
   for (const configurationName of configurationNames) {
     const configuration = require('../../' + configurationName);
 
-    const supportedRuleNames = [
-      ...builtinRules.keys(),
-    ];
+    const supportedRuleNames = [...builtinRules.keys()];
 
     // @todo does not work with overrides
     for (const pluginName of configuration?.plugins ?? []) {
@@ -41,10 +39,19 @@ const main = async () => {
     }
 
     // @todo does not work with overrides
-    for (const configurationRuleName of Object.keys(configuration?.rules ?? [])) {
-      test('"' + configurationName + '" configuration has "' + configurationRuleName + '" rule', (t) => {
-        t.true(supportedRuleNames.includes(configurationRuleName));
-      });
+    for (const configurationRuleName of Object.keys(
+      configuration?.rules ?? [],
+    )) {
+      test(
+        '"' +
+          configurationName +
+          '" configuration has "' +
+          configurationRuleName +
+          '" rule',
+        (t) => {
+          t.true(supportedRuleNames.includes(configurationRuleName));
+        },
+      );
     }
   }
 };

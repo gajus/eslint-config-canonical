@@ -2,9 +2,7 @@ module.exports = {
   env: {
     'cypress/globals': true,
   },
-  plugins: [
-    'cypress',
-  ],
+  plugins: ['cypress'],
   rules: {
     'cypress/assertion-before-screenshot': 2,
     'cypress/no-assigning-return-values': 2,

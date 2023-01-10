@@ -1,8 +1,5 @@
 module.exports = {
-  plugins: [
-    'react',
-    'react-hooks',
-  ],
+  plugins: ['react', 'react-hooks'],
   rules: {
     'react/boolean-prop-naming': 0,
     'react/button-has-type': 2,
@@ -23,15 +20,9 @@ module.exports = {
     ],
     'react/hook-use-state': 2,
     'react/iframe-missing-sandbox': 2,
-    'react/jsx-boolean-value': [
-      2,
-      'never',
-    ],
+    'react/jsx-boolean-value': [2, 'never'],
     'react/jsx-child-element-spacing': 0,
-    'react/jsx-closing-bracket-location': [
-      2,
-      'line-aligned',
-    ],
+    'react/jsx-closing-bracket-location': [2, 'line-aligned'],
     'react/jsx-closing-tag-location': 0,
     'react/jsx-curly-brace-presence': [
       2,
@@ -48,19 +39,10 @@ module.exports = {
         allowMultiline: true,
       },
     ],
-    'react/jsx-equals-spacing': [
-      2,
-      'never',
-    ],
+    'react/jsx-equals-spacing': [2, 'never'],
     'react/jsx-filename-extension': 0,
-    'react/jsx-first-prop-new-line': [
-      2,
-      'multiline-multiprop',
-    ],
-    'react/jsx-fragments': [
-      2,
-      'syntax',
-    ],
+    'react/jsx-first-prop-new-line': [2, 'multiline-multiprop'],
+    'react/jsx-fragments': [2, 'syntax'],
     'react/jsx-handler-names': [
       2,
       {
@@ -70,14 +52,8 @@ module.exports = {
         eventHandlerPropPrefix: 'on',
       },
     ],
-    'react/jsx-indent': [
-      2,
-      2,
-    ],
-    'react/jsx-indent-props': [
-      2,
-      2,
-    ],
+    'react/jsx-indent': [2, 2],
+    'react/jsx-indent-props': [2, 2],
     'react/jsx-key': [
       2,
       {
@@ -207,10 +183,7 @@ module.exports = {
     'react/self-closing-comp': 2,
     'react/sort-comp': 2,
     'react/sort-prop-types': 2,
-    'react/state-in-constructor': [
-      2,
-      'always',
-    ],
+    'react/state-in-constructor': [2, 'always'],
     'react/static-property-placement': 2,
     'react/style-prop-object': 2,
     'react/void-dom-elements-no-children': 2,

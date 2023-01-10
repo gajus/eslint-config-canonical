@@ -1,8 +1,6 @@
 module.exports = {
   parser: 'jsonc-eslint-parser',
-  plugins: [
-    'jsonc',
-  ],
+  plugins: ['jsonc'],
   rules: {
     'jsonc/array-bracket-newline': [
       2,
@@ -12,20 +10,11 @@ module.exports = {
       },
     ],
     'jsonc/array-bracket-spacing': 2,
-    'jsonc/array-element-newline': [
-      2,
-      'always',
-    ],
+    'jsonc/array-element-newline': [2, 'always'],
     'jsonc/auto': 0,
     'jsonc/comma-dangle': 2,
-    'jsonc/comma-style': [
-      2,
-      'last',
-    ],
-    'jsonc/indent': [
-      2,
-      2,
-    ],
+    'jsonc/comma-style': [2, 'last'],
+    'jsonc/indent': [2, 2],
     'jsonc/key-name-casing': 0,
     'jsonc/key-spacing': 2,
     'jsonc/no-bigint-literals': 2,

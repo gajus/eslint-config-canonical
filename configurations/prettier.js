@@ -1,15 +1,19 @@
 module.exports = {
-  plugins: [
-    'prettier',
-  ],
+  plugins: ['prettier'],
   rules: {
+    '@babel/object-curly-spacing': 0,
     '@typescript-eslint/indent': 0,
+    'array-bracket-newline': 0,
+    'array-element-newline': 0,
     'arrow-body-style': 0,
     'canonical/destructuring-property-newline': 0,
     'canonical/export-specifier-newline': 0,
     'canonical/import-specifier-newline': 0,
     'line-comment-position': 0,
+    'no-extra-parens': 0,
     'no-inline-comments': 0,
+    'object-curly-newline': 0,
+    'operator-linebreak': 0,
     'prefer-arrow-callback': 0,
     'prettier/prettier': [
       2,

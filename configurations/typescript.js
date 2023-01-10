@@ -1,20 +1,14 @@
 module.exports = {
   overrides: [
     {
-      files: [
-        '*.ts',
-        '*.tsx',
-      ],
+      files: ['*.ts', '*.tsx'],
       rules: {
         '@typescript-eslint/explicit-member-accessibility': 2,
       },
     },
   ],
   parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
-    'typescript-sort-keys',
-  ],
+  plugins: ['@typescript-eslint', 'typescript-sort-keys'],
   rules: {
     '@babel/object-curly-spacing': 0,
     '@typescript-eslint/adjacent-overload-signatures': 2,
@@ -36,10 +30,7 @@ module.exports = {
     ],
     '@typescript-eslint/ban-tslint-comment': 2,
     '@typescript-eslint/ban-types': 0,
-    '@typescript-eslint/class-literal-property-style': [
-      2,
-      'fields',
-    ],
+    '@typescript-eslint/class-literal-property-style': [2, 'fields'],
     '@typescript-eslint/consistent-indexed-object-style': 0,
     '@typescript-eslint/consistent-type-assertions': [
       2,
@@ -48,10 +39,7 @@ module.exports = {
         objectLiteralTypeAssertions: 'allow',
       },
     ],
-    '@typescript-eslint/consistent-type-definitions': [
-      2,
-      'type',
-    ],
+    '@typescript-eslint/consistent-type-definitions': [2, 'type'],
     '@typescript-eslint/consistent-type-exports': [
       2,
       {
@@ -90,27 +78,18 @@ module.exports = {
       },
     ],
     '@typescript-eslint/member-ordering': 0,
-    '@typescript-eslint/method-signature-style': [
-      2,
-      'property',
-    ],
+    '@typescript-eslint/method-signature-style': [2, 'property'],
     '@typescript-eslint/naming-convention': [
       2,
       {
-        format: [
-          'camelCase',
-          'UPPER_CASE',
-          'PascalCase',
-        ],
+        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
         selector: 'variable',
       },
     ],
     '@typescript-eslint/no-base-to-string': [
       2,
       {
-        ignoredTypeNames: [
-          'RegExp',
-        ],
+        ignoredTypeNames: ['RegExp'],
       },
     ],
     '@typescript-eslint/no-confusing-non-null-assertion': 2,
@@ -196,9 +175,7 @@ module.exports = {
       2,
       {
         allowDestructuring: true,
-        allowedNames: [
-          'self',
-        ],
+        allowedNames: ['self'],
       },
     ],
     '@typescript-eslint/no-type-alias': 0,
@@ -215,10 +192,7 @@ module.exports = {
     '@typescript-eslint/no-unsafe-return': 0,
     '@typescript-eslint/no-var-requires': 2,
     '@typescript-eslint/non-nullable-type-assertion-style': 0,
-    '@typescript-eslint/object-curly-spacing': [
-      2,
-      'never',
-    ],
+    '@typescript-eslint/object-curly-spacing': [2, 'never'],
     '@typescript-eslint/padding-line-between-statements': 0,
     '@typescript-eslint/prefer-as-const': 2,
     '@typescript-eslint/prefer-enum-initializers': 2,
@@ -256,10 +230,7 @@ module.exports = {
     ],
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
-    '@typescript-eslint/return-await': [
-      2,
-      'always',
-    ],
+    '@typescript-eslint/return-await': [2, 'always'],
     '@typescript-eslint/sort-type-union-intersection-members': 2,
     '@typescript-eslint/strict-boolean-expressions': 0,
     '@typescript-eslint/switch-exhaustiveness-check': 2,
@@ -293,9 +264,7 @@ module.exports = {
       2,
       'always',
       {
-        markers: [
-          '/',
-        ],
+        markers: ['/'],
       },
     ],
     'typescript-sort-keys/interface': 2,
@@ -306,12 +275,7 @@ module.exports = {
       mode: 'typescript',
     },
     node: {
-      tryExtensions: [
-        '.ts',
-        '.tsx',
-        '.js',
-        '.json',
-      ],
+      tryExtensions: ['.ts', '.tsx', '.js', '.json'],
     },
   },
 };

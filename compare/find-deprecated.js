@@ -6,9 +6,7 @@
  */
 
 const got = require('got');
-const {
-  getLoadedRules,
-} = require('./utilities');
+const { getLoadedRules } = require('./utilities');
 
 (async () => {
   const loadedRules = await getLoadedRules();
@@ -31,7 +29,13 @@ const {
     });
 
     if (response.toLowerCase().includes('deprecated')) {
-      console.warn('⚠️  ' + ruleName + ' suspected improperly deprecated rule (' + ruleDocumentationUrl + ')');
+      console.warn(
+        '⚠️  ' +
+          ruleName +
+          ' suspected improperly deprecated rule (' +
+          ruleDocumentationUrl +
+          ')',
+      );
     }
   }
 })();

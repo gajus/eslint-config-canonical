@@ -26,15 +26,9 @@ module.exports = {
       },
     ],
     '@typescript-eslint/default-param-last': 2,
-    '@typescript-eslint/dot-notation': 2,
-    '@typescript-eslint/func-call-spacing': [
-      2,
-      'never',
-    ],
-    '@typescript-eslint/indent': [
-      2,
-      2,
-    ],
+
+    '@typescript-eslint/func-call-spacing': [2, 'never'],
+    '@typescript-eslint/indent': [2, 2],
     '@typescript-eslint/init-declarations': 0,
     '@typescript-eslint/keyword-spacing': [
       2,
@@ -43,16 +37,13 @@ module.exports = {
         before: true,
       },
     ],
-    '@typescript-eslint/lines-between-class-members': [
-      2,
-      'always',
-    ],
+    '@typescript-eslint/lines-between-class-members': [2, 'always'],
     '@typescript-eslint/no-array-constructor': 2,
     '@typescript-eslint/no-dupe-class-members': 2,
     '@typescript-eslint/no-duplicate-imports': 0,
     '@typescript-eslint/no-extra-parens': 2,
     '@typescript-eslint/no-extra-semi': 2,
-    '@typescript-eslint/no-implied-eval': 2,
+
     '@typescript-eslint/no-invalid-this': 0,
     '@typescript-eslint/no-loop-func': 2,
     '@typescript-eslint/no-loss-of-precision': 2,
@@ -71,7 +62,7 @@ module.exports = {
         hoist: 'all',
       },
     ],
-    '@typescript-eslint/no-throw-literal': 2,
+
     '@typescript-eslint/no-unused-expressions': 2,
     '@typescript-eslint/no-unused-vars': 2,
     '@typescript-eslint/no-use-before-define': [
@@ -92,23 +83,11 @@ module.exports = {
         prev: 'multiline-block-like',
       },
     ],
-    '@typescript-eslint/quotes': [
-      2,
-      'single',
-    ],
+    '@typescript-eslint/quotes': [2, 'single'],
     '@typescript-eslint/require-await': 0,
-    '@typescript-eslint/semi': [
-      2,
-      'always',
-    ],
-    '@typescript-eslint/space-before-blocks': [
-      2,
-      'always',
-    ],
-    '@typescript-eslint/space-before-function-paren': [
-      2,
-      'always',
-    ],
+    '@typescript-eslint/semi': [2, 'always'],
+    '@typescript-eslint/space-before-blocks': [2, 'always'],
+    '@typescript-eslint/space-before-function-paren': [2, 'always'],
     '@typescript-eslint/space-infix-ops': 2,
     'brace-style': 0,
     'comma-dangle': 0,
