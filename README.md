@@ -32,8 +32,8 @@ This package includes the following configurations:
 * [`canonical/ava`](./configurations/ava.js) – for projects that use [AVA](https://ava.li/).
 * [`canonical/browser`](./configurations/browser.js) – for projects that use DOM and other browser APIs.
 * [`canonical/cypress`](./configurations/cypress.js) – for projects that use [Cypress](https://cypress.io/).
-* [`canonical/graphql`](./configurations/graphql.js) – for projects that use [GraphQL](https://graphql.org/).
 * [`canonical/flowtype`](./configurations/flowtype.js) – for projects that use [Flowtype](https://flowtype.org/).
+* [`canonical/graphql`](./configurations/graphql.js) – for projects that use [GraphQL](https://graphql.org/).
 * [`canonical/jest`](./configurations/jest.js) – for projects that use [jest](https://facebook.github.io/jest/).
 * [`canonical/json`](./configurations/json.js) – for projects that use JSON.
 * [`canonical/jsx-a11y`](./configurations/jsx-a11y.js) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
@@ -44,6 +44,7 @@ This package includes the following configurations:
 * [`canonical/node`](./configurations/node.js) – for projects that use Node.js.
 * [`canonical/react`](./configurations/react.js) – for projects that use [React](https://facebook.github.io/react/).
 * [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
+* [`canonical/vitest`](./configurations/vitest.js) – for projects that use [Vitest](https://vitest.dev/).
 * [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML.
 
 ### Example configuration
@@ -80,7 +81,7 @@ This is an example configuration of a React project using TypeScript and Jest:
     },
     {
       "extends": [
-        "canonical/jest"
+        "canonical/vitest"
       ],
       "files": "*.test.{ts,tsx}",
       "parserOptions": {
