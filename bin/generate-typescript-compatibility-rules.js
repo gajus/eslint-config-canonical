@@ -1,5 +1,3 @@
-/* eslint-disable import/order */
-
 const typescriptRules = require('@typescript-eslint/eslint-plugin').rules;
 const { builtinRules } = require('eslint/use-at-your-own-risk');
 
