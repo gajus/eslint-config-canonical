@@ -83,6 +83,7 @@ module.exports = {
     'eslint-comments',
     'promise',
     'regexp',
+    'simple-import-sort',
   ],
   rules: {
     '@babel/new-cap': 0,
@@ -292,24 +293,7 @@ module.exports = {
     'import/no-unused-modules': 0,
     'import/no-useless-path-segments': 2,
     'import/no-webpack-loader-syntax': 2,
-    'import/order': [
-      2,
-      {
-        alphabetize: {
-          caseInsensitive: false,
-          order: 'asc',
-        },
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-        ],
-        'newlines-between': 'never',
-      },
-    ],
+    'import/order': 0,
     'import/prefer-default-export': 0,
     'import/unambiguous': 0,
     indent: [2, 2],
@@ -677,6 +661,8 @@ module.exports = {
       },
     ],
     'semi-style': [2, 'last'],
+    'simple-import-sort/exports': 2,
+    'simple-import-sort/imports': 2,
     'sort-imports': 0,
     'sort-keys': 0,
     'sort-vars': 2,

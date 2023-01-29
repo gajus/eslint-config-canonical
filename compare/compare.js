@@ -222,7 +222,7 @@ const createIncompatibleRuleSummary = (
   writeFileSync(
     README_PATH,
     readFileSync(README_PATH, 'utf8').replace(
-      /<!-- START compare -->[\S\s]+<!-- END compare -->/u,
+      /<!-- START compare -->[\s\S]+<!-- END compare -->/u,
       markdownLines.join('\n'),
     ),
   );
@@ -230,7 +230,7 @@ const createIncompatibleRuleSummary = (
   writeFileSync(
     README_PATH,
     readFileSync(README_PATH, 'utf8').replace(
-      /<!-- START incompatibleRules -->[\S\s]+<!-- END incompatibleRules -->/u,
+      /<!-- START incompatibleRules -->[\s\S]+<!-- END incompatibleRules -->/u,
       '<!-- START incompatibleRules -->\n' +
         [
           createIncompatibleRuleSummary(
