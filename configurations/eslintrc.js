@@ -662,7 +662,7 @@ module.exports = {
     ],
     'semi-style': [2, 'last'],
     'simple-import-sort/exports': 2,
-    'simple-import-sort/imports': 2,
+    'simple-import-sort/imports': [2, { groups: [] }],
     'sort-imports': 0,
     'sort-keys': 0,
     'sort-vars': 2,
