@@ -25,6 +25,7 @@ This package includes the following configurations:
 * [`canonical/module`](./configurations/module.js) – for projects that use ESM modules.
 * [`canonical/next`](./configurations/next.js) – for projects that use [Next.js](https://nextjs.org/).
 * [`canonical/node`](./configurations/node.js) – for projects that use Node.js.
+* [`canonical/prettier`](./configurations/prettier.js) – applies [Prettier](https://prettier.io/) formatting.
 * [`canonical/react`](./configurations/react.js) – for projects that use [React](https://facebook.github.io/react/).
 * [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
 * [`canonical/vitest`](./configurations/vitest.js) – for projects that use [Vitest](https://vitest.dev/).
