@@ -1,3 +1,8 @@
+// Omit `.d.ts` because 1) TypeScript compilation already confirms that
+// types are resolved, and 2) it would mask an unresolved
+// `.ts`/`.tsx`/`.js`/`.jsx` implementation.
+const typescriptExtensions = ['.ts', '.tsx', '.js', '.jsx'];
+
 module.exports = {
   overrides: [
     {
@@ -191,6 +196,16 @@ module.exports = {
     'typescript-sort-keys/string-enum': 2,
   },
   settings: {
+    'import/extensions': typescriptExtensions,
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      node: {
+        extensions: typescriptExtensions,
+      },
+    },
     jsdoc: {
       mode: 'typescript',
     },
