@@ -28,6 +28,7 @@ This package includes the following configurations:
 * [`canonical/prettier`](./configurations/prettier.js) – applies [Prettier](https://prettier.io/) formatting.
 * [`canonical/react`](./configurations/react.js) – for projects that use [React](https://facebook.github.io/react/).
 * [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
+* [`canonical/typescript-type-checking`](./configurations/typescript-type-checking.js) – for projects that use [TypeScript](http://typescriptlang.org/) and want additional rules that require type information (rules using type information take longer to run).
 * [`canonical/vitest`](./configurations/vitest.js) – for projects that use [Vitest](https://vitest.dev/).
 * [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML.
 * [`canonical/zod`](./configurations/zod.js) – for projects that use [Zod](https://github.com/colinhacks/zod).
