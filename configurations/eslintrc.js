@@ -137,8 +137,10 @@ module.exports = {
     'canonical/filename-match-exported': 2,
     'canonical/filename-match-regex': [
       1,
-      '^(?:.?[A-Z]?[a-z]+(?:[A-Z][a-z]+)*)*$',
-      false,
+      {
+        ignoreExporting: false,
+        regex: '^(?:.?[A-Z]?[a-z]+(?:[A-Z][a-z]+)*)*$',
+      },
     ],
     'canonical/filename-no-index': 0,
     'canonical/id-match': [
