@@ -293,7 +293,12 @@ module.exports = {
     'import/no-unassigned-import': 2,
     'import/no-unresolved': 0,
     'import/no-unused-modules': 0,
-    'import/no-useless-path-segments': 2,
+    'import/no-useless-path-segments': [
+      2,
+      {
+        noUselessIndex: true,
+      },
+    ],
     'import/no-webpack-loader-syntax': 2,
     'import/order': 0,
     'import/prefer-default-export': 0,
