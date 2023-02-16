@@ -582,7 +582,7 @@ module.exports = {
       1,
       {
         location: 'start',
-        terms: ['todo', '@toto'],
+        terms: ['todo', '@todo'],
       },
     ],
     'no-whitespace-before-property': 2,
