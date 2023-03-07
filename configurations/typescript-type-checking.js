@@ -28,6 +28,7 @@ module.exports = {
         ignoreVoid: true,
       },
     ],
+    '@typescript-eslint/no-for-in-array': 2,
     '@typescript-eslint/no-implied-eval': 2,
     '@typescript-eslint/no-meaningless-void-operator': [
       2,

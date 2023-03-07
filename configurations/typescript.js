@@ -102,7 +102,6 @@ module.exports = {
     ],
     '@typescript-eslint/no-extra-non-null-assertion': 2,
     '@typescript-eslint/no-extraneous-class': 2,
-    '@typescript-eslint/no-for-in-array': 2,
     '@typescript-eslint/no-inferrable-types': [
       2,
       {
