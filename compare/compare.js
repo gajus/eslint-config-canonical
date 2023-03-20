@@ -217,7 +217,7 @@ const createIncompatibleRuleSummary = (
 
   markdownLines.push('<!-- END compare -->');
 
-  const README_PATH = resolve(__dirname, '../README.md');
+  const README_PATH = resolve(__dirname, '../COMPARISON_TABLE.md');
 
   writeFileSync(
     README_PATH,
