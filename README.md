@@ -28,6 +28,7 @@ This package includes the following configurations:
 * [`canonical/node`](./configurations/node.js) – for projects that use Node.js.
 * [`canonical/prettier`](./configurations/prettier.js) – applies [Prettier](https://prettier.io/) formatting.
 * [`canonical/react`](./configurations/react.js) – for projects that use [React](https://facebook.github.io/react/).
+* [`canonical/regexp`](./configurations/regexp.js) – for projects that use regular expressions.
 * [`canonical/typescript-type-checking`](./configurations/typescript-type-checking.js) – for projects that use [TypeScript](http://typescriptlang.org/) and want additional rules that require type information (rules using type information take longer to run).
 * [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
 * [`canonical/vitest`](./configurations/vitest.js) – for projects that use [Vitest](https://vitest.dev/).
@@ -44,6 +45,7 @@ This is an example configuration of a React project using TypeScript and Jest:
 {
   "extends": [
     "canonical",
+    "canonical/regexp",
     "canonical/jsdoc"
   ],
   "overrides": [
