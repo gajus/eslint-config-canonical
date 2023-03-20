@@ -9,7 +9,19 @@ Canonical consists of 1,000+ rules (40% auto-fixable), some of which are [custom
 
 ## Usage
 
-This package includes the following configurations:
+Most projects should simply extend from [`canonical/auto`](#canonicalauto-ruleset):
+
+```json
+{
+  "extends": "canonical/auto"
+}
+```
+
+## Rulesets
+
+> **Note** Most projects should just use [`canonical/auto`](#canonicalauto-ruleset) and override settings when necessary for individual frameworks or file patterns (e.g. vitest vs ava).
+
+This package includes the following rulesets:
 
 * [`canonical`](./configurations/eslintrc.js) – The Canonical code style guide.
 * [`canonical/ava`](./configurations/ava.js) – for projects that use [AVA](https://ava.li/).
@@ -35,31 +47,21 @@ This package includes the following configurations:
 * [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML.
 * [`canonical/zod`](./configurations/zod.js) – for projects that use [Zod](https://github.com/colinhacks/zod).
 
-### Example configuration
+## `canonical/auto` ruleset
 
-For maximum efficiency, use [overrides](https://eslint.org/docs/user-guide/configuring/configuration-files#how-do-overrides-work) to only apply relevant style guides. This reduces the linting time and the number of false-positives.
+[`canonical/auto`](./configurations/auto.js) is a special ruleset that uses [overrides](https://eslint.org/docs/user-guide/configuring/configuration-files#how-do-overrides-work) to only apply relevant style guides. This reduces the linting time and the number of false-positives.
 
-This is an example configuration of a React project using TypeScript and Jest:
+`canonical/auto` can be fine-tuned using `overrides` just like any other ESLint ruleset, e.g.
 
 ```json
 {
   "extends": [
-    "canonical",
-    "canonical/regexp",
-    "canonical/jsdoc"
+    "canonical/auto"
   ],
   "overrides": [
     {
       "extends": [
-        "canonical/typescript"
-      ],
-      "files": "*.ts"
-    },
-    {
-      "extends": [
-        "canonical/react",
-        "canonical/jsx-a11y",
-        "canonical/typescript"
+        "canonical/jsx-a11y"
       ],
       "files": "*.tsx"
     },
@@ -68,24 +70,6 @@ This is an example configuration of a React project using TypeScript and Jest:
         "canonical/vitest"
       ],
       "files": "*.test.{ts,tsx}"
-    },
-    {
-      "extends": [
-        "canonical/json"
-      ],
-      "files": "*.json"
-    },
-    {
-      "extends": [
-        "canonical/yaml"
-      ],
-      "files": "*.yaml"
-    },
-    {
-      "extends": [
-        "canonical/graphql"
-      ],
-      "files": "*.graphql"
     }
   ],
   "root": true
@@ -94,12 +78,14 @@ This is an example configuration of a React project using TypeScript and Jest:
 
 ### Compatibility with Prettier
 
-For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you wish to use Prettier, you can do so by using `canonical/prettier` configuration, which uses [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) to apply Prettier formatting after applying Canonical rules.
+For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you wish to use Prettier, you can do so by using `canonical/prettier` ruleset, which uses [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) to apply Prettier formatting after applying Canonical rules.
 
 ```json
 {
   "extends": [
     "canonical",
+    "canonical/jsdoc",
+    "canonical/regexp",
     "canonical/react",
     "canonical/typescript",
     "canonical/jest",
@@ -120,6 +106,8 @@ Since Canonical style guide includes more rules than any other style guide, you 
 {
   "extends": [
     "canonical",
+    "canonical/jsdoc",
+    "canonical/regexp",
     "canonical/react",
     "airbnb"
   ]
