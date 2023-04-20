@@ -23,7 +23,6 @@ module.exports = {
         noSingleLineBlocks: true,
       },
     ],
-    'jsdoc/newline-after-description': [2, 'always'],
     'jsdoc/no-bad-blocks': 2,
     'jsdoc/no-defaults': 2,
     'jsdoc/no-missing-syntax': 0,
