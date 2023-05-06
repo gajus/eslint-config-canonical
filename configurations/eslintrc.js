@@ -80,14 +80,7 @@ const unicornRules = {
   'unicorn/empty-brace-spaces': 2,
   'unicorn/error-message': 2,
   'unicorn/escape-case': 2,
-  'unicorn/expiring-todo-comments': [
-    2,
-    {
-      allowWarningComments: true,
-      ignoreDatesOnPullRequests: true,
-      terms: ['todo'],
-    },
-  ],
+  'unicorn/expiring-todo-comments': 0,
   'unicorn/explicit-length-check': 0,
   'unicorn/filename-case': 0,
   'unicorn/import-index': 2,
