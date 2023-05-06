@@ -202,9 +202,7 @@ module.exports = {
   parser: '@babel/eslint-parser',
   parserOptions: {
     babelOptions: {
-      plugins: [
-        '@babel/plugin-syntax-import-assertions'
-      ],
+      plugins: ['@babel/plugin-syntax-import-assertions'],
     },
     ecmaFeatures: {
       globalReturn: false,
