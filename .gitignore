@@ -18,3 +18,4 @@ node_modules
 !.prettierrc
 !.releaserc
 !.yarnrc
+pnpm-lock.yaml
