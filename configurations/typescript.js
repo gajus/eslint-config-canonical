@@ -85,7 +85,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-confusing-non-null-assertion': 2,
-    '@typescript-eslint/no-duplicate-imports': 2,
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-empty-function': 0,
     '@typescript-eslint/no-empty-interface': [
@@ -126,7 +125,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 2,
     '@typescript-eslint/no-non-null-asserted-optional-chain': 2,
     '@typescript-eslint/no-non-null-assertion': 2,
-    '@typescript-eslint/no-parameter-properties': 0,
     '@typescript-eslint/no-require-imports': 2,
     '@typescript-eslint/no-restricted-imports': 0,
     '@typescript-eslint/no-this-alias': [
@@ -162,7 +160,6 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 2,
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
-    '@typescript-eslint/sort-type-union-intersection-members': 2,
     '@typescript-eslint/strict-boolean-expressions': 0,
     '@typescript-eslint/triple-slash-reference': [
       2,
@@ -177,6 +174,7 @@ module.exports = {
     '@typescript-eslint/unified-signatures': 2,
     'canonical/prefer-inline-type-import': 2,
     'default-param-last': 0,
+    'import/no-duplicates': 2,
     'import/no-dynamic-require': 0,
     'jsdoc/require-property-type': 0,
     'no-duplicate-imports': 0,
