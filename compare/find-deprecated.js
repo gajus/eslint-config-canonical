@@ -29,7 +29,7 @@ const { getLoadedRules } = require('./utilities');
       resolveBodyOnly: true,
     });
 
-    if (response.toLowerCase().includes('deprecated')) {
+    if (response.toLowerCase().includes('rule has been deprecated')) {
       console.warn(
         '⚠️  ' +
           ruleName +
