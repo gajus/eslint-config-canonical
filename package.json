@@ -54,7 +54,6 @@
     "@semantic-release/npm": "^10.0.3",
     "ava": "^5.2.0",
     "eslint": "^8.45.0",
-    "got": "^12.6.0",
     "husky": "^8.0.3",
     "semantic-release": "^21.0.2",
     "typescript": "^5.0.4"

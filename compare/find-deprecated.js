@@ -5,10 +5,11 @@
  * https://github.com/eslint/eslint/issues/15292
  */
 
-const got = require('got');
 const { getLoadedRules } = require('./utilities');
 
 (async () => {
+  const { got } = await import('got');
+
   const loadedRules = await getLoadedRules();
 
   const ruleNames = Object.keys(loadedRules);
