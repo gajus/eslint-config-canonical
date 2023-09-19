@@ -128,7 +128,7 @@ const createIncompatibleRuleSummary = (
       // The order is important!
       // The last ruleset overrides rules in previous rulesets.
       // This affects rules that are overridden in specific configs, e.g.
-      // typescript disabled no-duplicate-imports but enables @typescript-eslint/no-duplicate-imports.
+      // typescript disabled no-duplicate-imports but enables @import/no-duplicates.
       'canonical',
     ],
   });

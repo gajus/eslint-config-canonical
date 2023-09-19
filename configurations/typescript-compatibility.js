@@ -40,7 +40,6 @@ module.exports = {
     '@typescript-eslint/lines-between-class-members': [2, 'always'],
     '@typescript-eslint/no-array-constructor': 2,
     '@typescript-eslint/no-dupe-class-members': 2,
-    '@typescript-eslint/no-duplicate-imports': 0,
     '@typescript-eslint/no-extra-parens': 2,
     '@typescript-eslint/no-extra-semi': 2,
 

@@ -85,7 +85,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-confusing-non-null-assertion': 2,
-    '@typescript-eslint/no-duplicate-imports': 2,
     '@typescript-eslint/no-dynamic-delete': 2,
     '@typescript-eslint/no-empty-function': 0,
     '@typescript-eslint/no-empty-interface': [
