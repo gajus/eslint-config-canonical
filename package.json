@@ -12,10 +12,10 @@
     "@graphql-eslint/eslint-plugin": "^3.18.0",
     "@next/eslint-plugin-next": "^13.4.1",
     "@rushstack/eslint-patch": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.59.2",
-    "@typescript-eslint/parser": "^5.59.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-import-resolver-typescript": "^3.6.0",
     "eslint-plugin-ava": "^14.0.0",
     "eslint-plugin-canonical": "^4.9.0",
     "eslint-plugin-cypress": "^2.13.3",
@@ -23,7 +23,7 @@
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jest": "^27.4.0",
     "eslint-plugin-jsdoc": "^43.2.0",
     "eslint-plugin-jsonc": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
@@ -37,7 +37,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-regexp": "^1.14.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-typescript-sort-keys": "^2.3.0",
+    "eslint-plugin-typescript-sort-keys": "^3.0.0",
     "eslint-plugin-unicorn": "^46.0.0",
     "eslint-plugin-vitest": "^0.2.8",
     "eslint-plugin-yml": "^1.5.0",
@@ -57,7 +57,7 @@
     "got": "^12.6.0",
     "husky": "^8.0.3",
     "semantic-release": "^22.0.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.2.2"
   },
   "engines": {
     "node": ">=16.0.0"
