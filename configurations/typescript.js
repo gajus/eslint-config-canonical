@@ -135,7 +135,6 @@ module.exports = {
         allowedNames: ['self'],
       },
     ],
-    '@typescript-eslint/no-type-alias': 0,
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 0,
     '@typescript-eslint/no-unnecessary-condition': 0,
     '@typescript-eslint/no-unnecessary-type-arguments': 0,
