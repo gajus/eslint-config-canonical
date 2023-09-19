@@ -59,6 +59,7 @@ module.exports = {
         ignoreMixedLogicalExpressions: true,
       },
     ],
+    '@typescript-eslint/prefer-optional-chain': 2,
     '@typescript-eslint/prefer-readonly': [
       2,
       {

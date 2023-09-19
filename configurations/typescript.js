@@ -157,7 +157,6 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 2,
     '@typescript-eslint/prefer-literal-enum-member': 2,
     '@typescript-eslint/prefer-namespace-keyword': 2,
-    '@typescript-eslint/prefer-optional-chain': 2,
     '@typescript-eslint/prefer-readonly-parameter-types': 0,
     '@typescript-eslint/prefer-ts-expect-error': 2,
     '@typescript-eslint/restrict-plus-operands': 0,
