@@ -7,17 +7,18 @@ const getConfigurationPluginNames = async (configuration) => {
     useEslintrc: false,
   });
 
-  const calculatedConfiguration = await engine.calculateConfigForFile(
-    './compare',
-  );
+  const calculatedConfiguration =
+    await engine.calculateConfigForFile('./compare');
 
   return calculatedConfiguration.plugins;
 };
 
 const getPluginRules = (pluginName) => {
-  const { rules } = require(pluginName.startsWith('@')
-    ? pluginName + '/eslint-plugin'
-    : 'eslint-plugin-' + pluginName);
+  const { rules } = require(
+    pluginName.startsWith('@')
+      ? pluginName + '/eslint-plugin'
+      : 'eslint-plugin-' + pluginName,
+  );
 
   return Object.fromEntries(
     Object.entries(rules).map(([ruleName, ruleConfiguration]) => {
@@ -88,9 +89,8 @@ const getConfigurationRules = async (configuration) => {
     useEslintrc: false,
   });
 
-  const calculatedConfiguration = await engine.calculateConfigForFile(
-    './compare',
-  );
+  const calculatedConfiguration =
+    await engine.calculateConfigForFile('./compare');
 
   return calculatedConfiguration.rules;
 };
