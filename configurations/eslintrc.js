@@ -28,7 +28,7 @@ const importRules = {
   'import/no-cycle': 2,
   'import/no-default-export': 0,
   'import/no-deprecated': 1,
-  'import/no-duplicates': 2,
+  'import/no-duplicates': [2, { 'prefer-inline': true }],
   'import/no-dynamic-require': 2,
   'import/no-extraneous-dependencies': [
     2,
