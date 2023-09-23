@@ -10,6 +10,7 @@ module.exports = {
     'canonical/export-specifier-newline': 0,
     'canonical/import-specifier-newline': 0,
     'line-comment-position': 0,
+    'linebreak-style': 0,
     'no-extra-parens': 0,
     'no-inline-comments': 0,
     'object-curly-newline': 0,
