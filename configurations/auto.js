@@ -8,7 +8,7 @@ module.exports = {
         'canonical/node',
         'canonical/prettier',
       ],
-      files: ['*.js'],
+      files: ['*.js', '*.mjs', '*.cjs'],
     },
     {
       extends: [
