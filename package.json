@@ -38,7 +38,7 @@
     "eslint-plugin-regexp": "^1.15.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-typescript-sort-keys": "^3.0.0",
-    "eslint-plugin-unicorn": "^46.0.0",
+    "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-vitest": "^0.2.8",
     "eslint-plugin-yml": "^1.9.0",
     "eslint-plugin-zod": "^1.4.0",
