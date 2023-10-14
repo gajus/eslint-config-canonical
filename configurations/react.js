@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react', 'react-hooks'],
+  plugins: ['canonical', 'react', 'react-hooks'],
   rules: {
     'canonical/sort-react-dependencies': 2,
     'react/boolean-prop-naming': 0,
