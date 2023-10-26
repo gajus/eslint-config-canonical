@@ -17,6 +17,8 @@ module.exports = {
         '@typescript-eslint/consistent-type-definitions': 0,
         '@typescript-eslint/no-empty-interface': 0,
         '@typescript-eslint/no-shadow': 0,
+        'no-var': 0,
+        'vars-on-top': 0,
       },
     },
   ],
