@@ -11,6 +11,14 @@ module.exports = {
         '@typescript-eslint/explicit-member-accessibility': 2,
       },
     },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/consistent-type-definitions': 0,
+        '@typescript-eslint/no-empty-interface': 0,
+        '@typescript-eslint/no-shadow': 0,
+      },
+    },
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'typescript-sort-keys'],
