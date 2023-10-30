@@ -95,6 +95,7 @@ const getConfigurationRules = async (configuration) => {
   return calculatedConfiguration.rules;
 };
 
+// eslint-disable-next-line complexity
 const getRuleLink = (ruleName) => {
   if (!ruleName.includes('/')) {
     return (
@@ -218,6 +219,16 @@ const getRuleLink = (ruleName) => {
       ruleName +
       '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/' +
       ruleName.replace(/^mocha\//u, '') +
+      '.md)'
+    );
+  }
+
+  if (ruleName.startsWith('n/')) {
+    return (
+      '[`' +
+      ruleName +
+      '`](https://github.com/eslint-community/eslint-plugin-n/tree/master/docs/rules/' +
+      ruleName.replace(/^n\//u, '') +
       '.md)'
     );
   }
