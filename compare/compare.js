@@ -1,7 +1,7 @@
 /* eslint-disable complexity */
 /* eslint-disable no-console */
 
-const { readFileSync, writeFileSync } = require('node:fs');
+const { writeFile, readFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
 const stringify = require('safe-stable-stringify');
 const {
@@ -219,17 +219,17 @@ const createIncompatibleRuleSummary = (
 
   const README_PATH = resolve(__dirname, '../COMPARISON_TABLE.md');
 
-  writeFileSync(
+  await writeFile(
     README_PATH,
-    readFileSync(README_PATH, 'utf8').replace(
+    (await readFile(README_PATH, 'utf8')).replace(
       /<!-- START compare -->[\s\S]+<!-- END compare -->/u,
       markdownLines.join('\n'),
     ),
   );
 
-  writeFileSync(
+  await writeFile(
     README_PATH,
-    readFileSync(README_PATH, 'utf8').replace(
+    (await readFile(README_PATH, 'utf8')).replace(
       /<!-- START incompatibleRules -->[\s\S]+<!-- END incompatibleRules -->/u,
       '<!-- START incompatibleRules -->\n' +
         [
