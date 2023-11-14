@@ -185,11 +185,11 @@ module.exports = {
     'default-param-last': 0,
     'import/no-dynamic-require': 0,
     'jsdoc/require-property-type': 0,
+    'n/global-require': 0,
+    'n/no-missing-import': 0,
     'no-duplicate-imports': 0,
     'no-undef': 0,
     'no-use-before-define': 0,
-    'node/global-require': 0,
-    'node/no-missing-import': 0,
     'spaced-comment': [
       2,
       'always',

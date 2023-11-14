@@ -1,6 +1,6 @@
 {
   "rules": {
-    "node/global-require": 0,
+    "n/global-require": 0,
     "import/no-dynamic-require": 0
   }
 }

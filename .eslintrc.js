@@ -6,6 +6,6 @@ module.exports = {
   ],
   rules: {
     'canonical/filename-match-regex': 0,
-    'node/global-require': 0,
+    'n/global-require': 0,
   },
 };
