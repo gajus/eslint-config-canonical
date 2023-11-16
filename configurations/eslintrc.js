@@ -1,4 +1,5 @@
 const importRules = {
+  'import/consistent-type-specifier-style': [2, 'prefer-inline'],
   'import/default': 2,
   'import/dynamic-import-chunkname': 0,
   'import/export': 2,
