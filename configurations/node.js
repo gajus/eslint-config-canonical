@@ -26,12 +26,7 @@ module.exports = {
     'n/no-process-exit': 2,
     'n/no-restricted-import': 0,
     'n/no-restricted-require': 0,
-    'n/no-sync': [
-      2,
-      {
-        allowAtRootLevel: true,
-      },
-    ],
+    'n/no-sync': 0,
     'n/no-unpublished-bin': 2,
     'n/no-unpublished-import': 0,
     'n/no-unpublished-require': 0,
