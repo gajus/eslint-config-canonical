@@ -154,31 +154,7 @@ Additionally, we found it that being explicit about which formatter you are usin
 
 ```json
 {
-  "[css]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[yaml]": {
+  "[css][html][javascript][javascriptreact][json][markdown][typescript][typescriptreact][yaml]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
 }
