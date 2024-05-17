@@ -2,7 +2,6 @@ module.exports = [
   require('./jsdoc').recommended,
   require('./canonical').recommended,
   require('./typescript').recommended,
-  require('./typescript-compatibility').recommended,
   require('./regexp').recommended,
   require('./react').recommended,
   require('./prettier').recommended,

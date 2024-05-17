@@ -198,6 +198,7 @@ module.exports.recommended = {
     ],
     'typescript-sort-keys/interface': 2,
     'typescript-sort-keys/string-enum': 2,
+    ...require('./typescript-compatibility').recommended.rules,
   },
   settings: {
     'import/extensions': ['.ts', '.tsx'],
