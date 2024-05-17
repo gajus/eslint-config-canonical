@@ -168,8 +168,8 @@ module.exports.recommended = {
     'react/no-danger': 2,
     // 'react/no-danger-with-children': 2,
     'react/no-deprecated': 2,
-    'react/no-did-mount-set-state': 2,
-    'react/no-did-update-set-state': 2,
+    // 'react/no-did-mount-set-state': 2,
+    // 'react/no-did-update-set-state': 2,
     // TODO broke after upgrading to ESLint v9
     // 'react/no-direct-mutation-state': 2,
     'react/no-find-dom-node': 2,
@@ -192,8 +192,8 @@ module.exports.recommended = {
     'react/no-unused-class-component-methods': 2,
     // TODO broke after upgrading to ESLint v9
     // 'react/no-unused-prop-types': 2,
-    'react/no-unused-state': 2,
-    'react/no-will-update-set-state': 2,
+    // 'react/no-unused-state': 2,
+    // 'react/no-will-update-set-state': 2,
     'react/prefer-es6-class': 2,
     'react/prefer-exact-props': 0,
     // TODO broke after upgrading to ESLint v9
@@ -220,7 +220,7 @@ module.exports.recommended = {
     // 'react/static-property-placement': 2,
     // 'react/style-prop-object': 2,
     // 'react/void-dom-elements-no-children': 2,
-    'react-hooks/exhaustive-deps': 2,
+    // 'react-hooks/exhaustive-deps': 2,
     'react-hooks/rules-of-hooks': 2,
   },
   settings: {
