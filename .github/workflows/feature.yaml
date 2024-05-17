@@ -11,7 +11,7 @@ jobs:
       - name: setup node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "22"
       - run: npm ci --legacy-peer-deps
       - run: npm run lint
       - run: npm run test
