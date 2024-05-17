@@ -8,6 +8,6 @@ module.exports = [
     },
   },
   {
-    ignores: ['**/package-lock.json'],
+    ignores: ['**/package-lock.json', '**/pnpm-lock.yaml'],
   },
 ];
