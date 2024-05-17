@@ -1,8 +1,10 @@
-module.exports = {
-  env: {
-    'cypress/globals': true,
+module.exports.recommended = {
+  // env: {
+  //   'cypress/globals': true,
+  // },
+  plugins: {
+    cypress: require('eslint-plugin-cypress'),
   },
-  plugins: ['cypress'],
   rules: {
     'cypress/assertion-before-screenshot': 2,
     'cypress/no-assigning-return-values': 2,

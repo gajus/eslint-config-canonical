@@ -1,10 +1,12 @@
-module.exports = {
+module.exports.recommended = {
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ['jsx-a11y'],
+  plugins: {
+    'jsx-a11y': require('eslint-plugin-jsx-a11y'),
+  },
   rules: {
     'jsx-a11y/alt-text': 2,
     'jsx-a11y/anchor-has-content': 2,

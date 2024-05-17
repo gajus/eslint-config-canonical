@@ -11,10 +11,13 @@ Canonical consists of 1,000+ rules (40% auto-fixable), some of which are [custom
 
 Most projects should simply extend from [`canonical/auto`](#canonicalauto-ruleset):
 
-```json
-{
-  "extends": "canonical/auto"
-}
+```ts
+// eslint.config.js
+import auto from 'eslint-config-canonical/configurations/auto';
+
+export default [
+  auto
+];
 ```
 
 ## Rulesets

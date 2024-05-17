@@ -1,8 +1,14 @@
-module.exports = {
-  env: {
-    browser: true,
+const globals = require('globals');
+
+module.exports.recommended = {
+  languageOptions: {
+    globals: {
+      ...globals.browser,
+    },
   },
-  plugins: ['unicorn'],
+  plugins: {
+    unicorn: require('eslint-plugin-unicorn'),
+  },
   rules: {
     'unicorn/prefer-dom-node-append': 2,
     'unicorn/prefer-dom-node-dataset': 2,

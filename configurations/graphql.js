@@ -1,6 +1,11 @@
-module.exports = {
-  parser: '@graphql-eslint/eslint-plugin',
-  plugins: ['@graphql-eslint'],
+module.exports.recommended = {
+  files: ['*.graphql'],
+  languageOptions: {
+    parser: require('@graphql-eslint/eslint-plugin'),
+  },
+  plugins: {
+    '@graphql-eslint': require('@graphql-eslint/eslint-plugin'),
+  },
   rules: {
     '@graphql-eslint/alphabetize': [
       2,

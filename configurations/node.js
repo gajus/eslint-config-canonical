@@ -1,11 +1,17 @@
-module.exports = {
-  env: {
-    node: true,
+const globals = require('globals');
+
+module.exports.recommended = {
+  languageOptions: {
+    globals: {
+      ...globals.node,
+    },
   },
-  parserOptions: {
-    ecmaVersion: 2_020,
+  plugins: {
+    import: require('eslint-plugin-import'),
+    // eslint-disable-next-line id-length
+    n: require('eslint-plugin-n'),
+    unicorn: require('eslint-plugin-unicorn'),
   },
-  plugins: ['unicorn', 'import', 'n'],
   rules: {
     'n/callback-return': 2,
     'n/exports-style': [2, 'module.exports'],

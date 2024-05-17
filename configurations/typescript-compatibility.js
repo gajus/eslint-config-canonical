@@ -1,4 +1,4 @@
-module.exports = {
+module.exports.recommended = {
   rules: {
     '@babel/no-unused-expressions': 0,
     '@typescript-eslint/brace-style': [

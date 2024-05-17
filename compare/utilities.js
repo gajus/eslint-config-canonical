@@ -1,3 +1,6 @@
+/* eslint-disable complexity */
+/* eslint-disable import/no-dynamic-require */
+
 const { ESLint } = require('eslint');
 const { builtinRules } = require('eslint/use-at-your-own-risk');
 
@@ -95,7 +98,6 @@ const getConfigurationRules = async (configuration) => {
   return calculatedConfiguration.rules;
 };
 
-// eslint-disable-next-line complexity
 const getRuleLink = (ruleName) => {
   if (!ruleName.includes('/')) {
     return (

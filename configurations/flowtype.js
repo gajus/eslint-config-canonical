@@ -1,5 +1,7 @@
-module.exports = {
-  plugins: ['flowtype'],
+module.exports.recommended = {
+  plugins: {
+    flowtype: require('eslint-plugin-flowtype'),
+  },
   rules: {
     'flowtype/array-style-complex-type': [2, 'verbose'],
     'flowtype/array-style-simple-type': [2, 'shorthand'],

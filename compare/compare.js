@@ -1,5 +1,5 @@
-/* eslint-disable complexity */
 /* eslint-disable no-console */
+/* eslint-disable complexity */
 
 const { writeFile, readFile } = require('node:fs/promises');
 const { resolve } = require('node:path');

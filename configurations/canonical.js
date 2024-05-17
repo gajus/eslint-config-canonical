@@ -21,15 +21,22 @@ const importRules = {
   'import/max-dependencies': 0,
   'import/named': 0,
   'import/namespace': 0,
-  'import/newline-after-import': 2,
+  // TODO broke after ESLint upgrade to v9
+  // 'import/newline-after-import': 2,
   'import/no-absolute-path': 2,
-  'import/no-amd': 2,
+  // TODO broke after ESLint upgrade to v9
+  // 'import/no-amd': 2,
   'import/no-anonymous-default-export': 0,
   'import/no-commonjs': 0,
   'import/no-cycle': 2,
   'import/no-default-export': 0,
   'import/no-deprecated': 1,
-  'import/no-duplicates': [2, { 'prefer-inline': true }],
+  'import/no-duplicates': [
+    2,
+    {
+      'prefer-inline': true,
+    },
+  ],
   'import/no-dynamic-require': 2,
   'import/no-extraneous-dependencies': [
     2,
@@ -194,33 +201,32 @@ const unicornRules = {
   'unicorn/throw-new-error': 2,
 };
 
-module.exports = {
-  env: {
-    es6: true,
-  },
-  parser: '@babel/eslint-parser',
-  parserOptions: {
-    babelOptions: {
-      plugins: ['@babel/plugin-syntax-import-assertions'],
+module.exports.recommended = {
+  languageOptions: {
+    parser: require('@babel/eslint-parser'),
+    parserOptions: {
+      babelOptions: {
+        plugins: ['@babel/plugin-syntax-import-assertions'],
+      },
+      ecmaFeatures: {
+        globalReturn: false,
+        impliedStrict: true,
+        jsx: true,
+      },
+      ecmaVersion: 2_021,
+      requireConfigFile: false,
+      sourceType: 'module',
     },
-    ecmaFeatures: {
-      globalReturn: false,
-      impliedStrict: true,
-      jsx: true,
-    },
-    ecmaVersion: 2_021,
-    requireConfigFile: false,
-    sourceType: 'module',
   },
-  plugins: [
-    'canonical',
-    '@babel',
-    'import',
-    'unicorn',
-    'eslint-comments',
-    'promise',
-    'simple-import-sort',
-  ],
+  plugins: {
+    '@babel': require('@babel/eslint-plugin'),
+    canonical: require('eslint-plugin-canonical'),
+    'eslint-comments': require('eslint-plugin-eslint-comments'),
+    import: require('eslint-plugin-import'),
+    promise: require('eslint-plugin-promise'),
+    'simple-import-sort': require('eslint-plugin-simple-import-sort'),
+    unicorn: require('eslint-plugin-unicorn'),
+  },
   rules: {
     ...importRules,
     ...unicornRules,
@@ -664,7 +670,8 @@ module.exports = {
     'prefer-template': 0,
     'promise/param-names': 2,
     'promise/prefer-await-to-callbacks': 0,
-    'promise/prefer-await-to-then': 2,
+    // TODO broke after ESLint upgrade to v9
+    // 'promise/prefer-await-to-then': 2,
     'promise/valid-params': 2,
     'quote-props': [
       2,
@@ -690,7 +697,12 @@ module.exports = {
     ],
     'semi-style': [2, 'last'],
     'simple-import-sort/exports': 2,
-    'simple-import-sort/imports': [2, { groups: [] }],
+    'simple-import-sort/imports': [
+      2,
+      {
+        groups: [],
+      },
+    ],
     'sort-imports': 0,
     'sort-keys': 0,
     'sort-vars': 2,
