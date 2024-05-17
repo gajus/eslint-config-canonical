@@ -8,7 +8,7 @@ module.exports.recommended = {
     // TODO broke after upgrading to ESLint v9
     // 'canonical/sort-react-dependencies': 2,
     'react/boolean-prop-naming': 0,
-    'react/button-has-type': 2,
+    // 'react/button-has-type': 2,
     // TODO broke after upgrading to ESLint v9
     // 'react/default-props-match-prop-types': 2,
     'react/destructuring-assignment': 0,
@@ -27,7 +27,7 @@ module.exports.recommended = {
     //   },
     // ],
     // 'react/hook-use-state': 2,
-    'react/iframe-missing-sandbox': 2,
+    // 'react/iframe-missing-sandbox': 2,
     'react/jsx-boolean-value': [2, 'never'],
     'react/jsx-child-element-spacing': 0,
     'react/jsx-closing-bracket-location': [2, 'line-aligned'],
@@ -151,7 +151,7 @@ module.exports.recommended = {
     // TODO broke after upgrading to ESLint v9
     // 'react/no-array-index-key': 2,
     // 'react/no-arrow-function-lifecycle': 2,
-    'react/no-children-prop': 2,
+    // 'react/no-children-prop': 2,
     'react/no-danger': 2,
     'react/no-danger-with-children': 2,
     'react/no-deprecated': 2,
@@ -195,7 +195,9 @@ module.exports.recommended = {
     'react/react-in-jsx-scope': 0,
     'react/require-default-props': 0,
     'react/require-optimization': 0,
+    // TODO broke after upgrading to ESLint v9
     // 'react/require-render-return': 2,
+    // TODO broke after upgrading to ESLint v9
     'react/self-closing-comp': 2,
     // 'react/sort-comp': 2,
     'react/sort-default-props': 2,

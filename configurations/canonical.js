@@ -31,12 +31,13 @@ const importRules = {
   'import/no-cycle': 2,
   'import/no-default-export': 0,
   'import/no-deprecated': 1,
-  'import/no-duplicates': [
-    2,
-    {
-      'prefer-inline': true,
-    },
-  ],
+  // TODO broke after ESLint upgrade to v9
+  // 'import/no-duplicates': [
+  //   2,
+  //   {
+  //     'prefer-inline': true,
+  //   },
+  // ],
   'import/no-dynamic-require': 2,
   'import/no-extraneous-dependencies': [
     2,
@@ -48,9 +49,10 @@ const importRules = {
   ],
   'import/no-import-module-exports': 0,
   'import/no-internal-modules': 0,
-  'import/no-mutable-exports': 2,
-  'import/no-named-as-default': 2,
-  'import/no-named-as-default-member': 2,
+  // TODO broke after ESLint upgrade to v9
+  // 'import/no-mutable-exports': 2,
+  // 'import/no-named-as-default': 2,
+  // 'import/no-named-as-default-member': 2,
   'import/no-named-default': 2,
   'import/no-named-export': 0,
   'import/no-namespace': 0,
@@ -298,7 +300,7 @@ module.exports.recommended = {
       },
     ],
     'canonical/import-specifier-newline': 2,
-    'canonical/no-import-namespace-destructure': 2,
+    // 'canonical/no-import-namespace-destructure': 2,
     'canonical/no-restricted-strings': 0,
     'canonical/no-use-extend-native': 2,
     'canonical/sort-destructure-keys': 2,
