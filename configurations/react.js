@@ -1,5 +1,17 @@
+const globals = require('globals');
+
 module.exports.recommended = {
   files: ['**/*.tsx'],
+  languageOptions: {
+    globals: {
+      ...globals.browser,
+    },
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
+    },
+  },
   plugins: {
     canonical: require('eslint-plugin-canonical'),
     react: require('eslint-plugin-react'),
