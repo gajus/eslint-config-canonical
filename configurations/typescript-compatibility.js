@@ -1,4 +1,5 @@
 module.exports.recommended = {
+  files: ['*.ts', '*.tsx'],
   rules: {
     '@babel/no-unused-expressions': 0,
     '@typescript-eslint/brace-style': [
