@@ -1,5 +1,12 @@
-module.exports = {
-  plugins: ['ava', 'unicorn'],
+const ava = require('eslint-plugin-ava');
+const unicorn = require('eslint-plugin-unicorn');
+
+module.exports.recommended = {
+  files: ['**/*.test.{js,ts,tsx}'],
+  plugins: {
+    ava,
+    unicorn,
+  },
   rules: {
     'ava/assertion-arguments': 2,
     'ava/hooks-order': 2,

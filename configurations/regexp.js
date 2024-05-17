@@ -1,8 +1,10 @@
 /**
  * https://github.com/ota-meshi/eslint-plugin-regexp/blob/master/lib/configs/recommended.ts
  */
-module.exports = {
-  plugins: ['regexp'],
+module.exports.recommended = {
+  plugins: {
+    regexp: require('eslint-plugin-regexp'),
+  },
   rules: {
     'no-control-regex': 2,
     'no-empty-character-class': 0,

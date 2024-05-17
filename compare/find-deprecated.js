@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 /**
  * https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues/825
  * https://github.com/eslint/eslint/issues/15292
@@ -29,6 +27,7 @@ const { getLoadedRules } = require('./utilities');
     });
 
     if (response.toLowerCase().includes('deprecated')) {
+      // eslint-disable-next-line no-console
       console.warn(
         '⚠️  ' +
           ruleName +

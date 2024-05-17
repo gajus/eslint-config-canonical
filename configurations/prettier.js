@@ -1,5 +1,7 @@
-module.exports = {
-  plugins: ['prettier'],
+module.exports.recommended = {
+  plugins: {
+    prettier: require('eslint-plugin-prettier'),
+  },
   rules: {
     '@babel/object-curly-spacing': 0,
     '@typescript-eslint/indent': 0,

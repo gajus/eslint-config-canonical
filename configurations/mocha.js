@@ -1,8 +1,10 @@
-module.exports = {
+module.exports.recommended = {
   env: {
     mocha: true,
   },
-  plugins: ['mocha'],
+  plugins: {
+    mocha: require('eslint-plugin-mocha'),
+  },
   rules: {
     'mocha/handle-done-callback': 2,
     'mocha/max-top-level-suites': [

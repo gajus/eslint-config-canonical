@@ -30,5 +30,5 @@ const orderedRules = {
   rules: Object.fromEntries(Object.entries(appendRules).sort()),
 };
 
-// eslint-disable-next-line no-console -- CLI
+// eslint-disable-next-line no-console
 console.log('module.exports = ' + JSON.stringify(orderedRules, '', '  '));

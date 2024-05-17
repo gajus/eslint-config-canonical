@@ -1,5 +1,7 @@
-module.exports = {
-  plugins: ['jsdoc'],
+module.exports.recommended = {
+  plugins: {
+    jsdoc: require('eslint-plugin-jsdoc'),
+  },
   rules: {
     'jsdoc/check-access': 2,
     'jsdoc/check-alignment': 2,

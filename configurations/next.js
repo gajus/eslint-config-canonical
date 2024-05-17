@@ -1,5 +1,7 @@
-module.exports = {
-  plugins: ['@next/next'],
+module.exports.recommended = {
+  plugins: {
+    '@next/next': require('@next/next'),
+  },
   rules: {
     '@next/next/google-font-display': 1,
     '@next/next/google-font-preconnect': 1,

@@ -1,6 +1,11 @@
-module.exports = {
-  parser: 'jsonc-eslint-parser',
-  plugins: ['jsonc'],
+module.exports.recommended = {
+  files: ['*.json'],
+  languageOptions: {
+    parser: require('eslint-plugin-jsonc'),
+  },
+  plugins: {
+    jsonc: require('eslint-plugin-jsonc'),
+  },
   rules: {
     'jsonc/array-bracket-newline': [
       2,

@@ -1,29 +1,30 @@
 // Omit `.d.ts` because 1) TypeScript compilation already confirms that
 // types are resolved, and 2) it would mask an unresolved
+
 // `.ts`/`.tsx`/`.js`/`.jsx` implementation.
 const typescriptExtensions = ['.ts', '.tsx', '.js', '.jsx'];
 
-module.exports = {
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        '@typescript-eslint/explicit-member-accessibility': 2,
-      },
-    },
-    {
-      files: ['*.d.ts'],
-      rules: {
-        '@typescript-eslint/consistent-type-definitions': 0,
-        '@typescript-eslint/no-empty-interface': 0,
-        '@typescript-eslint/no-shadow': 0,
-        'no-var': 0,
-        'vars-on-top': 0,
-      },
-    },
-  ],
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'typescript-sort-keys'],
+// TODO add .d.ts files
+// {
+//   files: ['*.d.ts'],
+//   rules: {
+//     '@typescript-eslint/consistent-type-definitions': 0,
+//     '@typescript-eslint/no-empty-interface': 0,
+//     '@typescript-eslint/no-shadow': 0,
+//     'no-var': 0,
+//     'vars-on-top': 0,
+//   },
+// }
+
+module.exports.recommended = {
+  files: ['*.ts', '*.tsx'],
+  languageOptions: {
+    parser: require('@typescript-eslint/parser'),
+  },
+  plugins: {
+    '@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
+    'typescript-sort-keys': require('eslint-plugin-typescript-sort-keys'),
+  },
   rules: {
     '@babel/object-curly-spacing': 0,
     '@typescript-eslint/adjacent-overload-signatures': 2,

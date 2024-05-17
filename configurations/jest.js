@@ -1,8 +1,9 @@
-module.exports = {
-  env: {
-    jest: true,
-  },
-  plugins: ['jest'],
+module.exports.recommended = {
+  plugins: [
+    {
+      jest: require('eslint-plugin-jest'),
+    },
+  ],
   rules: {
     'jest/consistent-test-it': 2,
     'jest/expect-expect': 2,

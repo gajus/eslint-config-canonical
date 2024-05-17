@@ -1,6 +1,11 @@
-module.exports = {
-  parser: 'yaml-eslint-parser',
-  plugins: ['yml'],
+module.exports.recommended = {
+  files: ['*.yaml'],
+  languageOptions: {
+    parser: require('yaml-eslint-parser'),
+  },
+  plugins: {
+    yml: require('eslint-plugin-yml'),
+  },
   rules: {
     'yml/block-mapping': 2,
     'yml/block-mapping-question-indicator-newline': 2,

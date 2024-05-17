@@ -1,5 +1,7 @@
-module.exports = {
-  plugins: ['lodash'],
+module.exports.recommended = {
+  plugins: {
+    lodash: require('eslint-plugin-lodash'),
+  },
   rules: {
     'lodash/callback-binding': 2,
     'lodash/chain-style': [2, 'explicit'],
