@@ -1,4 +1,5 @@
 module.exports.recommended = {
+  files: ['**/*.tsx'],
   plugins: {
     canonical: require('eslint-plugin-canonical'),
     react: require('eslint-plugin-react'),
@@ -50,7 +51,7 @@ module.exports.recommended = {
     'react/jsx-equals-spacing': [2, 'never'],
     'react/jsx-filename-extension': 0,
     'react/jsx-first-prop-new-line': [2, 'multiline-multiprop'],
-    'react/jsx-fragments': [2, 'syntax'],
+    // 'react/jsx-fragments': [2, 'syntax'],
     'react/jsx-handler-names': [
       2,
       {
@@ -99,7 +100,7 @@ module.exports.recommended = {
     'react/jsx-no-literals': 0,
     'react/jsx-no-script-url': 2,
     'react/jsx-no-target-blank': 2,
-    'react/jsx-no-undef': 2,
+    // 'react/jsx-no-undef': 2,
     'react/jsx-no-useless-fragment': [
       2,
       {
@@ -142,8 +143,8 @@ module.exports.recommended = {
         closingSlash: 'never',
       },
     ],
-    'react/jsx-uses-react': 2,
-    'react/jsx-uses-vars': 2,
+    // 'react/jsx-uses-react': 2,
+    // 'react/jsx-uses-vars': 2,
     'react/jsx-wrap-multilines': 0,
     // TODO broke after upgrading to ESLint v9
     // 'react/no-access-state-in-setstate': 2,
@@ -153,7 +154,7 @@ module.exports.recommended = {
     // 'react/no-arrow-function-lifecycle': 2,
     // 'react/no-children-prop': 2,
     'react/no-danger': 2,
-    'react/no-danger-with-children': 2,
+    // 'react/no-danger-with-children': 2,
     'react/no-deprecated': 2,
     'react/no-did-mount-set-state': 2,
     'react/no-did-update-set-state': 2,
@@ -163,7 +164,7 @@ module.exports.recommended = {
     'react/no-invalid-html-attribute': 2,
     'react/no-is-mounted': 2,
     'react/no-multi-comp': 0,
-    'react/no-namespace': 2,
+    // 'react/no-namespace': 2,
     'react/no-redundant-should-component-update': 2,
     'react/no-render-return-value': 2,
     // TODO broke after upgrading to ESLint v9
@@ -205,8 +206,8 @@ module.exports.recommended = {
     'react/state-in-constructor': [2, 'always'],
     // TODO broke after upgrading to ESLint v9
     // 'react/static-property-placement': 2,
-    'react/style-prop-object': 2,
-    'react/void-dom-elements-no-children': 2,
+    // 'react/style-prop-object': 2,
+    // 'react/void-dom-elements-no-children': 2,
     'react-hooks/exhaustive-deps': 2,
     'react-hooks/rules-of-hooks': 2,
   },

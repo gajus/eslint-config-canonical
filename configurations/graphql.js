@@ -1,5 +1,5 @@
 module.exports.recommended = {
-  files: ['*.graphql'],
+  files: ['**/*.graphql'],
   languageOptions: {
     parser: require('@graphql-eslint/eslint-plugin'),
   },

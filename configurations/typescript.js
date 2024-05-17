@@ -1,9 +1,3 @@
-// Omit `.d.ts` because 1) TypeScript compilation already confirms that
-// types are resolved, and 2) it would mask an unresolved
-
-// `.ts`/`.tsx`/`.js`/`.jsx` implementation.
-const typescriptExtensions = ['.ts', '.tsx', '.js', '.jsx'];
-
 // TODO add .d.ts files
 // {
 //   files: ['*.d.ts'],
@@ -17,12 +11,16 @@ const typescriptExtensions = ['.ts', '.tsx', '.js', '.jsx'];
 // }
 
 module.exports.recommended = {
-  files: ['*.ts', '*.tsx'],
+  files: ['**/*.{ts,tsx}'],
   languageOptions: {
     parser: require('@typescript-eslint/parser'),
+    parserOptions: {
+      project: true,
+    },
   },
   plugins: {
     '@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
+    canonical: require('eslint-plugin-canonical'),
     'typescript-sort-keys': require('eslint-plugin-typescript-sort-keys'),
   },
   rules: {
@@ -202,14 +200,14 @@ module.exports.recommended = {
     'typescript-sort-keys/string-enum': 2,
   },
   settings: {
-    'import/extensions': typescriptExtensions,
+    'import/extensions': ['.ts', '.tsx'],
     'import/external-module-folders': ['node_modules', 'node_modules/@types'],
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     'import/resolver': {
       typescript: {
-        extensions: typescriptExtensions,
+        extensions: ['.ts', '.tsx'],
       },
     },
     jsdoc: {

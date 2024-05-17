@@ -1,5 +1,5 @@
 module.exports.recommended = {
-  files: ['*.json'],
+  files: ['**/*.json'],
   languageOptions: {
     parser: require('eslint-plugin-jsonc'),
   },

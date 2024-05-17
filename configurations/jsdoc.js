@@ -1,4 +1,5 @@
 module.exports.recommended = {
+  files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     jsdoc: require('eslint-plugin-jsdoc'),
   },

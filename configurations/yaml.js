@@ -1,5 +1,5 @@
 module.exports.recommended = {
-  files: ['*.yaml'],
+  files: ['**/*.yaml'],
   languageOptions: {
     parser: require('yaml-eslint-parser'),
   },

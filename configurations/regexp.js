@@ -2,6 +2,7 @@
  * https://github.com/ota-meshi/eslint-plugin-regexp/blob/master/lib/configs/recommended.ts
  */
 module.exports.recommended = {
+  files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     regexp: require('eslint-plugin-regexp'),
   },

@@ -204,22 +204,7 @@ const unicornRules = {
 };
 
 module.exports.recommended = {
-  languageOptions: {
-    parser: require('@babel/eslint-parser'),
-    parserOptions: {
-      babelOptions: {
-        plugins: ['@babel/plugin-syntax-import-assertions'],
-      },
-      ecmaFeatures: {
-        globalReturn: false,
-        impliedStrict: true,
-        jsx: true,
-      },
-      ecmaVersion: 2_021,
-      requireConfigFile: false,
-      sourceType: 'module',
-    },
-  },
+  files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     '@babel': require('@babel/eslint-plugin'),
     canonical: require('eslint-plugin-canonical'),
