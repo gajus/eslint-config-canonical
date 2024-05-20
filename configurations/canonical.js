@@ -319,7 +319,7 @@ module.exports.recommended = {
       },
     ],
     'comma-style': [2, 'last'],
-    complexity: [2, 20],
+    complexity: [2, 30],
     'computed-property-spacing': [2, 'never'],
     'consistent-return': 2,
     'consistent-this': [2, 'self'],
