@@ -1,5 +1,3 @@
-/* eslint-disable complexity */
-
 const { ESLint } = require('eslint');
 const { builtinRules } = require('eslint/use-at-your-own-risk');
 
