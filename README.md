@@ -16,7 +16,7 @@ Most projects should simply extend from [`canonical/auto`](#canonicalauto-rulese
 import auto from 'eslint-config-canonical/configurations/auto';
 
 export default [
-  auto
+  ...auto
 ];
 ```
 
