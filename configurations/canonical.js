@@ -1,80 +1,76 @@
-// const importRules = {
-//   'import/consistent-type-specifier-style': [2, 'prefer-inline'],
-//   'import/default': 2,
-//   'import/dynamic-import-chunkname': 0,
-//   'import/export': 2,
-//   'import/exports-last': 0,
-//   'import/extensions': [
-//     2,
-//     'never',
-//     {
-//       ignorePackages: true,
-//       pattern: {
-//         graphql: 'always',
-//         json: 'always',
-//         svg: 'always',
-//       },
-//     },
-//   ],
-//   'import/first': 2,
-//   'import/group-exports': 0,
-//   'import/max-dependencies': 0,
-//   'import/named': 0,
-//   'import/namespace': 0,
-//   // TODO broke after ESLint upgrade to v9
-//   // 'import/newline-after-import': 2,
-//   'import/no-absolute-path': 2,
-//   // TODO broke after ESLint upgrade to v9
-//   // 'import/no-amd': 2,
-//   'import/no-anonymous-default-export': 0,
-//   'import/no-commonjs': 0,
-//   'import/no-cycle': 2,
-//   'import/no-default-export': 0,
-//   'import/no-deprecated': 1,
-//   // TODO broke after ESLint upgrade to v9
-//   // 'import/no-duplicates': [
-//   //   2,
-//   //   {
-//   //     'prefer-inline': true,
-//   //   },
-//   // ],
-//   'import/no-dynamic-require': 2,
-//   'import/no-extraneous-dependencies': [
-//     2,
-//     {
-//       devDependencies: true,
-//       optionalDependencies: true,
-//       peerDependencies: true,
-//     },
-//   ],
-//   'import/no-import-module-exports': 0,
-//   'import/no-internal-modules': 0,
-//   // TODO broke after ESLint upgrade to v9
-//   // 'import/no-mutable-exports': 2,
-//   // 'import/no-named-as-default': 2,
-//   // 'import/no-named-as-default-member': 2,
-//   'import/no-named-default': 2,
-//   'import/no-named-export': 0,
-//   'import/no-namespace': 0,
-//   'import/no-nodejs-modules': 0,
-//   'import/no-relative-packages': 0,
-//   'import/no-relative-parent-imports': 0,
-//   'import/no-restricted-paths': 0,
-//   'import/no-self-import': 2,
-//   'import/no-unassigned-import': 2,
-//   'import/no-unresolved': 0,
-//   'import/no-unused-modules': 0,
-//   'import/no-useless-path-segments': [
-//     2,
-//     {
-//       noUselessIndex: true,
-//     },
-//   ],
-//   'import/no-webpack-loader-syntax': 2,
-//   'import/order': 0,
-//   'import/prefer-default-export': 0,
-//   'import/unambiguous': 0,
-// };
+const importRules = {
+  'import/consistent-type-specifier-style': [2, 'prefer-inline'],
+  'import/default': 2,
+  'import/dynamic-import-chunkname': 0,
+  'import/export': 2,
+  'import/exports-last': 0,
+  'import/extensions': [
+    2,
+    'never',
+    {
+      ignorePackages: true,
+      pattern: {
+        graphql: 'always',
+        json: 'always',
+        svg: 'always',
+      },
+    },
+  ],
+  'import/first': 2,
+  'import/group-exports': 0,
+  'import/max-dependencies': 0,
+  'import/named': 0,
+  'import/namespace': 0,
+  'import/newline-after-import': 2,
+  'import/no-absolute-path': 2,
+  'import/no-amd': 2,
+  'import/no-anonymous-default-export': 0,
+  'import/no-commonjs': 0,
+  'import/no-cycle': 2,
+  'import/no-default-export': 0,
+  'import/no-deprecated': 1,
+  'import/no-duplicates': [
+    2,
+    {
+      'prefer-inline': true,
+    },
+  ],
+  'import/no-dynamic-require': 2,
+  'import/no-extraneous-dependencies': [
+    2,
+    {
+      devDependencies: true,
+      optionalDependencies: true,
+      peerDependencies: true,
+    },
+  ],
+  'import/no-import-module-exports': 0,
+  'import/no-internal-modules': 0,
+  'import/no-mutable-exports': 2,
+  'import/no-named-as-default': 2,
+  'import/no-named-as-default-member': 2,
+  'import/no-named-default': 2,
+  'import/no-named-export': 0,
+  'import/no-namespace': 0,
+  'import/no-nodejs-modules': 0,
+  'import/no-relative-packages': 0,
+  'import/no-relative-parent-imports': 0,
+  'import/no-restricted-paths': 0,
+  'import/no-self-import': 2,
+  'import/no-unassigned-import': 2,
+  'import/no-unresolved': 0,
+  'import/no-unused-modules': 0,
+  'import/no-useless-path-segments': [
+    2,
+    {
+      noUselessIndex: true,
+    },
+  ],
+  'import/no-webpack-loader-syntax': 2,
+  'import/order': 0,
+  'import/prefer-default-export': 0,
+  'import/unambiguous': 0,
+};
 
 const unicornRules = {
   'unicorn/better-regex': 2,
@@ -209,14 +205,13 @@ module.exports.recommended = {
     '@babel': require('@babel/eslint-plugin'),
     canonical: require('eslint-plugin-canonical'),
     'eslint-comments': require('eslint-plugin-eslint-comments'),
-    // import: require('eslint-plugin-import'),
+    import: require('eslint-plugin-import'),
     promise: require('eslint-plugin-promise'),
     'simple-import-sort': require('eslint-plugin-simple-import-sort'),
     unicorn: require('eslint-plugin-unicorn'),
   },
   rules: {
-    // TODO https://github.com/import-js/eslint-plugin-import/issues/2556
-    // ...importRules,
+    ...importRules,
     ...unicornRules,
     '@babel/new-cap': 0,
     '@babel/no-invalid-this': 2,
@@ -267,14 +262,13 @@ module.exports.recommended = {
     ],
     'canonical/export-specifier-newline': 2,
     'canonical/filename-match-exported': 2,
-    // TODO this is causing unexpected issues in v9
-    // 'canonical/filename-match-regex': [
-    //   1,
-    //   {
-    //     ignoreExporting: false,
-    //     regex: '^(?:.?[A-Z]?[a-z]+(?:[A-Z][a-z]+)*)*$',
-    //   },
-    // ],
+    'canonical/filename-match-regex': [
+      1,
+      {
+        ignoreExporting: false,
+        regex: '^(?:.?[A-Z]?[a-z]+(?:[A-Z][a-z]+)*)*$',
+      },
+    ],
     'canonical/filename-no-index': 0,
     'canonical/id-match': [
       2,
@@ -287,7 +281,7 @@ module.exports.recommended = {
       },
     ],
     'canonical/import-specifier-newline': 2,
-    // 'canonical/no-import-namespace-destructure': 2,
+    'canonical/no-import-namespace-destructure': 2,
     'canonical/no-restricted-strings': 0,
     'canonical/no-use-extend-native': 2,
     'canonical/sort-destructure-keys': 2,
@@ -659,8 +653,7 @@ module.exports.recommended = {
     'prefer-template': 0,
     'promise/param-names': 2,
     'promise/prefer-await-to-callbacks': 0,
-    // TODO broke after ESLint upgrade to v9
-    // 'promise/prefer-await-to-then': 2,
+    'promise/prefer-await-to-then': 2,
     'promise/valid-params': 2,
     'quote-props': [
       2,
@@ -738,7 +731,7 @@ module.exports.recommended = {
     ],
     yoda: [2, 'never'],
   },
-  // settings: {
-  //   'import/extensions': ['.js', '.jsx', '.mjs', '.ts', '.tsx'],
-  // },
+  settings: {
+    'import/extensions': ['.js', '.jsx', '.mjs', '.ts', '.tsx'],
+  },
 };
