@@ -119,7 +119,6 @@ module.exports.recommended = {
     'no-use-before-define': 0,
     'no-useless-constructor': 0,
     'object-curly-spacing': 0,
-    'padding-line-between-statements': 0,
     quotes: 0,
     'react/prop-types': 0,
     'require-await': 0,

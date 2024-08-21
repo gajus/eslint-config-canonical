@@ -157,7 +157,6 @@ module.exports.recommended = {
     '@typescript-eslint/no-var-requires': 2,
     '@typescript-eslint/non-nullable-type-assertion-style': 0,
     '@typescript-eslint/object-curly-spacing': [2, 'never'],
-    '@typescript-eslint/padding-line-between-statements': 0,
     '@typescript-eslint/prefer-as-const': 2,
     '@typescript-eslint/prefer-enum-initializers': 2,
     '@typescript-eslint/prefer-for-of': 2,
