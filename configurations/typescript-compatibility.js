@@ -75,14 +75,6 @@ module.exports.recommended = {
     ],
     '@typescript-eslint/no-useless-constructor': 2,
     '@typescript-eslint/object-curly-spacing': 0,
-    '@typescript-eslint/padding-line-between-statements': [
-      2,
-      {
-        blankLine: 'always',
-        next: '*',
-        prev: 'multiline-block-like',
-      },
-    ],
     '@typescript-eslint/quotes': [2, 'single'],
     '@typescript-eslint/require-await': 0,
     '@typescript-eslint/semi': [2, 'always'],
