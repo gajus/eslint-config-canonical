@@ -62,18 +62,7 @@ module.exports.recommended = {
     ],
 
     '@typescript-eslint/no-unused-expressions': 2,
-    '@typescript-eslint/no-unused-vars': [
-      2,
-      {
-        args: 'all',
-        argsIgnorePattern: '^_',
-        caughtErrors: 'all',
-        caughtErrorsIgnorePattern: '^_',
-        destructuredArrayIgnorePattern: '^_',
-        ignoreRestSiblings: true,
-        varsIgnorePattern: '^_',
-      },
-    ],
+    '@typescript-eslint/no-unused-vars': 2,
     '@typescript-eslint/no-use-before-define': [
       2,
       {
