@@ -21,7 +21,6 @@ module.exports.recommended = {
   plugins: {
     '@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
     canonical: require('eslint-plugin-canonical'),
-    'typescript-sort-keys': require('eslint-plugin-typescript-sort-keys'),
   },
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 2,
@@ -194,8 +193,6 @@ module.exports.recommended = {
         markers: ['/'],
       },
     ],
-    'typescript-sort-keys/interface': 2,
-    'typescript-sort-keys/string-enum': 2,
     ...require('./typescript-compatibility').recommended.rules,
   },
   settings: {

@@ -898,8 +898,6 @@ Configurations:
 |[`symbol-description`](https://eslint.org/docs/rules/symbol-description)<a id="rule-canonical-symbol-description" />|🚨|🚨|👻|🚨|🚨|
 |[`template-curly-spacing`](https://eslint.org/docs/rules/template-curly-spacing)<a id="rule-canonical-template-curly-spacing" /> 🛠|🚨|🚨<a href="#rule-airbnb-template-curly-spacing">?</a>|👻|🚨|🚨<a href="#rule-xo-template-curly-spacing">?</a>|
 |[`template-tag-spacing`](https://eslint.org/docs/rules/template-tag-spacing)<a id="rule-canonical-template-tag-spacing" /> 🛠|🚨|🚨|👻|🚨|🚨|
-|`typescript-sort-keys/interface`<a id="rule-canonical-typescript-sort-keys/interface" /> 🛠|🚨|👻|👻|👻|👻|
-|`typescript-sort-keys/string-enum`<a id="rule-canonical-typescript-sort-keys/string-enum" /> 🛠|🚨|👻|👻|👻|👻|
 |[`unicode-bom`](https://eslint.org/docs/rules/unicode-bom)<a id="rule-canonical-unicode-bom" /> 🛠|🚨|🚨|👻|🚨|🚨|
 |[`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/better-regex.md)<a id="rule-canonical-unicorn/better-regex" /> 🛠|🚨|👻|👻|👻|👻|
 |[`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md)<a id="rule-canonical-unicorn/catch-error-name" /> 🛠|🚨|👻|👻|👻|👻|
