@@ -146,7 +146,7 @@ module.exports.recommended = {
     ],
     'react/jsx-props-no-multi-spaces': 2,
     'react/jsx-props-no-spreading': 0,
-    'react/jsx-sort-props': 2,
+    'react/jsx-sort-props': 0,
     'react/jsx-tag-spacing': [
       2,
       {
