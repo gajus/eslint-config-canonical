@@ -3,9 +3,8 @@
  * https://github.com/eslint/eslint/issues/15292
  */
 
-const got = require('got');
-
 const { getLoadedRules } = require('./utilities');
+const got = require('got');
 
 (async () => {
   const loadedRules = await getLoadedRules();

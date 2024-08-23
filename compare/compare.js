@@ -1,10 +1,6 @@
 /* eslint-disable no-console */
 /* eslint-disable complexity */
 
-const { readFile, writeFile } = require('node:fs/promises');
-const { resolve } = require('node:path');
-const stringify = require('safe-stable-stringify');
-
 const {
   getConfigurationRules,
   getLoadedRules,
@@ -13,6 +9,9 @@ const {
   isRuleEnabled,
   normalizeConfiguration,
 } = require('./utilities');
+const { readFile, writeFile } = require('node:fs/promises');
+const { resolve } = require('node:path');
+const stringify = require('safe-stable-stringify');
 
 const getIncompatibleRuleNames = (canonicalRules, comparedRules) => {
   const incompatibleRuleNames = [];
