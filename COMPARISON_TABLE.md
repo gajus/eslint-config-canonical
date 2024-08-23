@@ -217,8 +217,6 @@ Configurations:
 |[`canonical/prefer-react-lazy`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-prefer-react-lazy)<a id="rule-canonical-canonical/prefer-react-lazy" />|👻|👻|👻|👻|👻|
 |[`canonical/prefer-use-mount`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-prefer-use-mount)<a id="rule-canonical-canonical/prefer-use-mount" />|👻|👻|👻|👻|👻|
 |[`canonical/require-extension`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-require-extension)<a id="rule-canonical-canonical/require-extension" /> 🛠|👻|👻|👻|👻|👻|
-|[`canonical/sort-destructure-keys`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-sort-destructure-keys)<a id="rule-canonical-canonical/sort-destructure-keys" /> 🛠|🚨|👻|👻|👻|👻|
-|[`canonical/sort-keys`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-sort-keys)<a id="rule-canonical-canonical/sort-keys" /> 🛠|🚨|👻|👻|👻|👻|
 |[`canonical/sort-react-dependencies`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-sort-react-dependencies)<a id="rule-canonical-canonical/sort-react-dependencies" /> 🛠|🚨|👻|👻|👻|👻|
 |[`canonical/virtual-module`](https://github.com/gajus/eslint-plugin-canonical#eslint-plugin-canonical-rules-virtual-module)<a id="rule-canonical-canonical/virtual-module" /> 🛠|👻|👻|👻|👻|👻|
 |[`capitalized-comments`](https://eslint.org/docs/rules/capitalized-comments)<a id="rule-canonical-capitalized-comments" /> 🛠|❌|❌|👻|👻|🚨<a href="#rule-xo-capitalized-comments">?</a>|

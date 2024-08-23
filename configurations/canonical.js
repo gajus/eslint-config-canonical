@@ -278,15 +278,6 @@ module.exports.recommended = {
     'canonical/no-import-namespace-destructure': 2,
     'canonical/no-restricted-strings': 0,
     'canonical/no-use-extend-native': 2,
-    'canonical/sort-destructure-keys': 2,
-    'canonical/sort-keys': [
-      2,
-      'asc',
-      {
-        caseSensitive: false,
-        natural: true,
-      },
-    ],
     'capitalized-comments': 0,
     'class-methods-use-this': 0,
     'comma-dangle': [
