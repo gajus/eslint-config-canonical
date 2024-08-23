@@ -217,7 +217,7 @@ module.exports.recommended = {
     'react/sort-prop-types': 2,
     'react/state-in-constructor': [2, 'always'],
     // TODO broke after upgrading to ESLint v9
-    // 'react/static-property-placement': 2,
+    'react/static-property-placement': 0,
     // 'react/style-prop-object': 2,
     // 'react/void-dom-elements-no-children': 2,
     // 'react-hooks/exhaustive-deps': 2,
