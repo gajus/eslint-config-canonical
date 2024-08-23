@@ -24,7 +24,6 @@ module.exports.recommended = {
     'typescript-sort-keys': require('eslint-plugin-typescript-sort-keys'),
   },
   rules: {
-    '@babel/object-curly-spacing': 0,
     '@typescript-eslint/adjacent-overload-signatures': 2,
     '@typescript-eslint/array-type': [
       2,

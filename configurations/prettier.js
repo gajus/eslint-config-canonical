@@ -5,7 +5,6 @@ module.exports.recommended = {
   },
   rules: {
     ...require('eslint-config-prettier').rules,
-    '@babel/object-curly-spacing': 0,
     '@typescript-eslint/indent': 0,
     'array-bracket-newline': 0,
     'array-element-newline': 0,

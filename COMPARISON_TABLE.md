@@ -25,11 +25,6 @@ Configurations:
 <!-- START compare -->
 |Rule|CN|[AB](https://www.npmjs.com/package/eslint-config-airbnb)|[GG](https://www.npmjs.com/package/eslint-config-google)|[SD](https://www.npmjs.com/package/eslint-config-standard)|[XO](https://github.com/xojs/eslint-config-xo)|
 |---|---|---|---|---|---|
-|`@babel/new-cap`<a id="rule-canonical-@babel/new-cap" />|❌|👻|👻|👻|👻|
-|`@babel/no-invalid-this`<a id="rule-canonical-@babel/no-invalid-this" />|🚨|👻|👻|👻|👻|
-|`@babel/no-unused-expressions`<a id="rule-canonical-@babel/no-unused-expressions" />|🚨|👻|👻|👻|👻|
-|`@babel/object-curly-spacing`<a id="rule-canonical-@babel/object-curly-spacing" /> 🛠|🚨|👻|👻|👻|👻|
-|`@babel/semi`<a id="rule-canonical-@babel/semi" /> 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/adjacent-overload-signatures`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md)<a id="rule-canonical-@typescript-eslint/adjacent-overload-signatures" />|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/array-type`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md)<a id="rule-canonical-@typescript-eslint/array-type" /> 🛠|🚨|👻|👻|👻|👻|
 |[`@typescript-eslint/await-thenable`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/await-thenable.md)<a id="rule-canonical-@typescript-eslint/await-thenable" />|👻|👻|👻|👻|👻|

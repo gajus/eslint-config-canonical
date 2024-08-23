@@ -202,7 +202,6 @@ const unicornRules = {
 module.exports.recommended = {
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
-    '@babel': require('@babel/eslint-plugin'),
     canonical: require('eslint-plugin-canonical'),
     'eslint-comments': require('eslint-plugin-eslint-comments'),
     import: require('eslint-plugin-import'),
@@ -213,11 +212,6 @@ module.exports.recommended = {
   rules: {
     ...importRules,
     ...unicornRules,
-    '@babel/new-cap': 0,
-    '@babel/no-invalid-this': 2,
-    '@babel/no-unused-expressions': 2,
-    '@babel/object-curly-spacing': [2, 'never'],
-    '@babel/semi': 2,
     'accessor-pairs': 2,
     'array-bracket-newline': [
       2,
