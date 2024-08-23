@@ -112,7 +112,6 @@ const createIncompatibleRuleSummary = (
     extends: [
       'canonical/ava',
       'canonical/browser',
-      'canonical/flowtype',
       'canonical/jest',
       'canonical/json',
       'canonical/jsx-a11y',

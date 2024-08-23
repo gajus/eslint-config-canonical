@@ -35,7 +35,6 @@ const configurationNames = [
   'canonical',
   'canonical/ava',
   'canonical/browser',
-  'canonical/flowtype',
   'canonical/jest',
   'canonical/json',
   'canonical/lodash',
@@ -150,16 +149,6 @@ const getRuleLink = (ruleName) => {
       '`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/' +
       ruleName.replace(/^unicorn\//u, '') +
       '.md)'
-    );
-  }
-
-  if (ruleName.startsWith('flowtype/')) {
-    return (
-      '[`' +
-      ruleName +
-      '`](https://github.com/gajus/eslint-plugin-flowtype/#eslint-plugin-flowtype-rules-' +
-      ruleName.replace(/^flowtype\//u, '') +
-      ')'
     );
   }
 

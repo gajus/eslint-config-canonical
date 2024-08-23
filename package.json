@@ -15,7 +15,6 @@
     "eslint-plugin-canonical": "^4.18.1",
     "eslint-plugin-cypress": "^3.5.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "npm:eslint-plugin-import-x@^3.1.0",
     "eslint-plugin-jest": "^28.8.0",

@@ -3,7 +3,6 @@ module.exports = {
   browser: require('./browser'),
   canonical: require('./canonical'),
   cypress: require('./cypress'),
-  flowtype: require('./flowtype'),
   graphql: require('./graphql'),
   jest: require('./jest'),
   jsdoc: require('./jsdoc'),
