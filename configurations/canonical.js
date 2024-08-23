@@ -207,7 +207,6 @@ module.exports.recommended = {
     import: require('eslint-plugin-import'),
     perfectionist: require('eslint-plugin-perfectionist'),
     promise: require('eslint-plugin-promise'),
-    'simple-import-sort': require('eslint-plugin-simple-import-sort'),
     unicorn: require('eslint-plugin-unicorn'),
   },
   rules: {
@@ -666,13 +665,6 @@ module.exports.recommended = {
       },
     ],
     'semi-style': [2, 'last'],
-    'simple-import-sort/exports': 2,
-    'simple-import-sort/imports': [
-      2,
-      {
-        groups: [],
-      },
-    ],
     'sort-imports': 0,
     'sort-keys': 0,
     'sort-vars': 2,

@@ -884,8 +884,6 @@ Configurations:
 |[`semi`](https://eslint.org/docs/rules/semi)<a id="rule-canonical-semi" /> 🛠|🚨|🚨|🚨<a href="#rule-google-semi">?</a>|🚨<a href="#rule-standard-semi">?</a>|🚨|
 |[`semi-spacing`](https://eslint.org/docs/rules/semi-spacing)<a id="rule-canonical-semi-spacing" /> 🛠|🚨|🚨|🚨<a href="#rule-google-semi-spacing">?</a>|🚨|🚨|
 |[`semi-style`](https://eslint.org/docs/rules/semi-style)<a id="rule-canonical-semi-style" /> 🛠|🚨|🚨|👻|👻|🚨|
-|`simple-import-sort/exports`<a id="rule-canonical-simple-import-sort/exports" /> 🛠|🚨|👻|👻|👻|👻|
-|`simple-import-sort/imports`<a id="rule-canonical-simple-import-sort/imports" /> 🛠|🚨|👻|👻|👻|👻|
 |[`sort-imports`](https://eslint.org/docs/rules/sort-imports)<a id="rule-canonical-sort-imports" /> 🛠|❌|❌|👻|👻|👻|
 |[`sort-keys`](https://eslint.org/docs/rules/sort-keys)<a id="rule-canonical-sort-keys" />|❌|❌|👻|👻|👻|
 |[`sort-vars`](https://eslint.org/docs/rules/sort-vars)<a id="rule-canonical-sort-vars" /> 🛠|🚨|❌|👻|👻|👻|
