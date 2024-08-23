@@ -212,7 +212,7 @@ module.exports.recommended = {
     // 'react/require-render-return': 2,
     // TODO broke after upgrading to ESLint v9
     'react/self-closing-comp': 2,
-    // 'react/sort-comp': 2,
+    'react/sort-comp': 0,
     'react/sort-default-props': 2,
     'react/sort-prop-types': 2,
     'react/state-in-constructor': [2, 'always'],
