@@ -212,6 +212,16 @@ module.exports.recommended = {
   rules: {
     ...require('eslint-plugin-perfectionist').configs['recommended-natural']
       .rules,
+    'perfectionist/sort-imports': [
+      2,
+      {
+        groups: [],
+        ignoreCase: true,
+        maxLineLength: undefined,
+        newlinesBetween: 'never',
+        type: 'natural',
+      },
+    ],
     ...importRules,
     ...unicornRules,
     'accessor-pairs': 2,
