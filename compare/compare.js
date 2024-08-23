@@ -1,15 +1,16 @@
 /* eslint-disable no-console */
 /* eslint-disable complexity */
 
-const { writeFile, readFile } = require('node:fs/promises');
+const { readFile, writeFile } = require('node:fs/promises');
 const { resolve } = require('node:path');
 const stringify = require('safe-stable-stringify');
+
 const {
-  isRuleEnabled,
-  getRuleLink,
-  getRuleConfiguration,
   getConfigurationRules,
   getLoadedRules,
+  getRuleConfiguration,
+  getRuleLink,
+  isRuleEnabled,
   normalizeConfiguration,
 } = require('./utilities');
 

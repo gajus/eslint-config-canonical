@@ -4,6 +4,7 @@
  */
 
 const got = require('got');
+
 const { getLoadedRules } = require('./utilities');
 
 (async () => {

@@ -205,11 +205,14 @@ module.exports.recommended = {
     canonical: require('eslint-plugin-canonical'),
     'eslint-comments': require('eslint-plugin-eslint-comments'),
     import: require('eslint-plugin-import'),
+    perfectionist: require('eslint-plugin-perfectionist'),
     promise: require('eslint-plugin-promise'),
     'simple-import-sort': require('eslint-plugin-simple-import-sort'),
     unicorn: require('eslint-plugin-unicorn'),
   },
   rules: {
+    ...require('eslint-plugin-perfectionist').configs['recommended-natural']
+      .rules,
     ...importRules,
     ...unicornRules,
     'accessor-pairs': 2,
