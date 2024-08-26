@@ -220,7 +220,7 @@ module.exports.recommended = {
     'react/static-property-placement': 0,
     // 'react/style-prop-object': 2,
     // 'react/void-dom-elements-no-children': 2,
-    // 'react-hooks/exhaustive-deps': 2,
+    'react-hooks/exhaustive-deps': 2,
     'react-hooks/rules-of-hooks': 2,
   },
   settings: {
