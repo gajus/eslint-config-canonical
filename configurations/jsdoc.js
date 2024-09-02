@@ -15,10 +15,7 @@ module.exports.recommended = {
     'jsdoc/check-tag-names': [
       2,
       {
-        definedTags: [
-          'jest-environment',
-          'jest-environment-options',
-        ],
+        definedTags: ['jest-environment', 'jest-environment-options'],
       },
     ],
     'jsdoc/check-types': 2,
