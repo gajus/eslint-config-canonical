@@ -1,7 +1,7 @@
 const globals = require('globals');
 
 module.exports.recommended = {
-  files: ['**/*.tsx'],
+  files: ['**/*.{jsx,tsx}'],
   languageOptions: {
     globals: {
       ...globals.browser,
