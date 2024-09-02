@@ -1,9 +1,12 @@
+const jest = require('eslint-plugin-jest');
+
 module.exports.recommended = {
-  plugins: [
-    {
-      jest: require('eslint-plugin-jest'),
-    },
-  ],
+  plugins: {
+    jest,
+  },
+  languageOptions: {
+    globals: jest.environments.globals.globals,
+  },
   rules: {
     'jest/consistent-test-it': 2,
     'jest/expect-expect': 2,
