@@ -12,7 +12,15 @@ module.exports.recommended = {
     'jsdoc/check-param-names': 2,
     'jsdoc/check-property-names': 2,
     'jsdoc/check-syntax': 2,
-    'jsdoc/check-tag-names': [2, { definedTags: ['jest-environment', 'jest-environment-options'] }],
+    'jsdoc/check-tag-names': [
+      2,
+      {
+        definedTags: [
+          'jest-environment',
+          'jest-environment-options',
+        ],
+      },
+    ],
     'jsdoc/check-types': 2,
     'jsdoc/check-values': 2,
     'jsdoc/empty-tags': 2,
