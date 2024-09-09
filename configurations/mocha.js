@@ -1,6 +1,8 @@
+const globals = require('globals');
+
 module.exports.recommended = {
-  env: {
-    mocha: true,
+  languageOptions: {
+    globals: globals.mocha,
   },
   plugins: {
     mocha: require('eslint-plugin-mocha'),
