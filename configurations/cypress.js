@@ -1,9 +1,11 @@
+const cypress = require('eslint-plugin-cypress/flat');
+
 module.exports.recommended = {
-  // env: {
-  //   'cypress/globals': true,
-  // },
+  languageOptions: {
+    globals: cypress.recommended.plugins.cypress.environments.globals.globals,
+  },
   plugins: {
-    cypress: require('eslint-plugin-cypress'),
+    cypress,
   },
   rules: {
     'cypress/assertion-before-screenshot': 2,
