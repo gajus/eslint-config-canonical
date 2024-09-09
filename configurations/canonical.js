@@ -358,7 +358,7 @@ module.exports.recommended = {
     'id-length': [
       2,
       {
-        exceptions: ['_', '$', 'a', 'b', 'x', 'y'],
+        exceptions: ['_', '$', 'a', 'b', 'x', 'y', 'z'],
         min: 2,
       },
     ],
