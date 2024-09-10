@@ -6,9 +6,9 @@
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^3.20.1",
-    "@next/eslint-plugin-next": "^14.2.8",
-    "@typescript-eslint/eslint-plugin": "^8.4.0",
-    "@typescript-eslint/parser": "^8.4.0",
+    "@next/eslint-plugin-next": "^14.2.9",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-ava": "^15.0.1",
@@ -51,7 +51,7 @@
     "got": "^14.4.2",
     "husky": "^9.1.5",
     "semantic-release": "^24.1.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   },
   "engines": {
     "node": ">=16.0.0"
