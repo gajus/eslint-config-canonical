@@ -18,7 +18,7 @@
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "npm:eslint-plugin-import-x@^4.3.0",
     "eslint-plugin-jest": "^28.8.3",
-    "eslint-plugin-jsdoc": "^50.2.4",
+    "eslint-plugin-jsdoc": "^50.2.5",
     "eslint-plugin-jsonc": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.10.0",
     "eslint-plugin-lodash": "^8.0.0",
@@ -44,7 +44,7 @@
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.0",
-    "@semantic-release/github": "^10.3.5",
+    "@semantic-release/github": "^11.0.0",
     "@semantic-release/npm": "^12.0.1",
     "ava": "^6.1.3",
     "eslint": "^9.11.1",
