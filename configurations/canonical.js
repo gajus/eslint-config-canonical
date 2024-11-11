@@ -343,6 +343,7 @@ module.exports.recommended = {
     'func-names': [2, 'never'],
     'func-style': [2, 'expression'],
     'function-call-argument-newline': [2, 'consistent'],
+    'function-call-spacing': [2, 'never'],
     'function-paren-newline': [2, 'consistent'],
     'generator-star-spacing': [
       2,

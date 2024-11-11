@@ -4,15 +4,14 @@ module.exports.recommended = {
     '@stylistic/ts': require('@stylistic/eslint-plugin-ts'),
   },
   rules: {
-    '@stylistic/ts/brace-style': [2, 'always'],
-    '@typescript-eslint/brace-style': [
+    '@stylistic/ts/brace-style': [
       2,
       '1tbs',
       {
         allowSingleLine: false,
       },
     ],
-    '@typescript-eslint/comma-dangle': [
+    '@stylistic/ts/comma-dangle': [
       2,
       {
         arrays: 'always-multiline',
@@ -22,31 +21,81 @@ module.exports.recommended = {
         objects: 'always-multiline',
       },
     ],
-    '@typescript-eslint/comma-spacing': [
+    '@stylistic/ts/comma-spacing': [
       2,
       {
         after: true,
         before: false,
       },
     ],
-    '@typescript-eslint/default-param-last': 2,
-    '@typescript-eslint/func-call-spacing': [2, 'never'],
-
-    '@typescript-eslint/indent': [2, 2],
-    '@typescript-eslint/init-declarations': 0,
-    '@typescript-eslint/keyword-spacing': [
+    '@stylistic/ts/function-call-spacing': [2, 'never'],
+    '@stylistic/ts/key-spacing': [
+      2,
+      {
+        afterColon: true,
+        beforeColon: false,
+      },
+    ],
+    '@stylistic/ts/keyword-spacing': [
       2,
       {
         after: true,
         before: true,
       },
     ],
+    '@stylistic/ts/lines-between-class-members': [2, 'always'],
+    '@stylistic/ts/no-extra-parens': 2,
+    '@stylistic/ts/no-extra-semi': 2,
+    '@stylistic/ts/object-curly-newline': [
+      2,
+      {
+        ExportDeclaration: 'always',
+        ImportDeclaration: 'always',
+        ObjectExpression: {
+          minProperties: 1,
+          multiline: true,
+        },
+        ObjectPattern: {
+          minProperties: 1,
+          multiline: true,
+        },
+      },
+    ],
+    '@stylistic/ts/object-curly-spacing': 0,
+    '@stylistic/ts/object-property-newline': [
+      2,
+      {
+        allowAllPropertiesOnSameLine: false,
+      },
+    ],
+    '@stylistic/ts/padding-line-between-statements': [
+      2,
+      {
+        blankLine: 'always',
+        next: '*',
+        prev: 'multiline-block-like',
+      },
+    ],
+    '@stylistic/ts/quote-props': [
+      2,
+      'as-needed',
+      {
+        numbers: true,
+      },
+    ],
+    '@stylistic/ts/quotes': [2, 'single'],
+    '@stylistic/ts/semi': [2, 'always'],
+    '@stylistic/ts/space-before-blocks': [2, 'always'],
+    '@stylistic/ts/space-before-function-paren': [2, 'always'],
+    '@stylistic/ts/space-infix-ops': 2,
+    '@stylistic/type-annotation-spacing': [2, { after: true, before: false }],
+    '@typescript-eslint/default-param-last': 2,
+    '@typescript-eslint/func-call-spacing': [2, 'never'],
+    '@typescript-eslint/indent': [2, 2],
+    '@typescript-eslint/init-declarations': 0,
     '@typescript-eslint/no-array-constructor': 2,
     '@typescript-eslint/no-dupe-class-members': 2,
-    '@typescript-eslint/no-extra-parens': 2,
-    '@typescript-eslint/no-extra-semi': 2,
     '@typescript-eslint/no-invalid-this': 0,
-
     '@typescript-eslint/no-loop-func': 2,
     '@typescript-eslint/no-loss-of-precision': 2,
     '@typescript-eslint/no-magic-numbers': 0,
@@ -65,7 +114,6 @@ module.exports.recommended = {
       },
     ],
     '@typescript-eslint/no-unused-expressions': 2,
-
     '@typescript-eslint/no-unused-vars': 2,
     '@typescript-eslint/no-use-before-define': [
       2,
@@ -76,13 +124,7 @@ module.exports.recommended = {
       },
     ],
     '@typescript-eslint/no-useless-constructor': 2,
-    '@typescript-eslint/object-curly-spacing': 0,
-    '@typescript-eslint/quotes': [2, 'single'],
     '@typescript-eslint/require-await': 0,
-    '@typescript-eslint/semi': [2, 'always'],
-    '@typescript-eslint/space-before-blocks': [2, 'always'],
-    '@typescript-eslint/space-before-function-paren': [2, 'always'],
-    '@typescript-eslint/space-infix-ops': 2,
     'block-spacing': 0,
     'brace-style': 0,
     'comma-dangle': 0,
@@ -90,9 +132,12 @@ module.exports.recommended = {
     'default-param-last': 0,
     'dot-notation': 0,
     'func-call-spacing': 0,
+    'function-call-spacing': 0,
     indent: 0,
     'init-declarations': 0,
+    'key-spacing': 0,
     'keyword-spacing': 0,
+    'lines-between-class-members': 0,
     'no-array-constructor': 0,
     'no-dupe-class-members': 0,
     'no-duplicate-imports': 0,
@@ -112,7 +157,11 @@ module.exports.recommended = {
     'no-unused-vars': 0,
     'no-use-before-define': 0,
     'no-useless-constructor': 0,
+    'object-curly-newline': 0,
     'object-curly-spacing': 0,
+    'object-property-newline': 0,
+    'padding-line-between-statements': 0,
+    'quote-props': 0,
     quotes: 0,
     'react/prop-types': 0,
     'require-await': 0,
