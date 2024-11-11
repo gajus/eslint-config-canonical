@@ -45,6 +45,13 @@ module.exports.recommended = {
         },
       },
     ],
+    '@stylistic/type-annotation-spacing': [
+      2,
+      {
+        after: true,
+        before: false,
+      },
+    ],
     '@typescript-eslint/adjacent-overload-signatures': 2,
     '@typescript-eslint/array-type': [
       2,
