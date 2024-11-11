@@ -49,7 +49,6 @@ module.exports.recommended = {
         },
       },
     ],
-    '@typescript-eslint/no-throw-literal': 2,
     '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/prefer-includes': 2,
     '@typescript-eslint/prefer-nullish-coalescing': [
