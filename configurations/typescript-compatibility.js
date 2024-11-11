@@ -87,7 +87,13 @@ module.exports.recommended = {
     '@stylistic/ts/space-before-blocks': [2, 'always'],
     '@stylistic/ts/space-before-function-paren': [2, 'always'],
     '@stylistic/ts/space-infix-ops': 2,
-    '@stylistic/type-annotation-spacing': [2, { after: true, before: false }],
+    '@stylistic/type-annotation-spacing': [
+      2,
+      {
+        after: true,
+        before: false,
+      },
+    ],
     '@typescript-eslint/default-param-last': 2,
     '@typescript-eslint/func-call-spacing': [2, 'never'],
     '@typescript-eslint/indent': [2, 2],

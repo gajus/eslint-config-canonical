@@ -8,7 +8,12 @@ module.exports.recommended = {
     'vitest/max-nested-describe': 2,
     'vitest/no-conditional-tests': 2,
     'vitest/no-disabled-tests': 2,
-    'vitest/no-focused-tests': [2, { fixable: false }],
+    'vitest/no-focused-tests': [
+      2,
+      {
+        fixable: false,
+      },
+    ],
     'vitest/no-identical-title': 2,
   },
 };
