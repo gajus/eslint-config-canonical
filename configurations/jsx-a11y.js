@@ -1,9 +1,4 @@
 module.exports.recommended = {
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
   plugins: {
     'jsx-a11y': require('eslint-plugin-jsx-a11y'),
   },
