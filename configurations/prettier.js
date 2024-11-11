@@ -7,6 +7,7 @@ module.exports.recommended = {
     ...require('eslint-config-prettier').rules,
     '@stylistic/array-bracket-newline': 0,
     '@stylistic/array-element-newline': 0,
+    '@stylistic/comma-dangle': 0,
     '@stylistic/implicit-arrow-linebreak': 0,
     '@stylistic/indent': 0,
     '@stylistic/jsx-quotes': 0,
