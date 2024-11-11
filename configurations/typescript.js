@@ -19,12 +19,12 @@ module.exports.recommended = {
     },
   },
   plugins: {
-    '@stylistic/ts': require('@stylistic/eslint-plugin-ts'),
+    '@stylistic': require('@stylistic/eslint-plugin'),
     '@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
     canonical: require('eslint-plugin-canonical'),
   },
   rules: {
-    '@stylistic/ts/member-delimiter-style': [
+    '@stylistic/member-delimiter-style': [
       2,
       {
         multiline: {

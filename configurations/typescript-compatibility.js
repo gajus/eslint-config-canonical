@@ -1,17 +1,17 @@
 module.exports.recommended = {
   files: ['**/*.{ts,tsx}'],
   plugins: {
-    '@stylistic/ts': require('@stylistic/eslint-plugin-ts'),
+    '@stylistic': require('@stylistic/eslint-plugin'),
   },
   rules: {
-    '@stylistic/ts/brace-style': [
+    '@stylistic/brace-style': [
       2,
       '1tbs',
       {
         allowSingleLine: false,
       },
     ],
-    '@stylistic/ts/comma-dangle': [
+    '@stylistic/comma-dangle': [
       2,
       {
         arrays: 'always-multiline',
@@ -21,31 +21,31 @@ module.exports.recommended = {
         objects: 'always-multiline',
       },
     ],
-    '@stylistic/ts/comma-spacing': [
+    '@stylistic/comma-spacing': [
       2,
       {
         after: true,
         before: false,
       },
     ],
-    '@stylistic/ts/key-spacing': [
+    '@stylistic/key-spacing': [
       2,
       {
         afterColon: true,
         beforeColon: false,
       },
     ],
-    '@stylistic/ts/keyword-spacing': [
+    '@stylistic/keyword-spacing': [
       2,
       {
         after: true,
         before: true,
       },
     ],
-    '@stylistic/ts/lines-between-class-members': [2, 'always'],
-    '@stylistic/ts/no-extra-parens': 2,
-    '@stylistic/ts/no-extra-semi': 2,
-    '@stylistic/ts/object-curly-newline': [
+    '@stylistic/lines-between-class-members': [2, 'always'],
+    '@stylistic/no-extra-parens': 2,
+    '@stylistic/no-extra-semi': 2,
+    '@stylistic/object-curly-newline': [
       2,
       {
         ExportDeclaration: 'always',
@@ -60,14 +60,14 @@ module.exports.recommended = {
         },
       },
     ],
-    '@stylistic/ts/object-curly-spacing': 0,
-    '@stylistic/ts/object-property-newline': [
+    '@stylistic/object-curly-spacing': 0,
+    '@stylistic/object-property-newline': [
       2,
       {
         allowAllPropertiesOnSameLine: false,
       },
     ],
-    '@stylistic/ts/padding-line-between-statements': [
+    '@stylistic/padding-line-between-statements': [
       2,
       {
         blankLine: 'always',
@@ -75,18 +75,18 @@ module.exports.recommended = {
         prev: 'multiline-block-like',
       },
     ],
-    '@stylistic/ts/quote-props': [
+    '@stylistic/quote-props': [
       2,
       'as-needed',
       {
         numbers: true,
       },
     ],
-    '@stylistic/ts/quotes': [2, 'single'],
-    '@stylistic/ts/semi': [2, 'always'],
-    '@stylistic/ts/space-before-blocks': [2, 'always'],
-    '@stylistic/ts/space-before-function-paren': [2, 'always'],
-    '@stylistic/ts/space-infix-ops': 2,
+    '@stylistic/quotes': [2, 'single'],
+    '@stylistic/semi': [2, 'always'],
+    '@stylistic/space-before-blocks': [2, 'always'],
+    '@stylistic/space-before-function-paren': [2, 'always'],
+    '@stylistic/space-infix-ops': 2,
     '@stylistic/type-annotation-spacing': [
       2,
       {
