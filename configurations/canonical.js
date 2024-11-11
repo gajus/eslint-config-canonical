@@ -202,6 +202,7 @@ const unicornRules = {
 module.exports.recommended = {
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
+    '@stylistic/js': require('@stylistic/eslint-plugin-js'),
     canonical: require('eslint-plugin-canonical'),
     'eslint-comments': require('eslint-plugin-eslint-comments'),
     import: require('eslint-plugin-import'),
@@ -224,6 +225,7 @@ module.exports.recommended = {
     ],
     ...importRules,
     ...unicornRules,
+    '@stylistic/js/function-call-spacing': [2, 'never'],
     'accessor-pairs': 2,
     'array-bracket-newline': [
       2,
@@ -343,7 +345,6 @@ module.exports.recommended = {
     'func-names': [2, 'never'],
     'func-style': [2, 'expression'],
     'function-call-argument-newline': [2, 'consistent'],
-    'function-call-spacing': [2, 'never'],
     'function-paren-newline': [2, 'consistent'],
     'generator-star-spacing': [
       2,

@@ -28,7 +28,6 @@ module.exports.recommended = {
         before: false,
       },
     ],
-    '@stylistic/ts/function-call-spacing': [2, 'never'],
     '@stylistic/ts/key-spacing': [
       2,
       {
@@ -132,7 +131,6 @@ module.exports.recommended = {
     'default-param-last': 0,
     'dot-notation': 0,
     'func-call-spacing': 0,
-    'function-call-spacing': 0,
     indent: 0,
     'init-declarations': 0,
     'key-spacing': 0,
