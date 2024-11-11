@@ -41,7 +41,7 @@ module.exports.recommended = {
         },
         singleline: {
           delimiter: 'comma',
-          requireLast: true,
+          requireLast: false,
         },
       },
     ],
@@ -50,6 +50,12 @@ module.exports.recommended = {
       {
         after: true,
         before: false,
+        overrides: {
+          arrow: {
+            after: true,
+            before: true,
+          },
+        },
       },
     ],
     '@typescript-eslint/adjacent-overload-signatures': 2,
