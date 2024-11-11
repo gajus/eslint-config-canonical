@@ -15,6 +15,7 @@ module.exports.recommended = {
     '@stylistic/linebreak-style': 0,
     '@stylistic/member-delimiter-style': 0,
     '@stylistic/no-extra-parens': 0,
+    '@stylistic/nonblock-statement-body-position': 0,
     '@stylistic/object-curly-newline': 0,
     '@stylistic/object-property-newline': 0,
     '@stylistic/operator-linebreak': 0,
