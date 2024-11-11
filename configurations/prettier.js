@@ -9,6 +9,7 @@ module.exports.recommended = {
     '@stylistic/array-element-newline': 0,
     '@stylistic/brace-style': 0,
     '@stylistic/comma-dangle': 0,
+    '@stylistic/generator-star-spacing': 0,
     '@stylistic/implicit-arrow-linebreak': 0,
     '@stylistic/indent': 0,
     '@stylistic/jsx-quotes': 0,
