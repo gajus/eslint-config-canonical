@@ -2,7 +2,7 @@ const cypress = require('eslint-plugin-cypress/flat');
 
 module.exports.recommended = {
   languageOptions: {
-    globals: cypress.recommended.plugins.cypress.environments.globals.globals,
+    globals: cypress.configs.recommended.languageOptions.globals,
   },
   plugins: {
     cypress,
