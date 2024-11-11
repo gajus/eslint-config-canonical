@@ -547,7 +547,7 @@ module.exports.recommended = {
     'no-extra-bind': 2,
     'no-extra-boolean-cast': 2,
     'no-extra-label': 2,
-    'no-fallthrough': 2,
+    'no-fallthrough': 0,
     'no-func-assign': 2,
     'no-global-assign': 2,
     'no-implicit-coercion': 2,
