@@ -435,7 +435,8 @@ module.exports.recommended = {
       1,
       {
         ignoreExporting: false,
-        regex: '(^[A-Za-z]+(?:[A-Z][a-z]*)*\\d*$)|(^[A-Z]+(_[A-Z]+)*(_\\d$)*$)',
+        // https://regex101.com/r/wTCJVg/1
+        regex: '^[A-Za-z]+(?:[A-Za-z0-9]*\\.[A-Za-z0-9]+)*\\d*$',
       },
     ],
     'canonical/filename-no-index': 0,
