@@ -19,10 +19,32 @@ module.exports.recommended = {
     },
   },
   plugins: {
+    '@stylistic/ts': require('@stylistic/eslint-plugin-ts'),
     '@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
     canonical: require('eslint-plugin-canonical'),
   },
   rules: {
+    '@stylistic/ts/member-delimiter-style': [
+      2,
+      {
+        multiline: {
+          delimiter: 'comma',
+          requireLast: true,
+        },
+        overrides: {
+          interface: {
+            multiline: {
+              delimiter: 'semi',
+              requireLast: true,
+            },
+          },
+        },
+        singleline: {
+          delimiter: 'comma',
+          requireLast: true,
+        },
+      },
+    ],
     '@typescript-eslint/adjacent-overload-signatures': 2,
     '@typescript-eslint/array-type': [
       2,
@@ -61,27 +83,6 @@ module.exports.recommended = {
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
-    '@typescript-eslint/member-delimiter-style': [
-      2,
-      {
-        multiline: {
-          delimiter: 'comma',
-          requireLast: true,
-        },
-        overrides: {
-          interface: {
-            multiline: {
-              delimiter: 'semi',
-              requireLast: true,
-            },
-          },
-        },
-        singleline: {
-          delimiter: 'comma',
-          requireLast: true,
-        },
-      },
-    ],
     '@typescript-eslint/member-ordering': 0,
     '@typescript-eslint/method-signature-style': [2, 'property'],
     '@typescript-eslint/naming-convention': [
