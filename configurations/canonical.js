@@ -283,8 +283,8 @@ module.exports.recommended = {
     '@stylistic/generator-star-spacing': [
       2,
       {
-        after: false,
-        before: true,
+        after: true,
+        before: false,
       },
     ],
     '@stylistic/implicit-arrow-linebreak': [2, 'beside'],
