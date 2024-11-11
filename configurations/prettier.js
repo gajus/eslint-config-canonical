@@ -13,6 +13,7 @@ module.exports.recommended = {
     '@stylistic/linebreak-style': 0,
     '@stylistic/no-extra-parens': 0,
     '@stylistic/object-curly-newline': 0,
+    '@stylistic/object-property-newline': 0,
     '@stylistic/operator-linebreak': 0,
     '@typescript-eslint/indent': 0,
     'arrow-body-style': 0,
