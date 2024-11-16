@@ -25,7 +25,15 @@ module.exports.recommended = {
         hoist: 'all',
       },
     ],
-    '@typescript-eslint/no-unused-expressions': 2,
+    '@typescript-eslint/no-unused-expressions': [
+      2,
+      {
+        allowShortCircuit: false,
+        allowTaggedTemplates: false,
+        allowTernary: false,
+        enforceForJSX: false,
+      },
+    ],
     '@typescript-eslint/no-unused-vars': 2,
     '@typescript-eslint/no-use-before-define': [
       2,
