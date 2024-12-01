@@ -32,6 +32,7 @@ const importRules = {
   'import/no-duplicates': [
     2,
     {
+      considerQueryString: true,
       'prefer-inline': true,
     },
   ],
