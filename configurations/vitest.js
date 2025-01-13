@@ -1,6 +1,6 @@
 module.exports.recommended = {
   plugins: {
-    vitest: require('eslint-plugin-vitest'),
+    vitest: require('@vitest/eslint-plugin'),
   },
   rules: {
     'vitest/expect-expect': 2,
