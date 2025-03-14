@@ -31,6 +31,7 @@ export const recommended = {
     'canonical/destructuring-property-newline': 0,
     'canonical/export-specifier-newline': 0,
     'canonical/import-specifier-newline': 0,
+    'function-paren-newline': 0,
     'no-inline-comments': 0,
     'prefer-arrow-callback': 0,
     'prettier/prettier': [
