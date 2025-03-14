@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '22'
-      - run: npm ci --legacy-peer-deps
+      - run: npm install
       - run: npm run lint
       - run: npm run test
       - run: npm run build
