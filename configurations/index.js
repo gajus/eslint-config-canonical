@@ -17,6 +17,8 @@ import * as react from './react.js';
 import * as regexp from './regexp.js';
 import * as typescript from './typescript.js';
 import * as vitest from './vitest.js';
+import * as yaml from './yaml.js';
+import * as zod from './zod.js';
 
 export default {
   ava: ava.recommended,
