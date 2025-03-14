@@ -439,7 +439,7 @@ export const recommended = {
     'canonical/filename-no-index': 0,
     'canonical/id-match': [
       2,
-      '(^[A-Za-z]+(?:[A-Z][a-z]*)*\\d*$)|(^[A-Z]+(_[A-Z]+)*(_\\d$)*$)|(^(_|\\$)$)',
+      '(^[A-Za-z]+(?:[A-Z\\d][a-z\\d]*)*\\d*$)|(^[A-Z]+(_[A-Z\\d]+)*(_\\d$)*$)|(^(_|\\$)$)',
       {
         ignoreDestructuring: true,
         ignoreNamedImports: true,

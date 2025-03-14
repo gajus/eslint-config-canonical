@@ -2,7 +2,7 @@ import jestPlugin from 'eslint-plugin-jest';
 
 export const recommended = {
   languageOptions: {
-    globals: jest.environments.globals.globals,
+    globals: jestPlugin.environments.globals.globals,
   },
   plugins: {
     jest: jestPlugin,
