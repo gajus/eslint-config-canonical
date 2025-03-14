@@ -1,11 +1,21 @@
-module.exports = [
-  require('./jsdoc').recommended,
-  require('./canonical').recommended,
-  require('./typescript').recommended,
-  require('./regexp').recommended,
-  require('./react').recommended,
-  require('./prettier').recommended,
-  require('./json').recommended,
-  require('./yaml').recommended,
-  require('./graphql').recommended,
+import * as canonical from './canonical.js';
+import * as graphql from './graphql.js';
+import * as jsdoc from './jsdoc.js';
+import * as json from './json.js';
+import * as prettier from './prettier.js';
+import * as react from './react.js';
+import * as regexp from './regexp.js';
+import * as typescript from './typescript.js';
+import * as yaml from './yaml.js';
+
+export default [
+  jsdoc.recommended,
+  canonical.recommended,
+  typescript.recommended,
+  regexp.recommended,
+  react.recommended,
+  prettier.recommended,
+  json.recommended,
+  yaml.recommended,
+  graphql.recommended,
 ];

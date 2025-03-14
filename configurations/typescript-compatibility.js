@@ -1,4 +1,4 @@
-module.exports.recommended = {
+export const recommended = {
   files: ['**/*.{ts,tsx}'],
   rules: {
     '@typescript-eslint/default-param-last': 2,

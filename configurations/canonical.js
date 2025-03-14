@@ -1,21 +1,18 @@
+import stylisticPlugin from '@stylistic/eslint-plugin';
+import canonicalPlugin from 'eslint-plugin-canonical';
+import eslintComments from 'eslint-plugin-eslint-comments';
+import importPlugin from 'eslint-plugin-import';
+import perfectionist from 'eslint-plugin-perfectionist';
+import promisePlugin from 'eslint-plugin-promise';
+import unicornPlugin from 'eslint-plugin-unicorn';
+
 const importRules = {
   'import/consistent-type-specifier-style': [2, 'prefer-inline'],
   'import/default': 2,
   'import/dynamic-import-chunkname': 0,
   'import/export': 2,
   'import/exports-last': 0,
-  'import/extensions': [
-    2,
-    'never',
-    {
-      ignorePackages: true,
-      pattern: {
-        graphql: 'always',
-        json: 'always',
-        svg: 'always',
-      },
-    },
-  ],
+  'import/extensions': 0,
   'import/first': 2,
   'import/group-exports': 0,
   'import/max-dependencies': 0,
@@ -200,20 +197,19 @@ const unicornRules = {
   'unicorn/throw-new-error': 2,
 };
 
-module.exports.recommended = {
+export const recommended = {
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
-    '@stylistic': require('@stylistic/eslint-plugin'),
-    canonical: require('eslint-plugin-canonical'),
-    'eslint-comments': require('eslint-plugin-eslint-comments'),
-    import: require('eslint-plugin-import'),
-    perfectionist: require('eslint-plugin-perfectionist'),
-    promise: require('eslint-plugin-promise'),
-    unicorn: require('eslint-plugin-unicorn'),
+    '@stylistic': stylisticPlugin,
+    canonical: canonicalPlugin,
+    'eslint-comments': eslintComments,
+    import: importPlugin,
+    perfectionist,
+    promise: promisePlugin,
+    unicorn: unicornPlugin,
   },
   rules: {
-    ...require('eslint-plugin-perfectionist').configs['recommended-natural']
-      .rules,
+    ...perfectionist.configs['recommended-natural'].rules,
     'perfectionist/sort-imports': [
       2,
       {

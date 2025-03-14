@@ -1,16 +1,19 @@
-const globals = require('globals');
+import importPlugin from 'eslint-plugin-import';
+import nPlugin from 'eslint-plugin-n';
+import unicornPlugin from 'eslint-plugin-unicorn';
+import globals from 'globals';
 
-module.exports.recommended = {
+export const recommended = {
   languageOptions: {
     globals: {
       ...globals.node,
     },
   },
   plugins: {
-    import: require('eslint-plugin-import'),
+    import: importPlugin,
     // eslint-disable-next-line id-length
-    n: require('eslint-plugin-n'),
-    unicorn: require('eslint-plugin-unicorn'),
+    n: nPlugin,
+    unicorn: unicornPlugin,
   },
   rules: {
     'n/callback-return': 2,

@@ -1,7 +1,7 @@
-const ava = require('eslint-plugin-ava');
-const unicorn = require('eslint-plugin-unicorn');
+import ava from 'eslint-plugin-ava';
+import unicorn from 'eslint-plugin-unicorn';
 
-module.exports.recommended = {
+export const recommended = {
   files: ['**/*.test.{js,ts,tsx}'],
   plugins: {
     ava,

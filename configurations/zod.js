@@ -1,6 +1,8 @@
-module.exports.recommended = {
+import zodPlugin from 'eslint-plugin-zod';
+
+export const recommended = {
   plugins: {
-    zod: require('eslint-plugin-zod'),
+    zod: zodPlugin,
   },
   rules: {
     'zod/prefer-enum': 2,

@@ -1,10 +1,11 @@
-module.exports.recommended = {
+import prettierPlugin from 'eslint-plugin-prettier';
+
+export const recommended = {
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
-    prettier: require('eslint-plugin-prettier'),
+    prettier: prettierPlugin,
   },
   rules: {
-    ...require('eslint-config-prettier').rules,
     '@stylistic/array-bracket-newline': 0,
     '@stylistic/array-element-newline': 0,
     '@stylistic/brace-style': 0,

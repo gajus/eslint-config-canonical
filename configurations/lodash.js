@@ -1,6 +1,8 @@
-module.exports.recommended = {
+import lodashPlugin from 'eslint-plugin-lodash';
+
+export const recommended = {
   plugins: {
-    lodash: require('eslint-plugin-lodash'),
+    lodash: lodashPlugin,
   },
   rules: {
     'lodash/callback-binding': 2,

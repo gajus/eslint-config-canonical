@@ -1,6 +1,8 @@
-module.exports.recommended = {
+import nextPlugin from '@next/eslint-plugin-next';
+
+export const recommended = {
   plugins: {
-    next: require('@next/eslint-plugin-next'),
+    next: nextPlugin,
   },
   rules: {
     'next/google-font-display': 1,

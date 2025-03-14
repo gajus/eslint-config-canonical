@@ -1,5 +1,6 @@
-const typescriptRules = require('@typescript-eslint/eslint-plugin').rules;
-const { builtinRules } = require('eslint/use-at-your-own-risk');
+import eslintConfiguration from '../configurations/eslintrc';
+import typescriptRules from '@typescript-eslint/eslint-plugin';
+import { builtinRules } from 'eslint/use-at-your-own-risk';
 
 const builtinRuleNames = Object.keys(Object.fromEntries(builtinRules));
 const typescriptRuleNames = Object.keys(typescriptRules);
@@ -11,8 +12,6 @@ for (const typescriptRuleName of typescriptRuleNames) {
     incompatibleRuleNames.push(typescriptRuleName);
   }
 }
-
-const eslintConfiguration = require('../configurations/eslintrc');
 
 const appendRules = {};
 
@@ -31,4 +30,4 @@ const orderedRules = {
 };
 
 // eslint-disable-next-line no-console
-console.log('module.exports = ' + JSON.stringify(orderedRules, '', '  '));
+console.log('export default ' + JSON.stringify(orderedRules, '', '  '));

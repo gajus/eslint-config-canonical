@@ -1,6 +1,9 @@
-const globals = require('globals');
+import canonicalPlugin from 'eslint-plugin-canonical';
+import reactPlugin from 'eslint-plugin-react';
+import reactHooksPlugin from 'eslint-plugin-react-hooks';
+import globals from 'globals';
 
-module.exports.recommended = {
+export const recommended = {
   files: ['**/*.{jsx,tsx}'],
   languageOptions: {
     globals: {
@@ -13,9 +16,9 @@ module.exports.recommended = {
     },
   },
   plugins: {
-    canonical: require('eslint-plugin-canonical'),
-    react: require('eslint-plugin-react'),
-    'react-hooks': require('eslint-plugin-react-hooks'),
+    canonical: canonicalPlugin,
+    react: reactPlugin,
+    'react-hooks': reactHooksPlugin,
   },
   rules: {
     'canonical/sort-react-dependencies': 2,

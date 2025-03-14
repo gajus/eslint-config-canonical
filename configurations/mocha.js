@@ -1,11 +1,12 @@
-const globals = require('globals');
+import mochaPlugin from 'eslint-plugin-mocha';
+import globals from 'globals';
 
-module.exports.recommended = {
+export const recommended = {
   languageOptions: {
     globals: globals.mocha,
   },
   plugins: {
-    mocha: require('eslint-plugin-mocha'),
+    mocha: mochaPlugin,
   },
   rules: {
     'mocha/handle-done-callback': 2,

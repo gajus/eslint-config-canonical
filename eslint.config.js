@@ -1,7 +1,11 @@
-module.exports = [
-  require('./configurations/node').recommended,
-  ...require('./configurations/auto'),
-  require('./configurations/ava').recommended,
+import auto from './configurations/auto.js';
+import * as ava from './configurations/ava.js';
+import * as node from './configurations/node.js';
+
+export default [
+  node.recommended,
+  ...auto,
+  ava.recommended,
   {
     rules: {
       'n/global-require': 0,

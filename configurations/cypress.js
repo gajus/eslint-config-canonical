@@ -1,6 +1,6 @@
-const cypress = require('eslint-plugin-cypress/flat');
+import cypress from 'eslint-plugin-cypress/flat';
 
-module.exports.recommended = {
+export const recommended = {
   languageOptions: {
     globals: cypress.configs.recommended.languageOptions.globals,
   },

@@ -1,6 +1,8 @@
-module.exports.recommended = {
+import unicornPlugin from 'eslint-plugin-unicorn';
+
+export const recommended = {
   plugins: {
-    unicorn: require('eslint-plugin-unicorn'),
+    unicorn: unicornPlugin,
   },
   rules: {
     'unicorn/prefer-module': 2,

@@ -1,10 +1,13 @@
-module.exports.recommended = {
+import yamlPlugin from 'eslint-plugin-yml';
+import yamlEslintParser from 'yaml-eslint-parser';
+
+export const recommended = {
   files: ['**/*.yaml'],
   languageOptions: {
-    parser: require('yaml-eslint-parser'),
+    parser: yamlEslintParser,
   },
   plugins: {
-    yml: require('eslint-plugin-yml'),
+    yml: yamlPlugin,
   },
   rules: {
     'yml/block-mapping': 2,

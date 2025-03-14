@@ -1,4 +1,4 @@
-module.exports.recommended = {
+export const recommended = {
   rules: {
     '@typescript-eslint/await-thenable': 2,
     '@typescript-eslint/consistent-type-exports': [

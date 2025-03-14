@@ -1,3 +1,9 @@
+import * as typescriptCompatibility from './typescript-compatibility.js';
+import stylisticPlugin from '@stylistic/eslint-plugin';
+import eslintPlugin from '@typescript-eslint/eslint-plugin';
+import eslintParser from '@typescript-eslint/parser';
+import canonicalPlugin from 'eslint-plugin-canonical';
+
 // TODO add .d.ts files
 // {
 //   files: ['*.d.ts'],
@@ -10,18 +16,18 @@
 //   },
 // }
 
-module.exports.recommended = {
+export const recommended = {
   files: ['**/*.{ts,tsx}'],
   languageOptions: {
-    parser: require('@typescript-eslint/parser'),
+    parser: eslintParser,
     parserOptions: {
       project: true,
     },
   },
   plugins: {
-    '@stylistic': require('@stylistic/eslint-plugin'),
-    '@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
-    canonical: require('eslint-plugin-canonical'),
+    '@stylistic': stylisticPlugin,
+    '@typescript-eslint': eslintPlugin,
+    canonical: canonicalPlugin,
   },
   rules: {
     '@stylistic/member-delimiter-style': [
@@ -207,7 +213,7 @@ module.exports.recommended = {
         markers: ['/'],
       },
     ],
-    ...require('./typescript-compatibility').recommended.rules,
+    ...typescriptCompatibility.recommended.rules,
   },
   settings: {
     'import/extensions': ['.ts', '.tsx'],

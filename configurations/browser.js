@@ -1,13 +1,14 @@
-const globals = require('globals');
+import unicorn from 'eslint-plugin-unicorn';
+import globals from 'globals';
 
-module.exports.recommended = {
+export const recommended = {
   languageOptions: {
     globals: {
       ...globals.browser,
     },
   },
   plugins: {
-    unicorn: require('eslint-plugin-unicorn'),
+    unicorn,
   },
   rules: {
     'unicorn/prefer-dom-node-append': 2,

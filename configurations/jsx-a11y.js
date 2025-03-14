@@ -1,6 +1,8 @@
-module.exports.recommended = {
+import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
+
+export const recommended = {
   plugins: {
-    'jsx-a11y': require('eslint-plugin-jsx-a11y'),
+    'jsx-a11y': jsxA11yPlugin,
   },
   rules: {
     'jsx-a11y/alt-text': 2,

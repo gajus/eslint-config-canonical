@@ -1,10 +1,12 @@
+import regexpPlugin from 'eslint-plugin-regexp';
+
 /**
  * https://github.com/ota-meshi/eslint-plugin-regexp/blob/master/lib/configs/recommended.ts
  */
-module.exports.recommended = {
+export const recommended = {
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
-    regexp: require('eslint-plugin-regexp'),
+    regexp: regexpPlugin,
   },
   rules: {
     'no-control-regex': 2,

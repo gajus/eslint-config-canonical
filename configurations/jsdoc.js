@@ -1,7 +1,9 @@
-module.exports.recommended = {
+import jsdocPlugin from 'eslint-plugin-jsdoc';
+
+export const recommended = {
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
-    jsdoc: require('eslint-plugin-jsdoc'),
+    jsdoc: jsdocPlugin,
   },
   rules: {
     'jsdoc/check-access': 2,
