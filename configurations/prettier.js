@@ -55,6 +55,7 @@ export const recommended = {
         usePrettierrc: false,
       },
     ],
+    'react/jsx-curly-newline': 0,
     'unicorn/template-indent': 0,
   },
 };
