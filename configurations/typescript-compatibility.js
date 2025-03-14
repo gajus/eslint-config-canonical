@@ -2,7 +2,6 @@ export const recommended = {
   files: ['**/*.{ts,tsx}'],
   rules: {
     '@typescript-eslint/default-param-last': 2,
-    '@typescript-eslint/func-call-spacing': [2, 'never'],
     '@typescript-eslint/indent': [2, 2],
     '@typescript-eslint/init-declarations': 0,
     '@typescript-eslint/no-array-constructor': 2,
