@@ -1,9 +1,10 @@
 import regexpPlugin from 'eslint-plugin-regexp';
+import tseslint from 'typescript-eslint';
 
 /**
  * https://github.com/ota-meshi/eslint-plugin-regexp/blob/master/lib/configs/recommended.ts
  */
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     regexp: regexpPlugin,
@@ -65,4 +66,4 @@ export const recommended = {
     'regexp/sort-flags': 2,
     'regexp/strict': 2,
   },
-};
+});

@@ -1,6 +1,7 @@
 import jsoncPlugin from 'eslint-plugin-jsonc';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.json'],
   languageOptions: {
     parser: jsoncPlugin,
@@ -66,4 +67,4 @@ export const recommended = {
     'jsonc/valid-json-number': 2,
     'jsonc/vue-custom-block/no-parsing-error': 2,
   },
-};
+});

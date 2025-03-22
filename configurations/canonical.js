@@ -5,6 +5,7 @@ import importPlugin from 'eslint-plugin-import';
 import perfectionist from 'eslint-plugin-perfectionist';
 import promisePlugin from 'eslint-plugin-promise';
 import unicornPlugin from 'eslint-plugin-unicorn';
+import tseslint from 'typescript-eslint';
 
 const importRules = {
   'import/consistent-type-specifier-style': [2, 'prefer-inline'],
@@ -197,7 +198,7 @@ const unicornRules = {
   'unicorn/throw-new-error': 2,
 };
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     '@stylistic': stylisticPlugin,
@@ -724,4 +725,4 @@ export const recommended = {
   settings: {
     'import/extensions': ['.js', '.jsx', '.mjs', '.ts', '.tsx'],
   },
-};
+});

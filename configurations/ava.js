@@ -1,7 +1,8 @@
 import ava from 'eslint-plugin-ava';
 import unicorn from 'eslint-plugin-unicorn';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.test.{js,ts,tsx}'],
   plugins: {
     ava,
@@ -44,4 +45,4 @@ export const recommended = {
     ],
     'unicorn/consistent-function-scoping': 0,
   },
-};
+});

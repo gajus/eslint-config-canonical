@@ -1,6 +1,7 @@
 import lodashPlugin from 'eslint-plugin-lodash';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   plugins: {
     lodash: lodashPlugin,
   },
@@ -53,4 +54,4 @@ export const recommended = {
     'lodash/prop-shorthand': 2,
     'lodash/unwrap': 2,
   },
-};
+});

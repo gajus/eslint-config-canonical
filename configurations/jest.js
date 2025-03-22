@@ -1,6 +1,7 @@
 import jestPlugin from 'eslint-plugin-jest';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   languageOptions: {
     globals: jestPlugin.environments.globals.globals,
   },
@@ -63,4 +64,4 @@ export const recommended = {
     'jest/valid-expect-in-promise': 2,
     'jest/valid-title': 2,
   },
-};
+});

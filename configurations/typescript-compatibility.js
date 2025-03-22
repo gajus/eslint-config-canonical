@@ -1,4 +1,6 @@
-export const recommended = {
+import tseslint from 'typescript-eslint';
+
+export const recommended = tseslint.config({
   files: ['**/*.{ts,tsx}'],
   rules: {
     '@typescript-eslint/default-param-last': 2,
@@ -70,4 +72,4 @@ export const recommended = {
     'react/prop-types': 0,
     'require-await': 0,
   },
-};
+});

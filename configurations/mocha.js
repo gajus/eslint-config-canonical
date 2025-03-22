@@ -1,7 +1,8 @@
 import mochaPlugin from 'eslint-plugin-mocha';
 import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   languageOptions: {
     globals: globals.mocha,
   },
@@ -38,4 +39,4 @@ export const recommended = {
     'mocha/valid-suite-description': 0,
     'mocha/valid-test-description': 0,
   },
-};
+});

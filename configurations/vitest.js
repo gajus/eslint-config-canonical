@@ -1,6 +1,7 @@
 import vitestPlugin from '@vitest/eslint-plugin';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   plugins: {
     vitest: vitestPlugin,
   },
@@ -18,4 +19,4 @@ export const recommended = {
     ],
     'vitest/no-identical-title': 2,
   },
-};
+});

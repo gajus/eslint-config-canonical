@@ -2,8 +2,9 @@ import canonicalPlugin from 'eslint-plugin-canonical';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.{jsx,tsx}'],
   languageOptions: {
     globals: {
@@ -216,4 +217,4 @@ export const recommended = {
       version: 'detect',
     },
   },
-};
+});

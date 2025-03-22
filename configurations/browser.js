@@ -1,7 +1,8 @@
 import unicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   languageOptions: {
     globals: {
       ...globals.browser,
@@ -18,4 +19,4 @@ export const recommended = {
     'unicorn/prefer-keyboard-event-key': 2,
     'unicorn/prefer-modern-dom-apis': 2,
   },
-};
+});

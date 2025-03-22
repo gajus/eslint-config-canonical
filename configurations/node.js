@@ -2,8 +2,9 @@ import importPlugin from 'eslint-plugin-import';
 import nPlugin from 'eslint-plugin-n';
 import unicornPlugin from 'eslint-plugin-unicorn';
 import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   languageOptions: {
     globals: {
       ...globals.node,
@@ -62,4 +63,4 @@ export const recommended = {
     ],
     'unicorn/prefer-node-protocol': 2,
   },
-};
+});

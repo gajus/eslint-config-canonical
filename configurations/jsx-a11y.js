@@ -1,6 +1,7 @@
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   plugins: {
     'jsx-a11y': jsxA11yPlugin,
   },
@@ -123,4 +124,4 @@ export const recommended = {
     'jsx-a11y/scope': 2,
     'jsx-a11y/tabindex-no-positive': 2,
   },
-};
+});

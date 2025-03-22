@@ -4,8 +4,9 @@ import eslintPlugin from '@typescript-eslint/eslint-plugin';
 import * as eslintParser from '@typescript-eslint/parser';
 import canonicalPlugin from 'eslint-plugin-canonical';
 import functionalPlugin from 'eslint-plugin-functional';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.{ts,tsx}'],
   languageOptions: {
     parser: eslintParser,
@@ -272,4 +273,4 @@ export const recommended = {
       tryExtensions: ['.ts', '.tsx', '.js', '.json'],
     },
   },
-};
+});

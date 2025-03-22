@@ -1,6 +1,7 @@
 import cypress from 'eslint-plugin-cypress/flat';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   languageOptions: {
     globals: cypress.configs.recommended.languageOptions.globals,
   },
@@ -16,4 +17,4 @@ export const recommended = {
     'cypress/no-unnecessary-waiting': 2,
     'import/unambiguous': 0,
   },
-};
+});

@@ -7,8 +7,9 @@ import * as react from './react.js';
 import * as regexp from './regexp.js';
 import * as typescript from './typescript.js';
 import * as yaml from './yaml.js';
+import tseslint from 'typescript-eslint';
 
-export default [
+export default tseslint.config(
   jsdoc.recommended,
   canonical.recommended,
   typescript.recommended,
@@ -18,4 +19,4 @@ export default [
   json.recommended,
   yaml.recommended,
   graphql.recommended,
-];
+);

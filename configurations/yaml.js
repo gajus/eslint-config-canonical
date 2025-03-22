@@ -1,7 +1,8 @@
 import yamlPlugin from 'eslint-plugin-yml';
+import tseslint from 'typescript-eslint';
 import yamlEslintParser from 'yaml-eslint-parser';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.yaml'],
   languageOptions: {
     parser: yamlEslintParser,
@@ -54,4 +55,4 @@ export const recommended = {
     'yml/spaced-comment': 2,
     'yml/vue-custom-block/no-parsing-error': 2,
   },
-};
+});

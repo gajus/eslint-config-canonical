@@ -1,6 +1,7 @@
 import jsdocPlugin from 'eslint-plugin-jsdoc';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     jsdoc: jsdocPlugin,
@@ -65,4 +66,4 @@ export const recommended = {
     'jsdoc/tag-lines': [2, 'never'],
     'jsdoc/valid-types': 2,
   },
-};
+});

@@ -1,6 +1,7 @@
 import prettierPlugin from 'eslint-plugin-prettier';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     prettier: prettierPlugin,
@@ -58,4 +59,4 @@ export const recommended = {
     'react/jsx-curly-newline': 0,
     'unicorn/template-indent': 0,
   },
-};
+});

@@ -1,6 +1,7 @@
 import nextPlugin from '@next/eslint-plugin-next';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   plugins: {
     next: nextPlugin,
   },
@@ -25,4 +26,4 @@ export const recommended = {
     'next/no-typos': 1,
     'next/no-unwanted-polyfillio': 1,
   },
-};
+});

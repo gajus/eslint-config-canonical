@@ -1,6 +1,7 @@
 import * as graphqlPlugin from '@graphql-eslint/eslint-plugin';
+import tseslint from 'typescript-eslint';
 
-export const recommended = {
+export const recommended = tseslint.config({
   files: ['**/*.graphql'],
   languageOptions: {
     parser: graphqlPlugin,
@@ -86,4 +87,4 @@ export const recommended = {
     '@graphql-eslint/variables-are-input-types': 2,
     '@graphql-eslint/variables-in-allowed-position': 2,
   },
-};
+});
