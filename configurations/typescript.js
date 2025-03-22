@@ -5,18 +5,6 @@ import * as eslintParser from '@typescript-eslint/parser';
 import canonicalPlugin from 'eslint-plugin-canonical';
 import functionalPlugin from 'eslint-plugin-functional';
 
-// TODO add .d.ts files
-// {
-//   files: ['*.d.ts'],
-//   rules: {
-//     '@typescript-eslint/consistent-type-definitions': 0,
-//     '@typescript-eslint/no-empty-interface': 0,
-//     '@typescript-eslint/no-shadow': 0,
-//     'no-var': 0,
-//     'vars-on-top': 0,
-//   },
-// }
-
 export const recommended = {
   files: ['**/*.{ts,tsx}'],
   languageOptions: {
