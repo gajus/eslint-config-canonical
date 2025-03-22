@@ -11,12 +11,11 @@ Canonical consists of 1,000+ rules (40% auto-fixable), some of which are [custom
 Most projects should simply extend from [`canonical/auto`](#canonicalauto-ruleset):
 
 ```ts
-// eslint.config.js
-import auto from 'eslint-config-canonical/configurations/auto';
+// eslint.config.ts
+import auto from 'eslint-config-canonical/auto';
+import tseslint from 'typescript-eslint';
 
-export default [
-  ...auto
-];
+export default tseslint.config(auto);
 ```
 
 ## Rulesets
@@ -25,32 +24,31 @@ export default [
 
 This package includes the following rulesets:
 
-* [`canonical`](./configurations/eslintrc.js) – The Canonical code style guide.
-* [`canonical/ava`](./configurations/ava.js) – for projects that use [AVA](https://ava.li/).
-* [`canonical/browser`](./configurations/browser.js) – for projects that use DOM and other browser APIs.
-* [`canonical/cypress`](./configurations/cypress.js) – for projects that use [Cypress](https://cypress.io/).
-* [`canonical/graphql`](./configurations/graphql.js) – for projects that use [GraphQL](https://graphql.org/).
-* [`canonical/jest`](./configurations/jest.js) – for projects that use [jest](https://facebook.github.io/jest/).
-* [`canonical/jsdoc`](./configurations/jsdoc.js) – for projects that use [JSDoc](https://jsdoc.app/).
-* [`canonical/json`](./configurations/json.js) – for projects that use JSON.
-* [`canonical/jsx-a11y`](./configurations/jsx-a11y.js) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
-* [`canonical/lodash`](./configurations/lodash.js) – for projects that use [lodash](https://lodash.com/).
-* [`canonical/mocha`](./configurations/mocha.js) – for projects that use [Mocha](https://mochajs.org/).
-* [`canonical/module`](./configurations/module.js) – for projects that use ESM modules.
-* [`canonical/next`](./configurations/next.js) – for projects that use [Next.js](https://nextjs.org/).
-* [`canonical/node`](./configurations/node.js) – for projects that use Node.js.
-* [`canonical/prettier`](./configurations/prettier.js) – applies [Prettier](https://prettier.io/) formatting.
-* [`canonical/react`](./configurations/react.js) – for projects that use [React](https://facebook.github.io/react/).
-* [`canonical/regexp`](./configurations/regexp.js) – for projects that use regular expressions.
-* [`canonical/typescript-type-checking`](./configurations/typescript-type-checking.js) – for projects that use [TypeScript](http://typescriptlang.org/) and want additional rules that require type information (rules using type information take longer to run).
-* [`canonical/typescript`](./configurations/typescript.js) – for projects that use [TypeScript](http://typescriptlang.org/).
-* [`canonical/vitest`](./configurations/vitest.js) – for projects that use [Vitest](https://vitest.dev/).
-* [`canonical/yaml`](./configurations/yaml.js) – for projects that use YAML.
-* [`canonical/zod`](./configurations/zod.js) – for projects that use [Zod](https://github.com/colinhacks/zod).
+* [`canonical/auto`](./configurations/auto.ts) – The Canonical code style guide.
+* [`canonical/ava`](./configurations/ava.ts) – for projects that use [AVA](https://ava.li/).
+* [`canonical/browser`](./configurations/browser.ts) – for projects that use DOM and other browser APIs.
+* [`canonical/graphql`](./configurations/graphql.ts) – for projects that use [GraphQL](https://graphql.org/).
+* [`canonical/jest`](./configurations/jest.ts) – for projects that use [jest](https://facebook.github.io/jest/).
+* [`canonical/jsdoc`](./configurations/jsdoc.ts) – for projects that use [JSDoc](https://jsdoc.app/).
+* [`canonical/json`](./configurations/json.ts) – for projects that use JSON.
+* [`canonical/jsx-a11y`](./configurations/jsx-a11y.ts) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
+* [`canonical/lodash`](./configurations/lodash.ts) – for projects that use [lodash](https://lodash.com/).
+* [`canonical/mocha`](./configurations/mocha.ts) – for projects that use [Mocha](https://mochajs.org/).
+* [`canonical/module`](./configurations/module.ts) – for projects that use ESM modules.
+* [`canonical/next`](./configurations/next.ts) – for projects that use [Next.js](https://nextjs.org/).
+* [`canonical/node`](./configurations/node.ts) – for projects that use Node.js.
+* [`canonical/prettier`](./configurations/prettier.ts) – applies [Prettier](https://prettier.io/) formatting.
+* [`canonical/react`](./configurations/react.ts) – for projects that use [React](https://facebook.github.io/react/).
+* [`canonical/regexp`](./configurations/regexp.ts) – for projects that use regular expressions.
+* [`canonical/typescript-type-checking`](./configurations/typescript-type-checking.ts) – for projects that use [TypeScript](http://typescriptlang.org/) and want additional rules that require type information (rules using type information take longer to run).
+* [`canonical/typescript`](./configurations/typescript.ts) – for projects that use [TypeScript](http://typescriptlang.org/).
+* [`canonical/vitest`](./configurations/vitest.ts) – for projects that use [Vitest](https://vitest.dev/).
+* [`canonical/yaml`](./configurations/yaml.ts) – for projects that use YAML.
+* [`canonical/zod`](./configurations/zod.ts) – for projects that use [Zod](https://github.com/colinhacks/zod).
 
 ## `canonical/auto` ruleset
 
-[`canonical/auto`](./configurations/auto.js) is a special ruleset that uses [overrides](https://eslint.org/docs/user-guide/configuring/configuration-files#how-do-overrides-work) to only apply relevant style guides. This reduces the linting time and the number of false-positives.
+[`canonical/auto`](./configurations/auto.ts) is a special ruleset that uses [overrides](https://eslint.org/docs/user-guide/configuring/configuration-files#how-do-overrides-work) to only apply relevant style guides. This reduces the linting time and the number of false-positives.
 
 `canonical/auto` can be fine-tuned using `overrides` just like any other ESLint ruleset, e.g.
 

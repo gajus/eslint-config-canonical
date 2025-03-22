@@ -58,6 +58,12 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "exports": {
+    "./*": {
+      "import": "./dist/configurations/*.js",
+      "types": "./dist/configurations/*.d.ts"
+    }
+  },
   "keywords": [
     "eslint",
     "config",
@@ -74,7 +80,7 @@
     "url": "https://github.com/gajus/eslint-config-canonical"
   },
   "scripts": {
-    "build": "true",
+    "build": "tsc",
     "compare": "(cd compare; node compare.js)",
     "find-deprecated": "(cd compare; node find-deprecated.js)",
     "generate-typescript-compatibility-rules": "node bin/generate-typescript-compatibility-rules.js > configurations/typescript-compatibility.js && eslint configurations/typescript-compatibility.js --fix",
