@@ -1,7 +1,6 @@
 import * as ava from './ava.js';
 import * as browser from './browser.js';
 import * as canonical from './canonical.js';
-import * as cypress from './cypress.js';
 import * as graphql from './graphql.js';
 import * as jest from './jest.js';
 import * as jsdoc from './jsdoc.js';
@@ -24,7 +23,6 @@ export default {
   ava: ava.recommended,
   browser: browser.recommended,
   canonical: canonical.recommended,
-  cypress: cypress.recommended,
   graphql: graphql.recommended,
   jest: jest.recommended,
   jsdoc: jsdoc.recommended,

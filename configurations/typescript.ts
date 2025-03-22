@@ -1,8 +1,10 @@
 import * as typescriptCompatibility from './typescript-compatibility.js';
 import stylisticPlugin from '@stylistic/eslint-plugin';
 import eslintPlugin from '@typescript-eslint/eslint-plugin';
+// @ts-expect-error TODO
 import * as eslintParser from '@typescript-eslint/parser';
 import canonicalPlugin from 'eslint-plugin-canonical';
+// @ts-expect-error TODO
 import functionalPlugin from 'eslint-plugin-functional';
 import tseslint from 'typescript-eslint';
 
@@ -253,7 +255,7 @@ export const recommended = tseslint.config({
         markers: ['/'],
       },
     ],
-    ...typescriptCompatibility.recommended.rules,
+    ...typescriptCompatibility.recommended[0].rules,
   },
   settings: {
     'import/extensions': ['.ts', '.tsx'],
