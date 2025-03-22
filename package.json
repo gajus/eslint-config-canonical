@@ -18,6 +18,7 @@
     "eslint-plugin-cypress": "^4.2.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-functional": "^9.0.1",
     "eslint-plugin-import": "npm:eslint-plugin-import-x@^4.9.1",
     "eslint-plugin-jest": "^28.11.0",
     "eslint-plugin-jsdoc": "^50.6.8",

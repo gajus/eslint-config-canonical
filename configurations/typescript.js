@@ -3,6 +3,7 @@ import stylisticPlugin from '@stylistic/eslint-plugin';
 import eslintPlugin from '@typescript-eslint/eslint-plugin';
 import eslintParser from '@typescript-eslint/parser';
 import canonicalPlugin from 'eslint-plugin-canonical';
+import functionalPlugin from 'eslint-plugin-functional';
 
 // TODO add .d.ts files
 // {
@@ -28,6 +29,7 @@ export const recommended = {
     '@stylistic': stylisticPlugin,
     '@typescript-eslint': eslintPlugin,
     canonical: canonicalPlugin,
+    functional: functionalPlugin,
   },
   rules: {
     '@stylistic/member-delimiter-style': [
@@ -181,7 +183,7 @@ export const recommended = {
     '@typescript-eslint/prefer-literal-enum-member': 2,
     '@typescript-eslint/prefer-namespace-keyword': 2,
     '@typescript-eslint/prefer-readonly': 2,
-    '@typescript-eslint/prefer-readonly-parameter-types': 2,
+    '@typescript-eslint/prefer-readonly-parameter-types': 0,
     '@typescript-eslint/prefer-ts-expect-error': 2,
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
@@ -198,6 +200,8 @@ export const recommended = {
     '@typescript-eslint/unified-signatures': 2,
     'canonical/prefer-inline-type-import': 2,
     'default-param-last': 0,
+    'functional/prefer-immutable-types': 2,
+    'functional/type-declaration-immutability': 2,
     'import/no-dynamic-require': 0,
     'jsdoc/require-property-type': 0,
     'n/global-require': 0,
