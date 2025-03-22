@@ -4,6 +4,17 @@
     "name": "Gajus Kuizinas",
     "url": "http://gajus.com"
   },
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "files": [
+      "configurations/auto.test.ts"
+    ],
+    "nodeArguments": [
+      "--import=tsimp/import"
+    ]
+  },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^4.3.0",
     "@next/eslint-plugin-next": "^15.2.3",
@@ -53,6 +64,7 @@
     "got": "^14.4.6",
     "husky": "^9.1.7",
     "semantic-release": "^24.2.3",
+    "tsimp": "^2.0.12",
     "typescript": "^5.8.2"
   },
   "engines": {
