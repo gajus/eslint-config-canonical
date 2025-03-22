@@ -1,7 +1,7 @@
 import * as typescriptCompatibility from './typescript-compatibility.js';
 import stylisticPlugin from '@stylistic/eslint-plugin';
 import eslintPlugin from '@typescript-eslint/eslint-plugin';
-import eslintParser from '@typescript-eslint/parser';
+import * as eslintParser from '@typescript-eslint/parser';
 import canonicalPlugin from 'eslint-plugin-canonical';
 import functionalPlugin from 'eslint-plugin-functional';
 
