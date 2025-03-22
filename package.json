@@ -76,6 +76,9 @@
       "types": "./dist/configurations/*.d.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "eslint",
     "config",
