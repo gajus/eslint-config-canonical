@@ -1,6 +1,6 @@
-import auto from './configurations/auto';
-import * as ava from './configurations/ava';
-import * as node from './configurations/node';
+import auto from './configurations/auto.js';
+import * as ava from './configurations/ava.js';
+import * as node from './configurations/node.js';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
@@ -13,6 +13,6 @@ export default tseslint.config(
     },
   },
   {
-    ignores: ['**/package-lock.json', '**/pnpm-lock.yaml', '**/dist'],
+    ignores: ['**/package-lock.json', '**/pnpm-lock.yaml', '**/dist', '**/.*'],
   },
 );

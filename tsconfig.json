@@ -7,8 +7,8 @@
     "lib": [
       "es2021"
     ],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "noImplicitAny": false,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
@@ -16,7 +16,7 @@
     "outDir": "dist",
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2018"
+    "target": "ES2024"
   },
   "exclude": [
     "dist",
