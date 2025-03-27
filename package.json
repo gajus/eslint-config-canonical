@@ -72,8 +72,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/configurations/index.js",
+      "types": "./dist/configurations/index.d.ts"
     },
     "./*": {
       "import": "./dist/configurations/*.js",
