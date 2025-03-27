@@ -187,56 +187,6 @@ export const recommended = tseslint.config({
     '@typescript-eslint/unified-signatures': 2,
     'canonical/prefer-inline-type-import': 2,
     'default-param-last': 0,
-    // disabled until the following issue is resolved
-    // https://github.com/eslint-functional/eslint-plugin-functional/issues/946
-    'functional/prefer-immutable-types': 0,
-    'functional/type-declaration-immutability': [
-      2,
-      {
-        rules: [
-          {
-            comparator: 'AtLeast',
-            identifiers: 'I?Immutable.+',
-            immutability: 'Immutable',
-          },
-          {
-            comparator: 'AtLeast',
-            identifiers: 'I?ReadonlyDeep.+',
-            immutability: 'ReadonlyDeep',
-          },
-          {
-            comparator: 'AtLeast',
-            fixer: [
-              {
-                pattern: '^(Array|Map|Set)<(.+)>$',
-                replace: 'Readonly$1<$2>',
-              },
-              {
-                pattern: '^(.+)$',
-                replace: 'Readonly<$1>',
-              },
-            ],
-            identifiers: 'I?Readonly.+',
-            immutability: 'ReadonlyShallow',
-          },
-          {
-            comparator: 'AtMost',
-            fixer: [
-              {
-                pattern: '^Readonly(Array|Map|Set)<(.+)>$',
-                replace: '$1<$2>',
-              },
-              {
-                pattern: '^Readonly<(.+)>$',
-                replace: '$1',
-              },
-            ],
-            identifiers: 'I?Mutable.+',
-            immutability: 'Mutable',
-          },
-        ],
-      },
-    ],
     'import/no-dynamic-require': 0,
     'jsdoc/require-property-type': 0,
     'n/global-require': 0,
