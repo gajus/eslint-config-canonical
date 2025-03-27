@@ -71,6 +71,10 @@
     "node": ">=16.0.0"
   },
   "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
     "./*": {
       "import": "./dist/configurations/*.js",
       "types": "./dist/configurations/*.d.ts"
