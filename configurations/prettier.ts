@@ -60,6 +60,7 @@ export const recommended = tseslint.config({
     'react/jsx-curly-newline': 0,
     'react/jsx-indent': 0,
     'react/jsx-indent-props': 0,
+    'react/jsx-newline': 0,
     'unicorn/no-nested-ternary': 0,
     'unicorn/template-indent': 0,
   },
