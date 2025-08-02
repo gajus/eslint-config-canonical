@@ -98,7 +98,11 @@ const getConfigurationRules = async (configuration) => {
 const getRuleLink = (ruleName) => {
   if (!ruleName.includes('/')) {
     return (
-      '[`' + ruleName + '`](https://eslint.org/docs/rules/' + ruleName + ')'
+      '[`' +
+      ruleName +
+      '`](https://eslint.org/docs/latest/rules/' +
+      ruleName +
+      ')'
     );
   }
 
@@ -116,7 +120,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/' +
+      '`](https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/' +
       ruleName.replace(/^ava\//u, '') +
       '.md)'
     );
@@ -156,9 +160,9 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-' +
+      '`](https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/' +
       ruleName.replace(/^jsdoc\//u, '') +
-      ')'
+      '.md)'
     );
   }
 
@@ -166,7 +170,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/' +
+      '`](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/' +
       ruleName.replace(/^import\//u, '') +
       '.md)'
     );
@@ -176,7 +180,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/' +
+      '`](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/' +
       ruleName.replace(/^react\//u, '') +
       '.md)'
     );
@@ -186,7 +190,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/' +
+      '`](https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules' +
       ruleName.replace(/^promise\//u, '') +
       '.md)'
     );
@@ -196,7 +200,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/' +
+      '`](https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/' +
       ruleName.replace(/^lodash\//u, '') +
       '.md)'
     );
@@ -206,7 +210,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/' +
+      '`](https://github.com/lo1tuma/eslint-plugin-mocha/blob/main/docs/rules/' +
       ruleName.replace(/^mocha\//u, '') +
       '.md)'
     );
@@ -236,7 +240,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/' +
+      '`](https://github.com/infofarmer/eslint-plugin-jsx-a11y/blob/main/docs/rules/' +
       ruleName.replace(/^jsx-a11y\//u, '') +
       '.md)'
     );
@@ -246,7 +250,7 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/' +
+      '`](https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/' +
       ruleName.replace(/^jest\//u, '') +
       '.md)'
     );
@@ -266,9 +270,9 @@ const getRuleLink = (ruleName) => {
     return (
       '[`' +
       ruleName +
-      '`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/' +
+      '`](https://typescript-eslint.io/rules/' +
       ruleName.replace(/^@typescript-eslint\//u, '') +
-      '.md)'
+      ')'
     );
   }
 
