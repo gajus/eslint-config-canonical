@@ -1,6 +1,10 @@
+import typescriptEslintPlugin from '@typescript-eslint/eslint-plugin';
 import tseslint from 'typescript-eslint';
 
 export const recommended = tseslint.config({
+  plugins: {
+    '@typescript-eslint': typescriptEslintPlugin,
+  },
   rules: {
     '@typescript-eslint/await-thenable': 2,
     '@typescript-eslint/consistent-type-exports': [

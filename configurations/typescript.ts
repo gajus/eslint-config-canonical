@@ -1,6 +1,6 @@
 import * as typescriptCompatibility from './typescript-compatibility.js';
 import stylisticPlugin from '@stylistic/eslint-plugin';
-import eslintPlugin from '@typescript-eslint/eslint-plugin';
+import typescriptEslintPlugin from '@typescript-eslint/eslint-plugin';
 import * as eslintParser from '@typescript-eslint/parser';
 import canonicalPlugin from 'eslint-plugin-canonical';
 import functionalPlugin from 'eslint-plugin-functional';
@@ -16,7 +16,7 @@ export const recommended = tseslint.config({
   },
   plugins: {
     '@stylistic': stylisticPlugin,
-    '@typescript-eslint': eslintPlugin,
+    '@typescript-eslint': typescriptEslintPlugin,
     canonical: canonicalPlugin,
     functional: functionalPlugin,
   },
