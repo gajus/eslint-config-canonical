@@ -26,7 +26,7 @@ for (const incompatibleRuleName of incompatibleRuleNames) {
 }
 
 const orderedRules = {
-  rules: Object.fromEntries(Object.entries(appendRules).sort()),
+  rules: Object.fromEntries(Object.entries(appendRules).toSorted()),
 };
 
 // eslint-disable-next-line no-console

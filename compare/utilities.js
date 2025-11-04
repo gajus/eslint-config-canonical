@@ -74,7 +74,7 @@ const getLoadedRules = async () => {
   }
 
   return Object.fromEntries(
-    Object.entries(loadedRules).sort((a, b) => {
+    Object.entries(loadedRules).toSorted((a, b) => {
       return a[0].localeCompare(b[0]);
     }),
   );
