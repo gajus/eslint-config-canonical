@@ -587,7 +587,7 @@ export const recommended = tseslint.config({
       },
     ],
     'unicorn/consistent-destructuring': 0,
-    'unicorn/consistent-function-scoping': 2,
+    'unicorn/consistent-function-scoping': [2, { checkArrowFunctions: false }],
     'unicorn/custom-error-definition': 0,
     'unicorn/empty-brace-spaces': 2,
     'unicorn/error-message': 2,
