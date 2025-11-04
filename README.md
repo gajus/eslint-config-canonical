@@ -39,6 +39,7 @@ This package includes the following rulesets:
 * [`canonical/node`](./configurations/node.ts) – for projects that use Node.js.
 * [`canonical/prettier`](./configurations/prettier.ts) – applies [Prettier](https://prettier.io/) formatting.
 * [`canonical/react`](./configurations/react.ts) – for projects that use [React](https://facebook.github.io/react/).
+* [`canonical/react-hooks`](./configurations/react-hooks.ts) – for projects that use [React Hooks](https://react.dev/reference/react/hooks).
 * [`canonical/regexp`](./configurations/regexp.ts) – for projects that use regular expressions.
 * [`canonical/typescript-type-checking`](./configurations/typescript-type-checking.ts) – for projects that use [TypeScript](http://typescriptlang.org/) and want additional rules that require type information (rules using type information take longer to run).
 * [`canonical/typescript`](./configurations/typescript.ts) – for projects that use [TypeScript](http://typescriptlang.org/).
@@ -86,6 +87,7 @@ For the most part, Prettier and Canonical are already compatible. There are only
     "canonical/jsdoc",
     "canonical/regexp",
     "canonical/react",
+    "canonical/react-hooks",
     "canonical/typescript",
     "canonical/jest",
     "canonical/prettier"
@@ -108,6 +110,7 @@ Since Canonical style guide includes more rules than any other style guide, you 
     "canonical/jsdoc",
     "canonical/regexp",
     "canonical/react",
+    "canonical/react-hooks",
     "airbnb"
   ]
 }

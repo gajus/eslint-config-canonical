@@ -9,6 +9,7 @@ export default tseslint.config(
   ava.recommended,
   {
     rules: {
+      'canonical/filename-match-regex': 0,
       'n/global-require': 0,
     },
   },

@@ -1,6 +1,5 @@
 import canonicalPlugin from 'eslint-plugin-canonical';
 import reactPlugin from 'eslint-plugin-react';
-import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
@@ -19,23 +18,9 @@ export const recommended = tseslint.config({
   plugins: {
     canonical: canonicalPlugin,
     react: reactPlugin,
-    'react-hooks': reactHooksPlugin,
   },
   rules: {
     'canonical/sort-react-dependencies': 2,
-    'react-hooks/component-hook-factories': 2,
-    'react-hooks/error-boundaries': 2,
-    'react-hooks/exhaustive-deps': 2,
-    'react-hooks/immutability': 2,
-    'react-hooks/preserve-manual-memoization': 2,
-    'react-hooks/purity': 2,
-    'react-hooks/refs': 2,
-    'react-hooks/rules-of-hooks': 2,
-    'react-hooks/set-state-in-effect': 2,
-    'react-hooks/set-state-in-render': 2,
-    'react-hooks/static-components': 2,
-    'react-hooks/unsupported-syntax': 2,
-    'react-hooks/use-memo': 2,
     'react/boolean-prop-naming': 0,
     'react/button-has-type': 2,
     'react/default-props-match-prop-types': 2,
