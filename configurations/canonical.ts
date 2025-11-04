@@ -247,7 +247,6 @@ export const recommended = tseslint.config({
     'canonical/import-specifier-newline': 2,
     'canonical/no-import-namespace-destructure': 2,
     'canonical/no-restricted-strings': 0,
-    'canonical/no-use-extend-native': 2,
     'capitalized-comments': 0,
     'class-methods-use-this': 0,
     complexity: [2, 30],
