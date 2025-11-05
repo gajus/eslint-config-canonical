@@ -72,7 +72,6 @@ export const recommended = tseslint.config({
     '@stylistic/computed-property-spacing': [2, 'never'],
     '@stylistic/dot-location': [2, 'property'],
     '@stylistic/eol-last': 2,
-    '@stylistic/func-call-spacing': [2, 'never'],
     '@stylistic/function-call-argument-newline': [2, 'consistent'],
     '@stylistic/function-call-spacing': [2, 'never'],
     '@stylistic/generator-star-spacing': [
