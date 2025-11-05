@@ -194,13 +194,6 @@ export const recommended = tseslint.config({
     'no-duplicate-imports': 0,
     'no-undef': 0,
     'no-use-before-define': 0,
-    'spaced-comment': [
-      2,
-      'always',
-      {
-        markers: ['/'],
-      },
-    ],
     ...typescriptCompatibility.recommended[0].rules,
   },
   settings: {
