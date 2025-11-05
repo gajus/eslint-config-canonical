@@ -615,7 +615,7 @@ export const recommended = tseslint.config({
     'unicorn/no-empty-file': 2,
     'unicorn/no-for-loop': 2,
     'unicorn/no-hex-escape': 2,
-    'unicorn/no-immediate-mutation': 2,
+    'unicorn/no-immediate-mutation': 0,
     'unicorn/no-instanceof-array': 2,
     'unicorn/no-invalid-remove-event-listener': 2,
     'unicorn/no-keyword-prefix': 0,
