@@ -1,7 +1,7 @@
 import jestPlugin from 'eslint-plugin-jest';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   languageOptions: {
     globals: jestPlugin.environments.globals.globals,
   },

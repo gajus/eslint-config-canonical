@@ -5,14 +5,15 @@ import importPlugin from 'eslint-plugin-import';
 import perfectionist from 'eslint-plugin-perfectionist';
 import promisePlugin from 'eslint-plugin-promise';
 import unicornPlugin from 'eslint-plugin-unicorn';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     '@stylistic': stylisticPlugin,
     canonical: canonicalPlugin,
     'eslint-comments': eslintComments,
+    // @ts-expect-error - not properly typed
     import: importPlugin,
     perfectionist,
     promise: promisePlugin,

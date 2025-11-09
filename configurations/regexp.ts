@@ -1,10 +1,10 @@
 import regexpPlugin from 'eslint-plugin-regexp';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
 /**
  * https://github.com/ota-meshi/eslint-plugin-regexp/blob/master/lib/configs/recommended.ts
  */
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     regexp: regexpPlugin,

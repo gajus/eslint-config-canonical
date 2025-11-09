@@ -1,7 +1,7 @@
 import lodashPlugin from 'eslint-plugin-lodash';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   plugins: {
     lodash: lodashPlugin,
   },

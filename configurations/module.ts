@@ -1,7 +1,7 @@
 import unicornPlugin from 'eslint-plugin-unicorn';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   plugins: {
     unicorn: unicornPlugin,
   },

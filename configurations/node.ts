@@ -1,16 +1,17 @@
 import importPlugin from 'eslint-plugin-import';
 import nPlugin from 'eslint-plugin-n';
 import unicornPlugin from 'eslint-plugin-unicorn';
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
-import tseslint from 'typescript-eslint';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   languageOptions: {
     globals: {
       ...globals.node,
     },
   },
   plugins: {
+    // @ts-expect-error - not properly typed
     import: importPlugin,
     // eslint-disable-next-line id-length
     n: nPlugin,

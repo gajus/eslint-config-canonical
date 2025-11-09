@@ -1,8 +1,8 @@
 import mochaPlugin from 'eslint-plugin-mocha';
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
-import tseslint from 'typescript-eslint';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   languageOptions: {
     globals: globals.mocha,
   },

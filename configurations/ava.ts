@@ -1,8 +1,8 @@
 import ava from 'eslint-plugin-ava';
 import unicorn from 'eslint-plugin-unicorn';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.test.{js,ts,tsx}'],
   plugins: {
     ava,

@@ -1,6 +1,6 @@
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.{ts,tsx}'],
   rules: {
     '@typescript-eslint/default-param-last': 2,

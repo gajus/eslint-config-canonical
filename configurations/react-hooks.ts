@@ -1,7 +1,7 @@
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.{js,jsx,ts,tsx}'],
   languageOptions: {
     parserOptions: {
@@ -11,6 +11,7 @@ export const recommended = tseslint.config({
     },
   },
   plugins: {
+    // @ts-expect-error - not properly typed
     'react-hooks': reactHooksPlugin,
   },
   rules: {

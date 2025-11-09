@@ -1,9 +1,9 @@
 import canonicalPlugin from 'eslint-plugin-canonical';
 import reactPlugin from 'eslint-plugin-react';
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
-import tseslint from 'typescript-eslint';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.{jsx,tsx}'],
   languageOptions: {
     globals: {

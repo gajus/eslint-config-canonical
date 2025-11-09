@@ -1,12 +1,13 @@
 import jsoncPlugin from 'eslint-plugin-jsonc';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.json'],
   languageOptions: {
     parser: jsoncPlugin,
   },
   plugins: {
+    // @ts-expect-error - not properly typed
     jsonc: jsoncPlugin,
   },
   rules: {

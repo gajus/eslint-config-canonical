@@ -1,8 +1,9 @@
 import vitestPlugin from '@vitest/eslint-plugin';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   plugins: {
+    // @ts-expect-error - not properly typed
     vitest: vitestPlugin,
   },
   rules: {

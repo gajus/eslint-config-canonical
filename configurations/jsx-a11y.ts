@@ -1,7 +1,7 @@
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   plugins: {
     'jsx-a11y': jsxA11yPlugin,
   },

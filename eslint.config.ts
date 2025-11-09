@@ -1,9 +1,9 @@
 import auto from './configurations/auto.js';
 import * as ava from './configurations/ava.js';
 import * as node from './configurations/node.js';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export default tseslint.config(
+export default defineConfig(
   node.recommended,
   ...auto,
   ava.recommended,

@@ -1,7 +1,7 @@
 import prettierPlugin from 'eslint-plugin-prettier';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.{js,jsx,cjs,mjs,ts,tsx}'],
   plugins: {
     prettier: prettierPlugin,

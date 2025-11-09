@@ -8,9 +8,9 @@ import * as react from './react.js';
 import * as regexp from './regexp.js';
 import * as typescript from './typescript.js';
 import * as yaml from './yaml.js';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export default tseslint.config(
+export default defineConfig(
   jsdoc.recommended,
   canonical.recommended,
   typescript.recommended,

@@ -4,9 +4,9 @@ import typescriptEslintPlugin from '@typescript-eslint/eslint-plugin';
 import * as eslintParser from '@typescript-eslint/parser';
 import canonicalPlugin from 'eslint-plugin-canonical';
 import functionalPlugin from 'eslint-plugin-functional';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.{ts,tsx}'],
   languageOptions: {
     parser: eslintParser,
@@ -16,8 +16,10 @@ export const recommended = tseslint.config({
   },
   plugins: {
     '@stylistic': stylisticPlugin,
+    // @ts-expect-error - not properly typed
     '@typescript-eslint': typescriptEslintPlugin,
     canonical: canonicalPlugin,
+    // @ts-expect-error - not properly typed
     functional: functionalPlugin,
   },
   rules: {

@@ -1,12 +1,13 @@
 import * as graphqlPlugin from '@graphql-eslint/eslint-plugin';
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 
-export const recommended = tseslint.config({
+export const recommended = defineConfig({
   files: ['**/*.graphql'],
   languageOptions: {
     parser: graphqlPlugin,
   },
   plugins: {
+    // @ts-expect-error - not properly typed
     '@graphql-eslint': graphqlPlugin,
   },
   rules: {
