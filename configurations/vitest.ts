@@ -3,7 +3,6 @@ import { defineConfig } from 'eslint/config';
 
 export const recommended = defineConfig({
   plugins: {
-    // @ts-expect-error - not properly typed
     vitest: vitestPlugin,
   },
   rules: {
