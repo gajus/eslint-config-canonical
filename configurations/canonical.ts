@@ -542,7 +542,7 @@ export const recommended = defineConfig({
         groups: [],
         ignoreCase: true,
         maxLineLength: undefined,
-        newlinesBetween: 'never',
+        newlinesBetween: 0,
         type: 'natural',
       },
     ],
