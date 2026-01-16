@@ -2,7 +2,9 @@ import stylisticPlugin from '@stylistic/eslint-plugin';
 import canonicalPlugin from 'eslint-plugin-canonical';
 import eslintComments from 'eslint-plugin-eslint-comments';
 import importPlugin from 'eslint-plugin-import';
-import perfectionist, { configs as perfectionistConfigs } from 'eslint-plugin-perfectionist';
+import perfectionist, {
+  configs as perfectionistConfigs,
+} from 'eslint-plugin-perfectionist';
 import promisePlugin from 'eslint-plugin-promise';
 import unicornPlugin from 'eslint-plugin-unicorn';
 import { defineConfig } from 'eslint/config';
