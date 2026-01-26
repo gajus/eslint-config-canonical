@@ -51,13 +51,7 @@ export const recommended = defineConfig({
         },
       },
     ],
-    '@stylistic/type-annotation-spacing': [
-      2,
-      {
-        after: true,
-        before: false,
-      },
-    ],
+    '@stylistic/type-annotation-spacing': 0,
     '@typescript-eslint/adjacent-overload-signatures': 2,
     '@typescript-eslint/array-type': [
       2,
