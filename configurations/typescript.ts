@@ -92,8 +92,6 @@ export const recommended = defineConfig({
         prefer: 'type-imports',
       },
     ],
-    '@typescript-eslint/no-useless-default-assignment': 2,
-    '@typescript-eslint/strict-void-return': 2,
     '@typescript-eslint/default-param-last': 2,
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
@@ -168,6 +166,7 @@ export const recommended = defineConfig({
     '@typescript-eslint/no-unsafe-call': 0,
     '@typescript-eslint/no-unsafe-member-access': 0,
     '@typescript-eslint/no-unsafe-return': 0,
+    '@typescript-eslint/no-useless-default-assignment': 2,
     '@typescript-eslint/no-var-requires': 2,
     '@typescript-eslint/non-nullable-type-assertion-style': 0,
     '@typescript-eslint/prefer-as-const': 2,
@@ -180,6 +179,7 @@ export const recommended = defineConfig({
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
     '@typescript-eslint/strict-boolean-expressions': 0,
+    '@typescript-eslint/strict-void-return': 2,
     '@typescript-eslint/triple-slash-reference': [
       2,
       {
