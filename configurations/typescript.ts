@@ -23,6 +23,13 @@ export const recommended = defineConfig({
     functional: functionalPlugin,
   },
   rules: {
+    '@stylistic/arrow-spacing': [
+      2,
+      {
+        after: true,
+        before: true,
+      },
+    ],
     '@stylistic/member-delimiter-style': [
       2,
       {
@@ -49,12 +56,6 @@ export const recommended = defineConfig({
       {
         after: true,
         before: false,
-        overrides: {
-          arrow: {
-            after: true,
-            before: true,
-          },
-        },
       },
     ],
     '@typescript-eslint/adjacent-overload-signatures': 2,
