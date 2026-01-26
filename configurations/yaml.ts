@@ -1,14 +1,10 @@
 import yamlPlugin from 'eslint-plugin-yml';
 import { defineConfig } from 'eslint/config';
-import yamlEslintParser from 'yaml-eslint-parser';
 
 export const recommended = defineConfig({
   files: ['**/*.yaml'],
-  languageOptions: {
-    parser: yamlEslintParser,
-  },
+  language: 'yml/yaml',
   plugins: {
-    // @ts-expect-error - not properly typed
     yml: yamlPlugin,
   },
   rules: {
