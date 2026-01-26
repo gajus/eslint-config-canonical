@@ -173,7 +173,7 @@ export const recommended = defineConfig({
     '@typescript-eslint/restrict-plus-operands': 0,
     '@typescript-eslint/restrict-template-expressions': 0,
     '@typescript-eslint/strict-boolean-expressions': 0,
-    '@typescript-eslint/strict-void-return': 2,
+    '@typescript-eslint/strict-void-return': 0,
     '@typescript-eslint/triple-slash-reference': [
       2,
       {
