@@ -93,7 +93,6 @@ export const recommended = defineConfig({
       },
     ],
     '@typescript-eslint/no-useless-default-assignment': 2,
-    '@typescript-eslint/no-multiple-lines-of-errors': 2,
     '@typescript-eslint/strict-void-return': 2,
     '@typescript-eslint/default-param-last': 2,
     '@typescript-eslint/explicit-function-return-type': 0,
