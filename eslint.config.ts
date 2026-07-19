@@ -14,6 +14,12 @@ export default defineConfig(
     },
   },
   {
+    files: ['scripts/**/*.{js,cjs,mjs}'],
+    rules: {
+      'no-console': 0,
+    },
+  },
+  {
     ignores: ['**/package-lock.json', '**/pnpm-lock.yaml', '**/dist', '**/.*'],
   },
 );

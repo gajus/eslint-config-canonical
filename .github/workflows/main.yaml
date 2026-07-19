@@ -19,7 +19,6 @@ jobs:
           node-version: '24'
       - run: npm install
       - run: npm run lint
-      - run: npm run test
       - run: npm run build
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

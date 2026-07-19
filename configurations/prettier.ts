@@ -28,7 +28,6 @@ export const recommended = defineConfig({
     '@stylistic/quotes': 0,
     '@stylistic/space-before-function-paren': 0,
     '@stylistic/space-in-parens': 0,
-    '@typescript-eslint/indent': 0,
     'arrow-body-style': 0,
     'canonical/destructuring-property-newline': 0,
     'canonical/export-specifier-newline': 0,

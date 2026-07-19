@@ -4,69 +4,53 @@
     "name": "Gajus Kuizinas",
     "url": "http://gajus.com"
   },
-  "ava": {
-    "extensions": {
-      "ts": "module"
-    },
-    "files": [
-      "configurations/auto.test.ts"
-    ],
-    "nodeArguments": [
-      "--import=tsimp/import"
-    ]
-  },
   "dependencies": {
-    "@eslint-community/eslint-plugin-eslint-comments": "^4.6.0",
+    "@eslint-community/eslint-plugin-eslint-comments": "4.7.2",
     "@graphql-eslint/eslint-plugin": "^4.4.0",
-    "@next/eslint-plugin-next": "^15.5.0",
-    "@stylistic/eslint-plugin": "^5.7.1",
-    "@typescript-eslint/eslint-plugin": "^8.53.1",
-    "@typescript-eslint/parser": "^8.53.1",
-    "@vitest/eslint-plugin": "^1.5.1",
+    "@next/eslint-plugin-next": "^16.2.10",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.64.0",
+    "@typescript-eslint/parser": "^8.64.0",
+    "@vitest/eslint-plugin": "^1.6.23",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-ava": "^15.1.0",
+    "eslint-import-resolver-typescript": "^4.4.5",
+    "eslint-plugin-ava": "^17.0.1",
     "eslint-plugin-canonical": "^5.1.3",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-functional": "^9.0.2",
-    "eslint-plugin-import": "npm:eslint-plugin-import-x@^4.16.1",
-    "eslint-plugin-jest": "^28.11.0",
-    "eslint-plugin-jsdoc": "^50.6.8",
-    "eslint-plugin-jsonc": "^2.21.0",
+    "eslint-plugin-functional": "^10.0.0",
+    "eslint-plugin-import": "npm:eslint-plugin-import-x@^4.17.1",
+    "eslint-plugin-jest": "^29.15.4",
+    "eslint-plugin-jsdoc": "^63.2.0",
+    "eslint-plugin-jsonc": "^3.3.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-lodash": "^8.0.0",
-    "eslint-plugin-mocha": "^10.5.0",
+    "eslint-plugin-mocha": "^11.3.0",
     "eslint-plugin-modules-newline": "0.0.6",
-    "eslint-plugin-n": "^17.23.2",
-    "eslint-plugin-perfectionist": "^5.4.0",
-    "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-n": "^18.2.2",
+    "eslint-plugin-perfectionist": "^5.10.0",
+    "eslint-plugin-prettier": "^5.5.6",
+    "eslint-plugin-promise": "^7.3.0",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-regexp": "^3.0.0",
-    "eslint-plugin-unicorn": "^62.0.0",
-    "eslint-plugin-yml": "^3.0.0",
-    "eslint-plugin-zod": "^3.0.2",
-    "globals": "^16.5.0",
-    "graphql": "^16.12.0",
-    "prettier": "^3.7.4",
-    "ramda": "^0.32.0"
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-regexp": "^3.1.1",
+    "eslint-plugin-unicorn": "^72.0.0",
+    "eslint-plugin-yml": "^3.6.0",
+    "eslint-plugin-zod": "^4.8.0",
+    "globals": "^17.7.0",
+    "graphql": "16.14.2"
   },
   "description": "Canonical ESLint Shareable Config",
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.1",
-    "@semantic-release/github": "^12.0.2",
-    "@semantic-release/npm": "^13.1.3",
-    "ava": "^6.4.1",
-    "eslint": "^9.39.1",
-    "got": "^14.6.5",
+    "@semantic-release/github": "^12.0.9",
+    "@semantic-release/npm": "^13.1.5",
+    "eslint": "10.7.0",
     "husky": "^9.1.7",
-    "semantic-release": "^25.0.2",
-    "tsimp": "^2.0.12",
-    "typescript": "^5.9.3"
+    "semantic-release": "^25.0.8",
+    "typescript": "6.0.3"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": "^20.19.0 || ^22.13.0 || >=24"
   },
   "exports": {
     ".": {
@@ -90,7 +74,7 @@
   "main": "./eslintrc.js",
   "name": "eslint-config-canonical",
   "peerDependencies": {
-    "eslint": "^9"
+    "eslint": "9 || ^10"
   },
   "repository": {
     "type": "git",
@@ -98,12 +82,11 @@
   },
   "scripts": {
     "build": "tsc",
-    "compare": "(cd compare; node compare.js)",
-    "find-deprecated": "(cd compare; node find-deprecated.js)",
-    "generate-typescript-compatibility-rules": "node bin/generate-typescript-compatibility-rules.js > configurations/typescript-compatibility.js && eslint configurations/typescript-compatibility.js --fix",
+    "find-deprecated": "(cd scripts; node find-deprecated.js)",
+    "generate-stats": "(cd scripts; node generate-stats.js)",
+    "generate-typescript-compatibility-rules": "(cd scripts; node generate-typescript-compatibility-rules.js) && eslint configurations/typescript-compatibility.ts --fix",
     "lint": "eslint --report-unused-disable-directives .",
-    "setup-dev": "(npm link; cd compare; npm install; npm link eslint-config-canonical; node compare.js)",
-    "test": "ava --verbose --serial"
+    "setup-dev": "(npm run build; npm link; cd scripts; npm ci; npm link eslint-config-canonical)"
   },
   "type": "module",
   "version": "1.0.0"

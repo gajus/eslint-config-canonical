@@ -15,7 +15,6 @@ export const recommended = defineConfig({
     '@stylistic': stylisticPlugin,
     canonical: canonicalPlugin,
     'eslint-comments': eslintComments,
-    // @ts-expect-error - not properly typed
     import: importPlugin,
     perfectionist,
     promise: promisePlugin,

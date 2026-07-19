@@ -7,7 +7,6 @@ export const recommended = defineConfig({
     parser: graphqlPlugin,
   },
   plugins: {
-    // @ts-expect-error - not properly typed
     '@graphql-eslint': graphqlPlugin,
   },
   rules: {

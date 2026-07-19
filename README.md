@@ -4,7 +4,7 @@
 
 The most comprehensive code style guide.
 
-Canonical consists of 1,000+ rules (40% auto-fixable), some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
+Canonical consists of 1,100+ rules (30% auto-fixable), some of which are [custom written](https://github.com/gajus/eslint-plugin-canonical) for Canonical. Canonical goal is to reduce noise in code version control and promote use of the latest ES features.
 
 ## Usage
 
@@ -12,10 +12,10 @@ Most projects should simply extend from [`canonical/auto`](#canonicalauto-rulese
 
 ```ts
 // eslint.config.ts
+import { defineConfig } from 'eslint/config';
 import auto from 'eslint-config-canonical/auto';
-import tseslint from 'typescript-eslint';
 
-export default tseslint.config(auto);
+export default defineConfig(auto);
 ```
 
 ## Rulesets
@@ -24,75 +24,55 @@ export default tseslint.config(auto);
 
 This package includes the following rulesets:
 
-* [`canonical/auto`](./configurations/auto.ts) – The Canonical code style guide.
-* [`canonical/ava`](./configurations/ava.ts) – for projects that use [AVA](https://ava.li/).
-* [`canonical/browser`](./configurations/browser.ts) – for projects that use DOM and other browser APIs.
-* [`canonical/graphql`](./configurations/graphql.ts) – for projects that use [GraphQL](https://graphql.org/).
-* [`canonical/jest`](./configurations/jest.ts) – for projects that use [jest](https://facebook.github.io/jest/).
-* [`canonical/jsdoc`](./configurations/jsdoc.ts) – for projects that use [JSDoc](https://jsdoc.app/).
-* [`canonical/json`](./configurations/json.ts) – for projects that use JSON.
-* [`canonical/jsx-a11y`](./configurations/jsx-a11y.ts) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
-* [`canonical/lodash`](./configurations/lodash.ts) – for projects that use [lodash](https://lodash.com/).
-* [`canonical/mocha`](./configurations/mocha.ts) – for projects that use [Mocha](https://mochajs.org/).
-* [`canonical/module`](./configurations/module.ts) – for projects that use ESM modules.
-* [`canonical/next`](./configurations/next.ts) – for projects that use [Next.js](https://nextjs.org/).
-* [`canonical/node`](./configurations/node.ts) – for projects that use Node.js.
-* [`canonical/prettier`](./configurations/prettier.ts) – applies [Prettier](https://prettier.io/) formatting.
-* [`canonical/react`](./configurations/react.ts) – for projects that use [React](https://facebook.github.io/react/).
-* [`canonical/react-hooks`](./configurations/react-hooks.ts) – for projects that use [React Hooks](https://react.dev/reference/react/hooks).
-* [`canonical/regexp`](./configurations/regexp.ts) – for projects that use regular expressions.
-* [`canonical/typescript-type-checking`](./configurations/typescript-type-checking.ts) – for projects that use [TypeScript](http://typescriptlang.org/) and want additional rules that require type information (rules using type information take longer to run).
-* [`canonical/typescript`](./configurations/typescript.ts) – for projects that use [TypeScript](http://typescriptlang.org/).
-* [`canonical/vitest`](./configurations/vitest.ts) – for projects that use [Vitest](https://vitest.dev/).
-* [`canonical/yaml`](./configurations/yaml.ts) – for projects that use YAML.
-* [`canonical/zod`](./configurations/zod.ts) – for projects that use [Zod](https://github.com/colinhacks/zod).
+- [`canonical/auto`](./configurations/auto.ts) – The Canonical code style guide.
+- [`canonical/ava`](./configurations/ava.ts) – for projects that use [AVA](https://ava.li/).
+- [`canonical/browser`](./configurations/browser.ts) – for projects that use DOM and other browser APIs.
+- [`canonical/graphql`](./configurations/graphql.ts) – for projects that use [GraphQL](https://graphql.org/).
+- [`canonical/jest`](./configurations/jest.ts) – for projects that use [jest](https://facebook.github.io/jest/).
+- [`canonical/jsdoc`](./configurations/jsdoc.ts) – for projects that use [JSDoc](https://jsdoc.app/).
+- [`canonical/json`](./configurations/json.ts) – for projects that use JSON.
+- [`canonical/jsx-a11y`](./configurations/jsx-a11y.ts) – for projects that use [React](https://facebook.github.io/react/) and want to include [accessibility checks](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
+- [`canonical/lodash`](./configurations/lodash.ts) – for projects that use [lodash](https://lodash.com/).
+- [`canonical/mocha`](./configurations/mocha.ts) – for projects that use [Mocha](https://mochajs.org/).
+- [`canonical/module`](./configurations/module.ts) – for projects that use ESM modules.
+- [`canonical/next`](./configurations/next.ts) – for projects that use [Next.js](https://nextjs.org/).
+- [`canonical/node`](./configurations/node.ts) – for projects that use Node.js.
+- [`canonical/prettier`](./configurations/prettier.ts) – applies [Prettier](https://prettier.io/) formatting.
+- [`canonical/react`](./configurations/react.ts) – for projects that use [React](https://facebook.github.io/react/).
+- [`canonical/react-hooks`](./configurations/react-hooks.ts) – for projects that use [React Hooks](https://react.dev/reference/react/hooks).
+- [`canonical/regexp`](./configurations/regexp.ts) – for projects that use regular expressions.
+- [`canonical/typescript-type-checking`](./configurations/typescript-type-checking.ts) – for projects that use [TypeScript](http://typescriptlang.org/) and want additional rules that require type information (rules using type information take longer to run).
+- [`canonical/typescript`](./configurations/typescript.ts) – for projects that use [TypeScript](http://typescriptlang.org/).
+- [`canonical/vitest`](./configurations/vitest.ts) – for projects that use [Vitest](https://vitest.dev/).
+- [`canonical/yaml`](./configurations/yaml.ts) – for projects that use YAML.
+- [`canonical/zod`](./configurations/zod.ts) – for projects that use [Zod](https://github.com/colinhacks/zod).
 
 ## `canonical/auto` ruleset
 
-[`canonical/auto`](./configurations/auto.ts) is a special ruleset that uses [overrides](https://eslint.org/docs/user-guide/configuring/configuration-files#how-do-overrides-work) to only apply relevant style guides. This reduces the linting time and the number of false-positives.
+[`canonical/auto`](./configurations/auto.ts) is a special ruleset that uses a set of predefined scoped rulesets to only apply relevant style guides. This reduces the linting time and the number of false-positives.
 
-`canonical/auto` can be fine-tuned using `overrides` just like any other ESLint ruleset, e.g.
+`canonical/auto` can be fine-tuned using [`files` and `ignores`](https://eslint.org/docs/latest/use/configure/configuration-files#specify-files-and-ignores) just like any other ESLint ruleset, e.g.
 
-```json
-{
-  "extends": [
-    "canonical/auto"
-  ],
-  "overrides": [
-    {
-      "extends": [
-        "canonical/jsx-a11y"
-      ],
-      "files": "*.tsx"
-    },
-    {
-      "extends": [
-        "canonical/vitest"
-      ],
-      "files": "*.test.{ts,tsx}"
-    }
-  ],
-  "root": true
-}
+```ts
+import { defineConfig } from "eslint/config";
+import auto from "eslint-config-canonical/auto";
+
+export default defineConfig(auto, {
+  files: ["**/*.{ts,tsx}"],
+  rules: { "canonical/prefer-inline-type-import": 0 },
+});
 ```
 
 ### Compatibility with Prettier
 
 For the most part, Prettier and Canonical are already compatible. There are only a few transformations that are incompatible, e.g. Prettier enforces line-length and Canonical does not. As such, there is no good reason to use both. However, if you wish to use Prettier, you can do so by using `canonical/prettier` ruleset, which uses [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) to apply Prettier formatting after applying Canonical rules.
 
-```json
-{
-  "extends": [
-    "canonical",
-    "canonical/jsdoc",
-    "canonical/regexp",
-    "canonical/react",
-    "canonical/react-hooks",
-    "canonical/typescript",
-    "canonical/jest",
-    "canonical/prettier"
-  ]
-}
+```ts
+import { defineConfig } from "eslint/config";
+import auto from "eslint-config-canonical/auto";
+import { recommended as prettier } from "eslint-config-canonical/prettier";
+
+export default defineConfig(auto, prettier);
 ```
 
 > **Note** The reason for using Prettier as an ESLint plugin (as opposed to a separate tool) is because having multiple tools that apply formatting complicates IDE and other tooling setup.
@@ -103,17 +83,24 @@ For the most part, Prettier and Canonical are already compatible. There are only
 
 Since Canonical style guide includes more rules than any other style guide, you can have your codebase compatible with a specific style guide (e.g. [airbnb](https://www.npmjs.com/package/eslint-config-airbnb)) and benefit from Canonical for rules that are not covered by the other guide. All you have to do is extend from the Canonical style guide before extending from the desired style guide, e.g.
 
-```json
-{
-  "extends": [
-    "canonical",
-    "canonical/jsdoc",
-    "canonical/regexp",
-    "canonical/react",
-    "canonical/react-hooks",
-    "airbnb"
-  ]
-}
+```ts
+import { defineConfig } from "eslint/config";
+import eslintConfigESLint from "eslint-config-eslint";
+import { recommended as vitest } from "eslint-config-canonical/vitest";
+import { recommended as zod } from "eslint-config-canonical/zod";
+
+export default defineConfig(
+  eslintConfigESLint,
+  {
+    files: [
+      "**/*.?(component-){spec,test}.{js,mjs,cjs,jsx}",
+      "**/{__mocks__,__tests__}/**/*.{js,mjs,cjs,jsx}",
+      "**/vitest.config.{js,mjs,cjs}",
+    ],
+    extends: vitest,
+  },
+  { files: ["**/*.{js,mjs,cjs,jsx,ts,tsx}"], extends: zod },
+);
 ```
 
 ## Integrations
@@ -144,9 +131,7 @@ The setting below turns on _Auto Fix_ for all providers including ESLint:
 
 ```json
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true
 }
@@ -165,9 +150,7 @@ Additionally, we found it that being explicit about which formatter you are usin
 While not required if you've configured explicit formatter for each file type, I advise that you explicitly disable `prettier` extension in your project:
 
 ```json
-{
-  "prettier.enable": false,
-}
+{ "prettier.enable": false }
 ```
 
 Sharing these settings in your project should be sufficient to prevent local settings accidentally overriding the desired formatter behavior.
@@ -216,14 +199,10 @@ Using ESLint cache will dramatically improve ESLint running time by ensuring tha
 
 Additionally, if performance is a consideration, you may consider:
 
-* [`jest-eslint-runner`](https://github.com/jest-community/jest-runner-eslint)
-* [Integrations](#integrations)
+- [`jest-eslint-runner`](https://github.com/jest-community/jest-runner-eslint)
+- [Integrations](#integrations)
 
 These options provide near instant feedback just how you are used to when using Prettier.
-
-## Table of Comparison
-
-[COMPARISON_TABLE.md](./COMPARISON_TABLE.md)
 
 ## Versioning Policy
 
@@ -231,11 +210,13 @@ All breaking changes will bump the major version as per the semver convention. T
 
 ## Development
 
-First, run `npm install` and then `npm run setup-dev`. Then, any time that ESLint dependencies are updated you must:
+First, run `npm install` and then `npm run setup-dev`. Then, any time that ESLint dependencies are updated, run `npm run generate-typescript-compatibility-rules`.
 
-1. Run `npm run generate-typescript-compatibility-rules` script. It disables and override any TypeScript rules that are incompatible with ESLint built-in rules.
-1. Run `npm run compare` script. It generates ruleset comparison table, updates README.md, and identifies rules that are not configured.
+### Scripts
 
-## Incompatible rules
-
-[INCOMPATIBLE_RULES.md](./INCOMPATIBLE_RULES.md)
+| Script                                               | Description                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run setup-dev`                                  | Builds the package, links it locally, installs `scripts/` dependencies, and links `eslint-config-canonical` into `scripts/` so maintenance tools can import the local configs.                                                                                                           |
+| `npm run generate-typescript-compatibility-rules` | Regenerates `configurations/typescript-compatibility.ts`: for each `@typescript-eslint` rule that `extendsBaseRule`, disables the core ESLint rule and applies Canonical's configuration to the TypeScript equivalent, then runs `eslint --fix` on the file. Run this after updating ESLint or TypeScript-ESLint dependencies. |
+| `npm run generate-stats`                             | Prints configured rule counts and the share of rules that are auto-fixable (auto config vs all configurations).                                                                                                                                                                          |
+| `npm run find-deprecated`                            | Scans loaded rule docs for rules that look deprecated in documentation but are not marked deprecated in rule metadata.                                                                                                                                                                   |

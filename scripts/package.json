@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-canonical-scripts",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "eslint": "^10.7.0",
+    "got": "^15.1.0"
+  }
+}

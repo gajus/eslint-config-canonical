@@ -7,7 +7,6 @@ export const recommended = defineConfig({
     parser: jsoncPlugin,
   },
   plugins: {
-    // @ts-expect-error - not properly typed
     jsonc: jsoncPlugin,
   },
   rules: {

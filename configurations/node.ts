@@ -1,5 +1,5 @@
 import importPlugin from 'eslint-plugin-import';
-import nPlugin from 'eslint-plugin-n';
+import nodePlugin from 'eslint-plugin-n';
 import unicornPlugin from 'eslint-plugin-unicorn';
 import { defineConfig } from 'eslint/config';
 import globals from 'globals';
@@ -11,10 +11,8 @@ export const recommended = defineConfig({
     },
   },
   plugins: {
-    // @ts-expect-error - not properly typed
     import: importPlugin,
-    // eslint-disable-next-line id-length
-    n: nPlugin,
+    n: nodePlugin,
     unicorn: unicornPlugin,
   },
   rules: {

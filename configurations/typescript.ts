@@ -19,7 +19,6 @@ export const recommended = defineConfig({
     // @ts-expect-error - not properly typed
     '@typescript-eslint': typescriptEslintPlugin,
     canonical: canonicalPlugin,
-    // @ts-expect-error - not properly typed
     functional: functionalPlugin,
   },
   rules: {
